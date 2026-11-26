@@ -1,0 +1,124 @@
+{
+ "blackbox": {
+  "defects": 532,
+  "distinct_sources": 228,
+  "attempted": 541,
+  "by_program": {
+   "checksum": {
+    "defects": 0,
+    "not_reproduced": 0,
+    "plausible": 0,
+    "pass_all_heldout": 0,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": null
+   },
+   "digits": {
+    "defects": 72,
+    "not_reproduced": 0,
+    "plausible": 21,
+    "pass_all_heldout": 11,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 0.952
+   },
+   "grade": {
+    "defects": 159,
+    "not_reproduced": 0,
+    "plausible": 7,
+    "pass_all_heldout": 7,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 1.0
+   },
+   "median": {
+    "defects": 138,
+    "not_reproduced": 2,
+    "plausible": 88,
+    "pass_all_heldout": 18,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 0.86
+   },
+   "smallest": {
+    "defects": 142,
+    "not_reproduced": 2,
+    "plausible": 86,
+    "pass_all_heldout": 72,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 0.942
+   },
+   "syllables": {
+    "defects": 21,
+    "not_reproduced": 5,
+    "plausible": 2,
+    "pass_all_heldout": 0,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 0.55
+   }
+  },
+  "not_reproduced": 9,
+  "plausible": 204,
+  "pass_all_heldout": 108,
+  "rejected_by_gate": 0,
+  "mean_heldout_pass_rate": 0.906,
+  "median_seconds_per_distinct_source": 17.2
+ },
+ "whitebox": {
+  "defects": 606,
+  "distinct_sources": 264,
+  "attempted": 621,
+  "by_program": {
+   "checksum": {
+    "defects": 22,
+    "not_reproduced": 0,
+    "plausible": 5,
+    "pass_all_heldout": 5,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 1.0
+   },
+   "digits": {
+    "defects": 153,
+    "not_reproduced": 0,
+    "plausible": 40,
+    "pass_all_heldout": 32,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 0.963
+   },
+   "grade": {
+    "defects": 159,
+    "not_reproduced": 0,
+    "plausible": 7,
+    "pass_all_heldout": 7,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 1.0
+   },
+   "median": {
+    "defects": 129,
+    "not_reproduced": 1,
+    "plausible": 129,
+    "pass_all_heldout": 95,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 0.953
+   },
+   "smallest": {
+    "defects": 114,
+    "not_reproduced": 0,
+    "plausible": 114,
+    "pass_all_heldout": 0,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 0.808
+   },
+   "syllables": {
+    "defects": 29,
+    "not_reproduced": 14,
+    "plausible": 16,
+    "pass_all_heldout": 16,
+    "rejected_by_gate": 0,
+    "mean_heldout_pass_rate": 1.0
+   }
+  },
+  "not_reproduced": 15,
+  "plausible": 311,
+  "pass_all_heldout": 155,
+  "rejected_by_gate": 0,
+  "mean_heldout_pass_rate": 0.906,
+  "median_seconds_per_distinct_source": 7.7
+ }
+}

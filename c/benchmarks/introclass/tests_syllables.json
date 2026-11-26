@@ -1,0 +1,86 @@
+{
+ "blackbox": [
+  {
+   "id": "1",
+   "input": "khd\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 0))(?!.*syllables is [^0])"
+  },
+  {
+   "id": "2",
+   "input": "aeiouy\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 6))(?!.*syllables is [^6])"
+  },
+  {
+   "id": "3",
+   "input": "here and there\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 5))(?!.*syllables is [^5])"
+  },
+  {
+   "id": "4",
+   "input": "bbbbbbb a\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 1))(?!.*syllables is [^1])"
+  },
+  {
+   "id": "5",
+   "input": "9876543210\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 0))(?!.*syllables is [^0])"
+  },
+  {
+   "id": "6",
+   "input": "1 a 2 e 3 $#@ u\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 3))(?!.*syllables is [^3])"
+  }
+ ],
+ "whitebox": [
+  {
+   "id": "1",
+   "input": "a\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 1))(?!.*syllables is [^1])"
+  },
+  {
+   "id": "2",
+   "input": "i o\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 2))(?!.*syllables is [^2])"
+  },
+  {
+   "id": "3",
+   "input": "mnhd\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 0))(?!.*syllables is [^0])"
+  },
+  {
+   "id": "4",
+   "input": "hello world\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 3))(?!.*syllables is [^3])"
+  },
+  {
+   "id": "5",
+   "input": "aeiou\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 5))(?!.*syllables is [^5])"
+  },
+  {
+   "id": "6",
+   "input": "seasons greetings!\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 6))(?!.*syllables is [^6])"
+  },
+  {
+   "id": "7",
+   "input": "which witch is which?\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 4))(?!.*syllables is [^4])"
+  },
+  {
+   "id": "8",
+   "input": "!@#$%^,\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 0))(?!.*syllables is [^0])"
+  },
+  {
+   "id": "9",
+   "input": "123zdh\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 0))(?!.*syllables is [^0])"
+  },
+  {
+   "id": "10",
+   "input": "snow white 123 ><\n",
+   "output_regex": "(?s)\\A(?=.*(?i:syllables is 3))(?!.*syllables is [^3])"
+  }
+ ]
+}

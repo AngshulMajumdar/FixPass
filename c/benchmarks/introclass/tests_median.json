@@ -1,0 +1,71 @@
+{
+ "blackbox": [
+  {
+   "id": "1",
+   "input": "2 6 8\n",
+   "output_regex": "(?s)\\A(?!.*2 is the median)(?!.*8\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*6 is the median"
+  },
+  {
+   "id": "2",
+   "input": "2 8 6\n",
+   "output_regex": "(?s)\\A(?!.*2 is the median)(?!.*8 is the median)(?!.*6\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*6 is the median"
+  },
+  {
+   "id": "3",
+   "input": "6 2 8\n",
+   "output_regex": "(?s)\\A(?!.*2 is the median)(?!.*8\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*6 is the median"
+  },
+  {
+   "id": "4",
+   "input": "6 8 2\n",
+   "output_regex": "(?s)\\A(?!.*8 is the median)(?!.*2\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*6 is the median"
+  },
+  {
+   "id": "5",
+   "input": "8 2 6\n",
+   "output_regex": "(?s)\\A(?!.*8 is the median)(?!.*2 is the median)(?!.*6\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*6 is the median"
+  },
+  {
+   "id": "6",
+   "input": "8 6 2\n",
+   "output_regex": "(?s)\\A(?!.*8 is the median)(?!.*2\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*6 is the median"
+  },
+  {
+   "id": "7",
+   "input": "9 9 9\n",
+   "output_regex": "(?s)\\A(?!.*9\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*9 is the median"
+  }
+ ],
+ "whitebox": [
+  {
+   "id": "1",
+   "input": "0 0 0\n",
+   "output_regex": "(?s)\\A(?!.*0\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?-?0+ is the median"
+  },
+  {
+   "id": "2",
+   "input": "2 0 1\n",
+   "output_regex": "(?s)\\A(?!.*2 is the median)(?!.*0 is the median)(?!.*1\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*1 is the median"
+  },
+  {
+   "id": "3",
+   "input": "0 0 1\n",
+   "output_regex": "(?s)\\A(?!.*1\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?-?0+ is the median"
+  },
+  {
+   "id": "4",
+   "input": "0 1 0\n",
+   "output_regex": "(?s)\\A(?!.*1 is the median)(?!.*0\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?-?0+ is the median"
+  },
+  {
+   "id": "5",
+   "input": "0 2 1\n",
+   "output_regex": "(?s)\\A(?!.*0 is the median)(?!.*2 is the median)(?!.*1\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*1 is the median"
+  },
+  {
+   "id": "6",
+   "input": "0 2 3\n",
+   "output_regex": "(?s)\\A(?!.*0 is the median)(?!.*3\\\n is the median)(?:(?![-]?\\d+ is the median)[\\s\\S])*?0*2 is the median"
+  }
+ ]
+}

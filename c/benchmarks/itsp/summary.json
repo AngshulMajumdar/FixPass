@@ -1,0 +1,103 @@
+{
+ "programs": 653,
+ "attempted": 661,
+ "by_lab": {
+  "Lab-3": {
+   "programs": 63,
+   "not_reproduced": 0,
+   "plausible": 9,
+   "agree_with_correct_version": 6,
+   "plausible_failing_recheck": 0,
+   "plausible_without_usable_variants": 0,
+   "rejected_by_gate": 0
+  },
+  "Lab-4": {
+   "programs": 116,
+   "not_reproduced": 1,
+   "plausible": 31,
+   "agree_with_correct_version": 10,
+   "plausible_failing_recheck": 0,
+   "plausible_without_usable_variants": 0,
+   "rejected_by_gate": 0
+  },
+  "Lab-5": {
+   "programs": 82,
+   "not_reproduced": 0,
+   "plausible": 27,
+   "agree_with_correct_version": 14,
+   "plausible_failing_recheck": 0,
+   "plausible_without_usable_variants": 0,
+   "rejected_by_gate": 0
+  },
+  "Lab-6": {
+   "programs": 78,
+   "not_reproduced": 1,
+   "plausible": 31,
+   "agree_with_correct_version": 22,
+   "plausible_failing_recheck": 5,
+   "plausible_without_usable_variants": 1,
+   "rejected_by_gate": 0
+  },
+  "Lab-7": {
+   "programs": 69,
+   "not_reproduced": 2,
+   "plausible": 15,
+   "agree_with_correct_version": 4,
+   "plausible_failing_recheck": 1,
+   "plausible_without_usable_variants": 10,
+   "rejected_by_gate": 0
+  },
+  "Lab-8": {
+   "programs": 33,
+   "not_reproduced": 0,
+   "plausible": 16,
+   "agree_with_correct_version": 4,
+   "plausible_failing_recheck": 2,
+   "plausible_without_usable_variants": 0,
+   "rejected_by_gate": 0
+  },
+  "Lab-9": {
+   "programs": 46,
+   "not_reproduced": 2,
+   "plausible": 14,
+   "agree_with_correct_version": 8,
+   "plausible_failing_recheck": 0,
+   "plausible_without_usable_variants": 2,
+   "rejected_by_gate": 0
+  },
+  "Lab-10": {
+   "programs": 51,
+   "not_reproduced": 2,
+   "plausible": 21,
+   "agree_with_correct_version": 11,
+   "plausible_failing_recheck": 0,
+   "plausible_without_usable_variants": 0,
+   "rejected_by_gate": 0
+  },
+  "Lab-11": {
+   "programs": 55,
+   "not_reproduced": 0,
+   "plausible": 18,
+   "agree_with_correct_version": 14,
+   "plausible_failing_recheck": 0,
+   "plausible_without_usable_variants": 0,
+   "rejected_by_gate": 0
+  },
+  "Lab-12": {
+   "programs": 60,
+   "not_reproduced": 0,
+   "plausible": 25,
+   "agree_with_correct_version": 12,
+   "plausible_failing_recheck": 0,
+   "plausible_without_usable_variants": 0,
+   "rejected_by_gate": 0
+  }
+ },
+ "not_reproduced": 8,
+ "plausible": 207,
+ "agree_with_correct_version": 105,
+ "plausible_failing_recheck": 8,
+ "plausible_without_usable_variants": 13,
+ "rejected_by_gate": 0,
+ "median_seconds": 15.9
+}

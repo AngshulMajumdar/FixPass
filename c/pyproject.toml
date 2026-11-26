@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cfixpass"
+version = "0.1.0"
+description = "A repairing compiler for C: syntax, compile-error and test-driven repair, CPU only, no model"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{name = "Angshul Majumdar"}]
+requires-python = ">=3.9"
+dependencies = ["libclang>=16"]
+
+[project.scripts]
+cfixpass = "cfixpass.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

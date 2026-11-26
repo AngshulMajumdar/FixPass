@@ -1,0 +1,4828 @@
+{
+ "Lab-10_3237_303388": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 6.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "3/3",
+  "differential": "26/27",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -61,3 +61,3 @@\n     *word1=*word2;\n-    *word2=ptr;\n+    *word1=ptr;\n }\n"
+ },
+ "Lab-10_3237_303406": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 6.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "3/3",
+  "differential": "23/28",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -68,5 +68,7 @@\n int min(a,b)\n+  int b;\n+  int a;\n {\n     if (a>b) return b;\n-    else return a;\n+    else return N;\n }\n"
+ },
+ "Lab-10_3237_303425": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 46.6,
+  "status": "repair failed validation: 0/3 tests pass"
+ },
+ "Lab-10_3238_303622": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 113.3,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-10_3238_303624": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 17.9,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-10_3238_303642": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 32.2,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-10_3238_303711": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 10.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -40,3 +40,3 @@\n     }\n-    for(int i=0;i<l1-l2;i++){\n+    for(int i=0;i<=l1-l2;i++){\n         int k=0;\n"
+ },
+ "Lab-10_3238_303722": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 7.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -57,3 +57,3 @@\n             printf(\"%s\",w);\n-            i=i+length(t)-2;// Cause it will be incremented once more\n+            i=i+length(t)-1;// Cause it will be incremented once more\n         }\n"
+ },
+ "Lab-10_3239_303873": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": ""
+ },
+ "Lab-10_3239_303877": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 0.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -81,3 +81,3 @@\n {\n-    valid(*pow,*pow2,n);\n+    valid(pow,pow2,n);\n }\n"
+ },
+ "Lab-10_3239_303888": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 0.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -80,3 +80,3 @@\n     {\n-        res=valid(*s1,*s2,size1);\n+        res=valid(s1,s2,size1);\n     }\n"
+ },
+ "Lab-10_3239_303914": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 17.9,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-10_3239_303918": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 1.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -57,3 +57,3 @@\n         }\n-           if(k==n);\n+           if(k==n)\n            {\n@@ -73,2 +73,3 @@\n     \n+    return 1;\n }\n@@ -77,3 +78,3 @@\n {\n-    int n,m;\n+    int n = 0,m;\n     char *s1,*s2;\n"
+ },
+ "Lab-10_3239_303919": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 7.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -69,3 +69,3 @@\n \n-    if(m!=n)\n+    if(n!=n)\n         printf(\"Not Valid\");\n"
+ },
+ "Lab-10_3239_303923": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 23.3,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-10_3239_303934": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 27.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-10_3239_303947": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 70.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-10_3239_303949": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 10.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "24/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -81,3 +81,3 @@\n     scanf(\"%s\",s2);\n-    if(size1!=size2)\n+    if(size2!=size2)\n         printf(\"Not Valid\");\n"
+ },
+ "Lab-10_3240_304143": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 25.8,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-10_3240_304151": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 34.0,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-10_3240_304160": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 8.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "26/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -41,3 +41,3 @@\n     int count=0;\n-    for(i=0;i<=n1;i++)\n+    for(i=0;i<n1;i++)\n     {\n"
+ },
+ "Lab-10_3240_304163": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 63.0,
+  "status": "repair failed validation: 0/8 tests pass"
+ },
+ "Lab-10_3240_304171": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 57.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -59,3 +59,3 @@\n        {\n-           if((*(s2+i) == *(s1+j)) && (*(s1+i) != '0') && (*(s2+j) != '0'))\n+           if((*(s2+i) == *(s1+j)) && (*(s1+n1) != '0') && (*(s2+j) >= '0'))\n            {\n"
+ },
+ "Lab-10_3240_304200": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 24.0,
+  "status": "repair failed validation: 1/8 tests pass"
+ },
+ "Lab-10_3240_304203": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 17.7,
+  "status": "repair failed validation: 0/8 tests pass"
+ },
+ "Lab-10_3240_304221": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 31.7,
+  "status": "repair failed validation: 1/8 tests pass"
+ },
+ "Lab-10_3240_304223": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 51.1,
+  "status": "repair failed validation: 1/8 tests pass"
+ },
+ "Lab-10_3241_303496": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 4.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "33/36",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -44,3 +44,3 @@\n     {\n-        for(i=j;i<len2;i++)\n+        for(i=j;i<=len2;i++)\n         {\n"
+ },
+ "Lab-10_3241_303500": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 13.8,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-10_3241_303507": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 6.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "31/38",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -23,3 +23,3 @@\n     char check[a];\n-    for(i=0;i<a;i++){\n+    for(i=0;i<=a;i++){\n         if(str1[i]==str2[i]&&str1[i]==str2[a+i]){\n"
+ },
+ "Lab-10_3241_303532": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 18.9,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-10_3241_303535": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 16.0,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-10_3241_303550": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 14.9,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-10_3241_303555": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 19.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "32/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,4 +15,5 @@\n int fn(char s1[],char s2[]){\n-    if(s1[1]==s2[1]&&s1[2]==s2[2]&&s1[3]==s2[3]&&s1[4]==s2[4])\n+    if(s1[1]==s2[1]&&s1[2]==s2[2]||s1[3]<s2[3]||s1[4]==s2[4])\n         return 1;\n+    return 0;\n }\n"
+ },
+ "Lab-10_3241_303561": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 18.7,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-10_3242_303760": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 29.6,
+  "status": "repair failed validation: 3/4 tests pass"
+ },
+ "Lab-10_3242_303769": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 25.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "23/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -73,3 +73,3 @@\n             \n-  sum=sum+power(++q)*mat[i][j]*Determinant(new,n-1,i,j);\n+  sum=sum+power(++q)*mat[i][j]/Determinant(new,n-1,i,j);\n             return sum;\n"
+ },
+ "Lab-10_3243_304028": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 53.1,
+  "status": "repair failed validation: 3/9 tests pass"
+ },
+ "Lab-10_3243_304030": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 65.1,
+  "status": "repair failed validation: 2/9 tests pass"
+ },
+ "Lab-10_3243_304032": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 24.7,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-10_3243_304034": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 25.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "33/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -31,3 +31,3 @@\n     char s[n];\n-    for(int i=0;i<n;i++)\n+    for(int i=0;i<=n;i++)\n     s[i]=w[i];\n@@ -51,3 +51,3 @@\n                         {\n-                            for(int j=i+1;j<n-1;j++)\n+                            for(int j=i+1;j<=n-1;j++)\n                                 {\n"
+ },
+ "Lab-10_3243_304077": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 19.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -57,3 +57,3 @@\n        \n-        for(b=a-1;b>=0;b--)\n+        for(b=a*1;b>=0;b--)\n         {\n"
+ },
+ "Lab-10_3244_304261": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 16.3,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-10_3244_304267": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 9.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "35/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -33,3 +33,3 @@\n      d=str+n-1;\n-    if(n==0)\n+    if(n<0)\n     {\n@@ -44,3 +44,3 @@\n     }\n-    if(i==n-1)\n+    if(i>=n-1)\n     printf(\"Good String\");\n@@ -52,3 +52,3 @@\n     char*str;\n-    int n;\n+    int n = 0;\n     str=(char*)malloc(n*sizeof(char));\n"
+ },
+ "Lab-10_3244_304272": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 6.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -41,3 +41,3 @@\n     }\n-if(n==1){\n+if(n<1){\n  printf(\"Good String\");\n"
+ },
+ "Lab-10_3244_304289": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 5.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -23,3 +23,3 @@\n {\n-    int flag=0,i;\n+    int flag=1,i;\n     for(i=1;i<n;i++)\n"
+ },
+ "Lab-10_3244_304322": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 26.8,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-10_3244_304325": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 39.4,
+  "status": "repair failed validation: 5/9 tests pass"
+ },
+ "Lab-10_3244_304327": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 38.2,
+  "status": "repair failed validation: 5/9 tests pass"
+ },
+ "Lab-10_3244_304328": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": ""
+ },
+ "Lab-10_3244_304331": {
+  "lab": "Lab-10",
+  "exit": 0,
+  "seconds": 5.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -42,3 +42,3 @@\n     scanf(\"%s\\n\", s);\n-    if(function(n,s)==(n-1)){\n+    if(function(n,s)>=(n-1)){\n         printf(\"Good String\");\n"
+ },
+ "Lab-10_3244_304335": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 18.8,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-10_3244_304338": {
+  "lab": "Lab-10",
+  "exit": 1,
+  "seconds": 25.1,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-11_3291_305219": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 36.1,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-11_3291_305271": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 22.4,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-11_3291_305277": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 37.6,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-11_3291_305278": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 6.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "13/13",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -127,3 +127,3 @@\n     {\n-        for(int i=0;i<=place;i++)\n+        for(int i=0;i<place;i++)\n         {\n"
+ },
+ "Lab-11_3291_305284": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 27.6,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-11_3293_305710": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 0.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -38,3 +38,3 @@\n     int**a,n,c;\n-    scanf(\"%d\",n);\n+    scanf(\"%d\",&n);\n     int *b;\n@@ -50,3 +50,3 @@\n        {\n-           scanf(\"%d\",a[i][j]);\n+           scanf(\"%d\",&a[i][j]);\n        }\n"
+ },
+ "Lab-11_3293_305752": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 4.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -38,3 +38,3 @@\n     for(int i=1;i<c;i++){\n-        for(int j=1;j<c;j++){\n+        for(int j=0;j<c;j++){\n             if(g[i][j]==0){\n"
+ },
+ "Lab-11_3293_305756": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 0.6,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-11_3293_305767": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 32.8,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-11_3293_305782": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 63.9,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "Lab-11_3293_305783": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 25.6,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-11_3293_305789": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 28.5,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-11_3294_305971": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 2.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "22/22",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -11,3 +11,3 @@\n     int a=n;\n-    if(n>=0)\n+    if(n>0)\n     {\n@@ -19,2 +19,3 @@\n     printf(\"%d \",a);\n+    return n;\n }\n"
+ },
+ "Lab-11_3294_305975": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 2.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "21/22",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -16,3 +16,3 @@\n void print(int n){\n-    if(n<0) {printf(\"%d \",n);return revprint(n+5);}\n+    if(n<=0) {printf(\"%d \",n);return revprint(n+5);}\n     if(n==0){printf(\"%d\",n);}\n"
+ },
+ "Lab-11_3294_305976": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 3.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "22/22",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -9,2 +9,3 @@\n \n+int sub(int n,int a);\n int main(){\n@@ -18,3 +19,3 @@\n     {   \n-        if(n>=0)\n+        if(n>0)\n         {   \n@@ -25,3 +26,4 @@\n             printf(\"%d \",n);\n-    }\n+        return n;\n+}\n  /* int sub2(int n)\n"
+ },
+ "Lab-11_3294_305979": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 0.6,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-11_3294_305984": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 27.0,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-11_3294_305992": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 24.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "17/22",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -21,5 +21,5 @@\n        printf(\"%d \",x);\n-       if (x>(p-15))\n+       if (x>=(p/15))\n        return func(n-5);\n-       if (x<=(p-15))\n+       if (x!=(p-15))\n        {\n@@ -27,3 +27,4 @@\n         \n-    }\n+        return func(n-5);\n+}\n       \n"
+ },
+ "Lab-11_3294_305993": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 0.9,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-11_3294_305996": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 6.7,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-11_3294_306003": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 10.2,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-11_3294_306016": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 11.9,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-11_3294_306033": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 18.1,
+  "status": "repair failed validation: 3/5 tests pass"
+ },
+ "Lab-11_3294_306036": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 23.0,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-11_3294_306054": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 19.4,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-11_3294_306056": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 26.6,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-11_3295_305333": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 24.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -35,4 +35,4 @@\n        scanf(\"%d \",&arr[i]);\n-    gap=(int)(n/1.3);\n-    while(gap>1){\n+    gap=(int)(n+1.3);\n+    while(gap>=1){\n         for(i=0;i<(n-gap);i++)\n"
+ },
+ "Lab-11_3295_305369": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 8.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "39/39",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -35,3 +35,3 @@\n     int swaps = 0;\n-    if (gap == 0) gap = 1;\n+    if (gap >= 0) gap = 1;\n     for (int i = 0; i + gap < n; i += gap) {\n"
+ },
+ "Lab-11_3295_305374": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 5.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -36,3 +36,3 @@\n     {\n-        for(j=0;j<n;j++)\n+        for(j=0;(j + 1)<n;j++)\n         {\n"
+ },
+ "Lab-11_3295_305394": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 19.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -28,3 +28,3 @@\n     int i,t,flag=0;\n-    int gap=n/1.3;\n+    int gap=(n + 1)+1.3;\n     while(1)\n"
+ },
+ "Lab-11_3295_305397": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 7.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -24,2 +24,3 @@\n #include <stdio.h>\n+#include <stdlib.h>\n void comb_sort(int N,int arr[])\n@@ -41,3 +42,3 @@\n                 arr[i+gap]=t;\n-                c++;\n+                gap++;\n             }\n"
+ },
+ "Lab-11_3295_305401": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 9.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "36/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -41,3 +41,3 @@\n             gap=gap/1.3;\n-            if(p[i]>p[i+gap])\n+            if(p[i]>p[i+n])\n             t=p[i];\n"
+ },
+ "Lab-11_3296_305526": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 0.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -1466,2 +1466,3 @@\n #include <stdio.h>\n+#include <stdlib.h>\n \n"
+ },
+ "Lab-11_3297_305833": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 25.0,
+  "status": "repair failed validation: 3/8 tests pass"
+ },
+ "Lab-11_3297_305837": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 69.9,
+  "status": "repair failed validation: 3/8 tests pass"
+ },
+ "Lab-11_3297_305841": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 29.6,
+  "status": "repair failed validation: 1/8 tests pass"
+ },
+ "Lab-11_3297_305850": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 0.6,
+  "status": "repair failed validation: 1/8 tests pass"
+ },
+ "Lab-11_3297_305861": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 6.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -26,2 +26,3 @@\n #include <stdio.h>\n+#include <stdlib.h>\n void swap(int *m,int *n)\n@@ -46,3 +47,3 @@\n             }\n-            *(x+j)=a;\n+            *(x+(j + 1))=a;\n \n"
+ },
+ "Lab-11_3297_305863": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 33.9,
+  "status": "repair failed validation: 4/8 tests pass"
+ },
+ "Lab-11_3297_305865": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 35.8,
+  "status": "repair failed validation: 4/8 tests pass"
+ },
+ "Lab-11_3297_305867": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 4.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -41,3 +41,3 @@\n         {\n-            if(a[i]>a[i-1])\n+            if(a[i]<a[i-1])\n                 {\n"
+ },
+ "Lab-11_3297_305893": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 24.6,
+  "status": "repair failed validation: 2/8 tests pass"
+ },
+ "Lab-11_3297_305932": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 5.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "36/39",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -51,3 +51,3 @@\n         else \n-            func1(a,n,i);\n+            func1(a,i,i);\n     }\n"
+ },
+ "Lab-11_3297_305935": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 120.2,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-11_3298_306143": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 87.8,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-11_3298_306161": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 44.5,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-11_3299_305587": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 55.4,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-11_3299_305607": {
+  "lab": "Lab-11",
+  "exit": 0,
+  "seconds": 10.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "33/33",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -38,3 +38,3 @@\n     {\n-        while(arr[left]<=pivot && left<right)\n+        while(arr[left]<=pivot && left<=right)\n         left++;//move towards right\n@@ -54,2 +54,3 @@\n     }\n+    return left-1;\n }\n"
+ },
+ "Lab-11_3299_305620": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 1.8,
+  "status": "unresolved compile error: line 25: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int"
+ },
+ "Lab-11_3299_305628": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 57.6,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-11_3299_305632": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 53.4,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-11_3299_305640": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 58.7,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-11_3299_305660": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 57.1,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-11_3299_305667": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 35.1,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-11_3299_305681": {
+  "lab": "Lab-11",
+  "exit": 1,
+  "seconds": 58.4,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-12_3355_307008": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 20.0,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "Lab-12_3355_307020": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 4.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "33/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -55,3 +55,3 @@\n {\n-    if(((i1->li>=i2->li)&&(i1->li<=i2->ri))||((i1->ri>=i2->li)&&(i1->ri<=i2->ri)))\n+    if(((i1->li!=i2->li)&&(i1->li<=i2->ri))||((i1->ri>=i2->li)&&(i1->ri<=i2->ri)))\n      printf(\"YES\");\n"
+ },
+ "Lab-12_3355_307027": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 1.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "34/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -50,3 +50,3 @@\n void checkoverlap(struct interval i1, struct interval i2){\n-    for(int j=i1.left;j<=i1.right;j++)\n+    for(int j=i1.left;j<=i2.right;j++)\n     {\n"
+ },
+ "Lab-12_3355_307059": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 20.9,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "Lab-12_3355_307064": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 10.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "33/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -38,5 +38,5 @@\n     int flag=0;\n-    if (r1.s<r2.e && r1.s>r2.s) {flag++;}\n+    if (r1.s<r2.e && r1.s<r2.s) {flag++;}\n     if (r2.s<r1.e && r2.s>r1.s) {flag++;}\n-    if (r1.e<r2.e && r1.e>r2.s) {flag++;}\n+    if (r1.e<=r2.e && r1.e>r2.s) {flag++;}\n     if (r2.e<r1.e && r2.e>r1.s) {flag++;}\n"
+ },
+ "Lab-12_3355_307068": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 0.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -48,3 +48,3 @@\n   \n-  if (x=1)\n+  if (x==1)\n   {\n"
+ },
+ "Lab-12_3355_307077": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 9.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "35/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -45,3 +45,3 @@\n     int start1,end1,start2,end2;\n-    scanf(\"%d %d\",&start1,&end1);\n+    scanf(\"%d %d\",&end1,&start1);\n     scanf(\"%d %d\",&start2,&end2);\n@@ -49,3 +49,3 @@\n     set2=input(start2,end2);\n-    if(((set1.start)<=(set2.start)&&(set2.start<=set1.end))||((set2.start)<=(set1.start)&&(set1.start<=set2.end)))\n+    if(((set1.start)<=(set2.start)||(set2.start<=set1.end))||((set2.start)<=(set1.start)&&(set1.start<=set2.end)))\n     printf(\"YES\");\n"
+ },
+ "Lab-12_3355_307083": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 8.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "36/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -43,3 +43,3 @@\n     {\n-        if(second.right>=first.left&&second.right<=first.right)\n+        if(second.right>=first.left&&first.right<=first.right)\n         printf(\"YES\");\n@@ -51,3 +51,3 @@\n     {\n-        if(first.right>=second.left&&first.right<=second.right)\n+        if(first.right>=second.left||first.right<=second.right)\n         printf(\"YES\");\n"
+ },
+ "Lab-12_3355_307084": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 5.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "29/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -48,3 +48,3 @@\n         int t=(*i1).x;\n-        (*i1).x=(*i1).y;\n+        (*i1).x+=(*i1).y;\n         (*i1).y=t;\n"
+ },
+ "Lab-12_3355_307090": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 9.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "38/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -30,2 +30,3 @@\n #include <stdio.h>\n+#include <stdlib.h>\n struct interval{     //declaring structure with two subfields\n@@ -38,5 +39,5 @@\n {   //returns 1 if intervals are overlapping otherwise 0\n-    if(i1.leftindex>i2.leftindex&&i1.leftindex<i2.rightindex)\n+    if(i1.leftindex>i2.leftindex&&i1.leftindex<=i2.rightindex)\n     return 1;\n-    if(i2.leftindex>i1.leftindex&&i2.leftindex<i1.rightindex)\n+    if(i2.leftindex>i1.leftindex&&i2.leftindex<=i1.rightindex)\n     return 1;\n"
+ },
+ "Lab-12_3355_307102": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 6.9,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-12_3355_307108": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 3.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "36/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -30,2 +30,3 @@\n #include <stdio.h>\n+#include <stdlib.h>\n \n@@ -45,3 +46,3 @@\n     }\n-    if((ptr[0].y)>=(ptr[1].y)&&(ptr[0].x)<=(ptr[1].x)){\n+    if((ptr[1].y)>=(ptr[1].y)&&(ptr[0].x)<=(ptr[1].x)){\n       printf(\"YES\"); \n"
+ },
+ "Lab-12_3356_307263": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 8.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -68,3 +68,3 @@\n     r2->righttop.y=r2->lefttop.y;\n-    overlap(r1, r2);\n+    overlap(r2, r1);\n     return 0;\n"
+ },
+ "Lab-12_3356_307281": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 34.9,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-12_3356_307309": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 5.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "31/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -38,3 +38,3 @@\n float max(float a,float b){\n-    if(a>b) return a;\n+    if(a==b) return a;\n     else return b;\n"
+ },
+ "Lab-12_3356_307311": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 31.0,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-12_3356_307320": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 16.0,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-12_3356_307322": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 5.0,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-12_3356_307332": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 17.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "31/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -38,3 +38,3 @@\n {\n-    scanf(\"%d %d\",&(pts[i].x),&(pts[i].y));\n+    scanf(\"%d %d\",&(pts[i].x),&(pts[(i - 1)].y));\n }\n@@ -44,3 +44,3 @@\n        a[i]=(pts[i].x-pts[i+1].x)/2;\n-       a[i+1]=(pts[i].y-pts[i].y)/2;\n+       a[i+1]=(pts[i].y-pts[(i + 1)].y)/2;\n    }\n"
+ },
+ "Lab-12_3356_307361": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 27.6,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-12_3356_307362": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 12.4,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-12_3357_307512": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 0.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -30,3 +30,3 @@\n void input(struct cir *p){\n-    scanf(\"%d %d %d\",(p->x),(p->y),(p->r));\n+    scanf(\"%d %d %d\",&(p->x),&(p->y),&(p->r));\n }\n"
+ },
+ "Lab-12_3357_307516": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 17.9,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-12_3357_307557": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 4.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -39,3 +39,3 @@\n  scanf(\"%d\",&b.r);\n- if(((a.r+b.r)*(a.r+b.r))<=(((a.x-b.x)*(a.x-b.x))+((a.y-b.y)*(a.y-b.y))))\n+ if(((a.r+b.r)*(a.r+b.r))>(((a.x-b.x)*(a.x-b.x))+((a.y-b.y)*(a.y-b.y))))\n  {\n"
+ },
+ "Lab-12_3357_307558": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 5.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -37,3 +37,3 @@\n     d=sqrt(pow(c1.x-c2.x,2)+pow(c1.y-c2.y,2));\n-    if(d<=abs(c1.r-c2.r))\n+    if(d<=abs(c1.r+c2.r))\n         printf(\"YES\");\n"
+ },
+ "Lab-12_3357_307562": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 2.0,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-12_3357_307589": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 17.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "32/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -43,3 +43,3 @@\n {\n-    int disSq=((c1->x-c2->x)*(c1->x-c2->x)+(c1->y-c2->y)*(c1->y-c2->y));\n+    int disSq=((c1->x%c2->x)*(c1->x-c2->x)+(c1->y-c2->y)*(c1->y-c2->y));\n     if(disSq<=abs(c1->r-c2->r)*abs(c1->r-c2->r))\n@@ -53,3 +53,3 @@\n     int x1,y1,r1;\n-    scanf(\"%d %d %d\",&x1,&y1,&r1);\n+    scanf(\"%d %d %d\",&x1,&r1,&y1);\n     circle* c1=newCircle(x1,y1,r1);\n"
+ },
+ "Lab-12_3357_307607": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 6.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "35/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -35,3 +35,3 @@\n   float a;\n-  a=sqrt((x1-x2)^2+(y1-y2)^2);\n+  a=sqrt((x1*x2)^2+(y1-y2)^2);\n   return a;\n"
+ },
+ "Lab-12_3358_307777": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 20.1,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-12_3358_307782": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 28.5,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-12_3358_307785": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 6.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -65,3 +65,3 @@\n         for(j=0;j<(r.set1.a);j++){\n-            if(r.set2.x[i]==r.set1.x[i])\n+            if(r.set2.x[i]==r.set1.x[j])\n             printf(\"%d \",r.set2.x[i]);\n"
+ },
+ "Lab-12_3358_307790": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 26.7,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-12_3358_307799": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 25.7,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-12_3358_307809": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 24.6,
+  "status": "repair failed validation: 1/7 tests pass"
+ },
+ "Lab-12_3358_307815": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 21.3,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-12_3358_307822": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 0.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -64,3 +64,3 @@\n         for(j=0;j<s2.a;j++){\n-            if((s1.b[i])=(s2.b[j])){\n+            if((s1.b[i])==(s2.b[j])){\n                 printf(\"%d \",s1.b[i]);\n"
+ },
+ "Lab-12_3358_307839": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 25.2,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-12_3358_307842": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 25.0,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-12_3358_307854": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 20.3,
+  "status": "repair failed validation: 1/7 tests pass"
+ },
+ "Lab-12_3358_307862": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 49.9,
+  "status": "repair failed validation: 1/7 tests pass"
+ },
+ "Lab-12_3359_307139": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 29.1,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-12_3359_307152": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 56.6,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-12_3359_307164": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 34.2,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-12_3359_307174": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 36.2,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-12_3359_307175": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 19.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -87,3 +87,3 @@\n         int swaps = 0;\n-        for (int i = 0; i < x-1; i++) {\n+        for (int i = 0; i < y-1; i++) {\n             if (uset[i] > uset[i+1]) {\n"
+ },
+ "Lab-12_3359_307186": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 20.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -94,3 +94,3 @@\n        \n-       for(i=n-1;i>0;i--){\n+       for(i=n*1;i>0;i--){\n            \n"
+ },
+ "Lab-12_3359_307207": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 51.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -92,3 +92,3 @@\n       {\n-          if(c[i]<c[j])\n+          if(c[i]>c[j])\n           {\n"
+ },
+ "Lab-12_3359_307211": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 13.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -54,3 +54,3 @@\n         int l_i=start+n/2;\n-        int l_j=start+start+n;\n+        int l_j=k+start+n;\n         for(k=0;k<n;k++)\n"
+ },
+ "Lab-12_3359_307214": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 56.1,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-12_3359_307222": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 36.4,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-12_3360_307393": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 63.2,
+  "status": "repair failed validation: 3/6 tests pass"
+ },
+ "Lab-12_3360_307408": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 62.3,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-12_3360_307438": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 20.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "38/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -120,3 +120,3 @@\n         for(j=i+1;j<n;j++){\n-            if(((a[i]).maths)>((a[j]).maths)){\n+            if(((a[i]).maths)>=((a[j]).maths)){\n                 copy(a,i,j);\n"
+ },
+ "Lab-12_3360_307439": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 90.5,
+  "status": "repair failed validation: 3/6 tests pass"
+ },
+ "Lab-12_3360_307446": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 47.7,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-12_3360_307449": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 43.9,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-12_3360_307473": {
+  "lab": "Lab-12",
+  "exit": 0,
+  "seconds": 9.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -83,3 +83,3 @@\n {\n-    scanf(\"%d %d %d %d\",&(s->rn),&(s->m),&(s->p),&(s->c));\n+    scanf(\"%d %d %d %d\",&(s->rn),&(s->p),&(s->c),&(s->m));\n }\n"
+ },
+ "Lab-12_3361_307667": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 26.5,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "Lab-12_3362_307961": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 97.7,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-12_3362_307966": {
+  "lab": "Lab-12",
+  "exit": 1,
+  "seconds": 21.2,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-3_2810_270010": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 14.1,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-3_2810_270011": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 14.4,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-3_2810_270022": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 19.5,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-3_2810_270025": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 5.7,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-3_2810_270048": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 1.7,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-3_2810_270052": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 14.0,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-3_2810_270053": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 2.6,
+  "status": "repair failed validation: 3/4 tests pass"
+ },
+ "Lab-3_2810_270054": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 14.7,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-3_2810_270057": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 2.0,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-3_2810_270068": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 2.8,
+  "status": "repair failed validation: 3/4 tests pass"
+ },
+ "Lab-3_2810_270081": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 15.3,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-3_2810_270083": {
+  "lab": "Lab-3",
+  "exit": 0,
+  "seconds": 1.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,2 +12,3 @@\n #include<math.h>\n+#include <stdlib.h>\n \n@@ -16,3 +17,3 @@\n \tscanf(\"%f%f\",&a,&b);\n-\tarea=abs(0.5*a*b);\n+\tarea=fabs(0.5*a*b);\n \tprintf(\"The area of (%6.4f,%6.4f), (%6.4f,0) and (0,%6.4f) is %6.4f.\",a,b,a,b,area);\n"
+ },
+ "Lab-3_2810_270084": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 13.4,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-3_2810_270090": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 14.3,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-3_2810_270100": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 18.5,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-3_2810_270104": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 2.6,
+  "status": "repair failed validation: 3/4 tests pass"
+ },
+ "Lab-3_2811_270138": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 7.4,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "Lab-3_2811_270142": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 9.8,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-3_2811_270150": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 7.9,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "Lab-3_2811_270151": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 16.4,
+  "status": "repair failed validation: 4/6 tests pass"
+ },
+ "Lab-3_2811_270162": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 24.5,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "Lab-3_2811_270168": {
+  "lab": "Lab-3",
+  "exit": 0,
+  "seconds": 6.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -26,3 +26,3 @@\n         float b=(b2-b1)/(a1*b2-a2*b1);\n-        printf(\"(%.3f,%.3f)\",a,b);\n+        printf(\"(%.3f,%.3f)\",b,a);\n     }\n"
+ },
+ "Lab-3_2811_270194": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 19.8,
+  "status": "repair failed validation: 4/6 tests pass"
+ },
+ "Lab-3_2811_270201": {
+  "lab": "Lab-3",
+  "exit": 0,
+  "seconds": 7.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -19,3 +19,3 @@\n \tscanf(\"%f%f%f%f\",&a,&b,&c,&d);\n-\tm = (c*b - a*d);\n+\tm -= (c*b - a*d);\n \tif (m != 0) {\n"
+ },
+ "Lab-3_2811_270211": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 20.4,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-3_2811_270220": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 10.5,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "Lab-3_2811_270227": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 9.2,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-3_2812_270272": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 2.4,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-3_2812_270276": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 1.2,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-3_2812_270277": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 1.6,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-3_2812_270280": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 1.3,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-3_2812_270283": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 1.4,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-3_2812_270285": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 4.0,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270293": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 4.1,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270294": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 4.4,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270296": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 1.0,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-3_2812_270297": {
+  "lab": "Lab-3",
+  "exit": 0,
+  "seconds": 1.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "37/37",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -25,3 +25,3 @@\n     else\n-    if(a=='0')\n+    if(a<'0')\n     {\n"
+ },
+ "Lab-3_2812_270304": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 4.1,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270305": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 1.5,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-3_2812_270310": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 4.4,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270324": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 3.8,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270327": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 8.0,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270330": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 0.7,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270334": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 17.5,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270349": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 3.2,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-3_2812_270357": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 2.0,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-3_2813_270391": {
+  "lab": "Lab-3",
+  "exit": 0,
+  "seconds": 3.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -19,3 +19,3 @@\n float a1,a2,b1,b2,X,Y,s1,s2;\n- scanf(\"%f %f %f %f\",&a1,&a2,&b1,&b2);\n+ scanf(\"%f %f %f %f\",&a1,&b1,&a2,&b2);\n  X=a1*a2*(b1-b2)/(b1*a2-b2*a1);\n"
+ },
+ "Lab-3_2813_270393": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 8.3,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "Lab-3_2813_270399": {
+  "lab": "Lab-3",
+  "exit": 0,
+  "seconds": 3.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -18,3 +18,3 @@\n     float a1;float a2;float b1;float b2;\n-    scanf(\"%f%f%f%f\",&a1,&a2,&b1,&b2);\n+    scanf(\"%f%f%f%f\",&a1,&b1,&a2,&b2);\n     float x;\n"
+ },
+ "Lab-3_2813_270401": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 23.3,
+  "status": "repair failed validation: 4/6 tests pass"
+ },
+ "Lab-3_2813_270404": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 21.6,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-3_2813_270406": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 15.9,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-3_2813_270423": {
+  "lab": "Lab-3",
+  "exit": 0,
+  "seconds": 20.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "32/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -21,3 +21,3 @@\n     scanf(\"%f%f%f%f\",&a1,&b1,&a2,&b2);\n-    if((a2/a1)==(b2/b1)||(a1/a2)==(b1/b2)) \n+    if((a2-a1)==(b2+b1)||(a1/a2)==(b1/b2)) \n     /*in case lines are parallel then there is no intersection point*/\n"
+ },
+ "Lab-3_2813_270425": {
+  "lab": "Lab-3",
+  "exit": 0,
+  "seconds": 19.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "32/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -20,3 +20,3 @@\n     \n-    if((a2/a1)==(b2/b1))\n+    if((a2-a1)==(b2+b1))\n     {printf(\"INF\");}\n"
+ },
+ "Lab-3_2813_270444": {
+  "lab": "Lab-3",
+  "exit": 0,
+  "seconds": 17.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "31/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -23,3 +23,3 @@\n \ty=(b1*b2)*(a1-a2)/(a1*b2-a2*b1);\n-    if ((a1/a2)==(b1/b2)){\n+    if ((a1-a2)==(b1*b2)){\n         printf(\"INF\");}  //condition of parallel lines\n"
+ },
+ "Lab-3_2813_270454": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 24.8,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "Lab-3_2813_270456": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 18.2,
+  "status": "repair failed validation: 4/6 tests pass"
+ },
+ "Lab-3_2813_270463": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 16.8,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-3_2813_270465": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 15.0,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-3_2813_270466": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 19.2,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "Lab-3_2813_270468": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 15.5,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-3_2813_270469": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 26.8,
+  "status": "repair failed validation: 4/6 tests pass"
+ },
+ "Lab-3_2813_270483": {
+  "lab": "Lab-3",
+  "exit": 1,
+  "seconds": 4.7,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-4_2824_271034": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 1.2,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-4_2824_271039": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 1.3,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-4_2824_271043": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 8.2,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-4_2824_271056": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 15.8,
+  "status": "repair failed validation: 3/8 tests pass"
+ },
+ "Lab-4_2824_271080": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 12.0,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-4_2824_271081": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 5.3,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-4_2824_271083": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 2.6,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-4_2824_271084": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 7.5,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-4_2824_271090": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 13.4,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-4_2824_271093": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 3.8,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-4_2824_271095": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 1.3,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-4_2824_271100": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 6.7,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-4_2824_271106": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 3.1,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-4_2824_271116": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 13.5,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-4_2825_271150": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 13.5,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271152": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 15.3,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-4_2825_271154": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 23.0,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-4_2825_271163": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 22.0,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271173": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 13.8,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-4_2825_271188": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 18.7,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-4_2825_271191": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 14.6,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271192": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 12.9,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271203": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 9.4,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-4_2825_271205": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 7.5,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-4_2825_271206": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 11.9,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271209": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 19.6,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271211": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 37.3,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-4_2825_271213": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 5.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "37/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,2 +10,3 @@\n #include<stdio.h>\n+#include <math.h>\n \n@@ -14,3 +15,3 @@\n     float x,y,r,x1,y1,s;\n-    scanf (\"%f %f %f %f %f\",&x,&y,&x1,&y1,&r);\n+    scanf (\"%f %f %f %f %f\",&x,&y,&r,&y1,&x1);\n     s=sqrt((x-x1)*(x-x1)+(y-y1)*(y-y1));\n"
+ },
+ "Lab-4_2825_271216": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 24.3,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-4_2825_271217": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 21.0,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271220": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 6.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "37/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n     float x,y,x1,y1,r;\n-    scanf(\"%f %f %f %f %f\",&x,&y,&x1,&y1,&r);\n+    scanf(\"%f %f %f %f %f\",&x,&y,&r,&y1,&x1);\n     if(r==sqrt((x-x1)*(x-x1)+(y-y1)*(y-y1))) \n"
+ },
+ "Lab-4_2825_271224": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 16.2,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271226": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 20.3,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271228": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 6.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n scanf(\"%f %f %f %f %f\",&x,&y,&r,&x1,&y1);\n-k=(x-x1)*(x-x1)+(y-y1)*(y-y1)-(r*r);\n+r=(x-x1)*(x-x1)+(y-y1)*(y-y1)-(r*r);\n if(r>0){\n"
+ },
+ "Lab-4_2825_271239": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 14.7,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2825_271241": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 12.7,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2827_271276": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 13.0,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-4_2827_271281": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 21.3,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-4_2827_271291": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 11.9,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-4_2827_271299": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 19.0,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "Lab-4_2827_271306": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 1.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -16,3 +16,3 @@\n   float x1,y1,x2,y2,x3,y3;\n-  scanf(\"%d %d %d %d %d %d\",&x1,&y1,&x2,&y2,&x3,&y3);\n+  scanf(\"%f %f %f %f %f %f\",&x1,&y1,&x2,&y2,&x3,&y3);\n   if(((y2-y1)/(x2-x1))==((y3-y2)/(x3-x2)))\n"
+ },
+ "Lab-4_2827_271315": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 12.6,
+  "status": "repair failed validation: 3/9 tests pass"
+ },
+ "Lab-4_2827_271326": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 29.4,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "Lab-4_2827_271327": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 19.4,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "Lab-4_2827_271328": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 19.2,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-4_2827_271338": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 6.5,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "Lab-4_2827_271340": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 8.4,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-4_2827_271353": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 12.2,
+  "status": "repair failed validation: 3/9 tests pass"
+ },
+ "Lab-4_2827_271368": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 11.1,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-4_2828_271410": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 18.8,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-4_2828_271424": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 4.2,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-4_2828_271430": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 13.5,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-4_2828_271443": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 7.8,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-4_2828_271445": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 13.7,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-4_2828_271447": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 3.3,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-4_2828_271451": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 0.6,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-4_2828_271455": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 9.4,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-4_2828_271463": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 7.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "11/12",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,9 +15,9 @@\n     scanf(\"%c\",&x);\n-    if(x>'A'&&x<'Z'){\n+    if(x>='A'&&x<'Z'){\n         printf(\"Capital Letter\");\n     }\n-    if(x>'0'&&x<'9'){\n+    if(x>'0'&&x<='9'){\n         printf(\"Digit\");\n     }\n-    if(x>'a'&&x<'z'){\n+    if(x>'a'&&x<='z'){\n         printf(\"Small Letter\");\n"
+ },
+ "Lab-4_2828_271464": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 14.1,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-4_2828_271471": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 16.6,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-4_2828_271491": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 10.3,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-4_2828_271504": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 6.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "11/12",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,9 +15,9 @@\n     scanf(\"%c\",&ch);\n-    if('a'<ch && ch<'z'){\n+    if('a'<ch && ch<='z'){\n         printf(\"Small Letter\");\n     }\n-    else if('0'<ch && ch<'9'){\n+    else if('0'<ch && ch<='9'){\n         printf(\"Digit\");\n     }\n-    else if('A'<ch && ch<'Z'){\n+    else if('0'<ch && ch<'Z'){\n         printf(\"Capital Letter\");\n"
+ },
+ "Lab-4_2828_271506": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 14.0,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-4_2830_271528": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 8.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "24/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,5 +12,5 @@\n     scanf(\"%d %d %d %d\",&a,&b,&c,&d);//input the numbers\n-    int g1=a,g2=c,s;\n+    int g1=a,g2=c,s = 1;\n     if(b>a)\n-       {g1=b;\n+       {s=b;\n         b=a;\n"
+ },
+ "Lab-4_2830_271532": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 4.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "36/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -71,3 +71,3 @@\n     \n-     else if (d>b&&d>c&&d>a)\n+     else if (d>b&&d>c||d>a)\n     {\n"
+ },
+ "Lab-4_2830_271543": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 21.7,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-4_2830_271565": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 89.8,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-4_2830_271569": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 4.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "34/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n     scanf(\"%d %d %d %d\",&a, &b, &c, &d);//Will take the input from                                                 the users.\n-    if(a>b>c>d){\n+    if(a!=b>c>d){\n         printf(\"The second largest number is %d\",b);}\n"
+ },
+ "Lab-4_2830_271574": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 20.4,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-4_2830_271575": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 36.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "29/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -23,3 +23,3 @@\n     }\n-    if (b>a && b>c && b>d){ /*b>a,b>c and b>d */\n+    if (b>a && b>=c && b>d){ /*b>a,b>c and b>d */\n         if (a>c && a>d)\n@@ -40,3 +40,3 @@\n     if (d>a && d>b && d>c){ /*d>a,d>b and d>c */\n-        if (c>a && c>b)\n+        if (c<=a || c>b)\n            printf(\"The second largest number is %d \\n\",c);\n"
+ },
+ "Lab-4_2830_271604": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 7.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "35/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -89,3 +89,3 @@\n             printf(\"The second largest number is %d\",a);\n-        else if((c>a)&&(c>d))\n+        else if((c<a)&&(c>d))\n             printf(\"The second largest number is %d\",c);\n"
+ },
+ "Lab-4_2830_271605": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 3.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "25/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -23,3 +23,3 @@\n         max2=a;\n-        if((b>max2)&&(b!=max1))\n+        if((b>max2)||(b!=max1))\n         {\n"
+ },
+ "Lab-4_2830_271621": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 4.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -35,3 +35,3 @@\n              int s=a;\n-             a=b;\n+             b=b;\n              b=a;\n"
+ },
+ "Lab-4_2830_271625": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 1.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n  int a,b,c,d;\n- scanf(\"%d%d%d%d\",&a,&b,&c,&d);\n+ scanf(\"%d%d%d%d\",&a,&c,&b,&d);\n  printf(\"The second largest number is %d\",c);// Fill this area with your code.\n"
+ },
+ "Lab-4_2831_271655": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "39/39",
+  "agrees_with_correct_version": true,
+  "patch": ""
+ },
+ "Lab-4_2831_271659": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 45.9,
+  "status": "repair failed validation: 3/5 tests pass"
+ },
+ "Lab-4_2831_271670": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 15.4,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-4_2831_271671": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 14.1,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-4_2831_271685": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 4.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "39/39",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -20,3 +20,3 @@\n     }\n-    printf(\"Reverse of %d is %d\", a, i);\n+    printf(\"Reverse of %d is %d\", x, i);\n     return 0;\n"
+ },
+ "Lab-4_2831_271689": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 45.1,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-4_2831_271754": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 5.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "33/39",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -23,3 +23,3 @@\n     printf(\"Reverse of %d is %d%d%d\",num,n5,n4,n3);\n-    else if(num>=10)\n+    else if(n1>=10)\n     printf(\"Reverse of %d is %d%d\",num,n5,n4);\n"
+ },
+ "Lab-4_2831_271757": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 14.0,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-4_2832_271793": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 14.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "34/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n     scanf(\"%d%d%d\",&a,&b,&c);\n-    if((a+b<c)||(a+c<b)||(b+c<a))\n+    if((a+b<=c)||(a+c<b)||(b+c<a))\n     printf(\"Invalid Triangle\");\n"
+ },
+ "Lab-4_2832_271797": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 14.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -32,3 +32,3 @@\n     }\n-    if ((a+b+c-(2*max))>=0) {\n+    if ((a+b+c-(2*max))>0) {\n         if ((a*a)+(b*b)+(c*c)==(2*max*max)) {\n"
+ },
+ "Lab-4_2832_271801": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 14.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "34/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -16,3 +16,3 @@\n     if\n-    ((a+b<c)||(a+c<b)||(b+c<a)){\n+    ((a+b<=c)||(a+c<b)||(b+c<a)){\n     printf(\"Invalid Triangle\");    \n"
+ },
+ "Lab-4_2832_271804": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 32.5,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-4_2832_271814": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 15.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "34/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -18,3 +18,3 @@\n     \n-    if (a+b<c||b+c<a||c+a<b)\n+    if (a+b<=c||b+c<a||c+a<b)\n     \n"
+ },
+ "Lab-4_2832_271815": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 18.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "34/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -18,3 +18,3 @@\n     \n-    if(a+b<c||b+c<a||a+c<b)  //Using if-else\n+    if(a+b<=c||b+c<a||a+c<b)  //Using if-else\n         {\n"
+ },
+ "Lab-4_2832_271817": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 22.2,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-4_2832_271818": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 23.2,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-4_2832_271826": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 5.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "37/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -21,3 +21,3 @@\n      {printf(\"Acute Triangle\");} \n-     else if(a*a+b*b-c*c <0 && b*b+c*c<a*a && a*a+c*c<b*b)\n+     else if(a*a+b*b-c*c <0 || b*b+c*c<a*a && a*a+c*c<b*b)\n      {printf(\"Obtuse Triangle\");}\n"
+ },
+ "Lab-4_2832_271831": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 18.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "30/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -25,3 +25,3 @@\n     cB=((a*a+c*c-b*b)*1.0)/(2*a*c);\n-    cC=((b*b+a*a-c*c)*1.0)/(2*b*a);\n+    cC=((b*b+a*a-c*c)*1.0)/(1*b*a);\n     if((c*sqrt(1+cB)<=b)||(a*sqrt(1+cC)<=c)||(b*sqrt(1+cA)<=a))\n"
+ },
+ "Lab-4_2832_271845": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 15.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "34/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -17,3 +17,3 @@\n     scanf(\"%d\",&c);\n-    if(((a+b)<c)||((b+c)<a)||((a+c)<b)) //checking for invalid triangle\n+    if(((a+b)<=c)||((b+c)<a)||((a+c)<b)) //checking for invalid triangle\n     printf(\"Invalid Triangle\");\n"
+ },
+ "Lab-4_2832_271851": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 14.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "34/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -22,3 +22,3 @@\n     scanf(\"%d%d%d\",&a,&b,&c);\n-    if (a+c<b||a+b<c||b+c<a)\n+    if (a+c<b||a+b<=c||b+c<a)\n     {\n"
+ },
+ "Lab-4_2832_271855": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 25.2,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-4_2832_271858": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 27.4,
+  "status": "repair failed validation: 4/7 tests pass"
+ },
+ "Lab-4_2832_271867": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 4.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -29,3 +29,3 @@\n         z=c;\n-        c=a;\n+        z=a;\n         a=z;\n"
+ },
+ "Lab-4_2832_271876": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 29.9,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-4_2832_271878": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 20.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "30/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -33,4 +33,4 @@\n     else\n-        mid=c;    \n-    if((min+mid)>(max))    \n+        min=c;    \n+    if((a+mid)>(max))    \n         {\n"
+ },
+ "Lab-4_2833_271912": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 23.3,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-4_2833_271916": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 41.2,
+  "status": "repair failed validation: 4/6 tests pass"
+ },
+ "Lab-4_2833_271920": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 7.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "9/9",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n     scanf(\"%d\",&n);\n-    for(i=n;i>=1;i++)\n+    for(i=n;i>=1;i--)\n     {\n"
+ },
+ "Lab-4_2833_271922": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 4.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "9/9",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -21,3 +21,3 @@\n             {\n-                if((j+k)>i)\n+                if((j+k)!=i)\n                 {\n"
+ },
+ "Lab-4_2833_271927": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 24.9,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-4_2833_271944": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 30.6,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-4_2833_271946": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 29.1,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-4_2833_271965": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 29.0,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-4_2833_271975": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 7.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "9/9",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -19,3 +19,3 @@\n            c=1;\n-            while(c<=b&&a<c+b){\n+            while(c<=b&&a!=c+b){\n                 i=i+1;\n"
+ },
+ "Lab-4_2833_271977": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 22.9,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-4_2833_271982": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 23.9,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-4_2833_271983": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 19.2,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-4_2833_271986": {
+  "lab": "Lab-4",
+  "exit": 0,
+  "seconds": 14.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "3/9",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -20,3 +20,3 @@\n y=((a*a)+(c*c)-(b*b))/(2*a*c);\n-z=((b*b)+(c*c)-(a*a))/(2*b*c);\n+z=((b*b)+(a*c)-(a*a))/(2*b*c);\n                 if(x<1&&x>-1&&y<1&&y>-1&&z<1&&z>-1&&a>=b&&b>=c&&a>=c)\n"
+ },
+ "Lab-4_2833_271987": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 31.7,
+  "status": "repair failed validation: 3/6 tests pass"
+ },
+ "Lab-4_2833_271989": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 0.6,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-4_2833_271990": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 19.2,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-4_2833_271993": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 22.4,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-4_2833_272004": {
+  "lab": "Lab-4",
+  "exit": 1,
+  "seconds": 38.7,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-5_2864_277497": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 16.6,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-5_2864_277519": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 7.4,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2864_277524": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 19.0,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-5_2864_277526": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 4.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -24,3 +24,3 @@\n     {\n-        if (check_prime(i)==1&&n1!=1)\n+        if (check_prime(i)==1&&i!=1)\n         {\n"
+ },
+ "Lab-5_2864_277528": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 5.2,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2864_277541": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 14.8,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2864_277543": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 17.1,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-5_2864_277571": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 1.0,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-5_2864_277575": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 18.0,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2864_277578": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 4.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "36/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -11,3 +11,3 @@\n { int i;\n-  for (i=2;i<num;i++)\n+  for (i=2;i!=num;i++)\n     {\n"
+ },
+ "Lab-5_2864_277580": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 4.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "36/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n     int i;\n-    for(i = 2; i < num; i++)\n+    for(i = 2; i != num; i++)\n     {\n"
+ },
+ "Lab-5_2864_277584": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 12.1,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2864_277585": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 13.5,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2864_277591": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 19.9,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2864_277594": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 7.3,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2864_277609": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 7.1,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2865_277637": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 101.3,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-5_2865_277671": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 0.9,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-5_2865_277680": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 12.4,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-5_2865_277685": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 11.4,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-5_2865_277692": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 3.4,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-5_2865_277699": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 3.4,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-5_2865_277711": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 65.2,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-5_2865_277714": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 31.4,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-5_2866_277755": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 25.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "31/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -51,3 +51,3 @@\n         \n-    if(flag>0)\n+    if((flag - 1)>2)\n         printf(\"No\");\n"
+ },
+ "Lab-5_2866_277780": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 20.4,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-5_2866_277796": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 158.1,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-5_2866_277798": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 24.0,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-5_2866_277802": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 4.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -24,3 +24,3 @@\n {\n-  int i=1,div;//declaring the variable\n+  int i=2,div;//declaring the variable\n   div=num%i;\n"
+ },
+ "Lab-5_2866_277808": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 12.6,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "Lab-5_2866_277819": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 29.0,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "Lab-5_2866_277827": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 19.1,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "Lab-5_2866_277849": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 32.1,
+  "status": "repair failed validation: 5/9 tests pass"
+ },
+ "Lab-5_2866_277860": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 9.0,
+  "status": "repair failed validation: 5/9 tests pass"
+ },
+ "Lab-5_2866_277861": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 4.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -27,3 +27,3 @@\n     {//using the while loop\n-        if(n%i==0) //if remainder of i and n is zero\n+        if(num%i==0) //if remainder of i and n is zero\n             return 0;//return 0\n"
+ },
+ "Lab-5_2867_277912": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 4.6,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-5_2867_277924": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 3.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "20/20",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n    for(i=1;i<=N;i++){\n-      for(j=1;j<=N;j++){\n+      for(j=1;j<=i;j++){\n         sum=sum+j;}\n"
+ },
+ "Lab-5_2867_277943": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 3.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "20/20",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n \tint i;\n-\tfor (i=1;i<n;i++) {\n+\tfor (i=1;i<=n;i++) {\n \t    sum=sum+((i*(i+1))/2);\n"
+ },
+ "Lab-5_2867_277945": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 4.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "20/20",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n     scanf(\"%d\",&N);\n-\tfor (i=0;i<N;i=i+1){\n+\tfor (i=0;i<=N;i=i+1){\n \t    s=(i*(i+1)/2);\n"
+ },
+ "Lab-5_2867_277950": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 4.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "20/20",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n     for(i=1;i<=N;i++){\n-        sum+=N*(N+1)/2;\n+        sum+=i*(i+1)/2;\n         \n"
+ },
+ "Lab-5_2867_277962": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 6.8,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-5_2867_277966": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 0.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "20/20",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n     for(i=1;i<=j;i++){\n-    for(k=1;k<=i;k++);    \n+    for(k=1;k<=i;k++)    \n         sum = sum + k;\n"
+ },
+ "Lab-5_2868_278023": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 29.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "23/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -32,3 +32,3 @@\n     int i=0;\n-    for(i=0;i<=n-2;i++){\n+    for(i=0;(i + 4)<n/2;i++){\n         if ((check_prime(i))&&(check_prime(i+2))==1){\n"
+ },
+ "Lab-5_2868_278042": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 7.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "26/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -21,3 +21,3 @@\n     {\n-        if(num%i==0)\n+        if((num + 1)%i==0)\n         {\n"
+ },
+ "Lab-5_2868_278050": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 5.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -36,3 +36,3 @@\n \n-    for(i=2;i<=(N-1);i++)\n+    for(i=2;i<(N-1);i++)\n     {\n"
+ },
+ "Lab-5_2868_278051": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 14.7,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-5_2868_278052": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 0.7,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-5_2868_278098": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 10.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -34,3 +34,3 @@\n     scanf(\"%d\",&n);\n-    for(j=2;j<=n;j++)\n+    for(j=2;(j + 1)<n;j++)\n     {\n"
+ },
+ "Lab-5_2868_278102": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 5.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "34/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -22,2 +22,3 @@\n      }\n+    return 0;\n }\n@@ -29,3 +30,3 @@\n         if(check_prime(num)){\n-            if(check_prime(num+2)){\n+            if(check_prime(num-2)){\n                 pair=pair+1;\n"
+ },
+ "Lab-5_2869_278146": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 21.7,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "Lab-5_2869_278197": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 0.6,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-5_2869_278216": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 17.4,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-5_2869_278223": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 37.6,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-5_2869_278232": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 21.9,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-5_2869_278243": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 8.3,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-5_2870_278270": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 4.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "39/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -24,3 +24,3 @@\n count++;\n-}if(count>2)\n+}if(count!=2)\n return 1;\n"
+ },
+ "Lab-5_2870_278271": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 5.5,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-5_2870_278274": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 5.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "39/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -24,3 +24,3 @@\n {ctr=0;\n-    for(j=1;j<=num;j++)\n+    for(j=1;j<=i;j++)\n     {if(i%j==0) ctr++;\n"
+ },
+ "Lab-5_2870_278279": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 4.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -20,3 +20,3 @@\n {\n-    if(num==0)\n+    if(num==1)\n     return 0;\n"
+ },
+ "Lab-5_2870_278288": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 17.3,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-5_2870_278290": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 7.7,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-5_2870_278298": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 5.1,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-5_2870_278304": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 16.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "39/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -22,3 +22,3 @@\n     int i,j,tmp;\n-    for(i=num;i>=num;i++)\n+    for(i=num;j<=num;i++)\n     {\n@@ -29,3 +29,3 @@\n     {\n-        tmp=1;\n+        tmp=2;\n         break;\n@@ -38,2 +38,3 @@\n     }\n+    return i;\n }\n"
+ },
+ "Lab-5_2870_278321": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 26.2,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-5_2870_278324": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 21.3,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-5_2870_278331": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 16.2,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-5_2870_278343": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 8.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -23,3 +23,3 @@\n     j=1;\n-        for(i=2;i<=num;i++)\n+        for(i=2;i<num;i++)\n         {\n"
+ },
+ "Lab-5_2870_278351": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 6.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "39/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -24,3 +24,3 @@\n             p=p*a;\n-            if(p==0)break;\n+            if(p<0)break;\n         }    \n"
+ },
+ "Lab-5_2871_278396": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 7.6,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-5_2871_278398": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 6.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -67,3 +67,3 @@\n  int n,w,h,x,y;\n- scanf(\"%d %d %d\",&n,&w,&h);\n+ scanf(\"%d %d %d\",&n,&h,&w);\n  for(x=w;x>=1;x--){\n"
+ },
+ "Lab-5_2871_278415": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 0.7,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-5_2871_278417": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 14.4,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-5_2871_278419": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 1.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "32/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -67,3 +67,3 @@\n   int i,j;                       //declare any integers i,j.\n-  if (N==1)\n+  if (w==1)\n   { printf(\"%d\",1); }\n"
+ },
+ "Lab-5_2871_278446": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 19.7,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-5_2871_278451": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 32.6,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-5_2871_278454": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 0.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -44,3 +44,3 @@\n \tint i,j,k;\n-\tscanf(\"%d%d%d\",n,w,h);\n+\tscanf(\"%d%d%d\",&n,&w,&h);\n \t\n"
+ },
+ "Lab-5_2871_278457": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 25.3,
+  "status": "repair failed validation: 1/7 tests pass"
+ },
+ "Lab-5_2871_278458": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 13.4,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-5_2871_278461": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 5.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "36/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -86,3 +86,3 @@\n     if(h==1){\n-        for(l=1;l<=w;l++){\n+        for(l=2;l<=w;l++){\n             printf(\"%d\",N);\n"
+ },
+ "Lab-5_2871_278486": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 15.0,
+  "status": "repair failed validation: 1/7 tests pass"
+ },
+ "Lab-5_2871_278494": {
+  "lab": "Lab-5",
+  "exit": 0,
+  "seconds": 2.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "38/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -68,3 +68,3 @@\n \tif(w==1){\n-\t    if(h==1){\n+\t    if(h<1){\n \t    printf(\"N\");\n"
+ },
+ "Lab-5_2871_278496": {
+  "lab": "Lab-5",
+  "exit": 1,
+  "seconds": 24.6,
+  "status": "repair failed validation: 1/7 tests pass"
+ },
+ "Lab-6_2932_279945": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 21.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "38/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -39,3 +39,3 @@\n \tscanf(\"%d %d\\n\",&d,&N);\n-\tint a[N+1],b[d];\n+\tint a[N+1],b[N];\n \tfor(i=0;i<d;i++){\n@@ -45,3 +45,3 @@\n \tfor(p=d;p<N+1;p++){\n-\t    a[p]= sumpre(a,p-d,p-1);\n+\t    a[p]= sumpre(a,p-d,p+1);\n \t}\n"
+ },
+ "Lab-6_2932_279950": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 23.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "3/7",
+  "differential": "21/21",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -31,3 +31,3 @@\n     int b[20];\n-    for(i=0; i<d-1; i=i+1)\n+    for(i=0; i<=d-1; i=i+1)\n         scanf(\"%d\", &b[i]);\n"
+ },
+ "Lab-6_2932_279952": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 22.0,
+  "status": "repair failed validation: 1/7 tests pass"
+ },
+ "Lab-6_2932_279969": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 23.0,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-6_2932_279986": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 3.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "0/7",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -28,3 +28,3 @@\n     int i;\n-     for(i=0;i<size;i++)\n+     for(i=0;i<=size;i++)\n       scanf(\"%d \",&c[i]);\n"
+ },
+ "Lab-6_2932_279991": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 4.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -32,3 +32,3 @@\n         arr[k] =0;\n-        for (int m=k-1; m>=k-1-d; m--) {\n+        for (int m=k-1; m>k-1-d; m--) {\n             arr[k] = arr[k] + arr[m];\n"
+ },
+ "Lab-6_2932_279994": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 23.7,
+  "status": "repair failed validation: 0/7 tests pass"
+ },
+ "Lab-6_2932_280004": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 27.8,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-6_2932_280010": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 34.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "3/7",
+  "differential": "21/21",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -49,3 +49,3 @@\n     int i;\n-    for(i=0;i<d&&N<d;i++)\n+    for(i=0;i<d&&d<=d;i++)\n     {\n"
+ },
+ "Lab-6_2932_280011": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 21.7,
+  "status": "repair failed validation: 1/7 tests pass"
+ },
+ "Lab-6_2932_280017": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 25.9,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-6_2932_280020": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 4.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "39/39",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -50,3 +50,3 @@\n             }\n-           printf(\"%d\",a[i]);\n+           printf(\"%d\",a[(i - 1)]);\n     } \n"
+ },
+ "Lab-6_2932_280035": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 6.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "3/7",
+  "differential": "21/21",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -43,3 +43,3 @@\n          a[i]=0;\n-     for(j=d-1;j>=\n+     for(j=i-1;j>=\n      (i-d);j--)\n"
+ },
+ "Lab-6_2933_280079": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 23.3,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-6_2933_280102": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 21.8,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2933_280113": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 6.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "37/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -48,3 +48,3 @@\n           i++;j++;\n-          while(i<s1&&j<s2)\n+          while(i<=s1&&j<s2)\n            { if(a[i]!=b[j])\n"
+ },
+ "Lab-6_2933_280127": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 5.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -74,3 +74,3 @@\n     int j=0;\n-    while(j<c2)\n+    while((j + 1)<c2)\n     {\n"
+ },
+ "Lab-6_2933_280141": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 5.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -44,3 +44,3 @@\n \t        int s=1;\n-\t         for(int m=k+1;m<N1-k-1;m++)\n+\t         for(int m=k+1;m<=N1-k-1;m++)\n \t         {\n"
+ },
+ "Lab-6_2934_280188": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 24.7,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-6_2934_280208": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 28.7,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2934_280215": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 32.5,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2934_280223": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 24.2,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2934_280226": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 30.5,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2934_280231": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 43.4,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2934_280235": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 74.1,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2934_280238": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 30.3,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2934_280259": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 77.3,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2934_280288": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 4.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -83,3 +83,3 @@\n \t    scanf(\"%d \",&a[p]);\n-\t    if(-1000<=a[p] && a[p]<=1000){\n+\t    if(-1000<=a[p] || a[p]<=1000){\n \t        continue;\n"
+ },
+ "Lab-6_2935_280333": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 28.0,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-6_2935_280334": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 43.9,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-6_2935_280339": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 24.1,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-6_2935_280354": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": ""
+ },
+ "Lab-6_2935_280356": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 40.8,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-6_2935_280399": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 28.2,
+  "status": "repair failed validation: 1/4 tests pass"
+ },
+ "Lab-6_2935_280415": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 39.9,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-6_2936_280455": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 13.7,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-6_2936_280478": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 22.3,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2936_280482": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 18.2,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2936_280484": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 24.4,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-6_2936_280501": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 9.0,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-6_2936_280511": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 6.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "3/5",
+  "differential": "32/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -26,3 +26,3 @@\n \t    for(j=i;j<N;j++){\n-\t        if(arr[i]==arr[j]){\n+\t        if(arr[(i - 1)]==arr[j]){\n \t            c=0;\n"
+ },
+ "Lab-6_2936_280513": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 20.2,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2936_280520": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 11.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -28,3 +28,3 @@\n if (N<50){\n-    int d=0;\n+    int d=1;\n     int arr[N],i,j;\n@@ -36,3 +36,3 @@\n              if(arr[i]==arr[j]){\n-                 d=1;break;}\n+                 d=0;break;}\n          }    \n"
+ },
+ "Lab-6_2936_280522": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 10.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -45,3 +45,3 @@\n     }\n-    k=check(a[n],n);\n+    k=check(&a[k],n);\n     if(k==0){\n"
+ },
+ "Lab-6_2936_280530": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 54.5,
+  "status": "repair failed validation: 3/5 tests pass"
+ },
+ "Lab-6_2936_280534": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 13.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -30,3 +30,3 @@\n int i;\n-for(i=0;i<N-1;i=i+1){\n+for(i=0;i<N-2;i=i+1){\n for(j=i+1;j<N;j=j+1){\n@@ -37,3 +37,3 @@\n    else{\n-       s=0;\n+       s+=0;\n    }\n"
+ },
+ "Lab-6_2937_280566": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 35.7,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2937_280572": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 121.6,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2937_280581": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 107.9,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-6_2937_280592": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 0.7,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2937_280594": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 11.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -111,3 +111,3 @@\n         {\n-            printf(\"%d\\n%d\\n\",ar1[i],ar1[j]);\n+            printf(\"%d\\n%d\\n\",ar1[i],ar2[j]);\n             i=i+1;\n"
+ },
+ "Lab-6_2937_280596": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 115.7,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2937_280609": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 25.1,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-6_2937_280631": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 5.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "31/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -111,3 +111,3 @@\n             A[count++]=A1[i++];\n-            j++;\n+            l1++;\n         }\n"
+ },
+ "Lab-6_2937_280650": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 12.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -100,3 +100,3 @@\n int main() {\n-    int i,j,n1,n2,k;\n+    int i,j,n1,n2,k = 0;\n     int ar1[20],ar2[20],ar3[40];\n@@ -125,3 +125,3 @@\n     }\n-    if(i<=n1)\n+    if(i>=n1)\n     {\n"
+ },
+ "Lab-6_2938_280702": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 31.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -57,6 +57,6 @@\n \tscanf(\"%d\",&k);\n-   for(int i=0;i<n-k;i=i+1)\n+   for(int i=0;i<=n-k;i=i+1)\n     {\n         count=0;\n-        for(int j=i;j<=i+k;j=j+1)\n+        for(int j=i;j<i+k;j=j+1)\n        {\n"
+ },
+ "Lab-6_2938_280707": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 47.8,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2938_280710": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 11.3,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2938_280715": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 16.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -65,3 +65,3 @@\n     scanf(\"%d\",&k);\n-    for(j=0;j<=(n-k)+1;j++){\n+    for(j=0;j<(n-k)+1;j++){\n         x=0;\n"
+ },
+ "Lab-6_2938_280723": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 15.1,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2938_280726": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 6.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -45,3 +45,3 @@\n     scanf(\"%d\",&N);\n-    for(i=1;i<N;i++)\n+    for(i=0;i<N;i++)\n     {\n"
+ },
+ "Lab-6_2938_280727": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 40.1,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2938_280734": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 12.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "24/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -71,3 +71,3 @@\n       int l,j;\n-      for(j=2;j<=(n-k+4);j++) {\n+      for(j=2;j<=(n-l+4);j++) {\n           int sum=0;\n"
+ },
+ "Lab-6_2938_280735": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 81.6,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2938_280740": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 74.4,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2938_280747": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 9.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -53,3 +53,3 @@\n \tscanf(\"\\n%d\",&k);\n-\tfor(i=0;i<n-k;i++) {\n+\tfor(i=0;i<=n-k;i++) {\n \t    int sum=0; \n"
+ },
+ "Lab-6_2938_280754": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 6.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -68,3 +68,3 @@\n     \n-for(int a=0;a<=n-(k-1);a++)\n+for(int a=1;a<=n-(k-1);a++)\n  { int sum;\n"
+ },
+ "Lab-6_2938_280776": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 13.4,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-6_2938_280785": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 32.2,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-6_2938_280787": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 40.1,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-6_2938_280796": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 7.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -55,3 +55,3 @@\n     {\n-        for(int j=p1;j<=(p1+k);j++)\n+        for(int j=p1;j<(p1+k);j++)\n         {\n"
+ },
+ "Lab-6_2939_280834": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 21.4,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-6_2939_280855": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 12.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -46,3 +46,3 @@\n     }}\n-    for(p=0;p<n;p++)\n+    for(m=0;p<n;p++)\n     {\n"
+ },
+ "Lab-6_2939_280857": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 38.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "27/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -27,6 +27,6 @@\n int main() {\n-    int a,b,c=1,N,i,j,n=1;\n+    int a,b,c=1,N,i,j,n=2;\n       scanf(\"%d\",&N);\n       int A[N],MaxTill[N];\n-     for(a=0;a<N;a++)\n+     for(a=0;(a + 1)<N;a++)\n          {scanf(\"%d\",&b);\n@@ -34,8 +34,8 @@\n          }\n-        MaxTill[0]=1;\n+        MaxTill[0]=2;\n         for(i=1;i<N;i++)\n-           {n=1;\n+           {n-=1;\n                for(j=0;j<i;j++)\n                  {if(j<i && A[j]<A[i])         \n-                    {if(MaxTill[j]>n)\n+                    {if(MaxTill[j]>=n)\n                       {n=MaxTill[j]+1;}\n"
+ },
+ "Lab-6_2939_280874": {
+  "lab": "Lab-6",
+  "exit": 1,
+  "seconds": 19.5,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-6_2939_280884": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 4.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "39/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -28,3 +28,3 @@\n {\n-    i=0;\n+    i+=0;\n     int j,k,max,cnt=1;\n"
+ },
+ "Lab-6_2939_280886": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 6.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -31,3 +31,3 @@\n         \n-        for(b=1;b<i&&b>j;b++){\n+        for(b=1;b<i&&b>=j;b++){\n             \n"
+ },
+ "Lab-6_2939_280896": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 10.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "37/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -45,3 +45,3 @@\n {\n-    count[m]=0;\n+    count[m]=1;\n }\n"
+ },
+ "Lab-6_2939_280902": {
+  "lab": "Lab-6",
+  "exit": 0,
+  "seconds": 17.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -49,3 +49,3 @@\n                 max=MaxTill[j]+1;\n-                MaxTill[j]=MaxTill[j]+1;\n+                MaxTill[i]=MaxTill[j]+1;\n             }\n"
+ },
+ "Lab-7_3075_295396": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 4.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -45,3 +45,3 @@\n          if(i+n>=len)\n-          j=(i+n)%n;\n+          j=(i+n)%len;\n          else\n"
+ },
+ "Lab-7_3075_295416": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 12.5,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-7_3075_295418": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 8.2,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-7_3075_295443": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 17.3,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-7_3075_295450": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 19.0,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-7_3075_295455": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 33.3,
+  "status": "repair failed validation: 2/9 tests pass"
+ },
+ "Lab-7_3075_295459": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 21.9,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-7_3075_295460": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 17.3,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-7_3076_295637": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 16.3,
+  "status": "repair failed validation: 2/9 tests pass"
+ },
+ "Lab-7_3076_295639": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 49.1,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3076_295675": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 4.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -16,3 +16,3 @@\n      int c=0;\n-     while(character[i]=='\\0'){\n+     while(character[i]>'\\0'){\n      c++;\n"
+ },
+ "Lab-7_3076_295679": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 19.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n     int i=0;\n-    while (str[i]!='\\0'){\n+    while (str[(i + 1)]!='\\0'){\n         i++;\n@@ -28,3 +28,3 @@\n         for(i=0;i<len/2;i++){\n-            temp=str[i];\n+            i=str[i];\n             str[i]=str[i+len/2];\n@@ -32,3 +32,3 @@\n         }\n-          for(i=0;i<len/2;i++){\n+          for(i=0;i<(double) len/2;i++){\n             temp=str[i];\n"
+ },
+ "Lab-7_3076_295685": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 26.8,
+  "status": "repair failed validation: 4/9 tests pass"
+ },
+ "Lab-7_3076_295686": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 19.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -25,3 +25,3 @@\n     {\n-        x=n+((m+1/2));\n+        x=n+(((m + 1)*1/2));\n         laststr[n]=str[x];\n"
+ },
+ "Lab-7_3076_295687": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 20.5,
+  "status": "repair failed validation: 2/9 tests pass"
+ },
+ "Lab-7_3076_295696": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 25.0,
+  "status": "repair failed validation: 4/9 tests pass"
+ },
+ "Lab-7_3076_295698": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 18.8,
+  "status": "repair failed validation: 4/9 tests pass"
+ },
+ "Lab-7_3076_295711": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 9.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -17,3 +17,3 @@\n     {\n-        for(int i=0;i<r/2;i++)\n+        for(int i=0;i<r+2;i++)\n         {\n@@ -28,3 +28,3 @@\n     {\n-        for(int i=0;i<r/2;i++)\n+        for(int i=0;i<r+2;i++)\n         {\n"
+ },
+ "Lab-7_3076_295726": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 18.3,
+  "status": "repair failed validation: 4/9 tests pass"
+ },
+ "Lab-7_3076_295738": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 17.8,
+  "status": "repair failed validation: 4/9 tests pass"
+ },
+ "Lab-7_3077_295888": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 2.8,
+  "status": "repair failed validation: 4/8 tests pass"
+ },
+ "Lab-7_3077_295903": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 5.7,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-7_3077_295929": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 25.7,
+  "status": "repair failed validation: 2/8 tests pass"
+ },
+ "Lab-7_3077_295934": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 2.5,
+  "status": "repair failed validation: 2/8 tests pass"
+ },
+ "Lab-7_3077_295938": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 11.1,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-7_3077_295949": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 9.4,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-7_3077_295962": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 29.0,
+  "status": "repair failed validation: 5/8 tests pass"
+ },
+ "Lab-7_3077_295964": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 31.8,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-7_3077_295971": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 81.1,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "Lab-7_3077_295981": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 22.0,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-7_3077_295985": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 9.5,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-7_3078_296153": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 19.7,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3078_296158": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 7.1,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3078_296161": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 24.4,
+  "status": "repair failed validation: 5/9 tests pass"
+ },
+ "Lab-7_3078_296175": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 14.7,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-7_3078_296185": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 8.2,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3078_296186": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 13.5,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3078_296191": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 19.6,
+  "status": "repair failed validation: 3/9 tests pass"
+ },
+ "Lab-7_3078_296198": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 3.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -23,3 +23,3 @@\n \t      }\n-\t      else printf(\"%c\",str[i]+str[i]-96-25);\n+\t      else printf(\"%c\",str[i]+str[i]-97-25);\n \t   }\n"
+ },
+ "Lab-7_3078_296208": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 6.0,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3078_296211": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 18.0,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3078_296215": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 6.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -25,3 +25,3 @@\n for(i=0;i<count;i++){\n-    if(str[i]-'a'+1<13){/*if character is below n*/\n+    if(str[i]-'a'*1<13){/*if character is below n*/\n     str[i]=str[i]-'a'+1+str[i];\n"
+ },
+ "Lab-7_3078_296218": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 8.4,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3078_296227": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 2.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -17,2 +17,3 @@\n     return a+a+1-'a'-26;\n+    return a+a-'a'+1;\n }\n@@ -28,3 +29,3 @@\n     int i=0;\n-    while(c!='\\n'){\n+    while(c>'\\n'){\n         a[i]=c;\n"
+ },
+ "Lab-7_3078_296230": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 11.1,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-7_3078_296236": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 16.3,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3079_295515": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 42.3,
+  "status": "repair failed validation: 0/8 tests pass"
+ },
+ "Lab-7_3079_295540": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 24.2,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "Lab-7_3079_295576": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 6.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -27,3 +27,3 @@\n     l++;\n-    while(s1[le]!='\\0')\n+    while(s1[le]>='\\0')\n     le++;\n"
+ },
+ "Lab-7_3079_295587": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 54.1,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-7_3080_295769": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 9.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -62,3 +62,3 @@\n     int count=0,i;\n-    for(i=0;s[i]!='\\n';i++)\n+    for(i=0;s[i]>'\\n';i++)\n     {count++;}\n@@ -83,3 +83,3 @@\n     int j;\n-    for(i=0;i<l1-l2;i++)\n+    for(i=0;i<=l1-l2;i++)\n     {\n"
+ },
+ "Lab-7_3080_295775": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 16.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "31/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -84,3 +84,3 @@\n     //if condition is true\n-    if(c>0)condition1=1;\n+    if(c>0)n1=1;\n     \n@@ -93,3 +93,3 @@\n     int posi=1;    \n-    for(int j=0,k=i;j<n2;j++)\n+    for(int j=0,k=i;j<posi;j++)\n     if(s1[k]!=s2[j]){posi^=1;break;}//changing parity of posi\n"
+ },
+ "Lab-7_3080_295783": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 50.5,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "Lab-7_3080_295784": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 23.1,
+  "status": "repair failed validation: 0/8 tests pass"
+ },
+ "Lab-7_3080_295814": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 28.5,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "Lab-7_3080_295815": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 30.8,
+  "status": "repair failed validation: 0/8 tests pass"
+ },
+ "Lab-7_3080_295825": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 29.9,
+  "status": "repair failed validation: 0/8 tests pass"
+ },
+ "Lab-7_3080_295842": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 5.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -77,3 +77,3 @@\n \t        {\n-\t            for(k=0;k<l1;k++)\n+\t            for(k=0;k<l2;k++)\n \t              {\n"
+ },
+ "Lab-7_3080_295849": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 7.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -62,3 +62,3 @@\n     int i=0,j=0;\n-    while((s1[i]!='\\0')||(s2[j]!='\\0'))\n+    while((s1[i]!='\\0')&&(s2[j]!='\\0'))\n     {\n"
+ },
+ "Lab-7_3089_296015": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 2.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-7_3089_296017": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 20.6,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-7_3089_296032": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 87.2,
+  "status": "function signatures changed during repair"
+ },
+ "Lab-7_3089_296043": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": ""
+ },
+ "Lab-7_3089_296049": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 17.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -60,3 +60,3 @@\n             int c=0;\n-            for(i=flag;i<l1;i++)\n+            for(i=flag;c<l2;i++)\n             {\n"
+ },
+ "Lab-7_3089_296082": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 30.4,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-7_3089_296092": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 8.5,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "Lab-7_3089_296108": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 19.4,
+  "status": "repair failed validation: 2/9 tests pass"
+ },
+ "Lab-7_3090_296304": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 14.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -73,3 +73,3 @@\n \t//place from where elements of s1 are in str\n-\tif(place==0)\n+\tif(place<0)\n \t//if not a substring str printed as it is\n"
+ },
+ "Lab-7_3090_296308": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 19.3,
+  "status": "repair failed validation: 1/9 tests pass"
+ },
+ "Lab-7_3090_296325": {
+  "lab": "Lab-7",
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": ""
+ },
+ "Lab-7_3090_296350": {
+  "lab": "Lab-7",
+  "exit": 1,
+  "seconds": 25.0,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-8_3081_297279": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 12.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "33/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -111,3 +111,3 @@\n                              flag2=1;//so that I don't check for                                 smaller size matrix.\n-                             if((i1<i2)||((i1==i2)&&(j1<j2))) //updating the final index to be printed acc. to given criteria.\n+                             if((i1<n)||((i1==i2)&&(j1<j2))) //updating the final index to be printed acc. to given criteria.\n                               {\n"
+ },
+ "Lab-8_3081_297318": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 28.7,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "Lab-8_3081_297336": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 73.8,
+  "status": "repair failed validation: 2/8 tests pass"
+ },
+ "Lab-8_3081_297338": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 61.4,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "Lab-8_3081_297349": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 10.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -85,3 +85,3 @@\n      mg=m;\n-   int c,i1=-1,j1=-1,goodness=0,k=2;\n+   int c,i1=-1,j1=-1,goodness=0,k=1;\n    while(k<=mg)\n"
+ },
+ "Lab-8_3082_297405": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 7.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "23/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -44,3 +44,3 @@\n \t    for(j=0;j<m;j++){\n-\t        x=x+M[i][j];           //adding the values in each line\n+\t        x=n+M[i][j];           //adding the values in each line\n \t        sum[i]=x;\n"
+ },
+ "Lab-8_3082_297411": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 35.2,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-8_3082_297430": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 54.1,
+  "status": "repair failed validation: 3/5 tests pass"
+ },
+ "Lab-8_3082_297432": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 49.8,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-8_3082_297445": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 84.4,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-8_3082_297453": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 25.2,
+  "status": "repair failed validation: 2/5 tests pass"
+ },
+ "Lab-8_3082_297459": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 27.0,
+  "status": "repair failed validation: 4/5 tests pass"
+ },
+ "Lab-8_3082_297462": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 49.5,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-8_3082_297466": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 0.7,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-8_3082_297468": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 9.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "24/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -51,3 +51,3 @@\n for(j=0;j<m;j++){\n-    sum=sum+a[i][j];\n+    sum=m+a[i][j];\n }\n"
+ },
+ "Lab-8_3082_297481": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 0.6,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-8_3083_297563": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 10.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -68,3 +68,3 @@\n {\n-    int endi[2], i, j, k, k1, k2, maxg=0, tmpg;\n+    int endi[2], i, j, k, k1, k2, maxg=1, tmpg;\n     int tmpi[2];\n"
+ },
+ "Lab-8_3084_297652": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 27.4,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-8_3084_297655": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 12.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "30/39",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -96,3 +96,3 @@\n \tfor(i=1;i<=N;i++){\n-\t    scanf(\"%d%d\\n\",&R,&C);\n+\t    scanf(\"%d%d\\n\",&R,&count);\n \t    chess[R][C]=1;\n"
+ },
+ "Lab-8_3084_297672": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 14.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "22/38",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -39,3 +39,3 @@\n \t}\n-\tfor(i=0;i<8;i++)\n+\tfor(i=1;j<8;i++)\n \t{\n"
+ },
+ "Lab-8_3084_297687": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 30.1,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-8_3084_297697": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 6.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "39/39",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -92,3 +92,3 @@\n         else{\n-            for((i=7,j=(k+l-7));j<8;(++j,--k)){\n+            for((i=7,j=(k+l-7));j<8;(++j,--i)){\n                 if((j==l)||(i==k)){\n"
+ },
+ "Lab-8_3084_297698": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 42.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "3/4",
+  "differential": "32/39",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -30,3 +30,3 @@\n {    \n-    int x=a;\n+    int x=x;\n     int y=b;\n@@ -69,3 +69,3 @@\n     if(arr[--x][++y]==1)\n-    return 0;\n+    return 1;\n     \n"
+ },
+ "Lab-8_3084_297706": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 10.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "3/4",
+  "differential": "31/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -37,3 +37,3 @@\n \tfor(i=0;i<N-1;i++){\n-\t    for(j=i+1;j<N;j++){\n+\t    for(j=i+1;j<=N;j++){\n \t   if(*(*(pos+i)+0)==*(*(pos+j)+0)||*(*(pos+i)+1)==*(*(pos+j)+1)){\n"
+ },
+ "Lab-8_3084_297708": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 10.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "29/39",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -45,3 +45,3 @@\n         }\n-        j=r;\n+        j=k;\n         for (k=0; k<8; k++)\n"
+ },
+ "Lab-8_3084_297732": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 7.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "33/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -40,3 +40,3 @@\n             \n-            if (mat[i][1]==mat[j][1]) return 0;\n+            if (mat[i][0]==mat[j][1]) return 0;\n             if (mat[i][0]==mat[j][0]) return 0;\n"
+ },
+ "Lab-8_3084_297733": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 24.9,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-8_3084_297746": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 18.9,
+  "status": "repair failed validation: 3/4 tests pass"
+ },
+ "Lab-8_3084_297748": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 4.1,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "15/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -43,3 +43,3 @@\n \t        else if((mt[i][1]-mt[i+m][1]==x)||(mt[i][1]-mt[i+m][1]==-x)||(mt[i][1]-mt[i+m][1]==0)){\n-\t            z=1;\n+\t            n=1;\n \t        }\n"
+ },
+ "Lab-8_3086_297913": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 23.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "31/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -50,3 +50,3 @@\n \t{\n-\t    for(j=0;j<n;j++)\n+\t    for(j=0;j<m;j++)\n \t    {\n@@ -85,3 +85,3 @@\n             {\n-                large=sum[i][j];\n+                large+=sum[i][j];\n             }\n"
+ },
+ "Lab-8_3086_297958": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 36.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -37,3 +37,3 @@\n {\n-scanf(\"%d%d\",&m,&n);\n+scanf(\"%d%d\",&n,&m);\n int x[100][100];\n"
+ },
+ "Lab-8_3087_298068": {
+  "lab": "Lab-8",
+  "exit": 0,
+  "seconds": 16.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "8/8",
+  "differential": "31/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -115,3 +115,3 @@\n     }\n-    if(i==1)\n+    if(i<1)\n         return 0;\n"
+ },
+ "Lab-8_3087_298110": {
+  "lab": "Lab-8",
+  "exit": 1,
+  "seconds": 34.2,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "Lab-9_3105_299999": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 16.8,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-9_3105_300001": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 12.9,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-9_3105_300014": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 4.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "39/39",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -42,3 +42,3 @@\n     s[n]='\\0';\n-    rev(s,n-1);\n+    rev(s,n-2);\n     return 0;\n"
+ },
+ "Lab-9_3105_300016": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 4.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "25/36",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -35,3 +35,3 @@\n     char str[n];\n-    for(i=0;i<n;i++)\n+    for(i=1;i<n;i++)\n     {scanf(\"%c\",&str[i]);}\n"
+ },
+ "Lab-9_3105_300019": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 16.2,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-9_3105_300048": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 17.6,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-9_3105_300051": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 17.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "31/32",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -25,6 +25,6 @@\n void string_rev(char a[100],int m)\n-{if(m==2)\n+{if(m<2)\n printf(\"%c\",a[0]);\n else \n-   {printf(\"%c\",a[m-2]);\n+   {printf(\"%c\",a[m-1]);\n     string_rev(a,m-1);\n"
+ },
+ "Lab-9_3105_300058": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 6.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -39,3 +39,3 @@\n     char str1[n],str2[n];\n-    for(int i=0;i<n-1;i++)\n+    for(int i=0;i<=n-1;i++)\n     {\n"
+ },
+ "Lab-9_3105_300064": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 0.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "35/36",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -42,3 +42,3 @@\n     int  slength,i=0;\n-    scanf(\"%c\\n\",&slength);\n+    scanf(\"%d\\n\",&slength);\n     while(i!=slength-1)\n"
+ },
+ "Lab-9_3106_300237": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 1.7,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-9_3106_300255": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 16.4,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-9_3106_300273": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 1.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -13,2 +13,3 @@\n  \n+int checkpal(char word[],int position);\n int main()\n"
+ },
+ "Lab-9_3106_300283": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 16.1,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-9_3106_300294": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 21.6,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-9_3106_300296": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 22.2,
+  "status": "repair failed validation: 3/4 tests pass"
+ },
+ "Lab-9_3106_300309": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 1.0,
+  "status": "repair failed validation: 0/4 tests pass"
+ },
+ "Lab-9_3106_300324": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 0.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "4/4",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": ""
+ },
+ "Lab-9_3106_300336": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 14.9,
+  "status": "repair failed validation: 2/4 tests pass"
+ },
+ "Lab-9_3107_300486": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 8.9,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "38/40",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -50,3 +50,3 @@\n     int x=0;\n-    if(array[len_covered]<partial_sum){\n+    if(array[(len_covered + 1)]<partial_sum){\n         x= groupSum(++len_covered,partial_sum-array[len_covered]);\n"
+ },
+ "Lab-9_3107_300501": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 26.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-9_3107_300527": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 1.1,
+  "status": "repair failed validation: 0/9 tests pass"
+ },
+ "Lab-9_3107_300531": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 120.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-9_3107_300536": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 10.2,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -46,3 +46,3 @@\n       return 1;\n-    else if(len_covered==N-1)\n+    else if(len_covered>N-1)\n       return 0;\n"
+ },
+ "Lab-9_3107_300560": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 64.6,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-9_3107_300562": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 8.5,
+  "status": "all tests pass",
+  "tests_diff_ZB": "9/9",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -49,3 +49,3 @@\n         return 1;\n-    if(len_covered==N-1)\n+    if(len_covered>N-1)\n         return 0;\n"
+ },
+ "Lab-9_3107_300579": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 77.8,
+  "status": "repair failed validation: 4/9 tests pass"
+ },
+ "Lab-9_3107_300581": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 18.8,
+  "status": "repair failed validation: 5/9 tests pass"
+ },
+ "Lab-9_3107_300583": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 35.2,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "Lab-9_3108_300755": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "25/28",
+  "agrees_with_correct_version": false,
+  "patch": ""
+ },
+ "Lab-9_3108_300772": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 5.7,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -37,3 +37,3 @@\n \tfor (j=0;j<n;j++)\n-\t{ add=add+array[i];}\n+\t{ add=add+array[j];}\n \t\n"
+ },
+ "Lab-9_3108_300775": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 41.8,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "Lab-9_3108_300783": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 18.7,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "Lab-9_3108_300784": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 18.0,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-9_3108_300796": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 5.8,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -57,2 +57,3 @@\n \n+    return 1;\n }\n"
+ },
+ "Lab-9_3108_300816": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 15.8,
+  "status": "repair failed validation: 3/7 tests pass"
+ },
+ "Lab-9_3109_300126": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 13.2,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-9_3109_300147": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 9.4,
+  "status": "all tests pass",
+  "tests_diff_ZB": "6/6",
+  "differential": "9/9",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -222,3 +222,3 @@\n             a[pos]='}';\n-            bracket(pos+1,n,open,close+1);\n+            bracket(pos+1,n,close+1,open);\n         }\n@@ -227,3 +227,3 @@\n         a[pos]='{';\n-        bracket(pos+1,n,open+1,close);\n+        bracket(pos+1,n,close,open+1);\n         }\n"
+ },
+ "Lab-9_3109_300149": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 33.1,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "Lab-9_3109_300188": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 0.7,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "Lab-9_3110_300440": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 0.6,
+  "status": "all tests pass",
+  "tests_diff_ZB": "7/7",
+  "differential": "0/0",
+  "agrees_with_correct_version": false,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -1526,5 +1526,5 @@\n          {\n-             swap(str[n],str[i]);\n+             swap(&str[n],&str[i]);\n              per(str,n+1,l);\n-             swap(str[n],str[i]);\n+             swap(&str[n],&str[i]);\n          }\n"
+ },
+ "Lab-9_3110_300448": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 56.7,
+  "status": "repair failed validation: 2/7 tests pass"
+ },
+ "Lab-9_3111_300617": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 31.0,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-9_3111_300628": {
+  "lab": "Lab-9",
+  "exit": 0,
+  "seconds": 30.0,
+  "status": "all tests pass",
+  "tests_diff_ZB": "5/5",
+  "differential": "40/40",
+  "agrees_with_correct_version": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -335,5 +335,5 @@\n     }\n-    for(i=(len>0)?arr[len-1]+1:1;i<n;i++)\n+    for(i=(len>0)?arr[len-1]+1:1;i<=n;i++)\n     {\n-    arr[len-1]=i;\n+    arr[len*1]=i;\n     printIncSeq(n,m,len+1,arr);        \n"
+ },
+ "Lab-9_3111_300643": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 33.4,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-9_3111_300673": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 32.6,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-9_3111_300706": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 29.1,
+  "status": "repair failed validation: 1/5 tests pass"
+ },
+ "Lab-9_3111_300715": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 89.8,
+  "status": "repair failed validation: 0/5 tests pass"
+ },
+ "Lab-9_3112_300874": {
+  "lab": "Lab-9",
+  "exit": 1,
+  "seconds": 118.0,
+  "status": "repair failed validation: 0/5 tests pass"
+ }
+}

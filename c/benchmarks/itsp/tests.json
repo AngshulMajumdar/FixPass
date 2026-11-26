@@ -1,0 +1,2090 @@
+{
+ "3237": [
+  {
+   "input": "3\n2 hi\n3 hey\n4 yoyo\n2 hi \n3 hiy \n4 yoy\n1 h\n-1\n",
+   "output": "hi\nhey\nyoyo\nhi\n"
+  },
+  {
+   "input": "3 \n8 Business\n10 persuasion\n11 intelligent\n9 bussiness\n8 business\n10 persuation\n10 inteligent\n-1\n",
+   "output": "Business\nBusiness\npersuasion\nintelligent\n"
+  },
+  {
+   "input": "3\n5 hello\n4 good\n7 morning\n4 helo\n3 gud\n6 mrnng\n-1",
+   "output": "hello\ngood\nmorning\n"
+  }
+ ],
+ "3238": [
+  {
+   "input": "18 abcxyzdefxyzghixyz\n3 xyz\n2 uv",
+   "output": "abcuvdefuvghiuv\n"
+  },
+  {
+   "input": "16 hello,howareyou?\n3 are\n4 were",
+   "output": "hello,howwereyou?\n"
+  },
+  {
+   "input": "20 abcdhefghighehiklmhe\n2 he\n4 hehe",
+   "output": "abcdhehefghighehehiklmhehe\n"
+  },
+  {
+   "input": "18 hihellohihellohiih\n2 hi \n5 hello",
+   "output": "hellohellohellohellohelloih\n"
+  },
+  {
+   "input": "14 hihellohihello\n3 hii\n2 hi",
+   "output": "hihellohihello\n"
+  }
+ ],
+ "3239": [
+  {
+   "input": "5\nabcde\n5\ndceab",
+   "output": "Valid"
+  },
+  {
+   "input": "5\nxatps\n5\nsptay",
+   "output": "Not Valid"
+  },
+  {
+   "input": "7\nlabexam\n7\nbalmaex",
+   "output": "Valid"
+  },
+  {
+   "input": "5\nhello\n5\nlolhe",
+   "output": "Valid"
+  },
+  {
+   "input": "5\nhello\n7\nlabexam",
+   "output": "Not Valid"
+  },
+  {
+   "input": "7\nanagram\n6\nanagrm",
+   "output": "Not Valid"
+  },
+  {
+   "input": "6\npppqqq\n6\nqpqpqp",
+   "output": "Valid"
+  },
+  {
+   "input": "7\nabcdefg\n7\ngfedbac",
+   "output": "Valid"
+  },
+  {
+   "input": "1 \np\n1 \np",
+   "output": "Valid"
+  }
+ ],
+ "3240": [
+  {
+   "input": "3\nabc\n4\ndbca",
+   "output": "1"
+  },
+  {
+   "input": "4\nabce\n4\ndbca",
+   "output": "2"
+  },
+  {
+   "input": "7\nlabexam\n4\ndbca",
+   "output": "7"
+  },
+  {
+   "input": "7\nlabexam\n7\nbalmmmm",
+   "output": "6"
+  },
+  {
+   "input": "7\nlabexam\n7\nbalmaex",
+   "output": "0"
+  },
+  {
+   "input": "7\nlabexam\n9\nbalmaexam",
+   "output": "2"
+  },
+  {
+   "input": "7\nlabexam\n9\npqrstuvwp",
+   "output": "16"
+  },
+  {
+   "input": "7\nhellohi\n9\nlhoeidear",
+   "output": "6"
+  }
+ ],
+ "3241": [
+  {
+   "input": "4 hehe\n6 hehehe",
+   "output": "he"
+  },
+  {
+   "input": "4 abab\n8 abababab",
+   "output": "abab"
+  },
+  {
+   "input": "4 heeh\n6 hehehe",
+   "output": ""
+  },
+  {
+   "input": "5 hello\n6 hihihi",
+   "output": ""
+  },
+  {
+   "input": "1 a\n5 aaaaa",
+   "output": "a"
+  }
+ ],
+ "3242": [
+  {
+   "input": "3\n1 0 0 \n0 1 0 \n0 0 1",
+   "output": "1"
+  },
+  {
+   "input": "3\n1 2 3 \n4 5 6\n7 8 9",
+   "output": "0"
+  },
+  {
+   "input": "1\n1",
+   "output": "1"
+  },
+  {
+   "input": "2\n1 2 \n4 3",
+   "output": "-5"
+  }
+ ],
+ "3243": [
+  {
+   "input": "3\nage",
+   "output": "eag"
+  },
+  {
+   "input": "5\nedcba",
+   "output": "No Answer"
+  },
+  {
+   "input": "4\nahgf",
+   "output": "fagh"
+  },
+  {
+   "input": "4\nczyx",
+   "output": "xcyz"
+  },
+  {
+   "input": "4\naaaa",
+   "output": "No Answer"
+  },
+  {
+   "input": "7\nlabexam",
+   "output": "labexma"
+  },
+  {
+   "input": "7\nabtsrqp",
+   "output": "apbqrst"
+  },
+  {
+   "input": "5\nprrrs",
+   "output": "prrsr"
+  },
+  {
+   "input": "7\nabdczyx",
+   "output": "abdxcyz"
+  }
+ ],
+ "3244": [
+  {
+   "input": "5\nabcde",
+   "output": "Good String"
+  },
+  {
+   "input": "8\npqrsabcd",
+   "output": "Good String"
+  },
+  {
+   "input": "4\nazpg",
+   "output": "Not Good String"
+  },
+  {
+   "input": "7\nlabexam",
+   "output": "Not Good String"
+  },
+  {
+   "input": "8\naaaazzzz",
+   "output": "Good String"
+  },
+  {
+   "input": "6\nabczpq",
+   "output": "Not Good String"
+  },
+  {
+   "input": "6\nabcpqz",
+   "output": "Not Good String"
+  },
+  {
+   "input": "8\nacegikmo",
+   "output": "Good String"
+  },
+  {
+   "input": "ab",
+   "output": "Good String"
+  }
+ ],
+ "3291": [
+  {
+   "input": "4",
+   "output": "1 1 1 1 \n2 1 1 \n2 2 \n3 1 \n4 \n"
+  },
+  {
+   "input": "5",
+   "output": "1 1 1 1 1 \n2 1 1 1 \n2 2 1 \n3 1 1 \n3 2 \n4 1 \n5 \n"
+  },
+  {
+   "input": "2",
+   "output": "1 1 \n2 \n"
+  },
+  {
+   "input": "1",
+   "output": "1 \n"
+  },
+  {
+   "input": "6",
+   "output": "1 1 1 1 1 1 \n2 1 1 1 1 \n2 2 1 1 \n2 2 2 \n3 1 1 1 \n3 2 1 \n3 3 \n4 1 1 \n4 2 \n5 1 \n6 \n"
+  },
+  {
+   "input": "9",
+   "output": "1 1 1 1 1 1 1 1 1 \n2 1 1 1 1 1 1 1 \n2 2 1 1 1 1 1 \n2 2 2 1 1 1 \n2 2 2 2 1 \n3 1 1 1 1 1 1 \n3 2 1 1 1 1 \n3 2 2 1 1 \n3 2 2 2 \n3 3 1 1 1 \n3 3 2 1 \n3 3 3 \n4 1 1 1 1 1 \n4 2 1 1 1 \n4 2 2 1 \n4 3 1 1 \n4 3 2 \n4 4 1 \n5 1 1 1 1 \n5 2 1 1 \n5 2 2 \n5 3 1 \n5 4 \n6 1 1 1 \n6 2 1 \n6 3 \n7 1 1 \n7 2 \n8 1 \n9 \n"
+  }
+ ],
+ "3293": [
+  {
+   "input": "4\n0 1 0 1\n1 0 1 0\n0 1 0 1\n1 0 1 0 \n2",
+   "output": "1 2 1 2 "
+  },
+  {
+   "input": "4\n0 1 1 1\n1 0 1 0\n1 1 0 1\n1 0 1 0 \n3",
+   "output": "1 2 3 2 "
+  },
+  {
+   "input": "4\n0 1 1 1\n1 0 1 0\n1 1 0 1\n1 0 1 0\n3",
+   "output": "1 2 3 2 "
+  },
+  {
+   "input": "2\n0 1\n1 0\n2",
+   "output": "1 2 "
+  },
+  {
+   "input": "1\n0\n2",
+   "output": "1 "
+  },
+  {
+   "input": "4 \n0 1 1 1 \n1 0 1 1 \n1 1 0 1 \n1 1 1 0\n1000",
+   "output": "1 2 3 4 "
+  }
+ ],
+ "3294": [
+  {
+   "input": "2",
+   "output": "2 -3 2 "
+  },
+  {
+   "input": "20",
+   "output": "20 15 10 5 0 5 10 15 20 "
+  },
+  {
+   "input": "4",
+   "output": "4 -1 4 "
+  },
+  {
+   "input": "16",
+   "output": "16 11 6 1 -4 1 6 11 16 "
+  },
+  {
+   "input": "8",
+   "output": "8 3 -2 3 8 "
+  }
+ ],
+ "3295": [
+  {
+   "input": "5\n1 2 3 4 5",
+   "output": "1 2 3 4 5 \n"
+  },
+  {
+   "input": "5\n5 4 3 2 1",
+   "output": "1 2 3 4 5 \n"
+  },
+  {
+   "input": "4\n1 3 2 1",
+   "output": "1 1 2 3 \n"
+  },
+  {
+   "input": "100\n49\t28\t45\t49\t61\t14\t82\t12\t44\t52\t43\t61\t9\t74\t89\t44\t47\t25\t28\t80\t23\t95\t17\t69\t49\t54\t38\t77\t10\t47\t14\t65\t21\t48\t84\t16\t40\t66\t40\t16\t84\t88\t76\t10\t22\t27\t100\t41\t71\t77\t57\t52\t83\t97\t54\t42\t30\t96\t56\t65\t95\t39\t44\t35\t59\t48\t11\t45\t62\t94\t12\t51\t58\t17\t87\t10\t46\t59\t78\t21\t74\t84\t50\t40\t87\t50\t68\t55\t53\t1\t48\t30\t37\t16\t42\t10\t47\t40\t32\t40",
+   "output": "1 9 10 10 10 10 11 12 12 14 14 16 16 16 17 17 21 21 22 23 25 27 28 28 30 30 32 35 37 38 39 40 40 40 40 40 41 42 42 43 44 44 44 45 45 46 47 47 47 48 48 48 49 49 49 50 50 51 52 52 53 54 54 55 56 57 58 59 59 61 61 62 65 65 66 68 69 71 74 74 76 77 77 78 80 82 83 84 84 84 87 87 88 89 94 95 95 96 97 100 \n"
+  },
+  {
+   "input": "100\n57\t67\t48\t54\t70\t64\t47\t23\t33\t67\t21\t68\t13\t51\t96\t94\t92\t100\t12\t42\t11\t32\t51\t61\t24\t100\t26\t23\t6\t93\t34\t26\t42\t49\t39\t53\t72\t79\t42\t69\t19\t55\t63\t48\t91\t52\t99\t30\t73\t99\t48\t99\t53\t95\t58\t3\t3\t69\t56\t56\t49\t34\t1\t96\t32\t6\t16\t11\t13\t83\t31\t43\t20\t100\t33\t39\t65\t89\t17\t15\t18\t62\t12\t56\t42\t48\t61\t99\t54\t5\t97\t24\t100\t38\t58\t96\t45\t29\t36\t12",
+   "output": "1 3 3 5 6 6 11 11 12 12 12 13 13 15 16 17 18 19 20 21 23 23 24 24 26 26 29 30 31 32 32 33 33 34 34 36 38 39 39 42 42 42 42 43 45 47 48 48 48 48 49 49 51 51 52 53 53 54 54 55 56 56 56 57 58 58 61 61 62 63 64 65 67 67 68 69 69 70 72 73 79 83 89 91 92 93 94 95 96 96 96 97 99 99 99 99 100 100 100 100 \n"
+  },
+  {
+   "input": "0\n",
+   "output": "\n"
+  },
+  {
+   "input": "1\n42",
+   "output": "42 \n"
+  }
+ ],
+ "3296": [
+  {
+   "input": "3\na\nb\nc\n3",
+   "output": "aaa\naab\naac\naba\nabb\nabc\naca\nacb\nacc\nbaa\nbab\nbac\nbba\nbbb\nbbc\nbca\nbcb\nbcc\ncaa\ncab\ncac\ncba\ncbb\ncbc\ncca\nccb\nccc\n"
+  },
+  {
+   "input": "1\na\n0",
+   "output": "\n"
+  },
+  {
+   "input": "4\na\nb\nc\nd\n1",
+   "output": "a\nb\nc\nd\n"
+  },
+  {
+   "input": "1\na\n2",
+   "output": "aa\n"
+  },
+  {
+   "input": "26\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n2",
+   "output": "aa\nab\nac\nad\nae\naf\nag\nah\nai\naj\nak\nal\nam\nan\nao\nap\naq\nar\nas\nat\nau\nav\naw\nax\nay\naz\nba\nbb\nbc\nbd\nbe\nbf\nbg\nbh\nbi\nbj\nbk\nbl\nbm\nbn\nbo\nbp\nbq\nbr\nbs\nbt\nbu\nbv\nbw\nbx\nby\nbz\nca\ncb\ncc\ncd\nce\ncf\ncg\nch\nci\ncj\nck\ncl\ncm\ncn\nco\ncp\ncq\ncr\ncs\nct\ncu\ncv\ncw\ncx\ncy\ncz\nda\ndb\ndc\ndd\nde\ndf\ndg\ndh\ndi\ndj\ndk\ndl\ndm\ndn\ndo\ndp\ndq\ndr\nds\ndt\ndu\ndv\ndw\ndx\ndy\ndz\nea\neb\nec\ned\nee\nef\neg\neh\nei\nej\nek\nel\nem\nen\neo\nep\neq\ner\nes\net\neu\nev\new\nex\ney\nez\nfa\nfb\nfc\nfd\nfe\nff\nfg\nfh\nfi\nfj\nfk\nfl\nfm\nfn\nfo\nfp\nfq\nfr\nfs\nft\nfu\nfv\nfw\nfx\nfy\nfz\nga\ngb\ngc\ngd\nge\ngf\ngg\ngh\ngi\ngj\ngk\ngl\ngm\ngn\ngo\ngp\ngq\ngr\ngs\ngt\ngu\ngv\ngw\ngx\ngy\ngz\nha\nhb\nhc\nhd\nhe\nhf\nhg\nhh\nhi\nhj\nhk\nhl\nhm\nhn\nho\nhp\nhq\nhr\nhs\nht\nhu\nhv\nhw\nhx\nhy\nhz\nia\nib\nic\nid\nie\nif\nig\nih\nii\nij\nik\nil\nim\nin\nio\nip\niq\nir\nis\nit\niu\niv\niw\nix\niy\niz\nja\njb\njc\njd\nje\njf\njg\njh\nji\njj\njk\njl\njm\njn\njo\njp\njq\njr\njs\njt\nju\njv\njw\njx\njy\njz\nka\nkb\nkc\nkd\nke\nkf\nkg\nkh\nki\nkj\nkk\nkl\nkm\nkn\nko\nkp\nkq\nkr\nks\nkt\nku\nkv\nkw\nkx\nky\nkz\nla\nlb\nlc\nld\nle\nlf\nlg\nlh\nli\nlj\nlk\nll\nlm\nln\nlo\nlp\nlq\nlr\nls\nlt\nlu\nlv\nlw\nlx\nly\nlz\nma\nmb\nmc\nmd\nme\nmf\nmg\nmh\nmi\nmj\nmk\nml\nmm\nmn\nmo\nmp\nmq\nmr\nms\nmt\nmu\nmv\nmw\nmx\nmy\nmz\nna\nnb\nnc\nnd\nne\nnf\nng\nnh\nni\nnj\nnk\nnl\nnm\nnn\nno\nnp\nnq\nnr\nns\nnt\nnu\nnv\nnw\nnx\nny\nnz\noa\nob\noc\nod\noe\nof\nog\noh\noi\noj\nok\nol\nom\non\noo\nop\noq\nor\nos\not\nou\nov\now\nox\noy\noz\npa\npb\npc\npd\npe\npf\npg\nph\npi\npj\npk\npl\npm\npn\npo\npp\npq\npr\nps\npt\npu\npv\npw\npx\npy\npz\nqa\nqb\nqc\nqd\nqe\nqf\nqg\nqh\nqi\nqj\nqk\nql\nqm\nqn\nqo\nqp\nqq\nqr\nqs\nqt\nqu\nqv\nqw\nqx\nqy\nqz\nra\nrb\nrc\nrd\nre\nrf\nrg\nrh\nri\nrj\nrk\nrl\nrm\nrn\nro\nrp\nrq\nrr\nrs\nrt\nru\nrv\nrw\nrx\nry\nrz\nsa\nsb\nsc\nsd\nse\nsf\nsg\nsh\nsi\nsj\nsk\nsl\nsm\nsn\nso\nsp\nsq\nsr\nss\nst\nsu\nsv\nsw\nsx\nsy\nsz\nta\ntb\ntc\ntd\nte\ntf\ntg\nth\nti\ntj\ntk\ntl\ntm\ntn\nto\ntp\ntq\ntr\nts\ntt\ntu\ntv\ntw\ntx\nty\ntz\nua\nub\nuc\nud\nue\nuf\nug\nuh\nui\nuj\nuk\nul\num\nun\nuo\nup\nuq\nur\nus\nut\nuu\nuv\nuw\nux\nuy\nuz\nva\nvb\nvc\nvd\nve\nvf\nvg\nvh\nvi\nvj\nvk\nvl\nvm\nvn\nvo\nvp\nvq\nvr\nvs\nvt\nvu\nvv\nvw\nvx\nvy\nvz\nwa\nwb\nwc\nwd\nwe\nwf\nwg\nwh\nwi\nwj\nwk\nwl\nwm\nwn\nwo\nwp\nwq\nwr\nws\nwt\nwu\nwv\nww\nwx\nwy\nwz\nxa\nxb\nxc\nxd\nxe\nxf\nxg\nxh\nxi\nxj\nxk\nxl\nxm\nxn\nxo\nxp\nxq\nxr\nxs\nxt\nxu\nxv\nxw\nxx\nxy\nxz\nya\nyb\nyc\nyd\nye\nyf\nyg\nyh\nyi\nyj\nyk\nyl\nym\nyn\nyo\nyp\nyq\nyr\nys\nyt\nyu\nyv\nyw\nyx\nyy\nyz\nza\nzb\nzc\nzd\nze\nzf\nzg\nzh\nzi\nzj\nzk\nzl\nzm\nzn\nzo\nzp\nzq\nzr\nzs\nzt\nzu\nzv\nzw\nzx\nzy\nzz\n"
+  }
+ ],
+ "3297": [
+  {
+   "input": "5\n1 2 3 4 5",
+   "output": "1 2 3 4 5 \n"
+  },
+  {
+   "input": "5\n5 4 3 2 1",
+   "output": "1 2 3 4 5 \n"
+  },
+  {
+   "input": "4\n1 3 2 1",
+   "output": "1 1 2 3 \n"
+  },
+  {
+   "input": "6\n1 4 3 2 1 0",
+   "output": "0 1 1 2 3 4 \n"
+  },
+  {
+   "input": "10\n1 4 3 2 1 0 5 8 100 110",
+   "output": "0 1 1 2 3 4 5 8 100 110 \n"
+  },
+  {
+   "input": "0",
+   "output": "\n"
+  },
+  {
+   "input": "1\n42",
+   "output": "42 \n"
+  },
+  {
+   "input": "11\n1 4 3 2 1 0 5 8 100 110 -10",
+   "output": "-10 0 1 1 2 3 4 5 8 100 110 \n"
+  }
+ ],
+ "3298": [
+  {
+   "input": "5\n1 2 3 4 5",
+   "output": "0\n1 2 3 4 5 \n"
+  },
+  {
+   "input": "5\n5 4 3 2 1",
+   "output": "10\n1 2 3 4 5 \n"
+  },
+  {
+   "input": "4\n1 3 2 1",
+   "output": "3\n1 1 2 3 \n"
+  },
+  {
+   "input": "100\n49\t28\t45\t49\t61\t14\t82\t12\t44\t52\t43\t61\t9\t74\t89\t44\t47\t25\t28\t80\t23\t95\t17\t69\t49\t54\t38\t77\t10\t47\t14\t65\t21\t48\t84\t16\t40\t66\t40\t16\t84\t88\t76\t10\t22\t27\t100\t41\t71\t77\t57\t52\t83\t97\t54\t42\t30\t96\t56\t65\t95\t39\t44\t35\t59\t48\t11\t45\t62\t94\t12\t51\t58\t17\t87\t10\t46\t59\t78\t21\t74\t84\t50\t40\t87\t50\t68\t55\t53\t1\t48\t30\t37\t16\t42\t10\t47\t40\t32\t40",
+   "output": "2497\n1 9 10 10 10 10 11 12 12 14 14 16 16 16 17 17 21 21 22 23 25 27 28 28 30 30 32 35 37 38 39 40 40 40 40 40 41 42 42 43 44 44 44 45 45 46 47 47 47 48 48 48 49 49 49 50 50 51 52 52 53 54 54 55 56 57 58 59 59 61 61 62 65 65 66 68 69 71 74 74 76 77 77 78 80 82 83 84 84 84 87 87 88 89 94 95 95 96 97 100 \n"
+  },
+  {
+   "input": "100\n57\t67\t48\t54\t70\t64\t47\t23\t33\t67\t21\t68\t13\t51\t96\t94\t92\t100\t12\t42\t11\t32\t51\t61\t24\t100\t26\t23\t6\t93\t34\t26\t42\t49\t39\t53\t72\t79\t42\t69\t19\t55\t63\t48\t91\t52\t99\t30\t73\t99\t48\t99\t53\t95\t58\t3\t3\t69\t56\t56\t49\t34\t1\t96\t32\t6\t16\t11\t13\t83\t31\t43\t20\t100\t33\t39\t65\t89\t17\t15\t18\t62\t12\t56\t42\t48\t61\t99\t54\t5\t97\t24\t100\t38\t58\t96\t45\t29\t36\t12",
+   "output": "2584\n1 3 3 5 6 6 11 11 12 12 12 13 13 15 16 17 18 19 20 21 23 23 24 24 26 26 29 30 31 32 32 33 33 34 34 36 38 39 39 42 42 42 42 43 45 47 48 48 48 48 49 49 51 51 52 53 53 54 54 55 56 56 56 57 58 58 61 61 62 63 64 65 67 67 68 69 69 70 72 73 79 83 89 91 92 93 94 95 96 96 96 97 99 99 99 99 100 100 100 100 \n"
+  },
+  {
+   "input": "1\n42",
+   "output": "0\n42 \n"
+  },
+  {
+   "input": "2\n2 2",
+   "output": "0\n2 2 \n"
+  }
+ ],
+ "3299": [
+  {
+   "input": "5\n1 2 3 4 5",
+   "output": "1 2 3 4 5 \n"
+  },
+  {
+   "input": "5\n5 4 3 2 1",
+   "output": "1 2 3 4 5 \n"
+  },
+  {
+   "input": "4\n1 3 2 1",
+   "output": "1 1 2 3 \n"
+  },
+  {
+   "input": "100\n49\t28\t45\t49\t61\t14\t82\t12\t44\t52\t43\t61\t9\t74\t89\t44\t47\t25\t28\t80\t23\t95\t17\t69\t49\t54\t38\t77\t10\t47\t14\t65\t21\t48\t84\t16\t40\t66\t40\t16\t84\t88\t76\t10\t22\t27\t100\t41\t71\t77\t57\t52\t83\t97\t54\t42\t30\t96\t56\t65\t95\t39\t44\t35\t59\t48\t11\t45\t62\t94\t12\t51\t58\t17\t87\t10\t46\t59\t78\t21\t74\t84\t50\t40\t87\t50\t68\t55\t53\t1\t48\t30\t37\t16\t42\t10\t47\t40\t32\t40",
+   "output": "1 9 10 10 10 10 11 12 12 14 14 16 16 16 17 17 21 21 22 23 25 27 28 28 30 30 32 35 37 38 39 40 40 40 40 40 41 42 42 43 44 44 44 45 45 46 47 47 47 48 48 48 49 49 49 50 50 51 52 52 53 54 54 55 56 57 58 59 59 61 61 62 65 65 66 68 69 71 74 74 76 77 77 78 80 82 83 84 84 84 87 87 88 89 94 95 95 96 97 100 \n"
+  },
+  {
+   "input": "100\n57\t67\t48\t54\t70\t64\t47\t23\t33\t67\t21\t68\t13\t51\t96\t94\t92\t100\t12\t42\t11\t32\t51\t61\t24\t100\t26\t23\t6\t93\t34\t26\t42\t49\t39\t53\t72\t79\t42\t69\t19\t55\t63\t48\t91\t52\t99\t30\t73\t99\t48\t99\t53\t95\t58\t3\t3\t69\t56\t56\t49\t34\t1\t96\t32\t6\t16\t11\t13\t83\t31\t43\t20\t100\t33\t39\t65\t89\t17\t15\t18\t62\t12\t56\t42\t48\t61\t99\t54\t5\t97\t24\t100\t38\t58\t96\t45\t29\t36\t12",
+   "output": "1 3 3 5 6 6 11 11 12 12 12 13 13 15 16 17 18 19 20 21 23 23 24 24 26 26 29 30 31 32 32 33 33 34 34 36 38 39 39 42 42 42 42 43 45 47 48 48 48 48 49 49 51 51 52 53 53 54 54 55 56 56 56 57 58 58 61 61 62 63 64 65 67 67 68 69 69 70 72 73 79 83 89 91 92 93 94 95 96 96 96 97 99 99 99 99 100 100 100 100 \n"
+  },
+  {
+   "input": "1\n42",
+   "output": "42 \n"
+  },
+  {
+   "input": "0",
+   "output": "\n"
+  }
+ ],
+ "3355": [
+  {
+   "input": "4 10\n-1 6",
+   "output": "YES\n"
+  },
+  {
+   "input": "4 10\n-1 3",
+   "output": "NO\n"
+  },
+  {
+   "input": "10 20\n20 50",
+   "output": "YES\n"
+  },
+  {
+   "input": "0 0\n-1 0",
+   "output": "YES\n"
+  },
+  {
+   "input": "-1 -5\n-6 9",
+   "output": "YES\n"
+  },
+  {
+   "input": "0 1\n1 10",
+   "output": "YES\n"
+  },
+  {
+   "input": "7 9\n2 3",
+   "output": "NO\n"
+  },
+  {
+   "input": "1 10\n5 7",
+   "output": "YES\n"
+  },
+  {
+   "input": "8 10\n5 7",
+   "output": "NO\n"
+  }
+ ],
+ "3356": [
+  {
+   "input": "1 10 4 1\n2 9 3 2",
+   "output": "YES\n"
+  },
+  {
+   "input": "3 7 7 3\n4 5 5 4",
+   "output": "YES\n"
+  },
+  {
+   "input": "0 5 5 0\n3 7 5 6",
+   "output": "NO\n"
+  },
+  {
+   "input": "3 3 6 0\n3 3 5 0",
+   "output": "YES\n"
+  },
+  {
+   "input": "3 3 6 0\n7 3 10 0",
+   "output": "NO\n"
+  },
+  {
+   "input": "-5 -5 -2 -10\n5 5 10 2",
+   "output": "NO\n"
+  },
+  {
+   "input": "0 0 5 -5\n1 -1 4 -4",
+   "output": "YES\n"
+  }
+ ],
+ "3357": [
+  {
+   "input": "0 0 4\n1 1 3",
+   "output": "YES\n"
+  },
+  {
+   "input": "0 0 4\n10 10 3",
+   "output": "NO\n"
+  },
+  {
+   "input": "-1 -1 5\n6 6 5",
+   "output": "YES\n"
+  },
+  {
+   "input": "-1 -1 1\n5 -1 1",
+   "output": "NO\n"
+  },
+  {
+   "input": "2 2 2\n2 2 1",
+   "output": "YES\n"
+  },
+  {
+   "input": "3 0 3\n-4 0 3",
+   "output": "NO\n"
+  },
+  {
+   "input": "1 0 1\n3 0 3",
+   "output": "YES\n"
+  }
+ ],
+ "3358": [
+  {
+   "input": "4\n1 2 3 4\n5\n2 3 4 5 6",
+   "output": "2 3 4 \n"
+  },
+  {
+   "input": "3\n2 6 9\n3 \n4 6 8",
+   "output": "6 \n"
+  },
+  {
+   "input": "5\n1 4 5 6 9\n3\n3 6 7",
+   "output": "6 \n"
+  },
+  {
+   "input": "3\n1 4 5\n3\n3 6 7",
+   "output": "\n"
+  },
+  {
+   "input": "3\n1 4 5\n3\n1 4 5",
+   "output": "1 4 5 \n"
+  },
+  {
+   "input": "5\n1 4 5 9 12\n5\n1 4 6 10 12",
+   "output": "1 4 12 \n"
+  },
+  {
+   "input": "3\n5 9 12\n5\n1 4 6 10 12",
+   "output": "12 \n"
+  }
+ ],
+ "3359": [
+  {
+   "input": "4\n1 2 3 4\n5\n2 3 4 5 6",
+   "output": "1 2 3 4 5 6 \n"
+  },
+  {
+   "input": "3\n3 2 4\n5\n9 2 1 4 6",
+   "output": "1 2 3 4 6 9 \n"
+  },
+  {
+   "input": "5\n1 2 3 5 6\n6\n-6 -4 -2 -1 2 4\n",
+   "output": "-6 -4 -2 -1 1 2 3 4 5 6 \n"
+  },
+  {
+   "input": "1\n1\n1\n1\n",
+   "output": "1 \n"
+  },
+  {
+   "input": "1\n1\n4\n3 5 6 7\n",
+   "output": "1 3 5 6 7 \n"
+  },
+  {
+   "input": "3\n9 2 1\n3\n1 2 9\n",
+   "output": "1 2 9 \n"
+  },
+  {
+   "input": "7\n28 49 23 29 02 69 34\n8\n23 49 12 93 34 21 43 54",
+   "output": "2 12 21 23 28 29 34 43 49 54 69 93 \n"
+  }
+ ],
+ "3360": [
+  {
+   "input": "4\n1 100 99 100\n2 100 98 98\n3 1 1 1\n4 91 12 12",
+   "output": "1\n2\n4\n3\n"
+  },
+  {
+   "input": "3\n13745 30 59 50\n12845 31 23 50\n12424 31 23 40\n",
+   "output": "12845\n13745\n12424\n"
+  },
+  {
+   "input": "4\n1 50 20 30\n4 30 40 10\n2 40 40 10\n3 35 29 40",
+   "output": "3\n1\n2\n4\n"
+  },
+  {
+   "input": "2\n1 50 50 50\n2 50 30 50",
+   "output": "1\n2\n"
+  },
+  {
+   "input": "4\n1 50 50 50\n2 50 30 50\n3 20 50 56 \n4 58 29 50",
+   "output": "3\n4\n1\n2\n"
+  },
+  {
+   "input": "5\n1 50 50 30\n2 20 30 50\n3 80 50 66 \n4 10 29 10\n5 10 10 10",
+   "output": "3\n2\n1\n4\n5\n"
+  }
+ ],
+ "3361": [
+  {
+   "input": "nitin\n",
+   "output": "Yes\n"
+  },
+  {
+   "input": "abcab\n\n",
+   "output": "No\n"
+  },
+  {
+   "input": "abcba\n",
+   "output": "Yes\n"
+  },
+  {
+   "input": "n\n",
+   "output": "Yes\n"
+  },
+  {
+   "input": "abaBBBBBBBBBBBBBBBBBBBA\n",
+   "output": "No\n"
+  },
+  {
+   "input": "abaBBBBBBBBBBBBBBBBBBBaba\n",
+   "output": "Yes\n"
+  },
+  {
+   "input": "nitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitin\n",
+   "output": "Yes\n"
+  },
+  {
+   "input": "nnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitin\n",
+   "output": "No\n"
+  },
+  {
+   "input": "nitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinnitinn\n",
+   "output": "No\n"
+  }
+ ],
+ "3362": [
+  {
+   "input": "10\n1 2\n1 3\n1 4\n2 3\n2 4\n5 1\n5 2\n5 3\n5 4\n6 1\n1\n",
+   "output": "2\n3\n4\n5\n6\n"
+  },
+  {
+   "input": "4\n1 2\n2 3\n3 4\n4 5\n4\n",
+   "output": "3\n5\n"
+  },
+  {
+   "input": "13\n0 4\n0 7\n0 10\n1 8\n1 9\n3 6\n3 10\n4 8\n4 10\n5 9\n6 9\n7 10\n8 10\n8\n",
+   "output": "1\n4\n10\n"
+  },
+  {
+   "input": "1\n1 1\n2",
+   "output": ""
+  },
+  {
+   "input": "325\n0 44\n0 59\n0 100\n1 71\n1 72\n1 93\n1 96\n1 100\n2 14\n2 86\n2 98\n2 99\n3 43\n3 47\n3 87\n3 99\n4 28\n4 49\n4 94\n4 99\n5 60\n5 93\n5 99\n6 74\n6 86\n6 87\n6 88\n6 92\n6 93\n6 100\n7 30\n7 85\n7 89\n7 98\n7 99\n10 20\n10 98\n10 100\n11 63\n11 81\n11 100\n12 58\n12 77\n12 87\n12 89\n12 94\n12 99\n13 60\n13 90\n13 91\n13 93\n13 95\n13 98\n13 100\n14 78\n14 80\n15 86\n15 100\n16 72\n16 90\n16 95\n17 63\n17 92\n17 93\n17 97\n17 98\n17 100\n18 80\n18 95\n18 98\n18 100\n19 68\n19 86\n19 93\n19 95\n19 98\n19 100\n20 64\n20 100\n21 42\n21 75\n21 94\n21 99\n22 91\n22 97\n22 99\n23 78\n23 97\n23 99\n24 50\n24 76\n24 83\n24 100\n25 38\n25 84\n25 88\n25 98\n25 100\n26 49\n26 88\n26 94\n26 99\n27 50\n27 98\n27 100\n28 49\n28 74\n28 99\n29 42\n29 76\n29 77\n29 90\n29 99\n30 46\n30 80\n30 89\n30 100\n31 70\n31 98\n31 99\n32 76\n32 81\n32 95\n32 99\n33 64\n33 94\n33 100\n34 57\n34 71\n34 95\n34 96\n34 98\n34 99\n35 42\n35 49\n35 72\n35 97\n35 98\n35 99\n36 43\n36 67\n36 100\n37 51\n37 91\n37 96\n37 99\n38 43\n38 48\n38 57\n38 76\n38 83\n38 88\n38 92\n38 94\n38 97\n38 100\n39 76\n39 89\n39 99\n40 76\n40 87\n40 97\n40 99\n41 51\n41 100\n42 93\n42 95\n42 99\n43 60\n43 61\n43 100\n44 81\n44 87\n44 93\n44 95\n45 66\n45 88\n45 94\n45 97\n45 98\n45 100\n46 84\n46 98\n46 99\n47 96\n47 97\n47 98\n47 100\n48 100\n49 79\n49 99\n50 78\n50 81\n50 90\n50 95\n50 99\n51 65\n51 76\n51 83\n51 84\n51 99\n52 95\n52 96\n52 97\n52 98\n52 100\n53 99\n54 91\n55 84\n55 89\n55 96\n55 97\n55 98\n55 100\n56 60\n56 91\n56 99\n57 69\n57 100\n58 88\n58 96\n58 97\n58 99\n59 89\n59 90\n59 91\n59 97\n60 61\n60 99\n61 97\n61 98\n61 100\n62 86\n62 88\n63 74\n63 91\n63 94\n63 97\n63 98\n63 100\n64 66\n64 98\n64 99\n65 88\n65 94\n65 95\n65 98\n65 100\n66 72\n66 88\n66 94\n66 98\n66 99\n67 75\n67 96\n67 100\n68 91\n68 93\n68 96\n68 100\n69 70\n69 89\n69 93\n69 97\n69 98\n69 99\n70 92\n70 98\n70 100\n72 95\n72 100\n73 92\n73 93\n73 96\n73 97\n73 100\n74 81\n74 96\n74 98\n74 100\n75 88\n75 91\n75 100\n76 92\n76 98\n76 100\n77 90\n77 99\n78 86\n78 100\n79 80\n79 85\n79 98\n79 99\n80 92\n80 97\n80 100\n81 94\n81 98\n81 99\n82 90\n82 93\n82 98\n82 100\n83 84\n83 100\n84 100\n85 97\n85 100\n86 95\n86 98\n86 99\n87 88\n87 89\n87 95\n87 100\n88 92\n88 99\n90 95\n90 98\n90 99\n91 95\n91 100\n95 99\n96 99\n91\n",
+   "output": "13\n22\n37\n54\n56\n59\n63\n68\n75\n95\n100\n"
+  },
+  {
+   "input": "325\n32000 32044\n32000 32059\n32000 32100\n32001 32071\n32001 32072\n32001 32093\n32001 32096\n32001 32100\n32002 32014\n32002 32086\n32002 32098\n32002 32099\n32003 32043\n32003 32047\n32003 32087\n32003 32099\n32004 32028\n32004 32049\n32004 32094\n32004 32099\n32005 32060\n32005 32093\n32005 32099\n32006 32074\n32006 32086\n32006 32087\n32006 32088\n32006 32092\n32006 32093\n32006 32100\n32007 32030\n32007 32085\n32007 32089\n32007 32098\n32007 32099\n32010 32020\n32010 32098\n32010 32100\n32011 32063\n32011 32081\n32011 32100\n32012 32058\n32012 32077\n32012 32087\n32012 32089\n32012 32094\n32012 32099\n32013 32060\n32013 32090\n32013 32091\n32013 32093\n32013 32095\n32013 32098\n32013 32100\n32014 32078\n32014 32080\n32015 32086\n32015 32100\n32016 32072\n32016 32090\n32016 32095\n32017 32063\n32017 32092\n32017 32093\n32017 32097\n32017 32098\n32017 32100\n32018 32080\n32018 32095\n32018 32098\n32018 32100\n32019 32068\n32019 32086\n32019 32093\n32019 32095\n32019 32098\n32019 32100\n32020 32064\n32020 32100\n32021 32042\n32021 32075\n32021 32094\n32021 32099\n32022 32091\n32022 32097\n32022 32099\n32023 32078\n32023 32097\n32023 32099\n32024 32050\n32024 32076\n32024 32083\n32024 32100\n32025 32038\n32025 32084\n32025 32088\n32025 32098\n32025 32100\n32026 32049\n32026 32088\n32026 32094\n32026 32099\n32027 32050\n32027 32098\n32027 32100\n32028 32049\n32028 32074\n32028 32099\n32029 32042\n32029 32076\n32029 32077\n32029 32090\n32029 32099\n32030 32046\n32030 32080\n32030 32089\n32030 32100\n32031 32070\n32031 32098\n32031 32099\n32032 32076\n32032 32081\n32032 32095\n32032 32099\n32033 32064\n32033 32094\n32033 32100\n32034 32057\n32034 32071\n32034 32095\n32034 32096\n32034 32098\n32034 32099\n32035 32042\n32035 32049\n32035 32072\n32035 32097\n32035 32098\n32035 32099\n32036 32043\n32036 32067\n32036 32100\n32037 32051\n32037 32091\n32037 32096\n32037 32099\n32038 32043\n32038 32048\n32038 32057\n32038 32076\n32038 32083\n32038 32088\n32038 32092\n32038 32094\n32038 32097\n32038 32100\n32039 32076\n32039 32089\n32039 32099\n32040 32076\n32040 32087\n32040 32097\n32040 32099\n32041 32051\n32041 32100\n32042 32093\n32042 32095\n32042 32099\n32043 32060\n32043 32061\n32043 32100\n32044 32081\n32044 32087\n32044 32093\n32044 32095\n32045 32066\n32045 32088\n32045 32094\n32045 32097\n32045 32098\n32045 32100\n32046 32084\n32046 32098\n32046 32099\n32047 32096\n32047 32097\n32047 32098\n32047 32100\n32048 32100\n32049 32079\n32049 32099\n32050 32078\n32050 32081\n32050 32090\n32050 32095\n32050 32099\n32051 32065\n32051 32076\n32051 32083\n32051 32084\n32051 32099\n32052 32095\n32052 32096\n32052 32097\n32052 32098\n32052 32100\n32053 32099\n32054 32091\n32055 32084\n32055 32089\n32055 32096\n32055 32097\n32055 32098\n32055 32100\n32056 32060\n32056 32091\n32056 32099\n32057 32069\n32057 32100\n32058 32088\n32058 32096\n32058 32097\n32058 32099\n32059 32089\n32059 32090\n32059 32091\n32059 32097\n32060 32061\n32060 32099\n32061 32097\n32061 32098\n32061 32100\n32062 32086\n32062 32088\n32063 32074\n32063 32091\n32063 32094\n32063 32097\n32063 32098\n32063 32100\n32064 32066\n32064 32098\n32064 32099\n32065 32088\n32065 32094\n32065 32095\n32065 32098\n32065 32100\n32066 32072\n32066 32088\n32066 32094\n32066 32098\n32066 32099\n32067 32075\n32067 32096\n32067 32100\n32068 32091\n32068 32093\n32068 32096\n32068 32100\n32069 32070\n32069 32089\n32069 32093\n32069 32097\n32069 32098\n32069 32099\n32070 32092\n32070 32098\n32070 32100\n32072 32095\n32072 32100\n32073 32092\n32073 32093\n32073 32096\n32073 32097\n32073 32100\n32074 32081\n32074 32096\n32074 32098\n32074 32100\n32075 32088\n32075 32091\n32075 32100\n32076 32092\n32076 32098\n32076 32100\n32077 32090\n32077 32099\n32078 32086\n32078 32100\n32079 32080\n32079 32085\n32079 32098\n32079 32099\n32080 32092\n32080 32097\n32080 32100\n32081 32094\n32081 32098\n32081 32099\n32082 32090\n32082 32093\n32082 32098\n32082 32100\n32083 32084\n32083 32100\n32084 32100\n32085 32097\n32085 32100\n32086 32095\n32086 32098\n32086 32099\n32087 32088\n32087 32089\n32087 32095\n32087 32100\n32088 32092\n32088 32099\n32090 32095\n32090 32098\n32090 32099\n32091 32095\n32091 32100\n32095 32099\n32096 32099\n32091\n",
+   "output": "32013\n32022\n32037\n32054\n32056\n32059\n32063\n32068\n32075\n32095\n32100\n"
+  }
+ ],
+ "2810": [
+  {
+   "input": "1 1",
+   "output": "The area of (1.0000,1.0000), (1.0000,0) and (0,1.0000) is 0.5000.\n"
+  },
+  {
+   "input": "-1 1",
+   "output": "The area of (-1.0000,1.0000), (-1.0000,0) and (0,1.0000) is 0.5000.\n"
+  },
+  {
+   "input": "-100 -9",
+   "output": "The area of (-100.0000,-9.0000), (-100.0000,0) and (0,-9.0000) is 450.0000.\n"
+  },
+  {
+   "input": "0.0001 -1000",
+   "output": "The area of (0.0001,-1000.0000), (0.0001,0) and (0,-1000.0000) is 0.0500.\n"
+  }
+ ],
+ "2811": [
+  {
+   "input": "1 0 0 1",
+   "output": "(1.000,1.000)\n"
+  },
+  {
+   "input": "1 0 1 0",
+   "output": "INF\n"
+  },
+  {
+   "input": "-1.25 0 5 4",
+   "output": "(-0.800,1.250)\n"
+  },
+  {
+   "input": "1 -2 -100 201",
+   "output": "(203.000,101.000)\n"
+  },
+  {
+   "input": "-1000 1 2000 -2",
+   "output": "INF\n"
+  },
+  {
+   "input": "0 1 0.0000001 1",
+   "output": "(-0.000,1.000)\n"
+  }
+ ],
+ "2812": [
+  {
+   "input": "-12",
+   "output": "-12.0000 is negative"
+  },
+  {
+   "input": "0",
+   "output": "input is zero"
+  },
+  {
+   "input": "1",
+   "output": "1.0000 is positive"
+  },
+  {
+   "input": "0.0000001",
+   "output": "0.0000 is positive"
+  },
+  {
+   "input": "-0.0000001",
+   "output": "-0.0000 is negative"
+  },
+  {
+   "input": "101",
+   "output": "101.0000 is positive"
+  },
+  {
+   "input": "0000000",
+   "output": "input is zero"
+  }
+ ],
+ "2813": [
+  {
+   "input": "1 0 0 1",
+   "output": "(0.000,0.000)\n"
+  },
+  {
+   "input": "1 0 1 0",
+   "output": "INF\n"
+  },
+  {
+   "input": "100 100 -1 -101",
+   "output": "(-2.010,102.010)\n"
+  },
+  {
+   "input": "1000 000 1 -1",
+   "output": "(1.000,0.000)\n"
+  },
+  {
+   "input": "-1 -2 -3 -4",
+   "output": "(3.000,-8.000)\n"
+  },
+  {
+   "input": "0 0 000 0000",
+   "output": "INF\n"
+  }
+ ],
+ "2824": [
+  {
+   "input": "1004",
+   "output": "Leap Year"
+  },
+  {
+   "input": "2009",
+   "output": "Not Leap Year"
+  },
+  {
+   "input": "2012",
+   "output": "Leap Year"
+  },
+  {
+   "input": "2115",
+   "output": "Not Leap Year"
+  },
+  {
+   "input": "1000",
+   "output": "Not Leap Year"
+  },
+  {
+   "input": "1700",
+   "output": "Not Leap Year"
+  },
+  {
+   "input": "1900",
+   "output": "Not Leap Year"
+  },
+  {
+   "input": "2000",
+   "output": "Leap Year"
+  }
+ ],
+ "2825": [
+  {
+   "input": "1.2 2.3 2.7 5.3 7.6",
+   "output": "Point is outside the Circle."
+  },
+  {
+   "input": "0.0 0.0 5.0 3.0 7.0",
+   "output": "Point is outside the Circle."
+  },
+  {
+   "input": "3.0 4.0 5.0 7.0 7.0",
+   "output": "Point is on the Circle."
+  },
+  {
+   "input": "3.0 4.0 5.0 5.6 6.2",
+   "output": "Point is inside the Circle."
+  },
+  {
+   "input": "-1.0 -2.0 5.0 1.5 2.0",
+   "output": "Point is inside the Circle."
+  },
+  {
+   "input": "0.0 0.0 5.0 3.0 4.0",
+   "output": "Point is on the Circle."
+  },
+  {
+   "input": "0.0 0.0 5.0 3.0 5.0",
+   "output": "Point is outside the Circle."
+  }
+ ],
+ "2827": [
+  {
+   "input": "1.0 0.0 2.0 0.0 3.0 0.0",
+   "output": "All the points are on same line."
+  },
+  {
+   "input": "1.0 -2.0 5.2 3.0 0.0 5.0",
+   "output": "All the points are not on same line."
+  },
+  {
+   "input": "1.0 -2.0 0.0 3.0 -6.0 5.0",
+   "output": "All the points are not on same line."
+  },
+  {
+   "input": "0.0 0.0 1.0 1.0 2.0 2.0",
+   "output": "All the points are on same line."
+  },
+  {
+   "input": "0.0 0.0 2.0 2.0 4.0 4.0",
+   "output": "All the points are on same line."
+  },
+  {
+   "input": "0.0 0.0 2.0 3.0 4.0 5.0",
+   "output": "All the points are not on same line."
+  },
+  {
+   "input": "0.0 -2.0 0.0 3.0 0.0 5.0",
+   "output": "All the points are on same line."
+  },
+  {
+   "input": "0.0 -2.0 0.0 -3.0 0.0 -4.0",
+   "output": "All the points are on same line."
+  },
+  {
+   "input": "5.0 -6.0 5.0 6.0 5.0 12.0",
+   "output": "All the points are on same line."
+  }
+ ],
+ "2828": [
+  {
+   "input": "H",
+   "output": "Capital Letter"
+  },
+  {
+   "input": "6",
+   "output": "Digit"
+  },
+  {
+   "input": "l",
+   "output": "Small Letter"
+  },
+  {
+   "input": "3",
+   "output": "Digit"
+  },
+  {
+   "input": "A",
+   "output": "Capital Letter"
+  },
+  {
+   "input": "9",
+   "output": "Digit"
+  },
+  {
+   "input": "z",
+   "output": "Small Letter"
+  }
+ ],
+ "2830": [
+  {
+   "input": "1 5 7 2",
+   "output": "The second largest number is 5"
+  },
+  {
+   "input": "8 6 4 2",
+   "output": "The second largest number is 6"
+  },
+  {
+   "input": "1 10 15 3",
+   "output": "The second largest number is 10"
+  },
+  {
+   "input": "1 3 3 2 ",
+   "output": "The second largest number is 3"
+  },
+  {
+   "input": "1 1 1 2",
+   "output": "The second largest number is 1"
+  }
+ ],
+ "2831": [
+  {
+   "input": "12345",
+   "output": "Reverse of 12345 is 54321"
+  },
+  {
+   "input": "1331",
+   "output": "Reverse of 1331 is 1331"
+  },
+  {
+   "input": "100",
+   "output": "Reverse of 100 is 1"
+  },
+  {
+   "input": "0",
+   "output": "Reverse of 0 is 0"
+  },
+  {
+   "input": "10",
+   "output": "Reverse of 10 is 1"
+  }
+ ],
+ "2832": [
+  {
+   "input": "3 4 5",
+   "output": "Right Triangle"
+  },
+  {
+   "input": "3 4 3",
+   "output": "Acute Triangle"
+  },
+  {
+   "input": "3 3 7",
+   "output": "Invalid Triangle"
+  },
+  {
+   "input": "3 3 5",
+   "output": "Obtuse Triangle"
+  },
+  {
+   "input": "1 2 3",
+   "output": "Invalid Triangle"
+  },
+  {
+   "input": "3 6 2",
+   "output": "Invalid Triangle"
+  },
+  {
+   "input": "12 13 5",
+   "output": "Right Triangle"
+  }
+ ],
+ "2833": [
+  {
+   "input": "4",
+   "output": "Number of possible triangles is 13"
+  },
+  {
+   "input": "1",
+   "output": "Number of possible triangles is 1"
+  },
+  {
+   "input": "3",
+   "output": "Number of possible triangles is 7"
+  },
+  {
+   "input": "5",
+   "output": "Number of possible triangles is 22"
+  },
+  {
+   "input": "7",
+   "output": "Number of possible triangles is 50"
+  },
+  {
+   "input": "2",
+   "output": "Number of possible triangles is 3"
+  }
+ ],
+ "2864": [
+  {
+   "input": "3 23",
+   "output": "3 5 7 11 13 17 19 23 "
+  },
+  {
+   "input": "5 31",
+   "output": "5 7 11 13 17 19 23 29 31 "
+  },
+  {
+   "input": "1  20",
+   "output": "2 3 5 7 11 13 17 19 "
+  },
+  {
+   "input": "23 57",
+   "output": "23 29 31 37 41 43 47 53 "
+  },
+  {
+   "input": "31 47",
+   "output": "31 37 41 43 47 "
+  }
+ ],
+ "2865": [
+  {
+   "input": "2",
+   "output": "2*\n*1\n"
+  },
+  {
+   "input": "4",
+   "output": "432*\n43*1\n4*21\n*321\n"
+  },
+  {
+   "input": "5",
+   "output": "5432*\n543*1\n54*21\n5*321\n*4321\n"
+  },
+  {
+   "input": "1",
+   "output": "*\n"
+  },
+  {
+   "input": "10",
+   "output": "1098765432*\n109876543*1\n10987654*21\n1098765*321\n109876*4321\n10987*54321\n1098*654321\n109*7654321\n10*87654321\n*987654321\n"
+  }
+ ],
+ "2866": [
+  {
+   "input": "89",
+   "output": "No\n"
+  },
+  {
+   "input": "42",
+   "output": "Yes\n"
+  },
+  {
+   "input": "59",
+   "output": "No\n"
+  },
+  {
+   "input": "22",
+   "output": "Yes\n"
+  },
+  {
+   "input": "109",
+   "output": "Yes\n"
+  },
+  {
+   "input": "131",
+   "output": "No\n"
+  },
+  {
+   "input": "123",
+   "output": "No\n"
+  },
+  {
+   "input": "125",
+   "output": "No\n"
+  },
+  {
+   "input": "141",
+   "output": "Yes\n"
+  }
+ ],
+ "2867": [
+  {
+   "input": "2",
+   "output": "4"
+  },
+  {
+   "input": "4",
+   "output": "20"
+  },
+  {
+   "input": "10",
+   "output": "220"
+  },
+  {
+   "input": "3",
+   "output": "10"
+  },
+  {
+   "input": "1",
+   "output": "1"
+  },
+  {
+   "input": "20",
+   "output": "1540"
+  }
+ ],
+ "2868": [
+  {
+   "input": "18",
+   "output": "3\n"
+  },
+  {
+   "input": "4",
+   "output": "0\n"
+  },
+  {
+   "input": "24",
+   "output": "4\n"
+  },
+  {
+   "input": "40",
+   "output": "5\n"
+  },
+  {
+   "input": "100",
+   "output": "8\n"
+  },
+  {
+   "input": "70",
+   "output": "7\n"
+  }
+ ],
+ "2869": [
+  {
+   "input": "5",
+   "output": "55555\n45555\n34555\n23455\n12345\n"
+  },
+  {
+   "input": "2",
+   "output": "22\n12\n"
+  },
+  {
+   "input": "3",
+   "output": "333\n233\n123\n"
+  },
+  {
+   "input": "6",
+   "output": "666666\n566666\n456666\n345666\n234566\n123456\n"
+  },
+  {
+   "input": "10",
+   "output": "10101010101010101010\n9101010101010101010\n891010101010101010\n78910101010101010\n6789101010101010\n567891010101010\n45678910101010\n3456789101010\n234567891010\n12345678910\n"
+  },
+  {
+   "input": "1",
+   "output": "1\n"
+  }
+ ],
+ "2870": [
+  {
+   "input": "14",
+   "output": "17\n"
+  },
+  {
+   "input": "24",
+   "output": "29\n"
+  },
+  {
+   "input": "1",
+   "output": "2\n"
+  },
+  {
+   "input": "68",
+   "output": "71\n"
+  },
+  {
+   "input": "99",
+   "output": "101\n"
+  },
+  {
+   "input": "150",
+   "output": "151\n"
+  },
+  {
+   "input": "200",
+   "output": "211\n"
+  }
+ ],
+ "2871": [
+  {
+   "input": "1 4 5",
+   "output": "1111\n1  1\n1  1\n1  1\n1111\n"
+  },
+  {
+   "input": "2 5 6",
+   "output": "22222\n2   2\n2   2\n2   2\n2   2\n22222\n"
+  },
+  {
+   "input": "9 6 7",
+   "output": "999999\n9    9\n9    9\n9    9\n9    9\n9    9\n999999\n"
+  },
+  {
+   "input": "3 4 5",
+   "output": "3333\n3  3\n3  3\n3  3\n3333\n"
+  },
+  {
+   "input": "2 2 2",
+   "output": "22\n22\n"
+  },
+  {
+   "input": "3 3 3",
+   "output": "333\n3 3\n333\n"
+  },
+  {
+   "input": "1 1 1",
+   "output": "1\n"
+  }
+ ],
+ "2932": [
+  {
+   "input": "4 4\n1 2 3 4",
+   "output": "10\n"
+  },
+  {
+   "input": "5 0\n55 32 56 12 83",
+   "output": "55\n"
+  },
+  {
+   "input": "20 30\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+   "output": "19457\n"
+  },
+  {
+   "input": "20 30\n1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -2",
+   "output": "-1365\n"
+  },
+  {
+   "input": "2 5\n1 1",
+   "output": "8\n"
+  },
+  {
+   "input": "10 30\n1 2 3 4 5 6 7 8 9 10",
+   "output": "55312397\n"
+  },
+  {
+   "input": "20 30\n1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1",
+   "output": "-341\n"
+  }
+ ],
+ "2933": [
+  {
+   "input": "4\n34 13 42 14\n2\n13 42",
+   "output": "YES\n"
+  },
+  {
+   "input": "6\n1 2 3 4 5 6\n3\n3 2 1",
+   "output": "NO\n"
+  },
+  {
+   "input": "4\n1 3 6 1\n2\n1 6",
+   "output": "NO\n"
+  },
+  {
+   "input": "5\n1 3 5 7 9\n2\n2 4",
+   "output": "NO\n"
+  },
+  {
+   "input": "5\n9 9 8 9 9\n2\n9 9",
+   "output": "YES\n"
+  }
+ ],
+ "2934": [
+  {
+   "input": "5\n52 91 72 65 100",
+   "output": "100 \n100 65 \n100 65 72 \n100 65 72 91 \n100 65 72 91 52 \n"
+  },
+  {
+   "input": "3\n1 22 333",
+   "output": "333 \n333 22 \n333 22 1 \n"
+  },
+  {
+   "input": "10\n2346 62 756 452 7274 288 2 81 82 1000",
+   "output": "1000 \n1000 82 \n1000 82 81 \n1000 82 81 2 \n1000 82 81 2 288 \n1000 82 81 2 288 7274 \n1000 82 81 2 288 7274 452 \n1000 82 81 2 288 7274 452 756 \n1000 82 81 2 288 7274 452 756 62 \n1000 82 81 2 288 7274 452 756 62 2346 \n"
+  },
+  {
+   "input": "6 \n-2 6 18 27 5 2",
+   "output": "2 \n2 5 \n2 5 27 \n2 5 27 18 \n2 5 27 18 6 \n2 5 27 18 6 -2 \n"
+  },
+  {
+   "input": "8 \n-182 571 -27 257 21 9199 -299 12",
+   "output": "12 \n12 -299 \n12 -299 9199 \n12 -299 9199 21 \n12 -299 9199 21 257 \n12 -299 9199 21 257 -27 \n12 -299 9199 21 257 -27 571 \n12 -299 9199 21 257 -27 571 -182 \n"
+  }
+ ],
+ "2935": [
+  {
+   "input": "2 2\n3 1 -5\n0 -2 4\n",
+   "output": "4\n0 -6 10 14 -20 "
+  },
+  {
+   "input": "5 4\n2 -4 4 3 -1 6\n1 -2 -5 2 4\n\n",
+   "output": "9\n2 -8 2 19 -27 -15 15 -20 8 24 "
+  },
+  {
+   "input": "15 15 \n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+   "output": "30\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 "
+  },
+  {
+   "input": "10 10\n100 100 -200 -300 421 535 125 -235 122 -555 99\n100 100 -200 -300 421 535 125 -235 122 -555 99\n\n",
+   "output": "20\n10000 20000 -30000 -100000 64200 311200 53600 -488600 -216359 382870 392475 104480 160299 -454920 -424767 -90160 300484 -181950 332181 -109890 9801 "
+  }
+ ],
+ "2936": [
+  {
+   "input": "4\n34 13 42 14",
+   "output": "NO\n"
+  },
+  {
+   "input": "4\n11 2 18 2",
+   "output": "YES\n"
+  },
+  {
+   "input": "8\n1 21 34 45 53 65 71 8",
+   "output": "NO\n"
+  },
+  {
+   "input": "5\n1 2 3 4 1",
+   "output": "YES\n"
+  },
+  {
+   "input": "6\n1 2 3 4 5 6",
+   "output": "NO\n"
+  }
+ ],
+ "2937": [
+  {
+   "input": "5\n1 2 5 9 16\n3\n3 5 21",
+   "output": "1\n2\n3\n5\n5\n9\n16\n21\n"
+  },
+  {
+   "input": "2\n1 2\n3\n12 31 45\n",
+   "output": "1\n2\n12\n31\n45\n"
+  },
+  {
+   "input": "5\n2 4 6 8 10\n5\n1 3 5 7 9",
+   "output": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n"
+  },
+  {
+   "input": "3\n-1 2 5\n4\n1 3 7 9",
+   "output": "-1\n1\n2\n3\n5\n7\n9\n"
+  },
+  {
+   "input": "5\n1 2 3 4 5\n2\n-1 0",
+   "output": "-1\n0\n1\n2\n3\n4\n5\n"
+  }
+ ],
+ "2938": [
+  {
+   "input": "4\n34 13 42 14\n2",
+   "output": "47\n55\n56\n"
+  },
+  {
+   "input": "4\n11 2 18 2\n2",
+   "output": "13\n20\n20\n"
+  },
+  {
+   "input": "6\n1 2 3 4 5 6\n4",
+   "output": "10\n14\n18\n"
+  },
+  {
+   "input": "8\n2 4 6 8 10 11 12 14\n6",
+   "output": "41\n51\n61\n"
+  },
+  {
+   "input": "7\n2 4 -1 -5 2 5 6\n4",
+   "output": "0\n0\n1\n8\n"
+  }
+ ],
+ "2939": [
+  {
+   "input": "5\n1 -2 3 -5 5",
+   "output": "3\n"
+  },
+  {
+   "input": "9\n1 2 -9 3 21 5 41 6 70",
+   "output": "6\n"
+  },
+  {
+   "input": "5\n-1 2 5 -7 9",
+   "output": "4\n"
+  },
+  {
+   "input": "9\n21 23 1 34 123 324 12 213 3423",
+   "output": "6\n"
+  },
+  {
+   "input": "6\n99 -12 14 56 987 34",
+   "output": "4\n"
+  },
+  {
+   "input": "5\n-1 45 98 -2 103",
+   "output": "4\n"
+  },
+  {
+   "input": "3\n1 -2 46",
+   "output": "2\n"
+  }
+ ],
+ "3075": [
+  {
+   "input": "abcdef\n2",
+   "output": "efabcd"
+  },
+  {
+   "input": "programming \n11",
+   "output": "programming"
+  },
+  {
+   "input": "hello-@programmer \n5",
+   "output": "ammerhello-@progr"
+  },
+  {
+   "input": "hellodear \n3",
+   "output": "earhellod"
+  },
+  {
+   "input": "progamming \n0",
+   "output": "progamming"
+  },
+  {
+   "input": "programming\n10",
+   "output": "rogrammingp"
+  },
+  {
+   "input": "programming \n13",
+   "output": "ngprogrammi"
+  },
+  {
+   "input": "abcde \n4",
+   "output": "bcdea"
+  },
+  {
+   "input": "abcdz \n5",
+   "output": "abcdz"
+  }
+ ],
+ "3076": [
+  {
+   "input": "abcdef",
+   "output": "defabc"
+  },
+  {
+   "input": "programming",
+   "output": "mmingaprogr"
+  },
+  {
+   "input": "hello-@programmer",
+   "output": "ogrammerrhello-@p"
+  },
+  {
+   "input": "abab",
+   "output": "abab"
+  },
+  {
+   "input": "hellodear",
+   "output": "dearohell"
+  },
+  {
+   "input": "progamming",
+   "output": "mmingproga"
+  },
+  {
+   "input": "abcdz",
+   "output": "dzcab"
+  },
+  {
+   "input": "abc",
+   "output": "cba"
+  },
+  {
+   "input": "a",
+   "output": "a"
+  }
+ ],
+ "3077": [
+  {
+   "input": "abcdef \n2 ",
+   "output": "cdefgh"
+  },
+  {
+   "input": "wxyz \n3",
+   "output": "zabc"
+  },
+  {
+   "input": "abcdz\n265",
+   "output": "fghie"
+  },
+  {
+   "input": "pou\n2605",
+   "output": "utz"
+  },
+  {
+   "input": "a\n0",
+   "output": "a"
+  },
+  {
+   "input": "abab\n25",
+   "output": "zaza"
+  },
+  {
+   "input": "thisproblemhasnoautomatedtestcases\n26",
+   "output": "thisproblemhasnoautomatedtestcases"
+  },
+  {
+   "input": "thisproblemhasnoautomatedtestcases\n27",
+   "output": "uijtqspcmfnibtopbvupnbufeuftudbtft"
+  }
+ ],
+ "3078": [
+  {
+   "input": "abcdef",
+   "output": "bdfhjl"
+  },
+  {
+   "input": "wxyz",
+   "output": "tvxz"
+  },
+  {
+   "input": "zyxw",
+   "output": "zxvt"
+  },
+  {
+   "input": "t",
+   "output": "n"
+  },
+  {
+   "input": "lly",
+   "output": "xxx"
+  },
+  {
+   "input": "qwerty",
+   "output": "htjjnx"
+  },
+  {
+   "input": "manuallyaddedtestcases",
+   "output": "zbbpbxxxbhhjhnjlnfbljl"
+  },
+  {
+   "input": "yllyl",
+   "output": "xxxxx"
+  },
+  {
+   "input": "visibility",
+   "output": "rrlrdrxrnx"
+  }
+ ],
+ "3079": [
+  {
+   "input": "abcde \nbcd ",
+   "output": "adcbe"
+  },
+  {
+   "input": "abcde \nacb ",
+   "output": "abcde"
+  },
+  {
+   "input": "abcdebcd \nbcd ",
+   "output": "adcbedcb"
+  },
+  {
+   "input": "qwerty\nt",
+   "output": "qwerty"
+  },
+  {
+   "input": "manually\nall",
+   "output": "manullay"
+  },
+  {
+   "input": "iamesrever\nesrever",
+   "output": "iamreverse"
+  },
+  {
+   "input": "youdogaredog\ndog",
+   "output": "yougodaregod"
+  },
+  {
+   "input": "ghhghghhghghhg\nhhg",
+   "output": "gghhhgghhhgghh"
+  }
+ ],
+ "3080": [
+  {
+   "input": "codingisfun\ni\n2\ntrue",
+   "output": "NO\n"
+  },
+  {
+   "input": "codingisfun\nc\n3\nfun",
+   "output": "NO\n"
+  },
+  {
+   "input": "code\no\n0\no ",
+   "output": "YES\n"
+  },
+  {
+   "input": "oo\no\n0\no ",
+   "output": "YES\n"
+  },
+  {
+   "input": "oo\no\n2\no ",
+   "output": "YES\n"
+  },
+  {
+   "input": "atestcasemanually\na\n4\nll ",
+   "output": "YES\n"
+  },
+  {
+   "input": "atestcasemanually\na\n5\nll ",
+   "output": "NO\n"
+  },
+  {
+   "input": "atestcasemanually\na\n4\natestcasemanually",
+   "output": "YES\n"
+  }
+ ],
+ "3089": [
+  {
+   "input": "abcxy \nb \nhi",
+   "output": "ahibcxy"
+  },
+  {
+   "input": "jhggd \ng \nsdfghjk",
+   "output": "jhsdfghjkggd"
+  },
+  {
+   "input": "dfghj \nj \ncvb",
+   "output": "dfghcvbj"
+  },
+  {
+   "input": "d \nd \nasdfg",
+   "output": "asdfgd"
+  },
+  {
+   "input": "Thisproblemhasnoautomatedtestcases.\n.\n----isn'tit?",
+   "output": "Thisproblemhasnoautomatedtestcases----isn'tit?."
+  },
+  {
+   "input": "qwerty \nq \nzxcvb",
+   "output": "zxcvbqwerty"
+  },
+  {
+   "input": "qwerty \na \nzxcvb",
+   "output": "qwerty"
+  },
+  {
+   "input": "Thisproblemhasnoautomatedtestcases.\n,\nzxcvb",
+   "output": "Thisproblemhasnoautomatedtestcases."
+  },
+  {
+   "input": "Thisproblemhasnoautomatedtestcases.\n.\n,,isn'tit?",
+   "output": "Thisproblemhasnoautomatedtestcases,,isn'tit?."
+  }
+ ],
+ "3090": [
+  {
+   "input": "jhggd \ng \nsdfghjk",
+   "output": "jhsdfghjkggd"
+  },
+  {
+   "input": "abcde \nbc \nre",
+   "output": "arebcde"
+  },
+  {
+   "input": "jhukfi \nkf \ntred",
+   "output": "jhutredkfi"
+  },
+  {
+   "input": "mississippi \nss \ntroll",
+   "output": "mitrollssissippi"
+  },
+  {
+   "input": "Add-automated/pre-generated-test-cases-to-this-problem.\npre\ncom",
+   "output": "Add-automated/compre-generated-test-cases-to-this-problem."
+  },
+  {
+   "input": "mississippi \npp \ntroll",
+   "output": "mississitrollppi"
+  },
+  {
+   "input": "underground\nunder\nwater",
+   "output": "waterunderground"
+  },
+  {
+   "input": "imindian \nindian \nproud",
+   "output": "improudindian"
+  },
+  {
+   "input": "Add-automated/pre-generated-test-cases-to-this-problem.\n/pre\n-human",
+   "output": "Add-automated-human/pre-generated-test-cases-to-this-problem."
+  }
+ ],
+ "3081": [
+  {
+   "input": "3 4\n0 1 1 0\n1 0 0 1\n1 0 2 3",
+   "output": "2 1 3\n"
+  },
+  {
+   "input": "5 5\n1 0 0 0 0\n0 1 0 0 0\n0 0 1 0 0\n0 0 0 1 0\n0 0 0 0 1",
+   "output": "5 1 1\n"
+  },
+  {
+   "input": "2 2\n0 2\n3 4",
+   "output": "0 -1 -1\n"
+  },
+  {
+   "input": "1 1\n0",
+   "output": "0 -1 -1\n"
+  },
+  {
+   "input": "5 5\n3 2 3 4 5\n1 2 3 4 5\n6 7 8 9 10\n11 23 5 5 5\n-1 2 3 4 5",
+   "output": "1 2 1\n"
+  },
+  {
+   "input": "5 2\n1 0\n0 1\n0 0\n1 0\n0 1",
+   "output": "2 1 1\n"
+  },
+  {
+   "input": "1 1\n1",
+   "output": "1 1 1\n"
+  },
+  {
+   "input": "10 10\n-1 -1 -1 -1 -1 -1 -1 -1 -1 -1\n-1 -1 -1 -1 -1 -1 -1 -1 -1 -1\n-1 -1 -1 -1 -1 -1 -1 -1 -1 -1\n-1 -1 -1 -1 -1 -1 -1 -1 -1 -1\n1 0 0 0 0 0 0 0 0 0\n1 0 0 0 0 0 0 0 0 0\n1 0 0 0 0 0 0 0 0 0\n1 0 0 0 0 0 0 0 0 0\n0 1 0 0 0 0 0 0 0 0\n0 0 1 0 0 0 0 0 0 0",
+   "output": "3 8 1\n"
+  }
+ ],
+ "3082": [
+  {
+   "input": "3 3\n1 1 1\n1 1 1\n1 1 1",
+   "output": "0 1 2 \n"
+  },
+  {
+   "input": "3 4\n1 2 3 4\n10 20 17 15\n-10 -19 -2 -1",
+   "output": "1 \n"
+  },
+  {
+   "input": "5 5\n0 0 0 0 0\n0 0 0 0 0\n0 0 0 0 0\n0 0 0 0 0\n0 0 0 0 0\n",
+   "output": "0 1 2 3 4 \n"
+  },
+  {
+   "input": "3 3\n-1 -2 -3\n-4 -5 -6\n-7 -8 -9",
+   "output": "0 \n"
+  },
+  {
+   "input": "3 3 \n-1 -1 -1\n-1 -1 -1\n-1 -1 -1",
+   "output": "0 1 2 \n"
+  }
+ ],
+ "3083": [
+  {
+   "input": "3 4\n0 1 1 0\n1 0 0 1\n1 0 2 3",
+   "output": "3 1 1\n"
+  },
+  {
+   "input": "5 5\n1 0 0 0 0\n0 1 0 0 0\n0 0 1 0 -1\n0 0 0 1 0\n0 0 -1 0 1",
+   "output": "5 1 1\n"
+  },
+  {
+   "input": "4 4\n1 2 3 4\n3 1 2 3\n4 2 1 4\n1 3 4 1",
+   "output": "3 2 2\n"
+  },
+  {
+   "input": "2 2\n0 1\n-1 0",
+   "output": "1 1 1\n"
+  },
+  {
+   "input": "1 1\n0",
+   "output": "1 1 1\n"
+  },
+  {
+   "input": "5 5\n3 2 3 4 5\n1 2 0 0 5\n6 0 8 0 10\n11 0 0 5 5\n-1 2 3 4 5",
+   "output": "3 2 2\n"
+  },
+  {
+   "input": "6 6\n1 2 3 4 5 6\n2 3 4 5 6 1\n3 4 5 6 1 2\n4 5 6 1 2 3\n5 6 1 2 3 4\n6 1 2 3 4 5",
+   "output": "6 1 1\n"
+  }
+ ],
+ "3084": [
+  {
+   "input": "3\n1 1\n2 3\n4 5",
+   "output": "no\n"
+  },
+  {
+   "input": "4\n1 1\n2 3\n4 6\n7 0",
+   "output": "yes\n"
+  },
+  {
+   "input": "4\n0 0\n4 5\n5 4\n3 6",
+   "output": "no\n"
+  },
+  {
+   "input": "4\n1 2\n5 4\n4 7\n0 0",
+   "output": "yes\n"
+  }
+ ],
+ "3086": [
+  {
+   "input": "5 8\n0 1 0 1 0 1 0 1\n0 0 0 0 0 0 0 0\n0 0 0 1 1 1 0 0\n0 0 0 1 1 1 0 0\n0 0 0 1 1 1 0 0",
+   "output": "3\n"
+  },
+  {
+   "input": "4 3\n1 1 1 \n1 1 1\n1 1 1\n1 1 1\n",
+   "output": "3\n"
+  },
+  {
+   "input": "3 3\n0 0 0\n0 0 0\n0 0 0",
+   "output": "0\n"
+  },
+  {
+   "input": "2 5\n0 0 0 0 0\n1 1 1 1 1",
+   "output": "1\n"
+  },
+  {
+   "input": "2 5\n0 1 0 1 0\n1 0 1 0 1",
+   "output": "1\n"
+  }
+ ],
+ "3087": [
+  {
+   "input": "3 4\n0 1 1 0\n1 0 0 1\n1 0 2 3",
+   "output": "2 1 3\n"
+  },
+  {
+   "input": "5 5\n3 2 3 4 5\n1 2 0 0 5\n6 0 8 0 10\n11 0 0 5 5\n-1 2 3 4 5",
+   "output": "3 2 2\n"
+  },
+  {
+   "input": "5 2\n1 0\n0 1\n0 0\n1 0\n0 1",
+   "output": "2 1 1\n"
+  },
+  {
+   "input": "4 4\n0 0 0 0\n0 0 0 0\n0 0 0 0\n0 0 0 0",
+   "output": "0 -1 -1\n"
+  },
+  {
+   "input": "5 5\n1 0 0 0 0\n0 1 0 0 0\n0 0 1 0 0\n0 0 0 1 0\n0 0 0 0 1",
+   "output": "5 1 1\n"
+  },
+  {
+   "input": "1 1\n1",
+   "output": "1 1 1\n"
+  },
+  {
+   "input": "10 10\n-1 -1 -1 -1 -1 -1 -1 -1 -1 -1\n-1 -1 -1 -1 -1 -1 -1 -1 -1 -1\n-1 -1 -1 -1 -1 -1 -1 -1 -1 -1\n-1 -1 -1 -1 -1 -1 -1 -1 -1 -1\n1 0 0 0 0 0 0 0 0 0\n1 0 0 0 0 0 0 0 0 0\n1 0 0 0 0 0 0 0 0 0\n1 0 0 0 0 0 0 0 0 0\n0 1 0 0 0 0 0 0 0 0\n0 0 1 0 0 0 0 0 0 0",
+   "output": "3 8 1\n"
+  },
+  {
+   "input": "4 5\n1 0 0 0 0\n0 1 0 0 0\n0 0 1 0 0\n0 0 1 1 1",
+   "output": "3 1 1\n"
+  }
+ ],
+ "3105": [
+  {
+   "input": "12\nHello World",
+   "output": "dlroW olleH\n\n"
+  },
+  {
+   "input": "14\nbaL noisruceR",
+   "output": "Recursion Lab\n\n"
+  },
+  {
+   "input": "44\nThe quick brown fox jumps over the lazy dog",
+   "output": "god yzal eht revo spmuj xof nworb kciuq ehT\n\n"
+  },
+  {
+   "input": "65\nesuoh sybstaG rof yaw edam dah taht seert eht seert dehsinav stI",
+   "output": "Its vanished trees the trees that had made way for Gatsbys house\n\n"
+  }
+ ],
+ "3106": [
+  {
+   "input": "liril",
+   "output": "Yes\n"
+  },
+  {
+   "input": "oolaleloo",
+   "output": "No\n"
+  },
+  {
+   "input": "sorewaslerelsaweros",
+   "output": "Yes\n"
+  },
+  {
+   "input": "qwertyuiiuytrpwq",
+   "output": "No\n"
+  }
+ ],
+ "3107": [
+  {
+   "input": "6 15\n4 7 1 17 13 5",
+   "output": "NO\n"
+  },
+  {
+   "input": "12 42\n1 1 2 2 3 3 4 4 5 5 6 6",
+   "output": "YES\n"
+  },
+  {
+   "input": "9 42\n10 10 10 10 10 2 1 1 2",
+   "output": "YES\n"
+  },
+  {
+   "input": "4 10 \n3 5 7 1",
+   "output": "YES\n"
+  },
+  {
+   "input": "4 2\n3 5 7 1",
+   "output": "NO\n"
+  },
+  {
+   "input": "25 83\n1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15",
+   "output": "YES\n"
+  },
+  {
+   "input": "24 522\n5 10 15 20 25 30 5 10 15 20 25 30 5 10 15 20 25 30 5 10 15 20 25 30",
+   "output": "NO\n"
+  },
+  {
+   "input": "15 186\n40 50 60 64 52 40 50 10 30 16 18888 1200 181 286 10",
+   "output": "YES\n"
+  },
+  {
+   "input": "20 5455\n200 200 200 400 500 600 700 800 900 1000 1 2 3 4 5 10 9 8 7 6",
+   "output": "NO\n"
+  }
+ ],
+ "3108": [
+  {
+   "input": "5\n7 3 8 2 6",
+   "output": "YES\n"
+  },
+  {
+   "input": "5\n7 3 8 1 6",
+   "output": "NO\n"
+  },
+  {
+   "input": "10\n1 2 3 4 5 6 7 8 9 10",
+   "output": "NO\n"
+  },
+  {
+   "input": "20\n5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 95",
+   "output": "YES\n"
+  },
+  {
+   "input": "20\n100 54 76 38 100 54 76 38 100 54 76 38 100 54 76 38 100 54 76 134",
+   "output": "YES\n"
+  },
+  {
+   "input": "19\n1 2 3 4 5 6 7 8 9 10 18 17 16 15 14 13 12 11 80",
+   "output": "NO\n"
+  },
+  {
+   "input": "19\n1 2 3 4 5 6 7 8 9 10 18 17 16 15 14 13 12 11 99",
+   "output": "YES\n"
+  }
+ ],
+ "3109": [
+  {
+   "input": "1",
+   "output": "{} \n"
+  },
+  {
+   "input": "2",
+   "output": "{}{} \n{{}} \n"
+  },
+  {
+   "input": "3",
+   "output": "{}{}{} \n{}{{}} \n{{}}{} \n{{}{}} \n{{{}}} \n"
+  },
+  {
+   "input": "4",
+   "output": "{}{}{}{} \n{}{}{{}} \n{}{{}}{} \n{}{{}{}} \n{}{{{}}} \n{{}}{}{} \n{{}}{{}} \n{{}{}}{} \n{{}{}{}} \n{{}{{}}} \n{{{}}}{} \n{{{}}{}} \n{{{}{}}} \n{{{{}}}} \n"
+  },
+  {
+   "input": "6",
+   "output": "{}{}{}{}{}{} \n{}{}{}{}{{}} \n{}{}{}{{}}{} \n{}{}{}{{}{}} \n{}{}{}{{{}}} \n{}{}{{}}{}{} \n{}{}{{}}{{}} \n{}{}{{}{}}{} \n{}{}{{}{}{}} \n{}{}{{}{{}}} \n{}{}{{{}}}{} \n{}{}{{{}}{}} \n{}{}{{{}{}}} \n{}{}{{{{}}}} \n{}{{}}{}{}{} \n{}{{}}{}{{}} \n{}{{}}{{}}{} \n{}{{}}{{}{}} \n{}{{}}{{{}}} \n{}{{}{}}{}{} \n{}{{}{}}{{}} \n{}{{}{}{}}{} \n{}{{}{}{}{}} \n{}{{}{}{{}}} \n{}{{}{{}}}{} \n{}{{}{{}}{}} \n{}{{}{{}{}}} \n{}{{}{{{}}}} \n{}{{{}}}{}{} \n{}{{{}}}{{}} \n{}{{{}}{}}{} \n{}{{{}}{}{}} \n{}{{{}}{{}}} \n{}{{{}{}}}{} \n{}{{{}{}}{}} \n{}{{{}{}{}}} \n{}{{{}{{}}}} \n{}{{{{}}}}{} \n{}{{{{}}}{}} \n{}{{{{}}{}}} \n{}{{{{}{}}}} \n{}{{{{{}}}}} \n{{}}{}{}{}{} \n{{}}{}{}{{}} \n{{}}{}{{}}{} \n{{}}{}{{}{}} \n{{}}{}{{{}}} \n{{}}{{}}{}{} \n{{}}{{}}{{}} \n{{}}{{}{}}{} \n{{}}{{}{}{}} \n{{}}{{}{{}}} \n{{}}{{{}}}{} \n{{}}{{{}}{}} \n{{}}{{{}{}}} \n{{}}{{{{}}}} \n{{}{}}{}{}{} \n{{}{}}{}{{}} \n{{}{}}{{}}{} \n{{}{}}{{}{}} \n{{}{}}{{{}}} \n{{}{}{}}{}{} \n{{}{}{}}{{}} \n{{}{}{}{}}{} \n{{}{}{}{}{}} \n{{}{}{}{{}}} \n{{}{}{{}}}{} \n{{}{}{{}}{}} \n{{}{}{{}{}}} \n{{}{}{{{}}}} \n{{}{{}}}{}{} \n{{}{{}}}{{}} \n{{}{{}}{}}{} \n{{}{{}}{}{}} \n{{}{{}}{{}}} \n{{}{{}{}}}{} \n{{}{{}{}}{}} \n{{}{{}{}{}}} \n{{}{{}{{}}}} \n{{}{{{}}}}{} \n{{}{{{}}}{}} \n{{}{{{}}{}}} \n{{}{{{}{}}}} \n{{}{{{{}}}}} \n{{{}}}{}{}{} \n{{{}}}{}{{}} \n{{{}}}{{}}{} \n{{{}}}{{}{}} \n{{{}}}{{{}}} \n{{{}}{}}{}{} \n{{{}}{}}{{}} \n{{{}}{}{}}{} \n{{{}}{}{}{}} \n{{{}}{}{{}}} \n{{{}}{{}}}{} \n{{{}}{{}}{}} \n{{{}}{{}{}}} \n{{{}}{{{}}}} \n{{{}{}}}{}{} \n{{{}{}}}{{}} \n{{{}{}}{}}{} \n{{{}{}}{}{}} \n{{{}{}}{{}}} \n{{{}{}{}}}{} \n{{{}{}{}}{}} \n{{{}{}{}{}}} \n{{{}{}{{}}}} \n{{{}{{}}}}{} \n{{{}{{}}}{}} \n{{{}{{}}{}}} \n{{{}{{}{}}}} \n{{{}{{{}}}}} \n{{{{}}}}{}{} \n{{{{}}}}{{}} \n{{{{}}}{}}{} \n{{{{}}}{}{}} \n{{{{}}}{{}}} \n{{{{}}{}}}{} \n{{{{}}{}}{}} \n{{{{}}{}{}}} \n{{{{}}{{}}}} \n{{{{}{}}}}{} \n{{{{}{}}}{}} \n{{{{}{}}{}}} \n{{{{}{}{}}}} \n{{{{}{{}}}}} \n{{{{{}}}}}{} \n{{{{{}}}}{}} \n{{{{{}}}{}}} \n{{{{{}}{}}}} \n{{{{{}{}}}}} \n{{{{{{}}}}}} \n"
+  },
+  {
+   "input": "5",
+   "output": "{}{}{}{}{} \n{}{}{}{{}} \n{}{}{{}}{} \n{}{}{{}{}} \n{}{}{{{}}} \n{}{{}}{}{} \n{}{{}}{{}} \n{}{{}{}}{} \n{}{{}{}{}} \n{}{{}{{}}} \n{}{{{}}}{} \n{}{{{}}{}} \n{}{{{}{}}} \n{}{{{{}}}} \n{{}}{}{}{} \n{{}}{}{{}} \n{{}}{{}}{} \n{{}}{{}{}} \n{{}}{{{}}} \n{{}{}}{}{} \n{{}{}}{{}} \n{{}{}{}}{} \n{{}{}{}{}} \n{{}{}{{}}} \n{{}{{}}}{} \n{{}{{}}{}} \n{{}{{}{}}} \n{{}{{{}}}} \n{{{}}}{}{} \n{{{}}}{{}} \n{{{}}{}}{} \n{{{}}{}{}} \n{{{}}{{}}} \n{{{}{}}}{} \n{{{}{}}{}} \n{{{}{}{}}} \n{{{}{{}}}} \n{{{{}}}}{} \n{{{{}}}{}} \n{{{{}}{}}} \n{{{{}{}}}} \n{{{{{}}}}} \n"
+  }
+ ],
+ "3110": [
+  {
+   "input": "a",
+   "output": "a\n"
+  },
+  {
+   "input": "pqr",
+   "output": "pqr\nprq\nqpr\nqrp\nrqp\nrpq\n"
+  },
+  {
+   "input": "aceg",
+   "output": "aceg\nacge\naecg\naegc\nagec\nagce\ncaeg\ncage\nceag\ncega\ncgea\ncgae\necag\necga\neacg\neagc\negac\negca\ngcea\ngcae\ngeca\ngeac\ngaec\ngace\n"
+  },
+  {
+   "input": "fz",
+   "output": "fz\nzf\n"
+  },
+  {
+   "input": "abcdef",
+   "output": "abcdef\nabcdfe\nabcedf\nabcefd\nabcfed\nabcfde\nabdcef\nabdcfe\nabdecf\nabdefc\nabdfec\nabdfce\nabedcf\nabedfc\nabecdf\nabecfd\nabefcd\nabefdc\nabfdec\nabfdce\nabfedc\nabfecd\nabfced\nabfcde\nacbdef\nacbdfe\nacbedf\nacbefd\nacbfed\nacbfde\nacdbef\nacdbfe\nacdebf\nacdefb\nacdfeb\nacdfbe\nacedbf\nacedfb\nacebdf\nacebfd\nacefbd\nacefdb\nacfdeb\nacfdbe\nacfedb\nacfebd\nacfbed\nacfbde\nadcbef\nadcbfe\nadcebf\nadcefb\nadcfeb\nadcfbe\nadbcef\nadbcfe\nadbecf\nadbefc\nadbfec\nadbfce\nadebcf\nadebfc\nadecbf\nadecfb\nadefcb\nadefbc\nadfbec\nadfbce\nadfebc\nadfecb\nadfceb\nadfcbe\naecdbf\naecdfb\naecbdf\naecbfd\naecfbd\naecfdb\naedcbf\naedcfb\naedbcf\naedbfc\naedfbc\naedfcb\naebdcf\naebdfc\naebcdf\naebcfd\naebfcd\naebfdc\naefdbc\naefdcb\naefbdc\naefbcd\naefcbd\naefcdb\nafcdeb\nafcdbe\nafcedb\nafcebd\nafcbed\nafcbde\nafdceb\nafdcbe\nafdecb\nafdebc\nafdbec\nafdbce\nafedcb\nafedbc\nafecdb\nafecbd\nafebcd\nafebdc\nafbdec\nafbdce\nafbedc\nafbecd\nafbced\nafbcde\nbacdef\nbacdfe\nbacedf\nbacefd\nbacfed\nbacfde\nbadcef\nbadcfe\nbadecf\nbadefc\nbadfec\nbadfce\nbaedcf\nbaedfc\nbaecdf\nbaecfd\nbaefcd\nbaefdc\nbafdec\nbafdce\nbafedc\nbafecd\nbafced\nbafcde\nbcadef\nbcadfe\nbcaedf\nbcaefd\nbcafed\nbcafde\nbcdaef\nbcdafe\nbcdeaf\nbcdefa\nbcdfea\nbcdfae\nbcedaf\nbcedfa\nbceadf\nbceafd\nbcefad\nbcefda\nbcfdea\nbcfdae\nbcfeda\nbcfead\nbcfaed\nbcfade\nbdcaef\nbdcafe\nbdceaf\nbdcefa\nbdcfea\nbdcfae\nbdacef\nbdacfe\nbdaecf\nbdaefc\nbdafec\nbdafce\nbdeacf\nbdeafc\nbdecaf\nbdecfa\nbdefca\nbdefac\nbdfaec\nbdface\nbdfeac\nbdfeca\nbdfcea\nbdfcae\nbecdaf\nbecdfa\nbecadf\nbecafd\nbecfad\nbecfda\nbedcaf\nbedcfa\nbedacf\nbedafc\nbedfac\nbedfca\nbeadcf\nbeadfc\nbeacdf\nbeacfd\nbeafcd\nbeafdc\nbefdac\nbefdca\nbefadc\nbefacd\nbefcad\nbefcda\nbfcdea\nbfcdae\nbfceda\nbfcead\nbfcaed\nbfcade\nbfdcea\nbfdcae\nbfdeca\nbfdeac\nbfdaec\nbfdace\nbfedca\nbfedac\nbfecda\nbfecad\nbfeacd\nbfeadc\nbfadec\nbfadce\nbfaedc\nbfaecd\nbfaced\nbfacde\ncbadef\ncbadfe\ncbaedf\ncbaefd\ncbafed\ncbafde\ncbdaef\ncbdafe\ncbdeaf\ncbdefa\ncbdfea\ncbdfae\ncbedaf\ncbedfa\ncbeadf\ncbeafd\ncbefad\ncbefda\ncbfdea\ncbfdae\ncbfeda\ncbfead\ncbfaed\ncbfade\ncabdef\ncabdfe\ncabedf\ncabefd\ncabfed\ncabfde\ncadbef\ncadbfe\ncadebf\ncadefb\ncadfeb\ncadfbe\ncaedbf\ncaedfb\ncaebdf\ncaebfd\ncaefbd\ncaefdb\ncafdeb\ncafdbe\ncafedb\ncafebd\ncafbed\ncafbde\ncdabef\ncdabfe\ncdaebf\ncdaefb\ncdafeb\ncdafbe\ncdbaef\ncdbafe\ncdbeaf\ncdbefa\ncdbfea\ncdbfae\ncdebaf\ncdebfa\ncdeabf\ncdeafb\ncdefab\ncdefba\ncdfbea\ncdfbae\ncdfeba\ncdfeab\ncdfaeb\ncdfabe\nceadbf\nceadfb\nceabdf\nceabfd\nceafbd\nceafdb\ncedabf\ncedafb\ncedbaf\ncedbfa\ncedfba\ncedfab\ncebdaf\ncebdfa\ncebadf\ncebafd\ncebfad\ncebfda\ncefdba\ncefdab\ncefbda\ncefbad\ncefabd\ncefadb\ncfadeb\ncfadbe\ncfaedb\ncfaebd\ncfabed\ncfabde\ncfdaeb\ncfdabe\ncfdeab\ncfdeba\ncfdbea\ncfdbae\ncfedab\ncfedba\ncfeadb\ncfeabd\ncfebad\ncfebda\ncfbdea\ncfbdae\ncfbeda\ncfbead\ncfbaed\ncfbade\ndbcaef\ndbcafe\ndbceaf\ndbcefa\ndbcfea\ndbcfae\ndbacef\ndbacfe\ndbaecf\ndbaefc\ndbafec\ndbafce\ndbeacf\ndbeafc\ndbecaf\ndbecfa\ndbefca\ndbefac\ndbfaec\ndbface\ndbfeac\ndbfeca\ndbfcea\ndbfcae\ndcbaef\ndcbafe\ndcbeaf\ndcbefa\ndcbfea\ndcbfae\ndcabef\ndcabfe\ndcaebf\ndcaefb\ndcafeb\ndcafbe\ndceabf\ndceafb\ndcebaf\ndcebfa\ndcefba\ndcefab\ndcfaeb\ndcfabe\ndcfeab\ndcfeba\ndcfbea\ndcfbae\ndacbef\ndacbfe\ndacebf\ndacefb\ndacfeb\ndacfbe\ndabcef\ndabcfe\ndabecf\ndabefc\ndabfec\ndabfce\ndaebcf\ndaebfc\ndaecbf\ndaecfb\ndaefcb\ndaefbc\ndafbec\ndafbce\ndafebc\ndafecb\ndafceb\ndafcbe\ndecabf\ndecafb\ndecbaf\ndecbfa\ndecfba\ndecfab\ndeacbf\ndeacfb\ndeabcf\ndeabfc\ndeafbc\ndeafcb\ndebacf\ndebafc\ndebcaf\ndebcfa\ndebfca\ndebfac\ndefabc\ndefacb\ndefbac\ndefbca\ndefcba\ndefcab\ndfcaeb\ndfcabe\ndfceab\ndfceba\ndfcbea\ndfcbae\ndfaceb\ndfacbe\ndfaecb\ndfaebc\ndfabec\ndfabce\ndfeacb\ndfeabc\ndfecab\ndfecba\ndfebca\ndfebac\ndfbaec\ndfbace\ndfbeac\ndfbeca\ndfbcea\ndfbcae\nebcdaf\nebcdfa\nebcadf\nebcafd\nebcfad\nebcfda\nebdcaf\nebdcfa\nebdacf\nebdafc\nebdfac\nebdfca\nebadcf\nebadfc\nebacdf\nebacfd\nebafcd\nebafdc\nebfdac\nebfdca\nebfadc\nebfacd\nebfcad\nebfcda\necbdaf\necbdfa\necbadf\necbafd\necbfad\necbfda\necdbaf\necdbfa\necdabf\necdafb\necdfab\necdfba\necadbf\necadfb\necabdf\necabfd\necafbd\necafdb\necfdab\necfdba\necfadb\necfabd\necfbad\necfbda\nedcbaf\nedcbfa\nedcabf\nedcafb\nedcfab\nedcfba\nedbcaf\nedbcfa\nedbacf\nedbafc\nedbfac\nedbfca\nedabcf\nedabfc\nedacbf\nedacfb\nedafcb\nedafbc\nedfbac\nedfbca\nedfabc\nedfacb\nedfcab\nedfcba\neacdbf\neacdfb\neacbdf\neacbfd\neacfbd\neacfdb\neadcbf\neadcfb\neadbcf\neadbfc\neadfbc\neadfcb\neabdcf\neabdfc\neabcdf\neabcfd\neabfcd\neabfdc\neafdbc\neafdcb\neafbdc\neafbcd\neafcbd\neafcdb\nefcdab\nefcdba\nefcadb\nefcabd\nefcbad\nefcbda\nefdcab\nefdcba\nefdacb\nefdabc\nefdbac\nefdbca\nefadcb\nefadbc\nefacdb\nefacbd\nefabcd\nefabdc\nefbdac\nefbdca\nefbadc\nefbacd\nefbcad\nefbcda\nfbcdea\nfbcdae\nfbceda\nfbcead\nfbcaed\nfbcade\nfbdcea\nfbdcae\nfbdeca\nfbdeac\nfbdaec\nfbdace\nfbedca\nfbedac\nfbecda\nfbecad\nfbeacd\nfbeadc\nfbadec\nfbadce\nfbaedc\nfbaecd\nfbaced\nfbacde\nfcbdea\nfcbdae\nfcbeda\nfcbead\nfcbaed\nfcbade\nfcdbea\nfcdbae\nfcdeba\nfcdeab\nfcdaeb\nfcdabe\nfcedba\nfcedab\nfcebda\nfcebad\nfceabd\nfceadb\nfcadeb\nfcadbe\nfcaedb\nfcaebd\nfcabed\nfcabde\nfdcbea\nfdcbae\nfdceba\nfdceab\nfdcaeb\nfdcabe\nfdbcea\nfdbcae\nfdbeca\nfdbeac\nfdbaec\nfdbace\nfdebca\nfdebac\nfdecba\nfdecab\nfdeacb\nfdeabc\nfdabec\nfdabce\nfdaebc\nfdaecb\nfdaceb\nfdacbe\nfecdba\nfecdab\nfecbda\nfecbad\nfecabd\nfecadb\nfedcba\nfedcab\nfedbca\nfedbac\nfedabc\nfedacb\nfebdca\nfebdac\nfebcda\nfebcad\nfebacd\nfebadc\nfeadbc\nfeadcb\nfeabdc\nfeabcd\nfeacbd\nfeacdb\nfacdeb\nfacdbe\nfacedb\nfacebd\nfacbed\nfacbde\nfadceb\nfadcbe\nfadecb\nfadebc\nfadbec\nfadbce\nfaedcb\nfaedbc\nfaecdb\nfaecbd\nfaebcd\nfaebdc\nfabdec\nfabdce\nfabedc\nfabecd\nfabced\nfabcde\n"
+  },
+  {
+   "input": "defg",
+   "output": "defg\ndegf\ndfeg\ndfge\ndgfe\ndgef\nedfg\nedgf\nefdg\nefgd\negfd\negdf\nfedg\nfegd\nfdeg\nfdge\nfgde\nfged\ngefd\ngedf\ngfed\ngfde\ngdfe\ngdef\n"
+  },
+  {
+   "input": "eqrtwy",
+   "output": "eqrtwy\neqrtyw\neqrwty\neqrwyt\neqrywt\neqrytw\neqtrwy\neqtryw\neqtwry\neqtwyr\neqtywr\neqtyrw\neqwtry\neqwtyr\neqwrty\neqwryt\neqwyrt\neqwytr\neqytwr\neqytrw\neqywtr\neqywrt\neqyrwt\neqyrtw\nerqtwy\nerqtyw\nerqwty\nerqwyt\nerqywt\nerqytw\nertqwy\nertqyw\nertwqy\nertwyq\nertywq\nertyqw\nerwtqy\nerwtyq\nerwqty\nerwqyt\nerwyqt\nerwytq\nerytwq\nerytqw\nerywtq\nerywqt\neryqwt\neryqtw\netrqwy\netrqyw\netrwqy\netrwyq\netrywq\netryqw\netqrwy\netqryw\netqwry\netqwyr\netqywr\netqyrw\netwqry\netwqyr\netwrqy\netwryq\netwyrq\netwyqr\netyqwr\netyqrw\netywqr\netywrq\netyrwq\netyrqw\newrtqy\newrtyq\newrqty\newrqyt\newryqt\newrytq\newtrqy\newtryq\newtqry\newtqyr\newtyqr\newtyrq\newqtry\newqtyr\newqrty\newqryt\newqyrt\newqytr\newytqr\newytrq\newyqtr\newyqrt\newyrqt\newyrtq\neyrtwq\neyrtqw\neyrwtq\neyrwqt\neyrqwt\neyrqtw\neytrwq\neytrqw\neytwrq\neytwqr\neytqwr\neytqrw\neywtrq\neywtqr\neywrtq\neywrqt\neywqrt\neywqtr\neyqtwr\neyqtrw\neyqwtr\neyqwrt\neyqrwt\neyqrtw\nqertwy\nqertyw\nqerwty\nqerwyt\nqerywt\nqerytw\nqetrwy\nqetryw\nqetwry\nqetwyr\nqetywr\nqetyrw\nqewtry\nqewtyr\nqewrty\nqewryt\nqewyrt\nqewytr\nqeytwr\nqeytrw\nqeywtr\nqeywrt\nqeyrwt\nqeyrtw\nqretwy\nqretyw\nqrewty\nqrewyt\nqreywt\nqreytw\nqrtewy\nqrteyw\nqrtwey\nqrtwye\nqrtywe\nqrtyew\nqrwtey\nqrwtye\nqrwety\nqrweyt\nqrwyet\nqrwyte\nqrytwe\nqrytew\nqrywte\nqrywet\nqryewt\nqryetw\nqtrewy\nqtreyw\nqtrwey\nqtrwye\nqtrywe\nqtryew\nqterwy\nqteryw\nqtewry\nqtewyr\nqteywr\nqteyrw\nqtwery\nqtweyr\nqtwrey\nqtwrye\nqtwyre\nqtwyer\nqtyewr\nqtyerw\nqtywer\nqtywre\nqtyrwe\nqtyrew\nqwrtey\nqwrtye\nqwrety\nqwreyt\nqwryet\nqwryte\nqwtrey\nqwtrye\nqwtery\nqwteyr\nqwtyer\nqwtyre\nqwetry\nqwetyr\nqwerty\nqweryt\nqweyrt\nqweytr\nqwyter\nqwytre\nqwyetr\nqwyert\nqwyret\nqwyrte\nqyrtwe\nqyrtew\nqyrwte\nqyrwet\nqyrewt\nqyretw\nqytrwe\nqytrew\nqytwre\nqytwer\nqytewr\nqyterw\nqywtre\nqywter\nqywrte\nqywret\nqywert\nqywetr\nqyetwr\nqyetrw\nqyewtr\nqyewrt\nqyerwt\nqyertw\nrqetwy\nrqetyw\nrqewty\nrqewyt\nrqeywt\nrqeytw\nrqtewy\nrqteyw\nrqtwey\nrqtwye\nrqtywe\nrqtyew\nrqwtey\nrqwtye\nrqwety\nrqweyt\nrqwyet\nrqwyte\nrqytwe\nrqytew\nrqywte\nrqywet\nrqyewt\nrqyetw\nreqtwy\nreqtyw\nreqwty\nreqwyt\nreqywt\nreqytw\nretqwy\nretqyw\nretwqy\nretwyq\nretywq\nretyqw\nrewtqy\nrewtyq\nrewqty\nrewqyt\nrewyqt\nrewytq\nreytwq\nreytqw\nreywtq\nreywqt\nreyqwt\nreyqtw\nrteqwy\nrteqyw\nrtewqy\nrtewyq\nrteywq\nrteyqw\nrtqewy\nrtqeyw\nrtqwey\nrtqwye\nrtqywe\nrtqyew\nrtwqey\nrtwqye\nrtweqy\nrtweyq\nrtwyeq\nrtwyqe\nrtyqwe\nrtyqew\nrtywqe\nrtyweq\nrtyewq\nrtyeqw\nrwetqy\nrwetyq\nrweqty\nrweqyt\nrweyqt\nrweytq\nrwteqy\nrwteyq\nrwtqey\nrwtqye\nrwtyqe\nrwtyeq\nrwqtey\nrwqtye\nrwqety\nrwqeyt\nrwqyet\nrwqyte\nrwytqe\nrwyteq\nrwyqte\nrwyqet\nrwyeqt\nrwyetq\nryetwq\nryetqw\nryewtq\nryewqt\nryeqwt\nryeqtw\nrytewq\nryteqw\nrytweq\nrytwqe\nrytqwe\nrytqew\nrywteq\nrywtqe\nrywetq\nryweqt\nrywqet\nrywqte\nryqtwe\nryqtew\nryqwte\nryqwet\nryqewt\nryqetw\ntqrewy\ntqreyw\ntqrwey\ntqrwye\ntqrywe\ntqryew\ntqerwy\ntqeryw\ntqewry\ntqewyr\ntqeywr\ntqeyrw\ntqwery\ntqweyr\ntqwrey\ntqwrye\ntqwyre\ntqwyer\ntqyewr\ntqyerw\ntqywer\ntqywre\ntqyrwe\ntqyrew\ntrqewy\ntrqeyw\ntrqwey\ntrqwye\ntrqywe\ntrqyew\ntreqwy\ntreqyw\ntrewqy\ntrewyq\ntreywq\ntreyqw\ntrweqy\ntrweyq\ntrwqey\ntrwqye\ntrwyqe\ntrwyeq\ntryewq\ntryeqw\ntryweq\ntrywqe\ntryqwe\ntryqew\nterqwy\nterqyw\nterwqy\nterwyq\nterywq\nteryqw\nteqrwy\nteqryw\nteqwry\nteqwyr\nteqywr\nteqyrw\ntewqry\ntewqyr\ntewrqy\ntewryq\ntewyrq\ntewyqr\nteyqwr\nteyqrw\nteywqr\nteywrq\nteyrwq\nteyrqw\ntwreqy\ntwreyq\ntwrqey\ntwrqye\ntwryqe\ntwryeq\ntwerqy\ntweryq\ntweqry\ntweqyr\ntweyqr\ntweyrq\ntwqery\ntwqeyr\ntwqrey\ntwqrye\ntwqyre\ntwqyer\ntwyeqr\ntwyerq\ntwyqer\ntwyqre\ntwyrqe\ntwyreq\ntyrewq\ntyreqw\ntyrweq\ntyrwqe\ntyrqwe\ntyrqew\ntyerwq\ntyerqw\ntyewrq\ntyewqr\ntyeqwr\ntyeqrw\ntywerq\ntyweqr\ntywreq\ntywrqe\ntywqre\ntywqer\ntyqewr\ntyqerw\ntyqwer\ntyqwre\ntyqrwe\ntyqrew\nwqrtey\nwqrtye\nwqrety\nwqreyt\nwqryet\nwqryte\nwqtrey\nwqtrye\nwqtery\nwqteyr\nwqtyer\nwqtyre\nwqetry\nwqetyr\nwqerty\nwqeryt\nwqeyrt\nwqeytr\nwqyter\nwqytre\nwqyetr\nwqyert\nwqyret\nwqyrte\nwrqtey\nwrqtye\nwrqety\nwrqeyt\nwrqyet\nwrqyte\nwrtqey\nwrtqye\nwrteqy\nwrteyq\nwrtyeq\nwrtyqe\nwretqy\nwretyq\nwreqty\nwreqyt\nwreyqt\nwreytq\nwryteq\nwrytqe\nwryetq\nwryeqt\nwryqet\nwryqte\nwtrqey\nwtrqye\nwtreqy\nwtreyq\nwtryeq\nwtryqe\nwtqrey\nwtqrye\nwtqery\nwtqeyr\nwtqyer\nwtqyre\nwteqry\nwteqyr\nwterqy\nwteryq\nwteyrq\nwteyqr\nwtyqer\nwtyqre\nwtyeqr\nwtyerq\nwtyreq\nwtyrqe\nwertqy\nwertyq\nwerqty\nwerqyt\nweryqt\nwerytq\nwetrqy\nwetryq\nwetqry\nwetqyr\nwetyqr\nwetyrq\nweqtry\nweqtyr\nweqrty\nweqryt\nweqyrt\nweqytr\nweytqr\nweytrq\nweyqtr\nweyqrt\nweyrqt\nweyrtq\nwyrteq\nwyrtqe\nwyretq\nwyreqt\nwyrqet\nwyrqte\nwytreq\nwytrqe\nwyterq\nwyteqr\nwytqer\nwytqre\nwyetrq\nwyetqr\nwyertq\nwyerqt\nwyeqrt\nwyeqtr\nwyqter\nwyqtre\nwyqetr\nwyqert\nwyqret\nwyqrte\nyqrtwe\nyqrtew\nyqrwte\nyqrwet\nyqrewt\nyqretw\nyqtrwe\nyqtrew\nyqtwre\nyqtwer\nyqtewr\nyqterw\nyqwtre\nyqwter\nyqwrte\nyqwret\nyqwert\nyqwetr\nyqetwr\nyqetrw\nyqewtr\nyqewrt\nyqerwt\nyqertw\nyrqtwe\nyrqtew\nyrqwte\nyrqwet\nyrqewt\nyrqetw\nyrtqwe\nyrtqew\nyrtwqe\nyrtweq\nyrtewq\nyrteqw\nyrwtqe\nyrwteq\nyrwqte\nyrwqet\nyrweqt\nyrwetq\nyretwq\nyretqw\nyrewtq\nyrewqt\nyreqwt\nyreqtw\nytrqwe\nytrqew\nytrwqe\nytrweq\nytrewq\nytreqw\nytqrwe\nytqrew\nytqwre\nytqwer\nytqewr\nytqerw\nytwqre\nytwqer\nytwrqe\nytwreq\nytwerq\nytweqr\nyteqwr\nyteqrw\nytewqr\nytewrq\nyterwq\nyterqw\nywrtqe\nywrteq\nywrqte\nywrqet\nywreqt\nywretq\nywtrqe\nywtreq\nywtqre\nywtqer\nywteqr\nywterq\nywqtre\nywqter\nywqrte\nywqret\nywqert\nywqetr\nywetqr\nywetrq\nyweqtr\nyweqrt\nywerqt\nywertq\nyertwq\nyertqw\nyerwtq\nyerwqt\nyerqwt\nyerqtw\nyetrwq\nyetrqw\nyetwrq\nyetwqr\nyetqwr\nyetqrw\nyewtrq\nyewtqr\nyewrtq\nyewrqt\nyewqrt\nyewqtr\nyeqtwr\nyeqtrw\nyeqwtr\nyeqwrt\nyeqrwt\nyeqrtw\n"
+  }
+ ],
+ "3111": [
+  {
+   "input": "3 1",
+   "output": "1 \n2 \n3 \n"
+  },
+  {
+   "input": "4 2",
+   "output": "1 2 \n1 3 \n1 4 \n2 3 \n2 4 \n3 4 \n"
+  },
+  {
+   "input": "5 3",
+   "output": "1 2 3 \n1 2 4 \n1 2 5 \n1 3 4 \n1 3 5 \n1 4 5 \n2 3 4 \n2 3 5 \n2 4 5 \n3 4 5 \n"
+  },
+  {
+   "input": "10 5",
+   "output": "1 2 3 4 5 \n1 2 3 4 6 \n1 2 3 4 7 \n1 2 3 4 8 \n1 2 3 4 9 \n1 2 3 4 10 \n1 2 3 5 6 \n1 2 3 5 7 \n1 2 3 5 8 \n1 2 3 5 9 \n1 2 3 5 10 \n1 2 3 6 7 \n1 2 3 6 8 \n1 2 3 6 9 \n1 2 3 6 10 \n1 2 3 7 8 \n1 2 3 7 9 \n1 2 3 7 10 \n1 2 3 8 9 \n1 2 3 8 10 \n1 2 3 9 10 \n1 2 4 5 6 \n1 2 4 5 7 \n1 2 4 5 8 \n1 2 4 5 9 \n1 2 4 5 10 \n1 2 4 6 7 \n1 2 4 6 8 \n1 2 4 6 9 \n1 2 4 6 10 \n1 2 4 7 8 \n1 2 4 7 9 \n1 2 4 7 10 \n1 2 4 8 9 \n1 2 4 8 10 \n1 2 4 9 10 \n1 2 5 6 7 \n1 2 5 6 8 \n1 2 5 6 9 \n1 2 5 6 10 \n1 2 5 7 8 \n1 2 5 7 9 \n1 2 5 7 10 \n1 2 5 8 9 \n1 2 5 8 10 \n1 2 5 9 10 \n1 2 6 7 8 \n1 2 6 7 9 \n1 2 6 7 10 \n1 2 6 8 9 \n1 2 6 8 10 \n1 2 6 9 10 \n1 2 7 8 9 \n1 2 7 8 10 \n1 2 7 9 10 \n1 2 8 9 10 \n1 3 4 5 6 \n1 3 4 5 7 \n1 3 4 5 8 \n1 3 4 5 9 \n1 3 4 5 10 \n1 3 4 6 7 \n1 3 4 6 8 \n1 3 4 6 9 \n1 3 4 6 10 \n1 3 4 7 8 \n1 3 4 7 9 \n1 3 4 7 10 \n1 3 4 8 9 \n1 3 4 8 10 \n1 3 4 9 10 \n1 3 5 6 7 \n1 3 5 6 8 \n1 3 5 6 9 \n1 3 5 6 10 \n1 3 5 7 8 \n1 3 5 7 9 \n1 3 5 7 10 \n1 3 5 8 9 \n1 3 5 8 10 \n1 3 5 9 10 \n1 3 6 7 8 \n1 3 6 7 9 \n1 3 6 7 10 \n1 3 6 8 9 \n1 3 6 8 10 \n1 3 6 9 10 \n1 3 7 8 9 \n1 3 7 8 10 \n1 3 7 9 10 \n1 3 8 9 10 \n1 4 5 6 7 \n1 4 5 6 8 \n1 4 5 6 9 \n1 4 5 6 10 \n1 4 5 7 8 \n1 4 5 7 9 \n1 4 5 7 10 \n1 4 5 8 9 \n1 4 5 8 10 \n1 4 5 9 10 \n1 4 6 7 8 \n1 4 6 7 9 \n1 4 6 7 10 \n1 4 6 8 9 \n1 4 6 8 10 \n1 4 6 9 10 \n1 4 7 8 9 \n1 4 7 8 10 \n1 4 7 9 10 \n1 4 8 9 10 \n1 5 6 7 8 \n1 5 6 7 9 \n1 5 6 7 10 \n1 5 6 8 9 \n1 5 6 8 10 \n1 5 6 9 10 \n1 5 7 8 9 \n1 5 7 8 10 \n1 5 7 9 10 \n1 5 8 9 10 \n1 6 7 8 9 \n1 6 7 8 10 \n1 6 7 9 10 \n1 6 8 9 10 \n1 7 8 9 10 \n2 3 4 5 6 \n2 3 4 5 7 \n2 3 4 5 8 \n2 3 4 5 9 \n2 3 4 5 10 \n2 3 4 6 7 \n2 3 4 6 8 \n2 3 4 6 9 \n2 3 4 6 10 \n2 3 4 7 8 \n2 3 4 7 9 \n2 3 4 7 10 \n2 3 4 8 9 \n2 3 4 8 10 \n2 3 4 9 10 \n2 3 5 6 7 \n2 3 5 6 8 \n2 3 5 6 9 \n2 3 5 6 10 \n2 3 5 7 8 \n2 3 5 7 9 \n2 3 5 7 10 \n2 3 5 8 9 \n2 3 5 8 10 \n2 3 5 9 10 \n2 3 6 7 8 \n2 3 6 7 9 \n2 3 6 7 10 \n2 3 6 8 9 \n2 3 6 8 10 \n2 3 6 9 10 \n2 3 7 8 9 \n2 3 7 8 10 \n2 3 7 9 10 \n2 3 8 9 10 \n2 4 5 6 7 \n2 4 5 6 8 \n2 4 5 6 9 \n2 4 5 6 10 \n2 4 5 7 8 \n2 4 5 7 9 \n2 4 5 7 10 \n2 4 5 8 9 \n2 4 5 8 10 \n2 4 5 9 10 \n2 4 6 7 8 \n2 4 6 7 9 \n2 4 6 7 10 \n2 4 6 8 9 \n2 4 6 8 10 \n2 4 6 9 10 \n2 4 7 8 9 \n2 4 7 8 10 \n2 4 7 9 10 \n2 4 8 9 10 \n2 5 6 7 8 \n2 5 6 7 9 \n2 5 6 7 10 \n2 5 6 8 9 \n2 5 6 8 10 \n2 5 6 9 10 \n2 5 7 8 9 \n2 5 7 8 10 \n2 5 7 9 10 \n2 5 8 9 10 \n2 6 7 8 9 \n2 6 7 8 10 \n2 6 7 9 10 \n2 6 8 9 10 \n2 7 8 9 10 \n3 4 5 6 7 \n3 4 5 6 8 \n3 4 5 6 9 \n3 4 5 6 10 \n3 4 5 7 8 \n3 4 5 7 9 \n3 4 5 7 10 \n3 4 5 8 9 \n3 4 5 8 10 \n3 4 5 9 10 \n3 4 6 7 8 \n3 4 6 7 9 \n3 4 6 7 10 \n3 4 6 8 9 \n3 4 6 8 10 \n3 4 6 9 10 \n3 4 7 8 9 \n3 4 7 8 10 \n3 4 7 9 10 \n3 4 8 9 10 \n3 5 6 7 8 \n3 5 6 7 9 \n3 5 6 7 10 \n3 5 6 8 9 \n3 5 6 8 10 \n3 5 6 9 10 \n3 5 7 8 9 \n3 5 7 8 10 \n3 5 7 9 10 \n3 5 8 9 10 \n3 6 7 8 9 \n3 6 7 8 10 \n3 6 7 9 10 \n3 6 8 9 10 \n3 7 8 9 10 \n4 5 6 7 8 \n4 5 6 7 9 \n4 5 6 7 10 \n4 5 6 8 9 \n4 5 6 8 10 \n4 5 6 9 10 \n4 5 7 8 9 \n4 5 7 8 10 \n4 5 7 9 10 \n4 5 8 9 10 \n4 6 7 8 9 \n4 6 7 8 10 \n4 6 7 9 10 \n4 6 8 9 10 \n4 7 8 9 10 \n5 6 7 8 9 \n5 6 7 8 10 \n5 6 7 9 10 \n5 6 8 9 10 \n5 7 8 9 10 \n6 7 8 9 10 \n"
+  },
+  {
+   "input": "7 3",
+   "output": "1 2 3 \n1 2 4 \n1 2 5 \n1 2 6 \n1 2 7 \n1 3 4 \n1 3 5 \n1 3 6 \n1 3 7 \n1 4 5 \n1 4 6 \n1 4 7 \n1 5 6 \n1 5 7 \n1 6 7 \n2 3 4 \n2 3 5 \n2 3 6 \n2 3 7 \n2 4 5 \n2 4 6 \n2 4 7 \n2 5 6 \n2 5 7 \n2 6 7 \n3 4 5 \n3 4 6 \n3 4 7 \n3 5 6 \n3 5 7 \n3 6 7 \n4 5 6 \n4 5 7 \n4 6 7 \n5 6 7 \n"
+  }
+ ],
+ "3112": [
+  {
+   "input": "3 2",
+   "output": "ab\nac\nbc\n"
+  },
+  {
+   "input": "4 3",
+   "output": "abc\nabd\nacd\nbcd\n"
+  },
+  {
+   "input": "5 3",
+   "output": "abc\nabd\nabe\nacd\nace\nade\nbcd\nbce\nbde\ncde\n"
+  },
+  {
+   "input": "10 5",
+   "output": "abcde\nabcdf\nabcdg\nabcdh\nabcdi\nabcdj\nabcef\nabceg\nabceh\nabcei\nabcej\nabcfg\nabcfh\nabcfi\nabcfj\nabcgh\nabcgi\nabcgj\nabchi\nabchj\nabcij\nabdef\nabdeg\nabdeh\nabdei\nabdej\nabdfg\nabdfh\nabdfi\nabdfj\nabdgh\nabdgi\nabdgj\nabdhi\nabdhj\nabdij\nabefg\nabefh\nabefi\nabefj\nabegh\nabegi\nabegj\nabehi\nabehj\nabeij\nabfgh\nabfgi\nabfgj\nabfhi\nabfhj\nabfij\nabghi\nabghj\nabgij\nabhij\nacdef\nacdeg\nacdeh\nacdei\nacdej\nacdfg\nacdfh\nacdfi\nacdfj\nacdgh\nacdgi\nacdgj\nacdhi\nacdhj\nacdij\nacefg\nacefh\nacefi\nacefj\nacegh\nacegi\nacegj\nacehi\nacehj\naceij\nacfgh\nacfgi\nacfgj\nacfhi\nacfhj\nacfij\nacghi\nacghj\nacgij\nachij\nadefg\nadefh\nadefi\nadefj\nadegh\nadegi\nadegj\nadehi\nadehj\nadeij\nadfgh\nadfgi\nadfgj\nadfhi\nadfhj\nadfij\nadghi\nadghj\nadgij\nadhij\naefgh\naefgi\naefgj\naefhi\naefhj\naefij\naeghi\naeghj\naegij\naehij\nafghi\nafghj\nafgij\nafhij\naghij\nbcdef\nbcdeg\nbcdeh\nbcdei\nbcdej\nbcdfg\nbcdfh\nbcdfi\nbcdfj\nbcdgh\nbcdgi\nbcdgj\nbcdhi\nbcdhj\nbcdij\nbcefg\nbcefh\nbcefi\nbcefj\nbcegh\nbcegi\nbcegj\nbcehi\nbcehj\nbceij\nbcfgh\nbcfgi\nbcfgj\nbcfhi\nbcfhj\nbcfij\nbcghi\nbcghj\nbcgij\nbchij\nbdefg\nbdefh\nbdefi\nbdefj\nbdegh\nbdegi\nbdegj\nbdehi\nbdehj\nbdeij\nbdfgh\nbdfgi\nbdfgj\nbdfhi\nbdfhj\nbdfij\nbdghi\nbdghj\nbdgij\nbdhij\nbefgh\nbefgi\nbefgj\nbefhi\nbefhj\nbefij\nbeghi\nbeghj\nbegij\nbehij\nbfghi\nbfghj\nbfgij\nbfhij\nbghij\ncdefg\ncdefh\ncdefi\ncdefj\ncdegh\ncdegi\ncdegj\ncdehi\ncdehj\ncdeij\ncdfgh\ncdfgi\ncdfgj\ncdfhi\ncdfhj\ncdfij\ncdghi\ncdghj\ncdgij\ncdhij\ncefgh\ncefgi\ncefgj\ncefhi\ncefhj\ncefij\nceghi\nceghj\ncegij\ncehij\ncfghi\ncfghj\ncfgij\ncfhij\ncghij\ndefgh\ndefgi\ndefgj\ndefhi\ndefhj\ndefij\ndeghi\ndeghj\ndegij\ndehij\ndfghi\ndfghj\ndfgij\ndfhij\ndghij\nefghi\nefghj\nefgij\nefhij\neghij\nfghij\n"
+  },
+  {
+   "input": "12 7",
+   "output": "abcdefg\nabcdefh\nabcdefi\nabcdefj\nabcdefk\nabcdefl\nabcdegh\nabcdegi\nabcdegj\nabcdegk\nabcdegl\nabcdehi\nabcdehj\nabcdehk\nabcdehl\nabcdeij\nabcdeik\nabcdeil\nabcdejk\nabcdejl\nabcdekl\nabcdfgh\nabcdfgi\nabcdfgj\nabcdfgk\nabcdfgl\nabcdfhi\nabcdfhj\nabcdfhk\nabcdfhl\nabcdfij\nabcdfik\nabcdfil\nabcdfjk\nabcdfjl\nabcdfkl\nabcdghi\nabcdghj\nabcdghk\nabcdghl\nabcdgij\nabcdgik\nabcdgil\nabcdgjk\nabcdgjl\nabcdgkl\nabcdhij\nabcdhik\nabcdhil\nabcdhjk\nabcdhjl\nabcdhkl\nabcdijk\nabcdijl\nabcdikl\nabcdjkl\nabcefgh\nabcefgi\nabcefgj\nabcefgk\nabcefgl\nabcefhi\nabcefhj\nabcefhk\nabcefhl\nabcefij\nabcefik\nabcefil\nabcefjk\nabcefjl\nabcefkl\nabceghi\nabceghj\nabceghk\nabceghl\nabcegij\nabcegik\nabcegil\nabcegjk\nabcegjl\nabcegkl\nabcehij\nabcehik\nabcehil\nabcehjk\nabcehjl\nabcehkl\nabceijk\nabceijl\nabceikl\nabcejkl\nabcfghi\nabcfghj\nabcfghk\nabcfghl\nabcfgij\nabcfgik\nabcfgil\nabcfgjk\nabcfgjl\nabcfgkl\nabcfhij\nabcfhik\nabcfhil\nabcfhjk\nabcfhjl\nabcfhkl\nabcfijk\nabcfijl\nabcfikl\nabcfjkl\nabcghij\nabcghik\nabcghil\nabcghjk\nabcghjl\nabcghkl\nabcgijk\nabcgijl\nabcgikl\nabcgjkl\nabchijk\nabchijl\nabchikl\nabchjkl\nabcijkl\nabdefgh\nabdefgi\nabdefgj\nabdefgk\nabdefgl\nabdefhi\nabdefhj\nabdefhk\nabdefhl\nabdefij\nabdefik\nabdefil\nabdefjk\nabdefjl\nabdefkl\nabdeghi\nabdeghj\nabdeghk\nabdeghl\nabdegij\nabdegik\nabdegil\nabdegjk\nabdegjl\nabdegkl\nabdehij\nabdehik\nabdehil\nabdehjk\nabdehjl\nabdehkl\nabdeijk\nabdeijl\nabdeikl\nabdejkl\nabdfghi\nabdfghj\nabdfghk\nabdfghl\nabdfgij\nabdfgik\nabdfgil\nabdfgjk\nabdfgjl\nabdfgkl\nabdfhij\nabdfhik\nabdfhil\nabdfhjk\nabdfhjl\nabdfhkl\nabdfijk\nabdfijl\nabdfikl\nabdfjkl\nabdghij\nabdghik\nabdghil\nabdghjk\nabdghjl\nabdghkl\nabdgijk\nabdgijl\nabdgikl\nabdgjkl\nabdhijk\nabdhijl\nabdhikl\nabdhjkl\nabdijkl\nabefghi\nabefghj\nabefghk\nabefghl\nabefgij\nabefgik\nabefgil\nabefgjk\nabefgjl\nabefgkl\nabefhij\nabefhik\nabefhil\nabefhjk\nabefhjl\nabefhkl\nabefijk\nabefijl\nabefikl\nabefjkl\nabeghij\nabeghik\nabeghil\nabeghjk\nabeghjl\nabeghkl\nabegijk\nabegijl\nabegikl\nabegjkl\nabehijk\nabehijl\nabehikl\nabehjkl\nabeijkl\nabfghij\nabfghik\nabfghil\nabfghjk\nabfghjl\nabfghkl\nabfgijk\nabfgijl\nabfgikl\nabfgjkl\nabfhijk\nabfhijl\nabfhikl\nabfhjkl\nabfijkl\nabghijk\nabghijl\nabghikl\nabghjkl\nabgijkl\nabhijkl\nacdefgh\nacdefgi\nacdefgj\nacdefgk\nacdefgl\nacdefhi\nacdefhj\nacdefhk\nacdefhl\nacdefij\nacdefik\nacdefil\nacdefjk\nacdefjl\nacdefkl\nacdeghi\nacdeghj\nacdeghk\nacdeghl\nacdegij\nacdegik\nacdegil\nacdegjk\nacdegjl\nacdegkl\nacdehij\nacdehik\nacdehil\nacdehjk\nacdehjl\nacdehkl\nacdeijk\nacdeijl\nacdeikl\nacdejkl\nacdfghi\nacdfghj\nacdfghk\nacdfghl\nacdfgij\nacdfgik\nacdfgil\nacdfgjk\nacdfgjl\nacdfgkl\nacdfhij\nacdfhik\nacdfhil\nacdfhjk\nacdfhjl\nacdfhkl\nacdfijk\nacdfijl\nacdfikl\nacdfjkl\nacdghij\nacdghik\nacdghil\nacdghjk\nacdghjl\nacdghkl\nacdgijk\nacdgijl\nacdgikl\nacdgjkl\nacdhijk\nacdhijl\nacdhikl\nacdhjkl\nacdijkl\nacefghi\nacefghj\nacefghk\nacefghl\nacefgij\nacefgik\nacefgil\nacefgjk\nacefgjl\nacefgkl\nacefhij\nacefhik\nacefhil\nacefhjk\nacefhjl\nacefhkl\nacefijk\nacefijl\nacefikl\nacefjkl\naceghij\naceghik\naceghil\naceghjk\naceghjl\naceghkl\nacegijk\nacegijl\nacegikl\nacegjkl\nacehijk\nacehijl\nacehikl\nacehjkl\naceijkl\nacfghij\nacfghik\nacfghil\nacfghjk\nacfghjl\nacfghkl\nacfgijk\nacfgijl\nacfgikl\nacfgjkl\nacfhijk\nacfhijl\nacfhikl\nacfhjkl\nacfijkl\nacghijk\nacghijl\nacghikl\nacghjkl\nacgijkl\nachijkl\nadefghi\nadefghj\nadefghk\nadefghl\nadefgij\nadefgik\nadefgil\nadefgjk\nadefgjl\nadefgkl\nadefhij\nadefhik\nadefhil\nadefhjk\nadefhjl\nadefhkl\nadefijk\nadefijl\nadefikl\nadefjkl\nadeghij\nadeghik\nadeghil\nadeghjk\nadeghjl\nadeghkl\nadegijk\nadegijl\nadegikl\nadegjkl\nadehijk\nadehijl\nadehikl\nadehjkl\nadeijkl\nadfghij\nadfghik\nadfghil\nadfghjk\nadfghjl\nadfghkl\nadfgijk\nadfgijl\nadfgikl\nadfgjkl\nadfhijk\nadfhijl\nadfhikl\nadfhjkl\nadfijkl\nadghijk\nadghijl\nadghikl\nadghjkl\nadgijkl\nadhijkl\naefghij\naefghik\naefghil\naefghjk\naefghjl\naefghkl\naefgijk\naefgijl\naefgikl\naefgjkl\naefhijk\naefhijl\naefhikl\naefhjkl\naefijkl\naeghijk\naeghijl\naeghikl\naeghjkl\naegijkl\naehijkl\nafghijk\nafghijl\nafghikl\nafghjkl\nafgijkl\nafhijkl\naghijkl\nbcdefgh\nbcdefgi\nbcdefgj\nbcdefgk\nbcdefgl\nbcdefhi\nbcdefhj\nbcdefhk\nbcdefhl\nbcdefij\nbcdefik\nbcdefil\nbcdefjk\nbcdefjl\nbcdefkl\nbcdeghi\nbcdeghj\nbcdeghk\nbcdeghl\nbcdegij\nbcdegik\nbcdegil\nbcdegjk\nbcdegjl\nbcdegkl\nbcdehij\nbcdehik\nbcdehil\nbcdehjk\nbcdehjl\nbcdehkl\nbcdeijk\nbcdeijl\nbcdeikl\nbcdejkl\nbcdfghi\nbcdfghj\nbcdfghk\nbcdfghl\nbcdfgij\nbcdfgik\nbcdfgil\nbcdfgjk\nbcdfgjl\nbcdfgkl\nbcdfhij\nbcdfhik\nbcdfhil\nbcdfhjk\nbcdfhjl\nbcdfhkl\nbcdfijk\nbcdfijl\nbcdfikl\nbcdfjkl\nbcdghij\nbcdghik\nbcdghil\nbcdghjk\nbcdghjl\nbcdghkl\nbcdgijk\nbcdgijl\nbcdgikl\nbcdgjkl\nbcdhijk\nbcdhijl\nbcdhikl\nbcdhjkl\nbcdijkl\nbcefghi\nbcefghj\nbcefghk\nbcefghl\nbcefgij\nbcefgik\nbcefgil\nbcefgjk\nbcefgjl\nbcefgkl\nbcefhij\nbcefhik\nbcefhil\nbcefhjk\nbcefhjl\nbcefhkl\nbcefijk\nbcefijl\nbcefikl\nbcefjkl\nbceghij\nbceghik\nbceghil\nbceghjk\nbceghjl\nbceghkl\nbcegijk\nbcegijl\nbcegikl\nbcegjkl\nbcehijk\nbcehijl\nbcehikl\nbcehjkl\nbceijkl\nbcfghij\nbcfghik\nbcfghil\nbcfghjk\nbcfghjl\nbcfghkl\nbcfgijk\nbcfgijl\nbcfgikl\nbcfgjkl\nbcfhijk\nbcfhijl\nbcfhikl\nbcfhjkl\nbcfijkl\nbcghijk\nbcghijl\nbcghikl\nbcghjkl\nbcgijkl\nbchijkl\nbdefghi\nbdefghj\nbdefghk\nbdefghl\nbdefgij\nbdefgik\nbdefgil\nbdefgjk\nbdefgjl\nbdefgkl\nbdefhij\nbdefhik\nbdefhil\nbdefhjk\nbdefhjl\nbdefhkl\nbdefijk\nbdefijl\nbdefikl\nbdefjkl\nbdeghij\nbdeghik\nbdeghil\nbdeghjk\nbdeghjl\nbdeghkl\nbdegijk\nbdegijl\nbdegikl\nbdegjkl\nbdehijk\nbdehijl\nbdehikl\nbdehjkl\nbdeijkl\nbdfghij\nbdfghik\nbdfghil\nbdfghjk\nbdfghjl\nbdfghkl\nbdfgijk\nbdfgijl\nbdfgikl\nbdfgjkl\nbdfhijk\nbdfhijl\nbdfhikl\nbdfhjkl\nbdfijkl\nbdghijk\nbdghijl\nbdghikl\nbdghjkl\nbdgijkl\nbdhijkl\nbefghij\nbefghik\nbefghil\nbefghjk\nbefghjl\nbefghkl\nbefgijk\nbefgijl\nbefgikl\nbefgjkl\nbefhijk\nbefhijl\nbefhikl\nbefhjkl\nbefijkl\nbeghijk\nbeghijl\nbeghikl\nbeghjkl\nbegijkl\nbehijkl\nbfghijk\nbfghijl\nbfghikl\nbfghjkl\nbfgijkl\nbfhijkl\nbghijkl\ncdefghi\ncdefghj\ncdefghk\ncdefghl\ncdefgij\ncdefgik\ncdefgil\ncdefgjk\ncdefgjl\ncdefgkl\ncdefhij\ncdefhik\ncdefhil\ncdefhjk\ncdefhjl\ncdefhkl\ncdefijk\ncdefijl\ncdefikl\ncdefjkl\ncdeghij\ncdeghik\ncdeghil\ncdeghjk\ncdeghjl\ncdeghkl\ncdegijk\ncdegijl\ncdegikl\ncdegjkl\ncdehijk\ncdehijl\ncdehikl\ncdehjkl\ncdeijkl\ncdfghij\ncdfghik\ncdfghil\ncdfghjk\ncdfghjl\ncdfghkl\ncdfgijk\ncdfgijl\ncdfgikl\ncdfgjkl\ncdfhijk\ncdfhijl\ncdfhikl\ncdfhjkl\ncdfijkl\ncdghijk\ncdghijl\ncdghikl\ncdghjkl\ncdgijkl\ncdhijkl\ncefghij\ncefghik\ncefghil\ncefghjk\ncefghjl\ncefghkl\ncefgijk\ncefgijl\ncefgikl\ncefgjkl\ncefhijk\ncefhijl\ncefhikl\ncefhjkl\ncefijkl\nceghijk\nceghijl\nceghikl\nceghjkl\ncegijkl\ncehijkl\ncfghijk\ncfghijl\ncfghikl\ncfghjkl\ncfgijkl\ncfhijkl\ncghijkl\ndefghij\ndefghik\ndefghil\ndefghjk\ndefghjl\ndefghkl\ndefgijk\ndefgijl\ndefgikl\ndefgjkl\ndefhijk\ndefhijl\ndefhikl\ndefhjkl\ndefijkl\ndeghijk\ndeghijl\ndeghikl\ndeghjkl\ndegijkl\ndehijkl\ndfghijk\ndfghijl\ndfghikl\ndfghjkl\ndfgijkl\ndfhijkl\ndghijkl\nefghijk\nefghijl\nefghikl\nefghjkl\nefgijkl\nefhijkl\neghijkl\nfghijkl\n"
+  }
+ ]
+}

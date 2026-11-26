@@ -1,0 +1,86 @@
+{
+ "blackbox": [
+  {
+   "id": "1",
+   "input": "1234567890\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is \\-)(?!.*Check[ ]?sum is [^\\-])"
+  },
+  {
+   "id": "2",
+   "input": "abcefghi\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is I)(?!.*Check[ ]?sum is [^I])"
+  },
+  {
+   "id": "3",
+   "input": ")(*&^%$#\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is K)(?!.*Check[ ]?sum is [^K])"
+  },
+  {
+   "id": "4",
+   "input": "abc 123 %^&\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is E)(?!.*Check[ ]?sum is [^E])"
+  },
+  {
+   "id": "5",
+   "input": "~+{\"s1213skane\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is 2)(?!.*Check[ ]?sum is [^2])"
+  },
+  {
+   "id": "6",
+   "input": "ASDF_1234\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is ')(?!.*Check[ ]?sum is [^'])"
+  }
+ ],
+ "whitebox": [
+  {
+   "id": "1",
+   "input": "hello world!\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is \\])(?!.*Check[ ]?sum is [^\\]])"
+  },
+  {
+   "id": "2",
+   "input": "qwertyuiopasdfghjkl\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is 7)(?!.*Check[ ]?sum is [^7])"
+  },
+  {
+   "id": "3",
+   "input": "A*\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is K)(?!.*Check[ ]?sum is [^K])"
+  },
+  {
+   "id": "4",
+   "input": "O Brother Where Art Thou?\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is F)(?!.*Check[ ]?sum is [^F])"
+  },
+  {
+   "id": "5",
+   "input": "~!@#$%^&*()_+\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is 4)(?!.*Check[ ]?sum is [^4])"
+  },
+  {
+   "id": "6",
+   "input": "100 Degrees and sunny\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is @)(?!.*Check[ ]?sum is [^@])"
+  },
+  {
+   "id": "7",
+   "input": "?? water the plants !!\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is V)(?!.*Check[ ]?sum is [^V])"
+  },
+  {
+   "id": "8",
+   "input": "12894.389239\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is X)(?!.*Check[ ]?sum is [^X])"
+  },
+  {
+   "id": "9",
+   "input": "! word 12 :)\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is \\#)(?!.*Check[ ]?sum is [^#])"
+  },
+  {
+   "id": "10",
+   "input": "We the people...\n",
+   "output_regex": "(?is)\\A(?=.*Check[ ]?sum[ ]+is[ ]+[\\s\\S])(?=.*Check[ ]?sum is ,)(?!.*Check[ ]?sum is [^,])"
+  }
+ ]
+}

@@ -1,0 +1,2767 @@
+{
+ "digits_0a1fbf8771b75a80": {
+  "program": "digits",
+  "copies": [
+   "digits_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_000"
+  ],
+  "exit": 1,
+  "seconds": 2.9,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_13d2fbd4d0c1fe8f": {
+  "program": "digits",
+  "copies": [
+   "digits_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_002",
+   "digits_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_003"
+  ],
+  "exit": 1,
+  "seconds": 14.8,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_19efad29560da592": {
+  "program": "digits",
+  "copies": [
+   "digits_295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_003"
+  ],
+  "exit": 1,
+  "seconds": 4.6,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_1a94ec6a94038a5c": {
+  "program": "digits",
+  "copies": [
+   "digits_d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7_005"
+  ],
+  "exit": 0,
+  "seconds": 7.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -30,3 +30,3 @@\n                 digit = n % 10;\n-                printf(\"\\n%d\", digit);\n+                printf(\"\\n%d\", n);\n                 n= (n)/10.0;\n",
+  "heldout": "10/10",
+  "heldout_all": true
+ },
+ "digits_1c297544001b7661": {
+  "program": "digits",
+  "copies": [
+   "digits_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_003",
+   "digits_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_004"
+  ],
+  "exit": 0,
+  "seconds": 3.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -17,3 +17,3 @@\n \tdigit=n%10; //\n-\tprintf(\"\\n%d\",digit);\n+\tprintf(\"\\n%d\",n);\n \tn=(n-digit)/10;\n",
+  "heldout": "9/10",
+  "heldout_all": false
+ },
+ "digits_1ce0736fb9a52d5e": {
+  "program": "digits",
+  "copies": [
+   "digits_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_000",
+   "digits_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_001"
+  ],
+  "exit": 1,
+  "seconds": 1.0,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_1fdbf31a9fafb297": {
+  "program": "digits",
+  "copies": [
+   "digits_295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_000",
+   "digits_295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_001"
+  ],
+  "exit": 1,
+  "seconds": 11.8,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_236b0fbace21851f": {
+  "program": "digits",
+  "copies": [
+   "digits_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_000",
+   "digits_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_001"
+  ],
+  "exit": 0,
+  "seconds": 2.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -22,3 +22,3 @@\n \t}\n-\twhile ((input%10) >= 1) {\n+\twhile ((input*10) >= 1) {\n \t\tdisplay=input%10;\n",
+  "heldout": "9/10",
+  "heldout_all": false
+ },
+ "digits_28cc4dc46fc8e2a7": {
+  "program": "digits",
+  "copies": [
+   "digits_3214e9b00d4375825f24621cd10fc694ef14afa5a94ce0db9dac20877a21ea2d4b3594007d52464e0cea55e5ed3bb188712a67d8d002c1f28917057057120605_000"
+  ],
+  "exit": 0,
+  "seconds": 2.3,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -18,3 +18,3 @@\n \t\tremainder = userint % 10;\t//**/\n-\t\tprintf(\"%d\\n\", remainder);\n+\t\tprintf(\"%d\\n\", userint);\n \t\tuserint = (userint - remainder)/10; //**/\n",
+  "heldout": "9/10",
+  "heldout_all": false
+ },
+ "digits_2bcec0c97cdf3bd3": {
+  "program": "digits",
+  "copies": [
+   "digits_65e02c1a7db366f566151b090498b01baa8231549ff586b6c37cba7c8951f271f45aca0808dbfe94f7f522878f43ff552458aec08affbb85a4524c37cafa3918_004"
+  ],
+  "exit": 1,
+  "seconds": 24.8,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_36f3db2ffc57af46": {
+  "program": "digits",
+  "copies": [
+   "digits_d8b262849e28496f80a8acf7de9758cf3f3a4edf023343521e2e0ac50ec485212a473405570d6c58de6756ae098600d9c7138390faa1aaf6bf3609a8d4016448_000"
+  ],
+  "exit": 1,
+  "seconds": 2.6,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_44e5729048f329e1": {
+  "program": "digits",
+  "copies": [
+   "digits_88394fc00b7053b386e97564e28ef68421ae09c0baeaf887bba7e254f452419783ed8f774bff3c0c7d23bdc8f6c1443fb47c7af97323d4d3d63cc088d3b6841a_000",
+   "digits_88394fc00b7053b386e97564e28ef68421ae09c0baeaf887bba7e254f452419783ed8f774bff3c0c7d23bdc8f6c1443fb47c7af97323d4d3d63cc088d3b6841a_001",
+   "digits_88394fc00b7053b386e97564e28ef68421ae09c0baeaf887bba7e254f452419783ed8f774bff3c0c7d23bdc8f6c1443fb47c7af97323d4d3d63cc088d3b6841a_002",
+   "digits_88394fc00b7053b386e97564e28ef68421ae09c0baeaf887bba7e254f452419783ed8f774bff3c0c7d23bdc8f6c1443fb47c7af97323d4d3d63cc088d3b6841a_003"
+  ],
+  "exit": 1,
+  "seconds": 7.4,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_55e9c62469038143": {
+  "program": "digits",
+  "copies": [
+   "digits_1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac_003"
+  ],
+  "exit": 1,
+  "seconds": 29.1,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_56abcdab586e2e59": {
+  "program": "digits",
+  "copies": [
+   "digits_65e02c1a7db366f566151b090498b01baa8231549ff586b6c37cba7c8951f271f45aca0808dbfe94f7f522878f43ff552458aec08affbb85a4524c37cafa3918_008"
+  ],
+  "exit": 0,
+  "seconds": 98.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -79,3 +79,3 @@\n     }\n-    else if (!num < 10000000000)\n+    else if (!num > 10000000000)\n     printf(\"\\n7\\n4\\n6\\n3\\n8\\n4\\n7\\n4\\n1\\n2\\n\");\n",
+  "heldout": "9/10",
+  "heldout_all": false
+ },
+ "digits_639ca465ee76d240": {
+  "program": "digits",
+  "copies": [
+   "digits_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_003"
+  ],
+  "exit": 0,
+  "seconds": 2.5,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -20,3 +20,3 @@\n \n-printf(\"%d\\n\", mod);\n+printf(\"%d\\n\", integer);\n \n",
+  "heldout": "9/10",
+  "heldout_all": false
+ },
+ "digits_661a25001ff21df5": {
+  "program": "digits",
+  "copies": [
+   "digits_0cdfa335eea3c612e6fa3ad261276b0c3ebbc6ff0ff13c20bdc249bad29a8037ca6dc887dd28558964e1e1a24f47c4cffc05adba525285dc8b93660cdf9b8b7c_005"
+  ],
+  "exit": 0,
+  "seconds": 7.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -4,2 +4,3 @@\n #include <math.h>\n+#include <stdlib.h>\n \n@@ -16,3 +17,3 @@\n   i = log10(temp);\n-  i = ceil(i);\n+  i = floor(i);\n \n",
+  "heldout": "9/10",
+  "heldout_all": false
+ },
+ "digits_6bd638f093892bac": {
+  "program": "digits",
+  "copies": [
+   "digits_ca5057661022789c0b40bc1574ab8b0826b3d22f70de1a10b2d2122137774c6aec73fe789a94b2362628481da623120033956bd376b41b825a72dbd8b50aff2f_000",
+   "digits_ca5057661022789c0b40bc1574ab8b0826b3d22f70de1a10b2d2122137774c6aec73fe789a94b2362628481da623120033956bd376b41b825a72dbd8b50aff2f_001",
+   "digits_ca5057661022789c0b40bc1574ab8b0826b3d22f70de1a10b2d2122137774c6aec73fe789a94b2362628481da623120033956bd376b41b825a72dbd8b50aff2f_002",
+   "digits_ca5057661022789c0b40bc1574ab8b0826b3d22f70de1a10b2d2122137774c6aec73fe789a94b2362628481da623120033956bd376b41b825a72dbd8b50aff2f_003"
+  ],
+  "exit": 0,
+  "seconds": 21.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n \n-    if(in<0)\n+    if(in==0)\n     {\n@@ -19,3 +19,3 @@\n     {\n-      printf(\"%d\\n\", in % 10);\n+      printf(\"%d\\n\", in + 10);\n       in = in / 10;\n",
+  "heldout": "10/10",
+  "heldout_all": true
+ },
+ "digits_6e0b3503f25a5019": {
+  "program": "digits",
+  "copies": [
+   "digits_88394fc00b7053b386e97564e28ef68421ae09c0baeaf887bba7e254f452419783ed8f774bff3c0c7d23bdc8f6c1443fb47c7af97323d4d3d63cc088d3b6841a_004"
+  ],
+  "exit": 1,
+  "seconds": 5.2,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_71bc7b7743c209a9": {
+  "program": "digits",
+  "copies": [
+   "digits_1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac_000",
+   "digits_1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac_001",
+   "digits_1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac_002"
+  ],
+  "exit": 1,
+  "seconds": 30.7,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_745f9640fe08dc49": {
+  "program": "digits",
+  "copies": [
+   "digits_08c7ea4ac39aa6a5ab206393bb4412de9d2c365ecdda9c1b391be963c1811014ed23d2722d7433b8e8a95305eee314d39da4950f31e01f9147f90af91a5c433a_000"
+  ],
+  "exit": 1,
+  "seconds": 63.9,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_7a2e08425b7f3454": {
+  "program": "digits",
+  "copies": [
+   "digits_1391c9b132764431738ca64d39293c8f76de61bab8169ea5e4daf9d14441ee02bf9cf5e448136f7f58d730052ff1c3803688d9e65680d8b757ee1ffdabd4b01f_001",
+   "digits_1391c9b132764431738ca64d39293c8f76de61bab8169ea5e4daf9d14441ee02bf9cf5e448136f7f58d730052ff1c3803688d9e65680d8b757ee1ffdabd4b01f_002"
+  ],
+  "exit": 0,
+  "seconds": 6.2,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -29,3 +29,3 @@\n \n-if (X<0){printf(\"%d\\n\", (X*-1));}\n+if (NewNum<0){printf(\"%d\\n\", (X*-1));}\n \n",
+  "heldout": "10/10",
+  "heldout_all": true
+ },
+ "digits_7f0abf91264644f7": {
+  "program": "digits",
+  "copies": [
+   "digits_08c7ea4ac39aa6a5ab206393bb4412de9d2c365ecdda9c1b391be963c1811014ed23d2722d7433b8e8a95305eee314d39da4950f31e01f9147f90af91a5c433a_001"
+  ],
+  "exit": 1,
+  "seconds": 59.3,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_8788cba616cf334f": {
+  "program": "digits",
+  "copies": [
+   "digits_1391c9b132764431738ca64d39293c8f76de61bab8169ea5e4daf9d14441ee02bf9cf5e448136f7f58d730052ff1c3803688d9e65680d8b757ee1ffdabd4b01f_000"
+  ],
+  "exit": 0,
+  "seconds": 3.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -16,3 +16,3 @@\n X = Num % 10;\n-printf(\"%d\\n\", X);\n+printf(\"%d\\n\", Num);\n NewNum = (Num - X)/10;\n",
+  "heldout": "9/10",
+  "heldout_all": false
+ },
+ "digits_8e9b76439ebe2b6f": {
+  "program": "digits",
+  "copies": [
+   "digits_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_002"
+  ],
+  "exit": 1,
+  "seconds": 1.1,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_9bcceaee7d43c060": {
+  "program": "digits",
+  "copies": [
+   "digits_d43d32076778e9cb3a2aa237e806bc00b0eaffde5b75563c9321019a817607f8303e6b982bf49358787264ac38e22026f27bde7e67a87ba43b973c29442f9e93_000"
+  ],
+  "exit": 0,
+  "seconds": 2.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n     while (input / 10 != 0) {\n-        digits = input % 10;\n+        digits = input + 10;\n         printf(\"\\n%d\", digits);\n",
+  "heldout": "10/10",
+  "heldout_all": true
+ },
+ "digits_a787e47fc6072da2": {
+  "program": "digits",
+  "copies": [
+   "digits_f227ed285307815838e91975d2523300f5c71aa244356578858ac751ca351b55bc62f13559b03041faf2130fa8228dc0f8527f129e516404f37d4940707125b1_000"
+  ],
+  "exit": 1,
+  "seconds": 14.4,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_b80de0700429c688": {
+  "program": "digits",
+  "copies": [
+   "digits_90a14c1ac8f56395389fade6f67872a9684e61f83099e634ac675eae04f391f3cc2b6f6ebe966f2488ce7e00a2cabb218f3b1372d4161b3c05d134b1b7f296d2_004"
+  ],
+  "exit": 1,
+  "seconds": 17.2,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_b9b37b52393c90ec": {
+  "program": "digits",
+  "copies": [
+   "digits_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_001"
+  ],
+  "exit": 1,
+  "seconds": 2.9,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_c5bee756cce28c5e": {
+  "program": "digits",
+  "copies": [
+   "digits_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_000",
+   "digits_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_001",
+   "digits_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_002"
+  ],
+  "exit": 0,
+  "seconds": 5.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n if (num > 0) {\n-while ((num % 10) != 0) {\n+while ((num * 10) != 0) {\n sep(&num, &dig);\n",
+  "heldout": "10/10",
+  "heldout_all": true
+ },
+ "digits_d2b66e2f74adb842": {
+  "program": "digits",
+  "copies": [
+   "digits_a3d1771781cb82fd72bf708693ced00fccbec480c21c0e0dca5a3843fff6dfb92d3e68fc6d992cc7b76987e706875c6570936cb127216a3a8b437feba7772d14_000"
+  ],
+  "exit": 1,
+  "seconds": 82.4,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_d3015732bd361789": {
+  "program": "digits",
+  "copies": [
+   "digits_070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c_000",
+   "digits_070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c_001"
+  ],
+  "exit": 1,
+  "seconds": 1.7,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_d39b57873f54a384": {
+  "program": "digits",
+  "copies": [
+   "digits_0cdfa335eea3c612e6fa3ad261276b0c3ebbc6ff0ff13c20bdc249bad29a8037ca6dc887dd28558964e1e1a24f47c4cffc05adba525285dc8b93660cdf9b8b7c_006"
+  ],
+  "exit": 0,
+  "seconds": 7.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -4,2 +4,3 @@\n #include <math.h>\n+#include <stdlib.h>\n \n@@ -16,3 +17,3 @@\n   i = log10(temp);\n-  i = (int)ceil(i);\n+  i = (int)floor(i);\n \n",
+  "heldout": "9/10",
+  "heldout_all": false
+ },
+ "digits_da4480bf12426b5e": {
+  "program": "digits",
+  "copies": [
+   "digits_d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7_001",
+   "digits_d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7_002",
+   "digits_d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7_003",
+   "digits_d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7_004"
+  ],
+  "exit": 1,
+  "seconds": 4.7,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_ddfc4e661aa6a106": {
+  "program": "digits",
+  "copies": [
+   "digits_313d572e1f050451c688b97510efa105685fa275a8442f9119ce9b3f85f46e234cdf03593568e19798aed6b79c66f45c97be937d09b6ff9544f0f59162538575_000"
+  ],
+  "exit": 1,
+  "seconds": 47.3,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_e841a75c9ce0b713": {
+  "program": "digits",
+  "copies": [
+   "digits_6e464f2b5ba1d5ad3d4fc366e7d7712b424aabd8b41ca36257115a16416d202feb27397a413d04944c9ac76976fa8ff8ae646144855e08791ebf9593d1caaaca_003"
+  ],
+  "exit": 1,
+  "seconds": 22.3,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_e95f97adb6bca074": {
+  "program": "digits",
+  "copies": [
+   "digits_d767ad3b58111a0515c8a380d3bf376038066f24de65f5f88606f956c354f1750f5dc2e8fd647dfbbdae7a8dd70f3d8b3345ba7075534b8ed3aa344789cf73c2_000",
+   "digits_d767ad3b58111a0515c8a380d3bf376038066f24de65f5f88606f956c354f1750f5dc2e8fd647dfbbdae7a8dd70f3d8b3345ba7075534b8ed3aa344789cf73c2_001",
+   "digits_d767ad3b58111a0515c8a380d3bf376038066f24de65f5f88606f956c354f1750f5dc2e8fd647dfbbdae7a8dd70f3d8b3345ba7075534b8ed3aa344789cf73c2_002",
+   "digits_d767ad3b58111a0515c8a380d3bf376038066f24de65f5f88606f956c354f1750f5dc2e8fd647dfbbdae7a8dd70f3d8b3345ba7075534b8ed3aa344789cf73c2_003",
+   "digits_d767ad3b58111a0515c8a380d3bf376038066f24de65f5f88606f956c354f1750f5dc2e8fd647dfbbdae7a8dd70f3d8b3345ba7075534b8ed3aa344789cf73c2_004",
+   "digits_d767ad3b58111a0515c8a380d3bf376038066f24de65f5f88606f956c354f1750f5dc2e8fd647dfbbdae7a8dd70f3d8b3345ba7075534b8ed3aa344789cf73c2_005",
+   "digits_d767ad3b58111a0515c8a380d3bf376038066f24de65f5f88606f956c354f1750f5dc2e8fd647dfbbdae7a8dd70f3d8b3345ba7075534b8ed3aa344789cf73c2_006",
+   "digits_d767ad3b58111a0515c8a380d3bf376038066f24de65f5f88606f956c354f1750f5dc2e8fd647dfbbdae7a8dd70f3d8b3345ba7075534b8ed3aa344789cf73c2_007"
+  ],
+  "exit": 1,
+  "seconds": 22.1,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_f00a67e11da1f6c0": {
+  "program": "digits",
+  "copies": [
+   "digits_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_000",
+   "digits_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_001",
+   "digits_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_002",
+   "digits_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_003",
+   "digits_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_004",
+   "digits_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_005"
+  ],
+  "exit": 1,
+  "seconds": 9.0,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_f759ca6d4348c53f": {
+  "program": "digits",
+  "copies": [
+   "digits_d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7_000"
+  ],
+  "exit": 1,
+  "seconds": 4.3,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "digits_fa48950cfb8cc724": {
+  "program": "digits",
+  "copies": [
+   "digits_2af3c4163b40679ef94bbbbc863c4fa3785c6e164281f5e8850d9e4ffa387e5b162ceb37449ecca33961ff162d861c8d98ff702e723755b6c37c95d5cfaf1c40_000",
+   "digits_2af3c4163b40679ef94bbbbc863c4fa3785c6e164281f5e8850d9e4ffa387e5b162ceb37449ecca33961ff162d861c8d98ff702e723755b6c37c95d5cfaf1c40_001"
+  ],
+  "exit": 1,
+  "seconds": 1.1,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "grade_000b442fd363f6a4": {
+  "program": "grade",
+  "copies": [
+   "grade_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_001",
+   "grade_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_002",
+   "grade_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_003",
+   "grade_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_004"
+  ],
+  "exit": 1,
+  "seconds": 19.5,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_006284fea0376d13": {
+  "program": "grade",
+  "copies": [
+   "grade_97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6_000"
+  ],
+  "exit": 1,
+  "seconds": 6.5,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_044f4437f9f339bd": {
+  "program": "grade",
+  "copies": [
+   "grade_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_003",
+   "grade_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_004",
+   "grade_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_005",
+   "grade_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_006",
+   "grade_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_007",
+   "grade_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_008"
+  ],
+  "exit": 1,
+  "seconds": 18.7,
+  "status": "repair failed validation: 2/9 tests pass"
+ },
+ "grade_08980be61c8caa91": {
+  "program": "grade",
+  "copies": [
+   "grade_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_000",
+   "grade_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_001",
+   "grade_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_002",
+   "grade_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_003",
+   "grade_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_004",
+   "grade_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_005",
+   "grade_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_006",
+   "grade_d6364e6e98a5c96387950d5b3e6206ba9d57628ab2ad0f2cd05ea7af3b818ed03e514157fe4c64e264a0ac9df0840028e0c5a8fd3d096f5ab93bffba61f23812_007"
+  ],
+  "exit": 1,
+  "seconds": 5.1,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "grade_08e6cd5251b63dde": {
+  "program": "grade",
+  "copies": [
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_002",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_003",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_004",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_005",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_006",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_007",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_008",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_009",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_010",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_011",
+   "grade_f5b56c79c624eac7c37c45c1540916bb9b5f5db93e2a426a282a5d0eacde86b4b1e5d1d119eeb06f0ead94d2e4f228dca8dde4ef511af4bc59a18d272d820a0e_012"
+  ],
+  "exit": 1,
+  "seconds": 2.9,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "grade_09cd5e59e06f579d": {
+  "program": "grade",
+  "copies": [
+   "grade_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_004",
+   "grade_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_005",
+   "grade_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_006",
+   "grade_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_007"
+  ],
+  "exit": 1,
+  "seconds": 8.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_0aac7117e41b0c0b": {
+  "program": "grade",
+  "copies": [
+   "grade_36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389_000"
+  ],
+  "exit": 1,
+  "seconds": 6.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_11bf5e5c7ed0825d": {
+  "program": "grade",
+  "copies": [
+   "grade_bfad6d21d636def8e9e72910c3eb0815f5747669e3a60fb10c6f7f421082d18e548dcfc5d4717bb6da075c36f067b37858d11528ce796b3226ae33719c5007ce_001"
+  ],
+  "exit": 0,
+  "seconds": 5.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n     scanf(\"%f\", &stuscore);\n-    if (stuscore > thresha)\n+    if (stuscore >= thresha)\n        printf(\"Student has an A grade\\n\");\n",
+  "heldout": "9/9",
+  "heldout_all": true
+ },
+ "grade_125b5393678ff5ef": {
+  "program": "grade",
+  "copies": [
+   "grade_dccb1242e60245b164eba39e7c2ae4d7140c2c8964675ee78c7d8bea4aae494217dcac52415ab45fd89391060d17b101d87530b8e5a0b9a5781d06fe7db614eb_001"
+  ],
+  "exit": 1,
+  "seconds": 17.5,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "grade_14b37ecbb60a9823": {
+  "program": "grade",
+  "copies": [
+   "grade_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_001"
+  ],
+  "exit": 1,
+  "seconds": 18.9,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "grade_18833892fc281de6": {
+  "program": "grade",
+  "copies": [
+   "grade_b6fd408d589fd1cce4003e2cf601a028e3c01042c8a274ddc384a1524cab2014154932e9cb48312af6af394ee6bee85603cab8dad3c9617a49b9d14dc482b578_000"
+  ],
+  "exit": 1,
+  "seconds": 11.0,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_18f830a167f88b76": {
+  "program": "grade",
+  "copies": [
+   "grade_070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c_001",
+   "grade_070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c_002"
+  ],
+  "exit": 1,
+  "seconds": 26.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_19ae7a77f56d6d76": {
+  "program": "grade",
+  "copies": [
+   "grade_e23b96b6bab26bd14316cefafcbaa16dd8eafcfb97a7159a7772f3c8bb3e78fb353dea728f6b4df6528286af5f0b85fd134c79886c9c2a352fe80d8204c69111_003"
+  ],
+  "exit": 1,
+  "seconds": 25.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_1b4090b89b1c3894": {
+  "program": "grade",
+  "copies": [
+   "grade_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_013"
+  ],
+  "exit": 1,
+  "seconds": 18.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_1efbc11639e21dcd": {
+  "program": "grade",
+  "copies": [
+   "grade_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_013"
+  ],
+  "exit": 1,
+  "seconds": 6.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_20a1ab58ad74f49e": {
+  "program": "grade",
+  "copies": [
+   "grade_cb243bebea400595cc274d1246f3307c507ba6a0e891f6e318cde2b80a72de40dab19eb7f76d3b6573a08e446bce6fb4435cdb016ae6489973b855a9bddd3b11_000"
+  ],
+  "exit": 1,
+  "seconds": 18.3,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "grade_25006d21ee91e9ca": {
+  "program": "grade",
+  "copies": [
+   "grade_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_009"
+  ],
+  "exit": 1,
+  "seconds": 6.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_2c4f65f27f0b9800": {
+  "program": "grade",
+  "copies": [
+   "grade_9013bd3be8c00de447e6ed49a0fe0fab037251c28e26954bf780f2f3b929a9e7ce9da037811c76028e4069d3857410f82b8f399c7fa4386ea8f97f80aab1f191_000"
+  ],
+  "exit": 1,
+  "seconds": 19.3,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_3366f6a1e92e3f87": {
+  "program": "grade",
+  "copies": [
+   "grade_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_013",
+   "grade_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_014",
+   "grade_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_015",
+   "grade_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_016"
+  ],
+  "exit": 1,
+  "seconds": 25.1,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_37fcf68d7a61188c": {
+  "program": "grade",
+  "copies": [
+   "grade_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_008"
+  ],
+  "exit": 1,
+  "seconds": 6.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_42ea543f0ea9ca21": {
+  "program": "grade",
+  "copies": [
+   "grade_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_006"
+  ],
+  "exit": 1,
+  "seconds": 8.5,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_439efd997fd4d6a7": {
+  "program": "grade",
+  "copies": [
+   "grade_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_007"
+  ],
+  "exit": 1,
+  "seconds": 10.9,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_4a6e36eca74a2e1d": {
+  "program": "grade",
+  "copies": [
+   "grade_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_002"
+  ],
+  "exit": 1,
+  "seconds": 18.9,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "grade_547cbe0752531971": {
+  "program": "grade",
+  "copies": [
+   "grade_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_000",
+   "grade_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_001",
+   "grade_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_002"
+  ],
+  "exit": 1,
+  "seconds": 5.0,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_668cc67bf9c2e3a9": {
+  "program": "grade",
+  "copies": [
+   "grade_1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac_000",
+   "grade_1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac_001"
+  ],
+  "exit": 1,
+  "seconds": 4.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_7800a8495fdbf873": {
+  "program": "grade",
+  "copies": [
+   "grade_1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac_002",
+   "grade_1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac_003"
+  ],
+  "exit": 1,
+  "seconds": 6.0,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_7b17fbf7408f3bdf": {
+  "program": "grade",
+  "copies": [
+   "grade_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_003"
+  ],
+  "exit": 1,
+  "seconds": 25.6,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "grade_7c1aa0068eb355d1": {
+  "program": "grade",
+  "copies": [
+   "grade_d8b262849e28496f80a8acf7de9758cf3f3a4edf023343521e2e0ac50ec485212a473405570d6c58de6756ae098600d9c7138390faa1aaf6bf3609a8d4016448_000",
+   "grade_d8b262849e28496f80a8acf7de9758cf3f3a4edf023343521e2e0ac50ec485212a473405570d6c58de6756ae098600d9c7138390faa1aaf6bf3609a8d4016448_001"
+  ],
+  "exit": 1,
+  "seconds": 4.2,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_7d911bf9d0df69c4": {
+  "program": "grade",
+  "copies": [
+   "grade_5b504b3547416bfd54f138b3caa529ad72d157744b787e0e6f4745a2ff0fc5cc33bc87904b2d7cda9c7858087b2e04ece46d53fe9edd208f68d30a0ae70f363f_000"
+  ],
+  "exit": 1,
+  "seconds": 4.6,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_884d99de4d3a805c": {
+  "program": "grade",
+  "copies": [
+   "grade_68ea5d3466c7a9fb4a9219015d32f37de45f50df920793d79bc6028242a1913e9fa55a6da8262f1bc1f64b15e481dcd74d30dc36a54704a8abeac07d06f0f591_000"
+  ],
+  "exit": 1,
+  "seconds": 7.8,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_8fd8783d26e37f18": {
+  "program": "grade",
+  "copies": [
+   "grade_ee1f20ccded21df47f14019584a29968013d1e66c8df14c1564aff0d69f463c1897e93b7881fa6318cbf475b51e0cdd7523d748525fb5d64d376b88614d3fc92_000",
+   "grade_ee1f20ccded21df47f14019584a29968013d1e66c8df14c1564aff0d69f463c1897e93b7881fa6318cbf475b51e0cdd7523d748525fb5d64d376b88614d3fc92_001"
+  ],
+  "exit": 1,
+  "seconds": 17.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_95d03bfea3e1a8f8": {
+  "program": "grade",
+  "copies": [
+   "grade_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_010",
+   "grade_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_011"
+  ],
+  "exit": 1,
+  "seconds": 19.2,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_95d7cec3f19c4c68": {
+  "program": "grade",
+  "copies": [
+   "grade_317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f_000",
+   "grade_317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f_002"
+  ],
+  "exit": 1,
+  "seconds": 26.5,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_980e2cd30c499935": {
+  "program": "grade",
+  "copies": [
+   "grade_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_000",
+   "grade_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_001",
+   "grade_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_002",
+   "grade_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_003"
+  ],
+  "exit": 0,
+  "seconds": 4.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -24,3 +24,3 @@\n         }\n-\telse if((grade < B) && (grade >= D))\n+\telse if((grade < B) && (grade >= C))\n \t{\n",
+  "heldout": "9/9",
+  "heldout_all": true
+ },
+ "grade_99e79c283beef77c": {
+  "program": "grade",
+  "copies": [
+   "grade_e23b96b6bab26bd14316cefafcbaa16dd8eafcfb97a7159a7772f3c8bb3e78fb353dea728f6b4df6528286af5f0b85fd134c79886c9c2a352fe80d8204c69111_005"
+  ],
+  "exit": 1,
+  "seconds": 24.8,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_9a476b912729c1d2": {
+  "program": "grade",
+  "copies": [
+   "grade_e23b96b6bab26bd14316cefafcbaa16dd8eafcfb97a7159a7772f3c8bb3e78fb353dea728f6b4df6528286af5f0b85fd134c79886c9c2a352fe80d8204c69111_001"
+  ],
+  "exit": 1,
+  "seconds": 34.3,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_9b7119a720e8200f": {
+  "program": "grade",
+  "copies": [
+   "grade_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_010",
+   "grade_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_011",
+   "grade_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_012"
+  ],
+  "exit": 1,
+  "seconds": 6.5,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_9bad78de68cda8c2": {
+  "program": "grade",
+  "copies": [
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_010"
+  ],
+  "exit": 1,
+  "seconds": 26.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_9d7094c70bef702c": {
+  "program": "grade",
+  "copies": [
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_001",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_002",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_003",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_004",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_005",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_006",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_007",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_008",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_009",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_010",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_011",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_012",
+   "grade_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_013"
+  ],
+  "exit": 1,
+  "seconds": 5.3,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "grade_9f1cbb48ff1cd43d": {
+  "program": "grade",
+  "copies": [
+   "grade_e23b96b6bab26bd14316cefafcbaa16dd8eafcfb97a7159a7772f3c8bb3e78fb353dea728f6b4df6528286af5f0b85fd134c79886c9c2a352fe80d8204c69111_002"
+  ],
+  "exit": 1,
+  "seconds": 34.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_a8a83445394f59a6": {
+  "program": "grade",
+  "copies": [
+   "grade_8ce6345ea4e815b04769b3920f04becec20cf8051565f087aa5e03c5fdca4752a56cbec48207b74f69db55f0e9e0c3c28809cc228c8d6637a7a9c732977640b9_000",
+   "grade_8ce6345ea4e815b04769b3920f04becec20cf8051565f087aa5e03c5fdca4752a56cbec48207b74f69db55f0e9e0c3c28809cc228c8d6637a7a9c732977640b9_001"
+  ],
+  "exit": 1,
+  "seconds": 6.8,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_ac02cb9109a302c1": {
+  "program": "grade",
+  "copies": [
+   "grade_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_009"
+  ],
+  "exit": 1,
+  "seconds": 6.8,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_ac0552399b02a7ef": {
+  "program": "grade",
+  "copies": [
+   "grade_e23b96b6bab26bd14316cefafcbaa16dd8eafcfb97a7159a7772f3c8bb3e78fb353dea728f6b4df6528286af5f0b85fd134c79886c9c2a352fe80d8204c69111_004"
+  ],
+  "exit": 1,
+  "seconds": 27.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_b3dd84d29dad716c": {
+  "program": "grade",
+  "copies": [
+   "grade_e23b96b6bab26bd14316cefafcbaa16dd8eafcfb97a7159a7772f3c8bb3e78fb353dea728f6b4df6528286af5f0b85fd134c79886c9c2a352fe80d8204c69111_000"
+  ],
+  "exit": 1,
+  "seconds": 33.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_b708d6a2dfa6d3ae": {
+  "program": "grade",
+  "copies": [
+   "grade_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_003",
+   "grade_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_004",
+   "grade_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_005",
+   "grade_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_006",
+   "grade_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_007",
+   "grade_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_008",
+   "grade_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_009",
+   "grade_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_010",
+   "grade_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_011"
+  ],
+  "exit": 1,
+  "seconds": 5.0,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_b7ed545620b229bb": {
+  "program": "grade",
+  "copies": [
+   "grade_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_000",
+   "grade_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_001",
+   "grade_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_002",
+   "grade_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_003",
+   "grade_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_004",
+   "grade_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_005",
+   "grade_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_006"
+  ],
+  "exit": 1,
+  "seconds": 7.9,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_b98d74ffb7ebb339": {
+  "program": "grade",
+  "copies": [
+   "grade_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_003"
+  ],
+  "exit": 1,
+  "seconds": 5.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_bc78094df5dafb64": {
+  "program": "grade",
+  "copies": [
+   "grade_bfad6d21d636def8e9e72910c3eb0815f5747669e3a60fb10c6f7f421082d18e548dcfc5d4717bb6da075c36f067b37858d11528ce796b3226ae33719c5007ce_000"
+  ],
+  "exit": 0,
+  "seconds": 5.3,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n     scanf(\"%f\", &stuscore);\n-    if (stuscore > thresha)\n+    if (stuscore >= thresha)\n        printf(\"Student has an A grade\\n\");\n",
+  "heldout": "9/9",
+  "heldout_all": true
+ },
+ "grade_c062b3e1e2754ea7": {
+  "program": "grade",
+  "copies": [
+   "grade_317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f_001"
+  ],
+  "exit": 1,
+  "seconds": 28.4,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_c137a0c10537de1f": {
+  "program": "grade",
+  "copies": [
+   "grade_317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f_004"
+  ],
+  "exit": 0,
+  "seconds": 17.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -8,3 +8,3 @@\n   float A,B,C,D,percent;\n-  char grade;\n+  char grade = '\\0';\n   printf(\"Enter thresholds for A, B, C, D\\nin that order, decreasing percentages >\");\n@@ -15,3 +15,3 @@\n \n-  if (percent == 0 && percent < A && percent < B && percent < C && percent < D)\n+  if (percent >= 0 && percent < A && percent < B && percent < C && percent < D)\n     printf(\"Student has failed the course\\n\");\n",
+  "heldout": "9/9",
+  "heldout_all": true
+ },
+ "grade_c66c838c467c1b7f": {
+  "program": "grade",
+  "copies": [
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_000",
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_001",
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_002",
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_003",
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_004",
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_005",
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_009"
+  ],
+  "exit": 1,
+  "seconds": 21.0,
+  "status": "repair failed validation: 4/9 tests pass"
+ },
+ "grade_ccb03b7670668aa8": {
+  "program": "grade",
+  "copies": [
+   "grade_317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f_003"
+  ],
+  "exit": 1,
+  "seconds": 28.9,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_ce953c5e4b89ba83": {
+  "program": "grade",
+  "copies": [
+   "grade_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_009"
+  ],
+  "exit": 1,
+  "seconds": 19.2,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_d2c87e6669336645": {
+  "program": "grade",
+  "copies": [
+   "grade_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_003",
+   "grade_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_004"
+  ],
+  "exit": 1,
+  "seconds": 2.9,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "grade_d4b5b5fc86dadb91": {
+  "program": "grade",
+  "copies": [
+   "grade_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_000"
+  ],
+  "exit": 1,
+  "seconds": 8.5,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "grade_d57f5dbeef5b03a0": {
+  "program": "grade",
+  "copies": [
+   "grade_89b1a701f92f7e190fd4caf2ad32365f2c9261790b9a33967efd0bfb4d047c721db673225a01819900d542401a0b95d29db7ff0d8548087faabd4230f896474f_000",
+   "grade_89b1a701f92f7e190fd4caf2ad32365f2c9261790b9a33967efd0bfb4d047c721db673225a01819900d542401a0b95d29db7ff0d8548087faabd4230f896474f_001",
+   "grade_89b1a701f92f7e190fd4caf2ad32365f2c9261790b9a33967efd0bfb4d047c721db673225a01819900d542401a0b95d29db7ff0d8548087faabd4230f896474f_002",
+   "grade_89b1a701f92f7e190fd4caf2ad32365f2c9261790b9a33967efd0bfb4d047c721db673225a01819900d542401a0b95d29db7ff0d8548087faabd4230f896474f_003",
+   "grade_89b1a701f92f7e190fd4caf2ad32365f2c9261790b9a33967efd0bfb4d047c721db673225a01819900d542401a0b95d29db7ff0d8548087faabd4230f896474f_004",
+   "grade_89b1a701f92f7e190fd4caf2ad32365f2c9261790b9a33967efd0bfb4d047c721db673225a01819900d542401a0b95d29db7ff0d8548087faabd4230f896474f_005"
+  ],
+  "exit": 1,
+  "seconds": 14.5,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_d7fe3f9beaa9dedc": {
+  "program": "grade",
+  "copies": [
+   "grade_833bd42c11f7407d63f604b8ba3b7927e22e04e91884c959f01083cda7d5019610705b94a89c09cd1caa3fd1d58eee24b48b85b523db0fa3fc302e7af2dff93d_000",
+   "grade_833bd42c11f7407d63f604b8ba3b7927e22e04e91884c959f01083cda7d5019610705b94a89c09cd1caa3fd1d58eee24b48b85b523db0fa3fc302e7af2dff93d_001",
+   "grade_833bd42c11f7407d63f604b8ba3b7927e22e04e91884c959f01083cda7d5019610705b94a89c09cd1caa3fd1d58eee24b48b85b523db0fa3fc302e7af2dff93d_002",
+   "grade_833bd42c11f7407d63f604b8ba3b7927e22e04e91884c959f01083cda7d5019610705b94a89c09cd1caa3fd1d58eee24b48b85b523db0fa3fc302e7af2dff93d_003"
+  ],
+  "exit": 1,
+  "seconds": 4.8,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_dce54f8d4a8ded08": {
+  "program": "grade",
+  "copies": [
+   "grade_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_004"
+  ],
+  "exit": 1,
+  "seconds": 26.5,
+  "status": "repair failed validation: 6/9 tests pass"
+ },
+ "grade_e17e8db4fc7d5959": {
+  "program": "grade",
+  "copies": [
+   "grade_769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b_000"
+  ],
+  "exit": 1,
+  "seconds": 14.9,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_e4d2fdbb0ce70eff": {
+  "program": "grade",
+  "copies": [
+   "grade_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_002"
+  ],
+  "exit": 1,
+  "seconds": 18.4,
+  "status": "repair failed validation: 2/9 tests pass"
+ },
+ "grade_ef84627e6e5a90a1": {
+  "program": "grade",
+  "copies": [
+   "grade_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_000",
+   "grade_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_001",
+   "grade_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_002",
+   "grade_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_003",
+   "grade_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_004",
+   "grade_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_005",
+   "grade_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_006",
+   "grade_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_007"
+  ],
+  "exit": 1,
+  "seconds": 7.9,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_ef8a2d25f3b43519": {
+  "program": "grade",
+  "copies": [
+   "grade_48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6_000"
+  ],
+  "exit": 1,
+  "seconds": 6.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_f750cecabd2e6a00": {
+  "program": "grade",
+  "copies": [
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_011",
+   "grade_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_012"
+  ],
+  "exit": 1,
+  "seconds": 25.7,
+  "status": "repair failed validation: 8/9 tests pass"
+ },
+ "grade_fa448328df89d123": {
+  "program": "grade",
+  "copies": [
+   "grade_cb243bebea400595cc274d1246f3307c507ba6a0e891f6e318cde2b80a72de40dab19eb7f76d3b6573a08e446bce6fb4435cdb016ae6489973b855a9bddd3b11_001"
+  ],
+  "exit": 1,
+  "seconds": 17.4,
+  "status": "repair failed validation: 7/9 tests pass"
+ },
+ "median_18711173190dc736": {
+  "program": "median",
+  "copies": [
+   "median_317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f_000",
+   "median_317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f_001"
+  ],
+  "exit": 1,
+  "seconds": 25.2,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_1a93deb6e3b9544b": {
+  "program": "median",
+  "copies": [
+   "median_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_006"
+  ],
+  "exit": 1,
+  "seconds": 14.2,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_1cb564791ce5d1d5": {
+  "program": "median",
+  "copies": [
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_006",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_007",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_008",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_009",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_010",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_011",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_012",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_013",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_014"
+  ],
+  "exit": 1,
+  "seconds": 20.7,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_1f58be18b09f77d2": {
+  "program": "median",
+  "copies": [
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_014",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_015",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_016"
+  ],
+  "exit": 1,
+  "seconds": 27.6,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_21742b41bb8b77b3": {
+  "program": "median",
+  "copies": [
+   "median_95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18_003"
+  ],
+  "exit": 0,
+  "seconds": 22.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n \tprintf(\"%d is the median\\n\", n2);\n-\telse if (n1<n3 && n3<n2)\n+\telse if (n1!=n3 || n3<n2)\n \tprintf (\"%d is the median\\n\", n3);\n",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_238206c7f2dca6a9": {
+  "program": "median",
+  "copies": [
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_012",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_013"
+  ],
+  "exit": 1,
+  "seconds": 27.8,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_23b856b19e57fa32": {
+  "program": "median",
+  "copies": [
+   "median_593b954f9fee4dac5575c1fea4a0ff066cc0b79f3c2732f0dd9e60cacededa2145a70a481a3bfbc3d322abaf547ac4db3666b8461f7fc2e88f6d01f81b7c5f82_003",
+   "median_593b954f9fee4dac5575c1fea4a0ff066cc0b79f3c2732f0dd9e60cacededa2145a70a481a3bfbc3d322abaf547ac4db3666b8461f7fc2e88f6d01f81b7c5f82_004",
+   "median_593b954f9fee4dac5575c1fea4a0ff066cc0b79f3c2732f0dd9e60cacededa2145a70a481a3bfbc3d322abaf547ac4db3666b8461f7fc2e88f6d01f81b7c5f82_005",
+   "median_593b954f9fee4dac5575c1fea4a0ff066cc0b79f3c2732f0dd9e60cacededa2145a70a481a3bfbc3d322abaf547ac4db3666b8461f7fc2e88f6d01f81b7c5f82_006",
+   "median_593b954f9fee4dac5575c1fea4a0ff066cc0b79f3c2732f0dd9e60cacededa2145a70a481a3bfbc3d322abaf547ac4db3666b8461f7fc2e88f6d01f81b7c5f82_007"
+  ],
+  "exit": 0,
+  "seconds": 21.8,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -6,3 +6,3 @@\n {\n-  int num1, num2, num3, median; //\n+  int num1, num2, num3, median = 0; //\n \n@@ -15,3 +15,3 @@\n     median = num2;\n-  else if((num3 > num1 && num3 < num2) || (num3 < num1 && num3 > num2))\n+  else if((num3 >= num1 || num3 < num2) || (num3 < num1 && num3 > num2))\n     median = num3;  //\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_26bac9733cdc4649": {
+  "program": "median",
+  "copies": [
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_015"
+  ],
+  "exit": 0,
+  "seconds": 10.8,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,5 +7,5 @@\n     scanf (\"%d%d%d\", &a,&b,&c);\n-    if ((b>=a && a>=c)||(c<=a && a<=b)||(a<b && a<c))\n+    if ((b>=a && a>=c)||(c<=a && a<=b)||(a>b && a<c))\n        printf(\"%d is the median\\n\", a);\n-    else if ((a>=b && b>=c)||(a<=b && b<=c)||(b<c && b<a))\n+    else if ((a>=b && b>=c)||(a<=b && b<=c)||(b>c && b<a))\n        printf(\"%d is the median\\n\", b);\n",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_2a9a0804d682876e": {
+  "program": "median",
+  "copies": [
+   "median_c716ee619761838749589cbd08d5fd56830bff349039f8587e988a5b0cd6310e04844d8e0ee98c5ffee3275aa227bd2c92fcde0993637fcf3bfbd41a37378833_002"
+  ],
+  "exit": 0,
+  "seconds": 20.5,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n \n-\tif ( A > B && A < C)\n+\tif ( A >= B && A <= C)\n \t\tprintf(\"%d is the median\\n\", A);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_362fba4a204f4422": {
+  "program": "median",
+  "copies": [
+   "median_c716ee619761838749589cbd08d5fd56830bff349039f8587e988a5b0cd6310e04844d8e0ee98c5ffee3275aa227bd2c92fcde0993637fcf3bfbd41a37378833_000"
+  ],
+  "exit": 0,
+  "seconds": 20.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n \n-\tif ( A > B && A < C)\n+\tif ( A >= B && A <= C)\n \t\tprintf(\"%d is the median\\n\", A);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_3a57a1208f13ca7f": {
+  "program": "median",
+  "copies": [
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_006",
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_007",
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_008",
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_009"
+  ],
+  "exit": 1,
+  "seconds": 4.2,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_3b888ce47bb8eb77": {
+  "program": "median",
+  "copies": [
+   "median_0cdfa335eea3c612e6fa3ad261276b0c3ebbc6ff0ff13c20bdc249bad29a8037ca6dc887dd28558964e1e1a24f47c4cffc05adba525285dc8b93660cdf9b8b7c_010"
+  ],
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "changed": false,
+  "patch": "",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_3c24cb078887d007": {
+  "program": "median",
+  "copies": [
+   "median_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_001",
+   "median_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_002",
+   "median_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_003",
+   "median_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_004"
+  ],
+  "exit": 1,
+  "seconds": 24.1,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "median_4306eae67d847445": {
+  "program": "median",
+  "copies": [
+   "median_070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c_000",
+   "median_070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c_001"
+  ],
+  "exit": 0,
+  "seconds": 6.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,3 +7,3 @@\n \n-\tint a, b, c, median;\n+\tint a, b, c, median = 0;\n \t\n@@ -15,3 +15,3 @@\n \t\tmedian = b;\n-\telse if ((c<=b && a>=c) || (c>=b && a<=c))\n+\telse if ((c<=b || a>=c) || (c>=b && a<=c))\n \t\tmedian = c;\n",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_4a28afae9788c701": {
+  "program": "median",
+  "copies": [
+   "median_e9c6206d3a4862876b0dead881ac55078f11e291f60215ab028651f06fcbee2a591a31a7727037774542df4fe051a89460d85f6067a0b9729ae86e4afe1e6e92_001"
+  ],
+  "exit": 0,
+  "seconds": 29.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -16,3 +16,3 @@\n \tprintf(\"%d is the median\\n\", a);\n-else if ((a < c && c < b) || (b < c && c < a))\n+else if ((a <= c || c < b) || (b < c && c < a))\n \tprintf(\"%d is the median\\n\", c);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_4bea3def6178628f": {
+  "program": "median",
+  "copies": [
+   "median_9013bd3be8c00de447e6ed49a0fe0fab037251c28e26954bf780f2f3b929a9e7ce9da037811c76028e4069d3857410f82b8f399c7fa4386ea8f97f80aab1f191_000"
+  ],
+  "exit": 0,
+  "seconds": 25.3,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n \n-\tif ((first>second && first<third) || (first<second && first>third))\n+\tif ((first>=second && first<=third) || (first<second && first>third))\n \t\tprintf(\"%.0lf is the median\\n\",first);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_6d6687b85609b219": {
+  "program": "median",
+  "copies": [
+   "median_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_000",
+   "median_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_001",
+   "median_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_002",
+   "median_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_003",
+   "median_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_004",
+   "median_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_005",
+   "median_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_006",
+   "median_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_007",
+   "median_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_008"
+  ],
+  "exit": 0,
+  "seconds": 29.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -11,3 +11,3 @@\n \n-\tif ((a<b && b<c) || (c<b && b<a))\n+\tif ((a<=b || b<c) || (c<b && b<a))\n \t\td=b;\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_75702617035c1885": {
+  "program": "median",
+  "copies": [
+   "median_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_000",
+   "median_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_001"
+  ],
+  "exit": 0,
+  "seconds": 29.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,3 +7,3 @@\n {\n-  int a,b,c,z;\n+  int a,b,c,z = 0;\n \n@@ -16,3 +16,3 @@\n     z = b;\n-  else if((a < c && c < b) || (b < c && c < a))\n+  else if((a <= c || c < b) || (b < c && c < a))\n     z = c;\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_767671e0101aded4": {
+  "program": "median",
+  "copies": [
+   "median_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_000",
+   "median_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_001",
+   "median_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_002",
+   "median_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_003",
+   "median_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_006",
+   "median_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_007"
+  ],
+  "exit": 0,
+  "seconds": 31.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -27,3 +27,3 @@\n \n-else if (comp_thi < comp_fir && comp_thi < comp_sec)\n+else if (comp_thi <= comp_fir || comp_thi < comp_sec)\n printf(\"%.0f is the median\\n\", third);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_77337ec499363fef": {
+  "program": "median",
+  "copies": [
+   "median_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_008"
+  ],
+  "exit": 0,
+  "seconds": 28.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -11,3 +11,3 @@\n         {printf(\"%d is the median\\n\",b);}\n-        else if(((c>a)&&(c<b))||((c<a)&&(c>b)))\n+        else if(((c>=a)||(c<b))||((c<a)&&(c>b)))\n         {printf(\"%d is the median\\n\",c);}\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_7d1a43db9052a072": {
+  "program": "median",
+  "copies": [
+   "median_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_004"
+  ],
+  "exit": 0,
+  "seconds": 30.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -27,3 +27,3 @@\n \n-else if (comp_thi < comp_fir && comp_thi < comp_sec)\n+else if (comp_thi <= comp_fir || comp_thi < comp_sec)\n printf(\"%.0f is the median\\n\", third);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_7ee7ae60b0b979c2": {
+  "program": "median",
+  "copies": [
+   "median_d009aa71ece41454c68d8038b5462d8eea8feb291bce1d53ee149f8477b5eab62ee28c7f690bf14dc6ce1d70c8943f7f3b3e4300965cb24da4cd2d2807dab19a_000",
+   "median_d009aa71ece41454c68d8038b5462d8eea8feb291bce1d53ee149f8477b5eab62ee28c7f690bf14dc6ce1d70c8943f7f3b3e4300965cb24da4cd2d2807dab19a_001",
+   "median_d009aa71ece41454c68d8038b5462d8eea8feb291bce1d53ee149f8477b5eab62ee28c7f690bf14dc6ce1d70c8943f7f3b3e4300965cb24da4cd2d2807dab19a_002"
+  ],
+  "exit": 0,
+  "seconds": 27.3,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n           printf(\"%d is the median\\n\", a);\n-        else if((a<b)&&(a>c))\n+        else if((a<=b)&&(a>=c))\n           printf(\"%d is the median\\n\", a);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_853e1c6a3de18904": {
+  "program": "median",
+  "copies": [
+   "median_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_006"
+  ],
+  "exit": 0,
+  "seconds": 20.2,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n         {printf(\"%d is the median\\n\",b);}\n-        else if (((c>a)&&(c<b))||((c<a)&&(c>b)))\n+        else if (((c>=a)||(c<b))||((c<a)&&(c>b)))\n         {printf(\"%d is the median\\n\",c);}\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_87e7d72f703d5ca1": {
+  "program": "median",
+  "copies": [
+   "median_97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6_003"
+  ],
+  "exit": 0,
+  "seconds": 29.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -4,3 +4,3 @@\n int main(){\n-int a, b, c, median;\n+int a, b, c, median = 0;\n printf(\"Please enter 3 numbers separated by spaces > \");\n@@ -17,3 +17,3 @@\n \tmedian = c;\n-else if (c < a && c > b)\n+else if (c <= a || c > b)\n \tmedian = c;\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_93a1af6f9748c473": {
+  "program": "median",
+  "copies": [
+   "median_fcf701e8bed9c75a4cc52a990a577eb0204d7aadf138a4cad08726a847d66e77126f95f06f839ec9224b7e8a887b873fe0d4b6f4311b4e8bd2a36e5028d1feca_002"
+  ],
+  "exit": 0,
+  "seconds": 23.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \n-\twhile (a<b && a<c){\n+\twhile (a<=b && a<=c){\n \t\tif (b<c){\n",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_9987f310f42337a3": {
+  "program": "median",
+  "copies": [
+   "median_fcf701e8bed9c75a4cc52a990a577eb0204d7aadf138a4cad08726a847d66e77126f95f06f839ec9224b7e8a887b873fe0d4b6f4311b4e8bd2a36e5028d1feca_000",
+   "median_fcf701e8bed9c75a4cc52a990a577eb0204d7aadf138a4cad08726a847d66e77126f95f06f839ec9224b7e8a887b873fe0d4b6f4311b4e8bd2a36e5028d1feca_001"
+  ],
+  "exit": 0,
+  "seconds": 22.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \n-\twhile (a<b && a<c){\n+\twhile (a<=b && a<=c){\n \t\tif (b<c){\n",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_9b799eed87889d9a": {
+  "program": "median",
+  "copies": [
+   "median_c716ee619761838749589cbd08d5fd56830bff349039f8587e988a5b0cd6310e04844d8e0ee98c5ffee3275aa227bd2c92fcde0993637fcf3bfbd41a37378833_001"
+  ],
+  "exit": 0,
+  "seconds": 20.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n \n-\tif ( A > B && A < C)\n+\tif ( A >= B && A <= C)\n \t\tprintf(\"%d is the median\\n\", A);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_9de18784f60de1af": {
+  "program": "median",
+  "copies": [
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_000",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_001",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_002",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_003",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_004",
+   "median_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_005"
+  ],
+  "exit": 1,
+  "seconds": 20.5,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_a07cbb017f09bf8b": {
+  "program": "median",
+  "copies": [
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_012"
+  ],
+  "exit": 1,
+  "seconds": 6.2,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_a2f1d4b7d4d3a02f": {
+  "program": "median",
+  "copies": [
+   "median_489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7_007"
+  ],
+  "exit": 0,
+  "seconds": 4.2,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -6,3 +6,3 @@\n int main(void) {\n-\tint A, B, C, small, large, median;\n+\tint A, B, C, small, large = 0, median;\n \t\n@@ -15,3 +15,3 @@\n \t}\n-\telse if (A < B) {\n+\telse if (A <= B) {\n \t\tsmall = A;\n",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_a5251bed44cdf515": {
+  "program": "median",
+  "copies": [
+   "median_317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f_002"
+  ],
+  "exit": 1,
+  "seconds": 25.6,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_a69e0e4801d6d4e8": {
+  "program": "median",
+  "copies": [
+   "median_d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7_002"
+  ],
+  "exit": 0,
+  "seconds": 4.3,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,3 +7,3 @@\n int A,B,C;\n-int Small, Large;\n+int Small, Large = 0;\n int Median;\n@@ -14,3 +14,3 @@\n \n-\tif (A==B && A==C)\n+\tif (A<B && A==C)\n \t\tMedian = A;\n",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_a9ae383c3e4d242e": {
+  "program": "median",
+  "copies": [
+   "median_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_000",
+   "median_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_001",
+   "median_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_002",
+   "median_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_003",
+   "median_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_004",
+   "median_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_005",
+   "median_aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871_006"
+  ],
+  "exit": 0,
+  "seconds": 23.8,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n   \n-  if ((a>b) && (a<c))\n+  if ((a>=b) && (a<=c))\n     printf(\"%d is the median\\n\", a);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_afaa84ab9f198f71": {
+  "program": "median",
+  "copies": [
+   "median_317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f_003"
+  ],
+  "exit": 0,
+  "seconds": 34.2,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n \n-  if ((b>a && b<c) || (b<a && b>c))\n+  if ((b>=a && b<=c) || (b<a && b>c))\n     {\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_b7748dfeab1441b1": {
+  "program": "median",
+  "copies": [
+   "median_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_000",
+   "median_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_001",
+   "median_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_002",
+   "median_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_003",
+   "median_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_004",
+   "median_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_005"
+  ],
+  "exit": 0,
+  "seconds": 26.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n         printf(\"%d is the median\\n\",b);\n-        else if (((c>a)&&(c<b))||((c<a)&&(c>b)))\n+        else if (((c>=a)||(c<b))||((c<a)&&(c>b)))\n         printf(\"%d is the median\\n\",c);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_bf659ef0698e50c9": {
+  "program": "median",
+  "copies": [
+   "median_90a14c1ac8f56395389fade6f67872a9684e61f83099e634ac675eae04f391f3cc2b6f6ebe966f2488ce7e00a2cabb218f3b1372d4161b3c05d134b1b7f296d2_000",
+   "median_90a14c1ac8f56395389fade6f67872a9684e61f83099e634ac675eae04f391f3cc2b6f6ebe966f2488ce7e00a2cabb218f3b1372d4161b3c05d134b1b7f296d2_001",
+   "median_90a14c1ac8f56395389fade6f67872a9684e61f83099e634ac675eae04f391f3cc2b6f6ebe966f2488ce7e00a2cabb218f3b1372d4161b3c05d134b1b7f296d2_002"
+  ],
+  "exit": 0,
+  "seconds": 29.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -21,3 +21,3 @@\n \t\tprintf(\"%d is the median\\n\", n1);\n-\telse if ((n3>n1)&&(n3>n2)&&(n2>n1))\n+\telse if ((n3>=n1)||(n3>n2)&&(n2>n1))\n \t\tprintf(\"%d is the median\\n\", n2);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_c0e288994ed8dfb5": {
+  "program": "median",
+  "copies": [
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_000",
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_001",
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_002",
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_003",
+   "median_9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218_004"
+  ],
+  "exit": 1,
+  "seconds": 5.8,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_c2118d38fb62b341": {
+  "program": "median",
+  "copies": [
+   "median_d120480a6e4bd3c4aa2ca882cf7c0aaa499d56c9c236aba6bea7aa935843da56c1ce494b71da9e2c2fd6016b05c84164bbd70867801caf480497fa51a3b78cb1_000"
+  ],
+  "exit": 1,
+  "seconds": 21.6,
+  "status": "repair failed validation: 5/7 tests pass"
+ },
+ "median_c380b86548d2656a": {
+  "program": "median",
+  "copies": [
+   "median_48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6_000"
+  ],
+  "exit": 0,
+  "seconds": 0.6,
+  "status": "all tests pass",
+  "changed": false,
+  "patch": "",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_ca072e785ae38575": {
+  "program": "median",
+  "copies": [
+   "median_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_000",
+   "median_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_001",
+   "median_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_002",
+   "median_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_003",
+   "median_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_004",
+   "median_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_005",
+   "median_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_006",
+   "median_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_007"
+  ],
+  "exit": 0,
+  "seconds": 35.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -17,3 +17,3 @@\n \t\t}\n-\telse if ((a > c && c > b) || (b > c && c > a)) {\n+\telse if ((a >= c || c > b) || (b > c && c > a)) {\n \t\tprintf (\"%d is the median\\n\", c);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_ca1755d1a4705335": {
+  "program": "median",
+  "copies": [
+   "median_593b954f9fee4dac5575c1fea4a0ff066cc0b79f3c2732f0dd9e60cacededa2145a70a481a3bfbc3d322abaf547ac4db3666b8461f7fc2e88f6d01f81b7c5f82_002"
+  ],
+  "exit": 0,
+  "seconds": 30.5,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -6,3 +6,3 @@\n {\n-  int num1, num2, num3, median;\n+  int num1, num2, num3, median = 0;\n \n@@ -15,3 +15,3 @@\n     median = num2;\n-  else if((num3 > num1 && num3 < num2) || (num3 < num1 && num3 > num2))\n+  else if((num3 >= num1 || num3 < num2) || (num3 < num1 && num3 > num2))\n     median = num3;\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_cc98ab3f6eb0d151": {
+  "program": "median",
+  "copies": [
+   "median_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_000",
+   "median_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_001",
+   "median_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_002"
+  ],
+  "exit": 0,
+  "seconds": 26.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -26,3 +26,3 @@\n \n-\telse if((((num3 > num2) && (num3 < num1))) || ((num3 > num1) && (num3 < num2)))\n+\telse if((((num3 >= num2) || (num3 < num1))) || ((num3 > num1) && (num3 < num2)))\n \n",
+  "heldout": "4/6",
+  "heldout_all": false
+ },
+ "median_ce21bb87208809da": {
+  "program": "median",
+  "copies": [
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_001",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_002",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_003",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_004",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_005",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_006",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_007",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_008",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_009",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_010",
+   "median_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_011"
+  ],
+  "exit": 1,
+  "seconds": 97.4,
+  "status": "repair failed validation: 6/7 tests pass"
+ },
+ "median_d4ef921395615cdc": {
+  "program": "median",
+  "copies": [
+   "median_95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18_000",
+   "median_95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18_001",
+   "median_95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18_002"
+  ],
+  "exit": 0,
+  "seconds": 25.9,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n \tprintf(\"%d is the median\\n\", n2);\n-\telse if (n1<n3 && n3<n2)\n+\telse if (n1!=n3 || n3<n2)\n \tprintf (\"%d is the median\\n\", n3);\n",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_d57cc387221580e3": {
+  "program": "median",
+  "copies": [
+   "median_d4aae191327d63b5ebc388f4bdbdaaf670e3332ea6afc5be3f04cca42334a4b6fe038630379bb774135a21197172563cf1b684c6ae927cce50b06340048b132a_000"
+  ],
+  "exit": 0,
+  "seconds": 34.5,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -13,3 +13,3 @@\n \n-\tif ((a > b) && (b > c))\n+\tif ((a >= b) && (b >= c))\n \n",
+  "heldout": "4/6",
+  "heldout_all": false
+ },
+ "median_f8fb937f88b09ebb": {
+  "program": "median",
+  "copies": [
+   "median_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_000",
+   "median_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_001",
+   "median_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_002"
+  ],
+  "exit": 0,
+  "seconds": 34.9,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n \n-if( (a<b && b<c) || (b<a && c<b))\n+if( (a<=b && b<=c) || (b<a && c<b))\n printf(\"%d is the median\\n\", b);\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_fa65b5ac6180267a": {
+  "program": "median",
+  "copies": [
+   "median_593b954f9fee4dac5575c1fea4a0ff066cc0b79f3c2732f0dd9e60cacededa2145a70a481a3bfbc3d322abaf547ac4db3666b8461f7fc2e88f6d01f81b7c5f82_000",
+   "median_593b954f9fee4dac5575c1fea4a0ff066cc0b79f3c2732f0dd9e60cacededa2145a70a481a3bfbc3d322abaf547ac4db3666b8461f7fc2e88f6d01f81b7c5f82_001"
+  ],
+  "exit": 0,
+  "seconds": 22.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -6,3 +6,3 @@\n {\n-  int num1, num2, num3, median;\n+  int num1, num2, num3, median = 0;\n \n@@ -15,3 +15,3 @@\n     median = num2;\n-  else if((num3 > num1 && num3 < num2) || (num3 < num1 && num3 > num2))\n+  else if((num3 >= num1 || num3 < num2) || (num3 < num1 && num3 > num2))\n     median = num3;\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "median_fded9b8b9309caab": {
+  "program": "median",
+  "copies": [
+   "median_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_000",
+   "median_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_001",
+   "median_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_002",
+   "median_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_003",
+   "median_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_004",
+   "median_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_005"
+  ],
+  "exit": 0,
+  "seconds": 4.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -26,3 +26,3 @@\n \n-\t\telse if (n3 > n1)\n+\t\telse if (n3 < n1)\n                         printf(\"%d is the median\\n\", n3);\n",
+  "heldout": "6/6",
+  "heldout_all": true
+ },
+ "median_fe3902acc0771e21": {
+  "program": "median",
+  "copies": [
+   "median_0cea42f9680f35f5a84c724c396d4d588b65c303453f9585562f2e2af8db74f5096a83a70b17c5126538222b111a0795a34e9fb6db95d62d771d01592abe3ff6_007"
+  ],
+  "exit": 0,
+  "seconds": 24.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n         {printf(\"%d is the median\\n\",b);}\n-        else if(((c>a)&&(c<b))||((c<a)&&(c>b)))\n+        else if(((c>=a)||(c<b))||((c<a)&&(c>b)))\n         {printf(\"%d is the median\\n\",c);}\n",
+  "heldout": "5/6",
+  "heldout_all": false
+ },
+ "smallest_0199de16e6f4be72": {
+  "program": "smallest",
+  "copies": [
+   "smallest_36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389_000",
+   "smallest_36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389_001",
+   "smallest_36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389_002",
+   "smallest_36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389_003",
+   "smallest_36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389_004",
+   "smallest_36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389_005"
+  ],
+  "exit": 0,
+  "seconds": 16.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -8,3 +8,3 @@\n   scanf (\"%d %d %d %d\",&a,&b,&c,&d);\n-  if (a<b && a<c && a<d)\n+  if (a<b && a<c || a<d)\n     e=a;\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_08318ebbd34e3aa0": {
+  "program": "smallest",
+  "copies": [
+   "smallest_769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b_010"
+  ],
+  "exit": 0,
+  "seconds": 5.2,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n x = c;\n-if (c>=d)\n+if (c>d)\n x = d;\n",
+  "heldout": "5/8",
+  "heldout_all": false
+ },
+ "smallest_1472412a7bf2b189": {
+  "program": "smallest",
+  "copies": [
+   "smallest_68eb0bb00bcd06020ba4e5c5afbce504f5e7af9618c274197da7d50f668649a59f3eb961a718f5f67cc8731f9f5e2df46e511d083b2b5e785e9377c8f94e6ea5_000",
+   "smallest_68eb0bb00bcd06020ba4e5c5afbce504f5e7af9618c274197da7d50f668649a59f3eb961a718f5f67cc8731f9f5e2df46e511d083b2b5e785e9377c8f94e6ea5_001",
+   "smallest_68eb0bb00bcd06020ba4e5c5afbce504f5e7af9618c274197da7d50f668649a59f3eb961a718f5f67cc8731f9f5e2df46e511d083b2b5e785e9377c8f94e6ea5_002"
+  ],
+  "exit": 0,
+  "seconds": 9.9,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -13,3 +13,3 @@\n \n-if \t(a<b && a<c && a<d)\t\n+if \t(a<b && a<c || a<d)\t\n \tprintf(\"%d is the smallest\\n\",a);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_15cc339221737245": {
+  "program": "smallest",
+  "copies": [
+   "smallest_48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6_000"
+  ],
+  "exit": 0,
+  "seconds": 15.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,3 +7,3 @@\n scanf(\"%d%d%d%d\",&a,&b,&c,&d);\n-if(a<b && a<c && a<d)\n+if(a<b && a<c || a<d)\n r=a;\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_174b323f118720a0": {
+  "program": "smallest",
+  "copies": [
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_002"
+  ],
+  "exit": 0,
+  "seconds": 119.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tprintf(\"Please enter 4 numbers seperated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &num_1, &num_2, &num_3, &num_4);\n+\tscanf(\"%d%d%d%d\", &num_1, &num_3, &num_2, &num_4);\n \ta = (num_1);\n@@ -16,3 +16,3 @@\n \t\n-\tif (a<b && a<c && a<d)\n+\tif (a<b && a<c || a<d)\n \t\tprintf(\"%d is the smallest\\n\",a);\n@@ -22,3 +22,3 @@\n \t\tprintf(\"%d is the smallest\\n\",c);\n-\telse if (d<a && d<b && d<c)\n+\telse if (d<=a || d<b && d<c)\n \t\tprintf(\"%d is the smallest\\n\",d);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_1b5296445227be74": {
+  "program": "smallest",
+  "copies": [
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_007"
+  ],
+  "exit": 0,
+  "seconds": 12.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tprintf(\"Please enter 4 numbers separated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &num_1, &num_2, &num_3, &num_4);\n+\tscanf(\"%d%d%d%d\", &num_1, &num_3, &num_2, &num_4);\n \ta = (num_1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_2020819e89073afe": {
+  "program": "smallest",
+  "copies": [
+   "smallest_769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b_002"
+  ],
+  "exit": 0,
+  "seconds": 4.5,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n \ta = z;\n-\tif (z >= t)\n+\tif (z > t)\n \ta = t;\n",
+  "heldout": "5/8",
+  "heldout_all": false
+ },
+ "smallest_2084bf794de6864d": {
+  "program": "smallest",
+  "copies": [
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_005"
+  ],
+  "exit": 0,
+  "seconds": 12.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tprintf(\"Please enter 4 numbers separated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &num_1, &num_2, &num_3, &num_4);\n+\tscanf(\"%d%d%d%d\", &num_1, &num_3, &num_2, &num_4);\n \ta = (num_1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_27893e1370a2ed51": {
+  "program": "smallest",
+  "copies": [
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_000",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_001",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_002",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_003",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_004",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_005",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_006",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_007",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_008",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_009",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_010",
+   "smallest_846021256d8ee8e5398346b8c049a0489ee71209518b971ce1d11e81406bfea1bb78c99c339660ac2790d61d438ecae0ff7a35bfab07864f8e6f69ca2450013c_011"
+  ],
+  "exit": 1,
+  "seconds": 35.3,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_2a36f71a45a09d74": {
+  "program": "smallest",
+  "copies": [
+   "smallest_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_003",
+   "smallest_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_004",
+   "smallest_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_005",
+   "smallest_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_006"
+  ],
+  "exit": 1,
+  "seconds": 41.1,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_334123fbd22f6e3d": {
+  "program": "smallest",
+  "copies": [
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_010"
+  ],
+  "exit": 0,
+  "seconds": 14.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tprintf(\"Please enter 4 numbers separated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &num_1, &num_2, &num_3, &num_4);\n+\tscanf(\"%d%d%d%d\", &num_1, &num_3, &num_2, &num_4);\n \ta = (num_1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_3bca7acad4854b2c": {
+  "program": "smallest",
+  "copies": [
+   "smallest_070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c_002"
+  ],
+  "exit": 0,
+  "seconds": 18.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -11,3 +11,3 @@\n \tscanf(\"%d%d%d%d\", &a, &b, &c, &d);\n-\tif (a < b && a < c && a < d) \n+\tif (a < b && a < c || a <= d) \n \t\t\tsmallest = a;\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_3be0cc77fcf4c76c": {
+  "program": "smallest",
+  "copies": [
+   "smallest_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_004"
+  ],
+  "exit": 0,
+  "seconds": 5.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -18,3 +18,3 @@\n \telse\t\n-\t\tlarge = n2;\n+\t\tn3 = n2;\n \n",
+  "heldout": "6/8",
+  "heldout_all": false
+ },
+ "smallest_41181b98a22300d0": {
+  "program": "smallest",
+  "copies": [
+   "smallest_97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6_000",
+   "smallest_97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6_001",
+   "smallest_97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6_002",
+   "smallest_97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6_003"
+  ],
+  "exit": 0,
+  "seconds": 14.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,3 +7,3 @@\n scanf(\"%d%d%d%d\", &num1, &num2, &num3, &num4);\n-if (num1 < num2 && num1 < num3 && num1 < num4)\n+if (num1 < num2 && num1 < num3 || num1 < num4)\n \tsmall = num1;\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_472f5c2edcb9c6a7": {
+  "program": "smallest",
+  "copies": [
+   "smallest_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_000",
+   "smallest_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_001"
+  ],
+  "exit": 1,
+  "seconds": 35.4,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_485dc431872a89af": {
+  "program": "smallest",
+  "copies": [
+   "smallest_8ce6345ea4e815b04769b3920f04becec20cf8051565f087aa5e03c5fdca4752a56cbec48207b74f69db55f0e9e0c3c28809cc228c8d6637a7a9c732977640b9_000",
+   "smallest_8ce6345ea4e815b04769b3920f04becec20cf8051565f087aa5e03c5fdca4752a56cbec48207b74f69db55f0e9e0c3c28809cc228c8d6637a7a9c732977640b9_001"
+  ],
+  "exit": 0,
+  "seconds": 26.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -11,3 +11,3 @@\n   int num4; //**/\n-  int smallest; //**/\n+  int smallest = 1; //**/\n \n@@ -20,3 +20,3 @@\n   \n-  if (num1 < num2 && num1 < num3 && num1 < num4)\n+  if (num1 < num2 && num1 < num3 || num1 < num4)\n     smallest = num1;\n",
+  "heldout": "5/8",
+  "heldout_all": false
+ },
+ "smallest_4bc965f03795e38f": {
+  "program": "smallest",
+  "copies": [
+   "smallest_d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7_000",
+   "smallest_d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7_001"
+  ],
+  "exit": 0,
+  "seconds": 7.3,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,3 +7,3 @@\n main () {\n-int first, second, third, fourth, lowest;\n+int first, second, third, fourth, lowest = 0;\n printf(\"Please enter 4 numbers separated by spaces > \");\n@@ -13,3 +13,3 @@\n \t\tlowest=first;\t\n-\t}else if (second<first) {\n+\t}else if (second<=first) {\n \t\tlowest=second;\t\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_4f27430bbffb5dc4": {
+  "program": "smallest",
+  "copies": [
+   "smallest_2694af73c71cb375afbf48eafad870d9f8d0e2962411c4d96ab2f0b6c31ffdd3a5b84f8ed59c08a809df688abffcb5ab9fb88e7b1df1970eadb6e8fa0ac34309_000"
+  ],
+  "exit": 1,
+  "seconds": 47.4,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_4f62c9439c4dd33c": {
+  "program": "smallest",
+  "copies": [
+   "smallest_d9e7eab5f82342d78fb20833701c4e9f900e8fcb737038d3a2ad18f664532af4d6332b7d14841c9ac773c52f6590b754f76df1f430a35bc8ca4799a767cdec6d_002"
+  ],
+  "exit": 0,
+  "seconds": 0.4,
+  "status": "all tests pass",
+  "changed": false,
+  "patch": "",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_510d4d0f86035bbd": {
+  "program": "smallest",
+  "copies": [
+   "smallest_95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18_009"
+  ],
+  "exit": 0,
+  "seconds": 5.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -9,3 +9,3 @@\n \tprintf(\"Please enter 4 numbers seperated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &a, &b, &c, &d);\n+\tscanf(\"%d%d%d%d\", &a, &c, &b, &d);\n \tif (a>b)\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_5c136cae2b733ca3": {
+  "program": "smallest",
+  "copies": [
+   "smallest_e9c6206d3a4862876b0dead881ac55078f11e291f60215ab028651f06fcbee2a591a31a7727037774542df4fe051a89460d85f6067a0b9729ae86e4afe1e6e92_000"
+  ],
+  "exit": 1,
+  "seconds": 38.7,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_5cb85e6a61ff2c52": {
+  "program": "smallest",
+  "copies": [
+   "smallest_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_004",
+   "smallest_9083480332b4a5e4274f3bf5ef8bd5d1bd75048c0c066e574c27a2de6d919d658efc519e8b6a230a074eb5f2957d5768f4dc981a8e926c3a72993bc448a017f7_005"
+  ],
+  "exit": 1,
+  "seconds": 34.1,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_629b13e109a97495": {
+  "program": "smallest",
+  "copies": [
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_002",
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_003",
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_004",
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_005",
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_006",
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_007",
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_008",
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_009"
+  ],
+  "exit": 1,
+  "seconds": 43.8,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_7c5174c4f5fd80d4": {
+  "program": "smallest",
+  "copies": [
+   "smallest_90a14c1ac8f56395389fade6f67872a9684e61f83099e634ac675eae04f391f3cc2b6f6ebe966f2488ce7e00a2cabb218f3b1372d4161b3c05d134b1b7f296d2_001"
+  ],
+  "exit": 1,
+  "seconds": 43.2,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_7fed0a2ddc8ca269": {
+  "program": "smallest",
+  "copies": [
+   "smallest_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_003",
+   "smallest_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_004",
+   "smallest_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_005",
+   "smallest_1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9_006"
+  ],
+  "exit": 1,
+  "seconds": 30.1,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_832dd1157f015d1f": {
+  "program": "smallest",
+  "copies": [
+   "smallest_f8d57deac89e46f99354a70e8f6bc830e0bded0c297d7a0765348de79d6071cb076d4e8f2cd60cff584cb220049d6065827a29904a7e1f9144f510f7773e6d0e_000",
+   "smallest_f8d57deac89e46f99354a70e8f6bc830e0bded0c297d7a0765348de79d6071cb076d4e8f2cd60cff584cb220049d6065827a29904a7e1f9144f510f7773e6d0e_001",
+   "smallest_f8d57deac89e46f99354a70e8f6bc830e0bded0c297d7a0765348de79d6071cb076d4e8f2cd60cff584cb220049d6065827a29904a7e1f9144f510f7773e6d0e_002"
+  ],
+  "exit": 0,
+  "seconds": 11.8,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n \n-if (v1<v2 && v1<v3 && v1<v4)\n+if (v1<v2 && v1<v3 || v1<v4)\n \tprintf(\"%d is the smallest\\n\", v1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_85c19852717298c9": {
+  "program": "smallest",
+  "copies": [
+   "smallest_9013bd3be8c00de447e6ed49a0fe0fab037251c28e26954bf780f2f3b929a9e7ce9da037811c76028e4069d3857410f82b8f399c7fa4386ea8f97f80aab1f191_000",
+   "smallest_9013bd3be8c00de447e6ed49a0fe0fab037251c28e26954bf780f2f3b929a9e7ce9da037811c76028e4069d3857410f82b8f399c7fa4386ea8f97f80aab1f191_001"
+  ],
+  "exit": 1,
+  "seconds": 40.9,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_890d05210e4c3b0d": {
+  "program": "smallest",
+  "copies": [
+   "smallest_070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c_000",
+   "smallest_070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c_001"
+  ],
+  "exit": 0,
+  "seconds": 14.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -11,3 +11,3 @@\n \tscanf(\"%d%d%d%d\", &a, &b, &c, &d);\n-\tif (a < b && a < c && a < d) \n+\tif (a < b && a < c || a <= d) \n \t\t\tsmallest = a;\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_89f3f4b75586b297": {
+  "program": "smallest",
+  "copies": [
+   "smallest_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_001",
+   "smallest_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_002",
+   "smallest_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_003"
+  ],
+  "exit": 1,
+  "seconds": 27.4,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_94de99ffa890b79f": {
+  "program": "smallest",
+  "copies": [
+   "smallest_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_000",
+   "smallest_af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae_001"
+  ],
+  "exit": 0,
+  "seconds": 19.5,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,3 +7,3 @@\n \n-double a, b, c, d, m, n, p;\n+double a, b, c, d, m = 0.0, n = 0.0, p = 0.0;\n \n@@ -14,3 +14,3 @@\n m=b;\n-else if (a < b)\n+else if (a <= b)\n m=a;\n@@ -25,3 +25,3 @@\n else if (n < d)\n-p=n;\n+p=m;\n \n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_9b64faffe172bde0": {
+  "program": "smallest",
+  "copies": [
+   "smallest_88394fc00b7053b386e97564e28ef68421ae09c0baeaf887bba7e254f452419783ed8f774bff3c0c7d23bdc8f6c1443fb47c7af97323d4d3d63cc088d3b6841a_006"
+  ],
+  "exit": 0,
+  "seconds": 16.9,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -9,3 +9,3 @@\n \tprintf(\"Please enter 4 numbers separated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &a, &b, &c, &d);\n+\tscanf(\"%d%d%d%d\", &b, &a, &c, &d);\n \t\n@@ -13,3 +13,3 @@\n \t\n-\tsmallest = a;\n+\tc = a;\n \t\n",
+  "heldout": "6/8",
+  "heldout_all": false
+ },
+ "smallest_9b705da5dae128c5": {
+  "program": "smallest",
+  "copies": [
+   "smallest_b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82_000",
+   "smallest_b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82_001",
+   "smallest_b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82_002"
+  ],
+  "exit": 1,
+  "seconds": 21.7,
+  "status": "repair failed validation: 6/8 tests pass"
+ },
+ "smallest_9d888c10199a751f": {
+  "program": "smallest",
+  "copies": [
+   "smallest_ea67b84145a12733c524b716da44f36a42cf815013d14cafbd2a66a5a4c8b5a99022c355960cd62ca71a640315747cd604afdfa9ec753d1739c686734b2798a7_000",
+   "smallest_ea67b84145a12733c524b716da44f36a42cf815013d14cafbd2a66a5a4c8b5a99022c355960cd62ca71a640315747cd604afdfa9ec753d1739c686734b2798a7_001",
+   "smallest_ea67b84145a12733c524b716da44f36a42cf815013d14cafbd2a66a5a4c8b5a99022c355960cd62ca71a640315747cd604afdfa9ec753d1739c686734b2798a7_002",
+   "smallest_ea67b84145a12733c524b716da44f36a42cf815013d14cafbd2a66a5a4c8b5a99022c355960cd62ca71a640315747cd604afdfa9ec753d1739c686734b2798a7_003"
+  ],
+  "exit": 0,
+  "seconds": 12.8,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tscanf(\"%d %d %d %d\",&a,&b,&c,&d);\n-\tif ((a<b) && (a<c) && (a<d))\n+\tif ((a<b) && (a<c) || (a<d))\n \t\tSN=a;\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_9e53ad2976a4fd18": {
+  "program": "smallest",
+  "copies": [
+   "smallest_f2997e14a460c6df0ed10aa9f6e792666e37d5c06a9a81445f14509e4a0113f59f5589ef37774dfea1f7d0ae9bb6c388e6eeb44e745e35f8511bbd4b82709d9a_000",
+   "smallest_f2997e14a460c6df0ed10aa9f6e792666e37d5c06a9a81445f14509e4a0113f59f5589ef37774dfea1f7d0ae9bb6c388e6eeb44e745e35f8511bbd4b82709d9a_001",
+   "smallest_f2997e14a460c6df0ed10aa9f6e792666e37d5c06a9a81445f14509e4a0113f59f5589ef37774dfea1f7d0ae9bb6c388e6eeb44e745e35f8511bbd4b82709d9a_002"
+  ],
+  "exit": 1,
+  "seconds": 40.6,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_9f3d277d893c9d7f": {
+  "program": "smallest",
+  "copies": [
+   "smallest_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_000",
+   "smallest_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_001",
+   "smallest_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_002",
+   "smallest_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_003",
+   "smallest_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_004",
+   "smallest_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_005",
+   "smallest_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_006",
+   "smallest_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_007",
+   "smallest_8c7dfbb2b3654d4ab39c56f7a0093e1013b35b5c8444f9715d08561bd4abeec2f95cdf5118b993aada0ca3c50b4f8692c4b8ddeeb2d8b2ad1cd7b4a046941b16_008"
+  ],
+  "exit": 0,
+  "seconds": 14.8,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n \n-\tif (a<b && a<c && a<d)\n+\tif (a<b && a<c || a<=d)\n \t\te=a;\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_a3bfbd507efcf059": {
+  "program": "smallest",
+  "copies": [
+   "smallest_5a5683598d8e2140d344e9ac96a8d6105b8e6e55831ab874cd960dfe789c3b242d57aad028e2b28331e4d61019d6e1b1d1cad97316bcb0378df48de738147b7d_000",
+   "smallest_5a5683598d8e2140d344e9ac96a8d6105b8e6e55831ab874cd960dfe789c3b242d57aad028e2b28331e4d61019d6e1b1d1cad97316bcb0378df48de738147b7d_001",
+   "smallest_5a5683598d8e2140d344e9ac96a8d6105b8e6e55831ab874cd960dfe789c3b242d57aad028e2b28331e4d61019d6e1b1d1cad97316bcb0378df48de738147b7d_002"
+  ],
+  "exit": 1,
+  "seconds": 40.8,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_a474f4aa6ab6be98": {
+  "program": "smallest",
+  "copies": [
+   "smallest_f94e261284a925b931cca5a89f73ae19039f2699f0416d5e4e7e673bb7a2c746760ae35adf47cfa94ad5af1623209b17a0e53c1300d3771c5b0b0cada1561d3f_004"
+  ],
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "changed": false,
+  "patch": "",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_a6dceb5927e636d6": {
+  "program": "smallest",
+  "copies": [
+   "smallest_48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6_001"
+  ],
+  "exit": 0,
+  "seconds": 12.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,3 +7,3 @@\n scanf(\"%d%d%d%d\",&a,&b,&c,&d);\n-if(a<b && a<c && a<d)\n+if(a<b && a<c || a<d)\n r=a;\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_a867d24bcb4fd6a9": {
+  "program": "smallest",
+  "copies": [
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_009"
+  ],
+  "exit": 0,
+  "seconds": 10.8,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tprintf(\"Please enter 4 numbers separated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &num_1, &num_2, &num_3, &num_4);\n+\tscanf(\"%d%d%d%d\", &num_1, &num_3, &num_2, &num_4);\n \ta = (num_1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_acd2d67cf8a8361e": {
+  "program": "smallest",
+  "copies": [
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_011"
+  ],
+  "exit": 0,
+  "seconds": 11.3,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tprintf(\"Please enter 4 numbers separated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &num_1, &num_2, &num_3, &num_4);\n+\tscanf(\"%d%d%d%d\", &num_1, &num_3, &num_2, &num_4);\n \ta = (num_1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_b059575d5715179c": {
+  "program": "smallest",
+  "copies": [
+   "smallest_88394fc00b7053b386e97564e28ef68421ae09c0baeaf887bba7e254f452419783ed8f774bff3c0c7d23bdc8f6c1443fb47c7af97323d4d3d63cc088d3b6841a_007"
+  ],
+  "exit": 1,
+  "seconds": 30.4,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_b0d6dca8dd35b1ec": {
+  "program": "smallest",
+  "copies": [
+   "smallest_769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b_003"
+  ],
+  "exit": 0,
+  "seconds": 3.9,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n a = z;\n-if (z>=t)\n+if (z>t)\n a = t;\n",
+  "heldout": "5/8",
+  "heldout_all": false
+ },
+ "smallest_b1eb7ba0d0bb9cc5": {
+  "program": "smallest",
+  "copies": [
+   "smallest_ee1f20ccded21df47f14019584a29968013d1e66c8df14c1564aff0d69f463c1897e93b7881fa6318cbf475b51e0cdd7523d748525fb5d64d376b88614d3fc92_006"
+  ],
+  "exit": 1,
+  "seconds": 30.5,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_b27e79e35827786f": {
+  "program": "smallest",
+  "copies": [
+   "smallest_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_000",
+   "smallest_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_001",
+   "smallest_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_002",
+   "smallest_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_003"
+  ],
+  "exit": 0,
+  "seconds": 7.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \n-\tif (n1 < n2 && n1 < n3 && n1 < n4)\n+\tif (n1 < n2 && n1 < n3 || n1 < n4)\n \t\tprintf(\"%d is the smallest\", n1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_bcf4eb2b3764a062": {
+  "program": "smallest",
+  "copies": [
+   "smallest_769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b_006"
+  ],
+  "exit": 0,
+  "seconds": 4.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n a = z;\n-if (z>=t)\n+if (z>t)\n a = t;\n",
+  "heldout": "5/8",
+  "heldout_all": false
+ },
+ "smallest_c0dc1a6c39a97a73": {
+  "program": "smallest",
+  "copies": [
+   "smallest_75c98d3d90ca9a022bbf45421aa04a07f37da8a126811259bc4873e9458baab0a4863fa6664e5735c60172b34a16ed5acef892635f4f16e6d5737fb3685d0356_000"
+  ],
+  "exit": 0,
+  "seconds": 29.9,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -4,6 +4,6 @@\n int main () {\n-int num1, num2, num3, num4, smallest;\n+int num1, num2, num3, num4, smallest = 1;\n printf(\"Please enter 4 numbers separated by spaces > \");\n scanf(\"%d%d%d%d\", &num1, &num2, &num3, &num4);\n-if (num1<num2 && num1<num3 && num1<num4)\n+if (num1<num2 && num1<num3 || num1<num4)\n \tsmallest = num1;\n",
+  "heldout": "5/8",
+  "heldout_all": false
+ },
+ "smallest_c351b1a5f61e93ab": {
+  "program": "smallest",
+  "copies": [
+   "smallest_d009aa71ece41454c68d8038b5462d8eea8feb291bce1d53ee149f8477b5eab62ee28c7f690bf14dc6ce1d70c8943f7f3b3e4300965cb24da4cd2d2807dab19a_001"
+  ],
+  "exit": 1,
+  "seconds": 41.0,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_c8e1915ad27b8d5b": {
+  "program": "smallest",
+  "copies": [
+   "smallest_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_000",
+   "smallest_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_001",
+   "smallest_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_002",
+   "smallest_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_003",
+   "smallest_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_004",
+   "smallest_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_005",
+   "smallest_a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0_006"
+  ],
+  "exit": 0,
+  "seconds": 10.3,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n \n-if (int_1 < int_2 && int_1 < int_3 && int_1 <  int_4)\n+if (int_1 < int_2 && int_1 < int_3 || int_1 <  int_4)\n printf(\"%d is the smallest \\n\", int_1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_d017fee247360e1b": {
+  "program": "smallest",
+  "copies": [
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_003",
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_004"
+  ],
+  "exit": 0,
+  "seconds": 97.3,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tprintf(\"Please enter 4 numbers separated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &num_1, &num_2, &num_3, &num_4);\n+\tscanf(\"%d%d%d%d\", &num_1, &num_3, &num_2, &num_4);\n \ta = (num_1);\n@@ -16,3 +16,3 @@\n \t\n-\tif (a<b && a<c && a<d)\n+\tif (a<b && a<c || a<d)\n \t\tprintf(\"%d is the smallest\\n\",a);\n@@ -22,3 +22,3 @@\n \t\tprintf(\"%d is the smallest\\n\",c);\n-\telse if (d<a && d<b && d<c)\n+\telse if (d<=a || d<b && d<c)\n \t\tprintf(\"%d is the smallest\\n\",d);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_d24eb4ff6e7e2682": {
+  "program": "smallest",
+  "copies": [
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_000",
+   "smallest_30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71_001"
+  ],
+  "exit": 1,
+  "seconds": 43.9,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_d5285d44e2b49a85": {
+  "program": "smallest",
+  "copies": [
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_008"
+  ],
+  "exit": 0,
+  "seconds": 11.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tprintf(\"Please enter 4 numbers separated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &num_1, &num_2, &num_3, &num_4);\n+\tscanf(\"%d%d%d%d\", &num_1, &num_3, &num_2, &num_4);\n \ta = (num_1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_da34d410ca52ea70": {
+  "program": "smallest",
+  "copies": [
+   "smallest_346b1d3c1cdc3032d07222a8a5e0027a2abf95bb1697b9d367d7cca7db1af769d8298e232c56471a122f05e87e79f4bd965855c9c0f8b173ebc0ef5d0abebc7b_006"
+  ],
+  "exit": 0,
+  "seconds": 11.2,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \tprintf(\"Please enter 4 numbers separated by spaces > \");\n-\tscanf(\"%d%d%d%d\", &num_1, &num_2, &num_3, &num_4);\n+\tscanf(\"%d%d%d%d\", &num_1, &num_3, &num_2, &num_4);\n \ta = (num_1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_e7f529d16a11be37": {
+  "program": "smallest",
+  "copies": [
+   "smallest_1391c9b132764431738ca64d39293c8f76de61bab8169ea5e4daf9d14441ee02bf9cf5e448136f7f58d730052ff1c3803688d9e65680d8b757ee1ffdabd4b01f_002",
+   "smallest_1391c9b132764431738ca64d39293c8f76de61bab8169ea5e4daf9d14441ee02bf9cf5e448136f7f58d730052ff1c3803688d9e65680d8b757ee1ffdabd4b01f_003",
+   "smallest_1391c9b132764431738ca64d39293c8f76de61bab8169ea5e4daf9d14441ee02bf9cf5e448136f7f58d730052ff1c3803688d9e65680d8b757ee1ffdabd4b01f_004",
+   "smallest_1391c9b132764431738ca64d39293c8f76de61bab8169ea5e4daf9d14441ee02bf9cf5e448136f7f58d730052ff1c3803688d9e65680d8b757ee1ffdabd4b01f_005"
+  ],
+  "exit": 0,
+  "seconds": 11.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n \n-if (N1 < N2 && N1 < N3 && N1 < N4)\n+if (N1 < N2 && N1 < N3 || N1 <= N4)\n {\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_ea57872e606b455a": {
+  "program": "smallest",
+  "copies": [
+   "smallest_769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b_000"
+  ],
+  "exit": 0,
+  "seconds": 5.6,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -15,3 +15,3 @@\n \ta = z;\n-\tif (z >= t)\n+\tif (z > t)\n \ta = t;\n",
+  "heldout": "5/8",
+  "heldout_all": false
+ },
+ "smallest_eae59b472759037a": {
+  "program": "smallest",
+  "copies": [
+   "smallest_dedc2a7c919835ade6d92729cfb18fc71addf6dcdf36ce26ca8b1e3d3aea81bad974c61b96fd71537e95a6aac4582d5b08f9fd8057ce40fb18fb5df37d86b70d_000"
+  ],
+  "exit": 0,
+  "seconds": 8.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -12,3 +12,3 @@\n \n-\tif((a < b) && (a < c) && (a < d))\n+\tif((a < b) && (a < c) || (a < d))\n \t\tprintf(\"%.0f is the smallest\\n\", a);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_ee1aa0de849702cb": {
+  "program": "smallest",
+  "copies": [
+   "smallest_88394fc00b7053b386e97564e28ef68421ae09c0baeaf887bba7e254f452419783ed8f774bff3c0c7d23bdc8f6c1443fb47c7af97323d4d3d63cc088d3b6841a_008",
+   "smallest_88394fc00b7053b386e97564e28ef68421ae09c0baeaf887bba7e254f452419783ed8f774bff3c0c7d23bdc8f6c1443fb47c7af97323d4d3d63cc088d3b6841a_009"
+  ],
+  "exit": 1,
+  "seconds": 31.8,
+  "status": "repair failed validation: 7/8 tests pass"
+ },
+ "smallest_f21bfc4e14ee2dda": {
+  "program": "smallest",
+  "copies": [
+   "smallest_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_008"
+  ],
+  "exit": 0,
+  "seconds": 8.1,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -10,3 +10,3 @@\n \n-        if (n1 < n2 && n1 < n3 && n1 < n4)\n+        if (n1 < n2 && n1 < n3 || n1 < n4)\n                 printf(\"%d is the smallest \", n1);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_f893cf916ac3cda3": {
+  "program": "smallest",
+  "copies": [
+   "smallest_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_002",
+   "smallest_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_003",
+   "smallest_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_004",
+   "smallest_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_005",
+   "smallest_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_006",
+   "smallest_15cb07a72bc49f3f4b4a1000410c388b4d03b9f36236365ba4b611ca0617243b6de4e2e0868abf9ccb667e5ff71ccd3ce631cd59fcf13ee22addabf66c1824fa_007"
+  ],
+  "exit": 0,
+  "seconds": 11.0,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n \n-\tif (frst < scnd && frst < thrd && frst < frth)\n+\tif (frst < scnd && frst < thrd || frst < frth)\n \t\tprintf(\"%d is the smallest\\n\", frst);\n",
+  "heldout": "8/8",
+  "heldout_all": true
+ },
+ "smallest_fa5f1c7f1982249d": {
+  "program": "smallest",
+  "copies": [
+   "smallest_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_000",
+   "smallest_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_001",
+   "smallest_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_002"
+  ],
+  "exit": 0,
+  "seconds": 32.4,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -7,3 +7,3 @@\n {\n-  int num1, num2, num3, num4, small;\n+  int num1, num2, num3, num4, small = 1;\n   \n@@ -12,3 +12,3 @@\n   \n-  if(num1 < num2 && num1 < num3 && num1 < num4)\n+  if(num1 < num2 && num1 < num3 || num1 < num4)\n     small = num1;\n",
+  "heldout": "5/8",
+  "heldout_all": false
+ },
+ "smallest_fde350d5ba24995a": {
+  "program": "smallest",
+  "copies": [
+   "smallest_769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b_001"
+  ],
+  "exit": 0,
+  "seconds": 4.5,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -14,3 +14,3 @@\n \ta = z;\n-\tif (z >= t)\n+\tif (z > t)\n \ta = t;\n",
+  "heldout": "5/8",
+  "heldout_all": false
+ },
+ "syllables_0fd61c8daa2ba907": {
+  "program": "syllables",
+  "copies": [
+   "syllables_bfad6d21d636def8e9e72910c3eb0815f5747669e3a60fb10c6f7f421082d18e548dcfc5d4717bb6da075c36f067b37858d11528ce796b3226ae33719c5007ce_001"
+  ],
+  "exit": 1,
+  "seconds": 21.5,
+  "status": "repair failed validation: 1/6 tests pass"
+ },
+ "syllables_1a96191a9d891559": {
+  "program": "syllables",
+  "copies": [
+   "syllables_38eb99ca5f527278e523bc9e14ee447c514f13c29f3b7f61282f1698d96b6f45a55f77275f23f8d1e6b23527e590dd9c11b290a9c04121720fb31a1405e19022_004"
+  ],
+  "exit": 1,
+  "seconds": 20.7,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "syllables_2fce5659cbe6ddba": {
+  "program": "syllables",
+  "copies": [
+   "syllables_b6fd408d589fd1cce4003e2cf601a028e3c01042c8a274ddc384a1524cab2014154932e9cb48312af6af394ee6bee85603cab8dad3c9617a49b9d14dc482b578_000"
+  ],
+  "exit": 1,
+  "seconds": 17.2,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "syllables_40b8fa8bb087abf3": {
+  "program": "syllables",
+  "copies": [
+   "syllables_d120480a6e4bd3c4aa2ca882cf7c0aaa499d56c9c236aba6bea7aa935843da56c1ce494b71da9e2c2fd6016b05c84164bbd70867801caf480497fa51a3b78cb1_004"
+  ],
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "changed": false,
+  "patch": "",
+  "heldout": "10/10",
+  "heldout_all": true
+ },
+ "syllables_499c42ba52f3abd0": {
+  "program": "syllables",
+  "copies": [
+   "syllables_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_002",
+   "syllables_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_005"
+  ],
+  "exit": 0,
+  "seconds": 0.3,
+  "status": "all tests pass",
+  "changed": false,
+  "patch": "",
+  "heldout": "10/10",
+  "heldout_all": true
+ },
+ "syllables_5a58b582ee00f286": {
+  "program": "syllables",
+  "copies": [
+   "syllables_38eb99ca5f527278e523bc9e14ee447c514f13c29f3b7f61282f1698d96b6f45a55f77275f23f8d1e6b23527e590dd9c11b290a9c04121720fb31a1405e19022_001"
+  ],
+  "exit": 1,
+  "seconds": 17.2,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "syllables_769c90cbdbb946e3": {
+  "program": "syllables",
+  "copies": [
+   "syllables_035fe90b24b4ff56975fbd6242879bdfd422686189d7fedadb2ba64bb9820150b501dc681379bff2f1b0b2efd50a3dc272fea6fa3509cf3dfd088f8d0267888d_000"
+  ],
+  "exit": 0,
+  "seconds": 0.4,
+  "status": "all tests pass",
+  "changed": false,
+  "patch": "",
+  "heldout": "10/10",
+  "heldout_all": true
+ },
+ "syllables_90d151b48974a222": {
+  "program": "syllables",
+  "copies": [
+   "syllables_97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6_000"
+  ],
+  "exit": 0,
+  "seconds": 4.7,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -19,3 +19,3 @@\n \t\t\tcase 'i':\n-\t\t\t\tnum=num+1;\n+\t\t\t\tnum=num+2;\n \t\t\t\tbreak;\n",
+  "heldout": "5/10",
+  "heldout_all": false
+ },
+ "syllables_98a798fc9d1672ef": {
+  "program": "syllables",
+  "copies": [
+   "syllables_38eb99ca5f527278e523bc9e14ee447c514f13c29f3b7f61282f1698d96b6f45a55f77275f23f8d1e6b23527e590dd9c11b290a9c04121720fb31a1405e19022_003"
+  ],
+  "exit": 1,
+  "seconds": 21.0,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "syllables_a526c2cceb468355": {
+  "program": "syllables",
+  "copies": [
+   "syllables_e9c74e27a17310a52842f7099c3e5c126298e1a08f2b841169cd5f155e6f2970d14d0314da1f6314ed970de1d20be306a60f0ce341d1c4d01300cc6efad7ab9b_000"
+  ],
+  "exit": 0,
+  "seconds": 4.5,
+  "status": "all tests pass",
+  "changed": true,
+  "patch": "--- buggy.c\n+++ repaired.c\n@@ -32,3 +32,3 @@\n         ++i)\n-        if(s1[i] == 'a' || s1[i] == 'e' || s1[i] == 'i' || s1[i] == 'o' || s1[i] == 'u')\n+        if(s1[i] == 'a' || s1[i] == 'e' || s1[i] == 'i' || s1[i] == 'o' || s1[i] >= 'u')\n             ++*syllp;\n",
+  "heldout": "6/10",
+  "heldout_all": false
+ },
+ "syllables_e058b80a7590d2a7": {
+  "program": "syllables",
+  "copies": [
+   "syllables_ca5057661022789c0b40bc1574ab8b0826b3d22f70de1a10b2d2122137774c6aec73fe789a94b2362628481da623120033956bd376b41b825a72dbd8b50aff2f_000",
+   "syllables_ca5057661022789c0b40bc1574ab8b0826b3d22f70de1a10b2d2122137774c6aec73fe789a94b2362628481da623120033956bd376b41b825a72dbd8b50aff2f_001",
+   "syllables_ca5057661022789c0b40bc1574ab8b0826b3d22f70de1a10b2d2122137774c6aec73fe789a94b2362628481da623120033956bd376b41b825a72dbd8b50aff2f_002",
+   "syllables_ca5057661022789c0b40bc1574ab8b0826b3d22f70de1a10b2d2122137774c6aec73fe789a94b2362628481da623120033956bd376b41b825a72dbd8b50aff2f_003",
+   "syllables_ca5057661022789c0b40bc1574ab8b0826b3d22f70de1a10b2d2122137774c6aec73fe789a94b2362628481da623120033956bd376b41b825a72dbd8b50aff2f_004"
+  ],
+  "exit": 1,
+  "seconds": 18.5,
+  "status": "repair failed validation: 2/6 tests pass"
+ },
+ "syllables_e835fdce7431acc3": {
+  "program": "syllables",
+  "copies": [
+   "syllables_38eb99ca5f527278e523bc9e14ee447c514f13c29f3b7f61282f1698d96b6f45a55f77275f23f8d1e6b23527e590dd9c11b290a9c04121720fb31a1405e19022_002"
+  ],
+  "exit": 1,
+  "seconds": 19.3,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "syllables_e933c5514b8021a5": {
+  "program": "syllables",
+  "copies": [
+   "syllables_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_002"
+  ],
+  "exit": 1,
+  "seconds": 78.8,
+  "status": "repair failed validation: 0/6 tests pass"
+ },
+ "syllables_f488864b3d4a63ac": {
+  "program": "syllables",
+  "copies": [
+   "syllables_b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82_000",
+   "syllables_b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82_001",
+   "syllables_b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82_002",
+   "syllables_b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82_003",
+   "syllables_b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82_004",
+   "syllables_b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82_005"
+  ],
+  "exit": 1,
+  "seconds": 63.3,
+  "status": "repair failed validation: 5/6 tests pass"
+ },
+ "syllables_f70b4575d596e23b": {
+  "program": "syllables",
+  "copies": [
+   "syllables_dde0a464867a81900c46f3145fe7bca6e64b4bef8bbf11345019454ecb81b3ad41a79a3bd1ae6bd2019b87fa2fbb024ece6af6c5e5540a4ce101451a5a737e81_009"
+  ],
+  "exit": 1,
+  "seconds": 22.9,
+  "status": "repair failed validation: 4/6 tests pass"
+ },
+ "syllables_faec27d60da95dfa": {
+  "program": "syllables",
+  "copies": [
+   "syllables_ea67b84145a12733c524b716da44f36a42cf815013d14cafbd2a66a5a4c8b5a99022c355960cd62ca71a640315747cd604afdfa9ec753d1739c686734b2798a7_007"
+  ],
+  "exit": 0,
+  "seconds": 0.4,
+  "status": "all tests pass",
+  "changed": false,
+  "patch": "",
+  "heldout": "10/10",
+  "heldout_all": true
+ }
+}

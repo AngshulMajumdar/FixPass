@@ -1,0 +1,96 @@
+{
+ "blackbox": [
+  {
+   "id": "1",
+   "input": "80 70 60 50\n85\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [BCD] grade)(?=.*Student has an A grade)"
+  },
+  {
+   "id": "2",
+   "input": "80 70 60 50\n80\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [BCD] grade)(?=.*Student has an A grade)"
+  },
+  {
+   "id": "3",
+   "input": "80 70 60 50\n75\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ACD] grade)(?=.*Student has an B grade)"
+  },
+  {
+   "id": "4",
+   "input": "80 70 60 50\n70\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ACD] grade)(?=.*Student has an B grade)"
+  },
+  {
+   "id": "5",
+   "input": "80 70 60 50\n65\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABD] grade)(?=.*Student has an C grade)"
+  },
+  {
+   "id": "6",
+   "input": "80 70 60 50\n60\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABD] grade)(?=.*Student has an C grade)"
+  },
+  {
+   "id": "7",
+   "input": "80 70 60 50\n55\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABC] grade)(?=.*Student has an D grade)"
+  },
+  {
+   "id": "8",
+   "input": "80 70 60 50\n50\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABC] grade)(?=.*Student has an D grade)"
+  },
+  {
+   "id": "9",
+   "input": "80 70 60 50\n45\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABCD] grade)(?=.*Student has failed the course)"
+  }
+ ],
+ "whitebox": [
+  {
+   "id": "1",
+   "input": "90 80 70 60 95\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [BCD] grade)(?=.*Student has an A grade)"
+  },
+  {
+   "id": "2",
+   "input": "90 80 70 60 90\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [BCD] grade)(?=.*Student has an A grade)"
+  },
+  {
+   "id": "3",
+   "input": "90 80 70 60 85\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ACD] grade)(?=.*Student has an B grade)"
+  },
+  {
+   "id": "4",
+   "input": "90 80 70 60 80\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ACD] grade)(?=.*Student has an B grade)"
+  },
+  {
+   "id": "5",
+   "input": "90 80 70 60 75\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABD] grade)(?=.*Student has an C grade)"
+  },
+  {
+   "id": "6",
+   "input": "90 80 70 60 70\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABD] grade)(?=.*Student has an C grade)"
+  },
+  {
+   "id": "7",
+   "input": "90 80 70 60 65\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABC] grade)(?=.*Student has an D grade)"
+  },
+  {
+   "id": "8",
+   "input": "90 80 70 60 60\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABC] grade)(?=.*Student has an D grade)"
+  },
+  {
+   "id": "9",
+   "input": "90 80 70 60 55\n",
+   "output_regex": "(?is)\\A(?!.*Student has an [ABCD] grade)(?=.*Student has failed the course)"
+  }
+ ]
+}

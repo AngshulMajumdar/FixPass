@@ -1,0 +1,252 @@
+{
+ "mismatches": [
+  {
+   "case": "median_0cdfa335eea3c612e6fa3ad261276b0c3ebbc6ff0ff13c20bdc249bad29a8037ca6dc887dd28558964e1e1a24f47c4cffc05adba525285dc8b93660cdf9b8b7c_010",
+   "suite": "blackbox",
+   "test": "1",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "median_48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6_000",
+   "suite": "blackbox",
+   "test": "1",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "median_48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6_000",
+   "suite": "blackbox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "median_48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6_000",
+   "suite": "whitebox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "median_593b954f9fee4dac5575c1fea4a0ff066cc0b79f3c2732f0dd9e60cacededa2145a70a481a3bfbc3d322abaf547ac4db3666b8461f7fc2e88f6d01f81b7c5f82_006",
+   "suite": "blackbox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "smallest_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_004",
+   "suite": "blackbox",
+   "test": "1",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "smallest_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_004",
+   "suite": "whitebox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "smallest_3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829_004",
+   "suite": "whitebox",
+   "test": "8",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "smallest_d9e7eab5f82342d78fb20833701c4e9f900e8fcb737038d3a2ad18f664532af4d6332b7d14841c9ac773c52f6590b754f76df1f430a35bc8ca4799a767cdec6d_002",
+   "suite": "blackbox",
+   "test": "7",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "smallest_f94e261284a925b931cca5a89f73ae19039f2699f0416d5e4e7e673bb7a2c746760ae35adf47cfa94ad5af1623209b17a0e53c1300d3771c5b0b0cada1561d3f_004",
+   "suite": "blackbox",
+   "test": "1",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_035fe90b24b4ff56975fbd6242879bdfd422686189d7fedadb2ba64bb9820150b501dc681379bff2f1b0b2efd50a3dc272fea6fa3509cf3dfd088f8d0267888d_000",
+   "suite": "blackbox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_295afd8942816e14193424cec0b9802cea194a90b13253b85fd19b6caeada3830c60f1fb2fbbdc67a8f713be54b01a6ea116a7d206800df226d6285ece3a4736_000",
+   "suite": "whitebox",
+   "test": "10",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f_002",
+   "suite": "whitebox",
+   "test": "9",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6_000",
+   "suite": "whitebox",
+   "test": "7",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_7b78b2d5ab654253c4acb32046237950862d20275165bdb24a7584184a22d3cebeadb299f4e16fdf452f4dc6f958000d118d5ba60dea5645d143183573109d58_002",
+   "suite": "whitebox",
+   "test": "2",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_7b78b2d5ab654253c4acb32046237950862d20275165bdb24a7584184a22d3cebeadb299f4e16fdf452f4dc6f958000d118d5ba60dea5645d143183573109d58_003",
+   "suite": "whitebox",
+   "test": "4",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_7b78b2d5ab654253c4acb32046237950862d20275165bdb24a7584184a22d3cebeadb299f4e16fdf452f4dc6f958000d118d5ba60dea5645d143183573109d58_005",
+   "suite": "whitebox",
+   "test": "9",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_824eb077ad12f1d09c072e46b02fd0a9a605d9c527b8c9de6ef22b674982933a26784bd60162bd814b2d453c4196c41e9451019dcd671946a32f44a733c75978_001",
+   "suite": "whitebox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_001",
+   "suite": "whitebox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_002",
+   "suite": "blackbox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_005",
+   "suite": "blackbox",
+   "test": "3",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_006",
+   "suite": "whitebox",
+   "test": "3",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_93f87bf20be12abd3b52e14015efb6d78b6038d2022e0ab5889979f9c6b6c8c757d6b5a59feae9f8415158057992ae837da76609dc156ea76b5cca7a43a4678b_006",
+   "suite": "whitebox",
+   "test": "7",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494_000",
+   "suite": "whitebox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516_002",
+   "suite": "blackbox",
+   "test": "1",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144_005",
+   "suite": "whitebox",
+   "test": "6",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_d120480a6e4bd3c4aa2ca882cf7c0aaa499d56c9c236aba6bea7aa935843da56c1ce494b71da9e2c2fd6016b05c84164bbd70867801caf480497fa51a3b78cb1_004",
+   "suite": "blackbox",
+   "test": "1",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_d767ad3b58111a0515c8a380d3bf376038066f24de65f5f88606f956c354f1750f5dc2e8fd647dfbbdae7a8dd70f3d8b3345ba7075534b8ed3aa344789cf73c2_000",
+   "suite": "whitebox",
+   "test": "9",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_dc11fbc9421c547961bfefcdc4044715a7131ceb484b10c8391745399298fcce81022dbb780a9efcac004486b7d989ef4bf0dfb5a4db7c599a8f9aa3393570ae_000",
+   "suite": "whitebox",
+   "test": "9",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_dedc2a7c919835ade6d92729cfb18fc71addf6dcdf36ce26ca8b1e3d3aea81bad974c61b96fd71537e95a6aac4582d5b08f9fd8057ce40fb18fb5df37d86b70d_000",
+   "suite": "whitebox",
+   "test": "8",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  },
+  {
+   "case": "syllables_ea67b84145a12733c524b716da44f36a42cf815013d14cafbd2a66a5a4c8b5a99022c355960cd62ca71a640315747cd604afdfa9ec753d1739c686734b2798a7_007",
+   "suite": "blackbox",
+   "test": "1",
+   "recorded_pass": false,
+   "converted_pass": true,
+   "exit": 0
+  }
+ ]
+}
