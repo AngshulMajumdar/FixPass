@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# JFixPass CLI wrapper.
+DIR="$(cd "$(dirname "$0")/.." && pwd)"
+exec java -Xss64m -XX:+UseSerialGC -jar "$DIR/build/jfixpass.jar" "$@"
