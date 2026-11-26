@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "FixPass: a repairing compiler pass for C and Java"
+authors:
+  - family-names: Majumdar
+    given-names: Angshul
+    affiliation: "Indraprastha Institute of Information Technology Delhi"
+version: 0.1.0
+date-released: 2026-11-26
+license: Apache-2.0
+repository-code: "https://github.com/AngshulMajumdar/FixPass"
