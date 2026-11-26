@@ -1,0 +1,189 @@
+{
+  "tool": "jfixpass 0.1.0",
+  "tests": 10,
+  "main_class": "Main",
+  "original_compiles": false,
+  "original_diagnostics": [
+    "L184 [compiler.err.illegal.start.of.expr] illegal start of expression"
+  ],
+  "compile_repairs": [
+    {
+      "phase": "syntax",
+      "line": 184,
+      "diagnostic": "compiler.err.illegal.start.of.expr",
+      "message": "illegal start of expression",
+      "stage": "lexical/structural",
+      "rule": "insert missing '}' (indentation)",
+      "before": "}",
+      "after": "}"
+    },
+    {
+      "phase": "types",
+      "line": 166,
+      "diagnostic": "compiler.err.cant.resolve.location.args",
+      "message": "cannot find symbol",
+      "rule": "rename mim -> min",
+      "before": "lowest = Math.mim(lowest, s.scores[idx]);",
+      "after": "lowest = Math.min(lowest, s.scores[idx]);"
+    },
+    {
+      "phase": "types",
+      "line": 80,
+      "diagnostic": "compiler.err.missing.ret.stmt",
+      "message": "missing return statement",
+      "rule": "value:\"D\"",
+      "before": "}",
+      "after": "return \"D\";",
+      "tied_alternatives": 31
+    }
+  ],
+  "compile_candidates_checked": 2510,
+  "syntax_parses": 2478,
+  "static_rules": [],
+  "search": [
+    {
+      "initial_passing": 0,
+      "initial_score": 3.5477914441638725
+    },
+    {
+      "round": 1,
+      "ranked_candidates": 580,
+      "evaluated": 102,
+      "did_not_compile": 5,
+      "edits": [
+        {
+          "operator": "floating division",
+          "line": 33,
+          "before": "return total() / scores.length;",
+          "after": "return (double) total() / scores.length;"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 21,
+      "passing": 0,
+      "score": 5.805
+    },
+    {
+      "round": 2,
+      "ranked_candidates": 577,
+      "evaluated": 213,
+      "did_not_compile": 11,
+      "edits": [
+        {
+          "operator": "operator >->>=",
+          "line": 73,
+          "before": "} else if (score > 80.0) {",
+          "after": "} else if (score >= 80.0) {"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 132,
+      "passing": 0,
+      "score": 5.988
+    },
+    {
+      "equal_score_alternatives": 2,
+      "alternatives": [
+        "operator ==->< @L131: if (i == 0 || w < prev) {",
+        "operator ==->!= @L131: if (i == 0 || w != prev) {"
+      ],
+      "behaviour_groups": [
+        2
+      ],
+      "round": 3,
+      "ranked_candidates": 577,
+      "evaluated": 303,
+      "did_not_compile": 20,
+      "edits": [
+        {
+          "operator": "operator ==-><",
+          "line": 131,
+          "before": "if (i == 0 || w == prev) {",
+          "after": "if (i == 0 || w < prev) {"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 268,
+      "passing": 0,
+      "score": 8.357
+    },
+    {
+      "round": 4,
+      "ranked_candidates": 577,
+      "evaluated": 308,
+      "did_not_compile": 20,
+      "edits": [
+        {
+          "operator": "expr-1",
+          "line": 109,
+          "before": "return Math.sqrt(ss / values.length);",
+          "after": "return Math.sqrt(ss / (values.length - 1));"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 227,
+      "passing": 1,
+      "score": 9.788
+    },
+    {
+      "equal_score_alternatives": 5,
+      "alternatives": [
+        "operator ==->> @L90: if (copy.length % 2 > 0) {",
+        "operator ==->!= @L90: if (copy.length % 2 != 0) {",
+        "literal+1 @L90: if (copy.length % 2 == 1) {",
+        "expr+1 @L90: if ((copy.length + 1) % 2 == 0) {",
+        "expr-1 @L90: if ((copy.length - 1) % 2 == 0) {"
+      ],
+      "behaviour_groups": [
+        5
+      ],
+      "round": 5,
+      "ranked_candidates": 584,
+      "evaluated": 238,
+      "did_not_compile": 12,
+      "edits": [
+        {
+          "operator": "operator ==->>",
+          "line": 90,
+          "before": "if (copy.length % 2 == 0) {",
+          "after": "if (copy.length % 2 > 0) {"
+        }
+      ],
+      "suspiciousness": 0.949,
+      "rank": 174,
+      "passing": 7,
+      "score": 16.202
+    },
+    {
+      "round": 6,
+      "ranked_candidates": 581,
+      "evaluated": 95,
+      "did_not_compile": 2,
+      "edits": [
+        {
+          "operator": "revisit compile choice (compiler.err.missing.ret.stmt)",
+          "line": 80,
+          "before": "return \"D\";",
+          "after": "return \"F\";"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 14,
+      "passing": 10,
+      "score": 20
+    }
+  ],
+  "fuel_limit": 1000000,
+  "test_timeout_ms": 500,
+  "candidates_evaluated": 1259,
+  "ambiguous_rounds": 0,
+  "final_warnings": [],
+  "final_passing": 10,
+  "final_failures": [],
+  "changed": true,
+  "status": "all tests pass",
+  "exit_code": 0,
+  "javac_invocations": 5120,
+  "seconds": 60.8,
+  "test_executions": 0
+}

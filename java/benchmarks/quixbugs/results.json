@@ -1,0 +1,554 @@
+[
+ {
+  "id": "BITCOUNT",
+  "tests": 9,
+  "before_pass": 0,
+  "exit": 1,
+  "status": "repair failed validation: 2/9 tests pass",
+  "seconds": 21.1
+ },
+ {
+  "id": "BREADTH_FIRST_SEARCH",
+  "tests": 5,
+  "before_pass": 4,
+  "exit": 1,
+  "status": "repair failed validation: 4/5 tests pass",
+  "seconds": 22.2
+ },
+ {
+  "id": "BUCKETSORT",
+  "tests": 6,
+  "before_pass": 0,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 13.1,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": true,
+  "identical_to_reference_fix": true,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L21: for (Integer count : arr) { // arr is counts in fixed version => for (Integer count : counts) { // arr is counts in fixed version"
+  ],
+  "reference_fix": [
+   "for (Integer count : arr) { // arr is counts in fixed version => for (Integer count : counts) {"
+  ]
+ },
+ {
+  "id": "DEPTH_FIRST_SEARCH",
+  "tests": 5,
+  "before_pass": 4,
+  "exit": 1,
+  "status": "repair failed validation: 4/5 tests pass",
+  "seconds": 7.5
+ },
+ {
+  "id": "DETECT_CYCLE",
+  "tests": 6,
+  "before_pass": 5,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 7.2,
+  "passes_with_untouched_harness": false,
+  "program_class_identical_to_reference": false,
+  "identical_to_reference_fix": false,
+  "edits_only_in_program_class": false,
+  "diff": [
+   "L185: Boolean result = DETECT_CYCLE.detect_cycle(node7); => Boolean result = DETECT_CYCLE.detect_cycle(node1);"
+  ],
+  "reference_fix": [
+   " => /**",
+   "/** => *",
+   "* => * @author derricklin",
+   "* @author derricklin => */",
+   "*/ => class DETECT_CYCLE {",
+   "class DETECT_CYCLE { => public static boolean detect_cycle(Node node) {",
+   "public static boolean detect_cycle(Node node) { => Node hare = node;",
+   "Node hare = node; => Node tortoise = node;",
+   "Node tortoise = node; => ",
+   " => while (true) {",
+   "while (true) { => if (null==hare ||hare.getSuccessor() == null)",
+   "if (hare.getSuccessor() == null) => return false;",
+   "return false; => ",
+   " => tortoise = tortoise.getSuccessor();",
+   "tortoise = tortoise.getSuccessor(); => hare = hare.getSuccessor().getSuccessor();",
+   "hare = hare.getSuccessor().getSuccessor(); => ",
+   " => if (hare == tortoise)",
+   "if (hare == tortoise) => return true;",
+   "return true; => }",
+   "} => }",
+   "} => }",
+   "} => ",
+   " => class Node {"
+  ]
+ },
+ {
+  "id": "FIND_FIRST_IN_SORTED",
+  "tests": 7,
+  "before_pass": 4,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 18.7,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": true,
+  "identical_to_reference_fix": true,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L18: while (lo <= hi) { => while (lo < hi) {"
+  ],
+  "reference_fix": [
+   "while (lo <= hi) { => while (lo < hi) {"
+  ]
+ },
+ {
+  "id": "FIND_IN_SORTED",
+  "tests": 7,
+  "before_pass": 5,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 36.8,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": false,
+  "identical_to_reference_fix": false,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L12: if (start == end) { => if ((start + 1) == end) {"
+  ],
+  "reference_fix": [
+   "return binsearch(arr, x, mid, end); => return binsearch(arr, x, mid+1, end);"
+  ]
+ },
+ {
+  "id": "FLATTEN",
+  "tests": 7,
+  "before_pass": 1,
+  "exit": 1,
+  "status": "repair failed validation: 1/7 tests pass",
+  "seconds": 123.6
+ },
+ {
+  "id": "GCD",
+  "tests": 5,
+  "before_pass": 0,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 123.1,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": true,
+  "identical_to_reference_fix": true,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L18: return gcd(a % b, b); => return gcd(b, a % b);"
+  ],
+  "reference_fix": [
+   "return gcd(a % b, b); => return gcd(b, a%b);"
+  ]
+ },
+ {
+  "id": "GET_FACTORS",
+  "tests": 11,
+  "before_pass": 1,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 18.5,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": false,
+  "identical_to_reference_fix": false,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L17: int max = (int)(Math.sqrt(n) + 1.0); => int max = (int)(Math.sqrt(n) % 1.0);",
+   "L18: for (int i=2; i < max; i++) { => for (int i=2; i >= max; i++) {"
+  ],
+  "reference_fix": [
+   "return new ArrayList<Integer>(); => ",
+   "} => return new ArrayList<Integer>(Arrays.asList(n));",
+   "} => }",
+   " => }"
+  ]
+ },
+ {
+  "id": "HANOI",
+  "tests": 7,
+  "before_pass": 0,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 32.9,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": true,
+  "identical_to_reference_fix": true,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L26: steps.add(new Pair<Integer,Integer>(start, helper)); => steps.add(new Pair<Integer,Integer>(start, end));"
+  ],
+  "reference_fix": [
+   "steps.add(new Pair<Integer,Integer>(start, helper)); => steps.add(new Pair<Integer,Integer>(start, end));"
+  ]
+ },
+ {
+  "id": "IS_VALID_PARENTHESIZATION",
+  "tests": 3,
+  "before_pass": 2,
+  "exit": 1,
+  "status": "repair failed validation: 2/3 tests pass",
+  "seconds": 18.5
+ },
+ {
+  "id": "KHEAPSORT",
+  "tests": 4,
+  "before_pass": 1,
+  "exit": 1,
+  "status": "repair failed validation: 1/4 tests pass",
+  "seconds": 29.9
+ },
+ {
+  "id": "KNAPSACK",
+  "tests": 10,
+  "before_pass": 4,
+  "exit": 1,
+  "status": "repair failed validation: 9/10 tests pass",
+  "seconds": 120.8
+ },
+ {
+  "id": "KTH",
+  "tests": 7,
+  "before_pass": 3,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 24.1,
+  "passes_with_untouched_harness": false,
+  "program_class_identical_to_reference": false,
+  "identical_to_reference_fix": false,
+  "edits_only_in_program_class": false,
+  "diff": [
+   "L25: return kth(above, k); => return kth(above, num_less);",
+   "L46: java.lang.Integer result = KTH.kth(new java.util.ArrayList(java.util.Arrays.asList(1,2,3,4,5,6,7)),(int)4); => java.lang.Integer result = KTH.kth(new java.util.ArrayList(java.util.Arrays.asList(3,2,1,4,5,6,7)),(int)4);",
+   "L52: java.lang.Integer result = KTH.kth(new java.util.ArrayList(java.util.Arrays.asList(3,6,7,1,6,3,8,9)),(int)5); => java.lang.Integer result = KTH.kth(new java.util.ArrayList(java.util.Arrays.asList(4,6,7,1,6,3,8,9)),(int)5);"
+  ],
+  "reference_fix": [
+   " => * To change this template, choose Tools | Templates",
+   "*/ => * and open the template in the editor.",
+   "class KTH { => */",
+   "public static Integer kth(ArrayList<Integer> arr, int k) { => ",
+   "int pivot = arr.get(0); => /**",
+   "ArrayList<Integer> below, above; => *",
+   "below = new ArrayList<Integer>(arr.size()); => * @author derricklin",
+   "above = new ArrayList<Integer>(arr.size()); => */",
+   "for (Integer x : arr) { => class KTH {",
+   "if (x < pivot) { => public static Integer kth(ArrayList<Integer> arr, int k) {",
+   "below.add(x); => int pivot = arr.get(0);",
+   "} else if (x > pivot) { => ArrayList<Integer> below, above;",
+   "above.add(x); => below = new ArrayList<Integer>(arr.size());",
+   "} => above = new ArrayList<Integer>(arr.size());",
+   "} => for (Integer x : arr) {",
+   " => if (x < pivot) {",
+   "int num_less = below.size(); => below.add(x);",
+   "int num_lessoreq = arr.size() - above.size(); => } else if (x > pivot) {",
+   "if (k < num_less) { => above.add(x);",
+   "return kth(below, k); => }",
+   "} else if (k >= num_lessoreq) { => }",
+   "return kth(above, k); => ",
+   "} else { => int num_less = below.size();",
+   "return pivot; => int num_lessoreq = arr.size() - above.size();",
+   "} => if (k < num_less) {",
+   "} => return kth(below, k);",
+   "} => } else if (k >= num_lessoreq) {",
+   " => return kth(above, k-num_lessoreq);"
+  ]
+ },
+ {
+  "id": "LCS_LENGTH",
+  "tests": 9,
+  "before_pass": 1,
+  "exit": 1,
+  "status": "repair failed validation: 6/9 tests pass",
+  "seconds": 112.1
+ },
+ {
+  "id": "LEVENSHTEIN",
+  "tests": 6,
+  "before_pass": 1,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 32.6,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": false,
+  "identical_to_reference_fix": false,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L17: return 1 + levenshtein(source.substring(1), target.substring(1)); => return 0 + levenshtein(source.substring(1), target.substring(1));"
+  ],
+  "reference_fix": [
+   "return 1 + levenshtein(source.substring(1), target.substring(1)); => return levenshtein(source.substring(1), target.substring(1));"
+  ]
+ },
+ {
+  "id": "LIS",
+  "tests": 4,
+  "before_pass": 0,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 37.2,
+  "passes_with_untouched_harness": false,
+  "program_class_identical_to_reference": false,
+  "identical_to_reference_fix": false,
+  "edits_only_in_program_class": false,
+  "diff": [
+   "L29: if (length == longest || val < arr[ends.get(length+1)]) { => if (length == longest || val > arr[ends.get(length+1)]) {",
+   "L66: int result = LIS.lis(new int[]{7,10,9,2,3,8,1}); => int result = LIS.lis(new int[]{7,9,10,2,3,8,1});"
+  ],
+  "reference_fix": [
+   "longest = length + 1; => longest = Math.max(longest,length + 1);"
+  ]
+ },
+ {
+  "id": "LONGEST_COMMON_SUBSEQUENCE",
+  "tests": 10,
+  "before_pass": 6,
+  "exit": 1,
+  "status": "repair failed validation: 9/10 tests pass",
+  "seconds": 125.0
+ },
+ {
+  "id": "MAX_SUBLIST_SUM",
+  "tests": 6,
+  "before_pass": 2,
+  "exit": 1,
+  "status": "repair failed validation: 4/6 tests pass",
+  "seconds": 29.0
+ },
+ {
+  "id": "MERGESORT",
+  "tests": 13,
+  "before_pass": 0,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 120.6,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": false,
+  "identical_to_reference_fix": false,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L37: if (arr.size() == 0) { // <= 1 in correct version => if (arr.size() == 1) { // <= 1 in correct version"
+  ],
+  "reference_fix": [
+   "if (arr.size() == 0) { // <= 1 in correct version => if (arr.size() <= 1) { // <= 1 in correct version"
+  ]
+ },
+ {
+  "id": "MINIMUM_SPANNING_TREE",
+  "tests": 3,
+  "before_pass": 1,
+  "exit": 1,
+  "status": "repair failed validation: 2/3 tests pass",
+  "seconds": 120.7
+ },
+ {
+  "id": "NEXT_PALINDROME",
+  "tests": 5,
+  "before_pass": 4,
+  "exit": 1,
+  "status": "repair failed validation: 4/5 tests pass",
+  "seconds": 23.0
+ },
+ {
+  "id": "NEXT_PERMUTATION",
+  "tests": 8,
+  "before_pass": 0,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 14.4,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": true,
+  "identical_to_reference_fix": true,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L19: if (perm.get(j) < perm.get(i)) { => if (perm.get(j) > perm.get(i)) {"
+  ],
+  "reference_fix": [
+   "if (perm.get(j) < perm.get(i)) { => if (perm.get(j) > perm.get(i)) {"
+  ]
+ },
+ {
+  "id": "PASCAL",
+  "tests": 5,
+  "before_pass": 1,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 13.5,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": false,
+  "identical_to_reference_fix": false,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L21: for (int c=0; c<r; c++) { => for (int c=0; c<=r; c++) {"
+  ],
+  "reference_fix": [
+   "for (int c=0; c<r; c++) { => for (int c=0; c<r+1; c++) {"
+  ]
+ },
+ {
+  "id": "POSSIBLE_CHANGE",
+  "tests": 9,
+  "before_pass": 0,
+  "exit": 1,
+  "status": "repair failed validation: 0/9 tests pass",
+  "seconds": 82.3
+ },
+ {
+  "id": "POWERSET",
+  "tests": 5,
+  "before_pass": 1,
+  "exit": 1,
+  "status": "repair failed validation: 2/5 tests pass",
+  "seconds": 47.4
+ },
+ {
+  "id": "QUICKSORT",
+  "tests": 13,
+  "before_pass": 12,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 30.8,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": false,
+  "identical_to_reference_fix": false,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L23: if (x < pivot) { => if (x <= pivot) {"
+  ],
+  "reference_fix": [
+   "} else if (x > pivot) { => } else if (x >= pivot) {"
+  ]
+ },
+ {
+  "id": "REVERSE_LINKED_LIST",
+  "tests": 3,
+  "before_pass": 1,
+  "exit": 1,
+  "status": "repair failed validation: 2/3 tests pass",
+  "seconds": 19.3
+ },
+ {
+  "id": "RPN_EVAL",
+  "tests": 6,
+  "before_pass": 3,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 17.2,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": true,
+  "identical_to_reference_fix": true,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L33: c = bin_op.apply(a,b); => c = bin_op.apply(b,a);"
+  ],
+  "reference_fix": [
+   "c = bin_op.apply(a,b); => c = bin_op.apply(b,a);"
+  ]
+ },
+ {
+  "id": "SHORTEST_PATHS",
+  "tests": 3,
+  "before_pass": 0,
+  "exit": 1,
+  "status": "repair failed validation: 0/3 tests pass",
+  "seconds": 38.2
+ },
+ {
+  "id": "SHORTEST_PATH_LENGTH",
+  "tests": 4,
+  "before_pass": 2,
+  "exit": 1,
+  "status": "repair failed validation: 2/4 tests pass",
+  "seconds": 35.2
+ },
+ {
+  "id": "SHORTEST_PATH_LENGTHS",
+  "tests": 3,
+  "before_pass": 0,
+  "exit": 0,
+  "status": "all tests pass",
+  "seconds": 40.4,
+  "passes_with_untouched_harness": true,
+  "program_class_identical_to_reference": true,
+  "identical_to_reference_fix": true,
+  "edits_only_in_program_class": true,
+  "diff": [
+   "L41: length_by_path.get(Arrays.asList(j,k)))); => length_by_path.get(Arrays.asList(k,j))));"
+  ],
+  "reference_fix": [
+   "length_by_path.get(Arrays.asList(j,k)))); => length_by_path.get(Arrays.asList(k,j))));",
+   "length_by_path.put(Arrays.asList(i,j), update_length); => ",
+   "} => length_by_path.put(Arrays.asList(i,j), update_length);",
+   "} => }",
+   "} => }",
+   "return length_by_path; => }",
+   "} => return length_by_path;",
+   " => }",
+   "static private int sumLengths(int a, int b) { => ",
+   "if(a == INF || b == INF) { => static private int sumLengths(int a, int b) {",
+   "return INF; => if(a == INF || b == INF) {",
+   "} => return INF;",
+   "return a + b; => }",
+   "} => return a + b;",
+   " => }",
+   "} => ",
+   " => }"
+  ]
+ },
+ {
+  "id": "SHUNTING_YARD",
+  "tests": 4,
+  "before_pass": 0,
+  "exit": 1,
+  "status": "repair failed validation: 0/4 tests pass",
+  "seconds": 34.6
+ },
+ {
+  "id": "SIEVE",
+  "tests": 6,
+  "before_pass": 1,
+  "exit": 1,
+  "status": "repair failed validation: 3/6 tests pass",
+  "seconds": 33.5
+ },
+ {
+  "id": "SQRT",
+  "tests": 7,
+  "before_pass": 1,
+  "exit": 1,
+  "status": "repair failed validation: 1/7 tests pass",
+  "seconds": 40.3
+ },
+ {
+  "id": "SUBSEQUENCES",
+  "tests": 12,
+  "before_pass": 2,
+  "exit": 1,
+  "status": "repair failed validation: 2/12 tests pass",
+  "seconds": 59.5
+ },
+ {
+  "id": "TOPOLOGICAL_ORDERING",
+  "tests": 3,
+  "before_pass": 0,
+  "exit": 1,
+  "status": "repair failed validation: 0/3 tests pass",
+  "seconds": 66.4
+ },
+ {
+  "id": "TO_BASE",
+  "tests": 7,
+  "before_pass": 0,
+  "exit": 1,
+  "status": "repair failed validation: 0/7 tests pass",
+  "seconds": 38.1
+ },
+ {
+  "id": "WRAP",
+  "tests": 5,
+  "before_pass": 0,
+  "exit": 1,
+  "status": "repair failed validation: 0/5 tests pass",
+  "seconds": 19.4
+ }
+]

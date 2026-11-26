@@ -1,0 +1,181 @@
+{
+  "tool": "jfixpass 0.1.0",
+  "tests": 10,
+  "main_class": "Main",
+  "original_compiles": false,
+  "original_diagnostics": [
+    "L35 [compiler.err.expected] ';' expected"
+  ],
+  "compile_repairs": [
+    {
+      "phase": "syntax",
+      "line": 35,
+      "diagnostic": "compiler.err.expected",
+      "message": "';' expected",
+      "stage": "priority tokens",
+      "rule": "insert expected ';'",
+      "before": "Deque<Integer> q = new ArrayDeque<>()",
+      "after": "Deque<Integer> q = new ArrayDeque<>();"
+    },
+    {
+      "phase": "types",
+      "line": 59,
+      "diagnostic": "compiler.err.prob.found.req",
+      "message": "incompatible types: possible lossy conversion from long to int",
+      "rule": "explicit cast to int",
+      "before": "int u = top[1];",
+      "after": "int u = (int) top[1];"
+    },
+    {
+      "phase": "types",
+      "line": 106,
+      "diagnostic": "compiler.err.cant.resolve.location",
+      "message": "cannot find symbol",
+      "rule": "rename PriortyQueue -> PriorityQueue",
+      "before": "PriortyQueue<Integer> ready = new PriorityQueue<>();",
+      "after": "PriorityQueue<Integer> ready = new PriorityQueue<>();"
+    }
+  ],
+  "compile_candidates_checked": 2646,
+  "syntax_parses": 2644,
+  "static_rules": [],
+  "search": [
+    {
+      "initial_passing": 0,
+      "initial_score": 5.508225108225108
+    },
+    {
+      "equal_score_alternatives": 2,
+      "alternatives": [
+        "operator !=-><= @L42: if (dist[v] <= -1) {",
+        "operator !=->== @L42: if (dist[v] == -1) {"
+      ],
+      "behaviour_groups": [
+        2
+      ],
+      "round": 1,
+      "ranked_candidates": 520,
+      "evaluated": 87,
+      "did_not_compile": 5,
+      "edits": [
+        {
+          "operator": "operator !=-><=",
+          "line": 42,
+          "before": "if (dist[v] != -1) {",
+          "after": "if (dist[v] <= -1) {"
+        }
+      ],
+      "suspiciousness": 1.094,
+      "rank": 14,
+      "passing": 0,
+      "score": 7.231
+    },
+    {
+      "round": 2,
+      "ranked_candidates": 520,
+      "evaluated": 207,
+      "did_not_compile": 14,
+      "edits": [
+        {
+          "operator": "swap ternary branches",
+          "line": 146,
+          "before": "return directed ? sum / 2 : sum;",
+          "after": "return directed ? sum : sum / 2;"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 196,
+      "passing": 1,
+      "score": 9.541
+    },
+    {
+      "equal_score_alternatives": 7,
+      "alternatives": [
+        "operator <-><= @L123: if (order.size() <= n - 1) {",
+        "operator -->* @L123: if (order.size() < n * 1) {",
+        "operator -->/ @L123: if (order.size() < n / 1) {",
+        "literal-1 @L123: if (order.size() < n - 0) {",
+        "expr-1 @L123: if ((order.size() - 1) < n - 1) {",
+        "drop constant offset @L123: if (order.size() < n) {",
+        "expr+1 @L123: if (order.size() < (n + 1) - 1) {"
+      ],
+      "behaviour_groups": [
+        7
+      ],
+      "round": 3,
+      "ranked_candidates": 520,
+      "evaluated": 207,
+      "did_not_compile": 14,
+      "edits": [
+        {
+          "operator": "operator <-><=",
+          "line": 123,
+          "before": "if (order.size() < n - 1) {",
+          "after": "if (order.size() <= n - 1) {"
+        }
+      ],
+      "suspiciousness": 0.949,
+      "rank": 126,
+      "passing": 3,
+      "score": 11.828
+    },
+    {
+      "round": 4,
+      "ranked_candidates": 520,
+      "evaluated": 105,
+      "did_not_compile": 15,
+      "edits": [
+        {
+          "operator": "variable v->u",
+          "line": 65,
+          "before": "long nd = dist[v] + e[1];",
+          "after": "long nd = dist[u] + e[1];"
+        }
+      ],
+      "suspiciousness": 0.857,
+      "rank": 25,
+      "passing": 8,
+      "score": 17.7
+    },
+    {
+      "equal_score_alternatives": 3,
+      "alternatives": [
+        "operator >=->> @L132: if (adj[u].size() > adj[best].size()) {",
+        "expr-1 @L132: if ((adj[u].size() - 1) >= adj[best].size()) {",
+        "expr+1 @L132: if (adj[u].size() >= (adj[best].size() + 1)) {"
+      ],
+      "behaviour_groups": [
+        3
+      ],
+      "round": 5,
+      "ranked_candidates": 447,
+      "evaluated": 241,
+      "did_not_compile": 23,
+      "edits": [
+        {
+          "operator": "operator >=->>",
+          "line": 132,
+          "before": "if (adj[u].size() >= adj[best].size()) {",
+          "after": "if (adj[u].size() > adj[best].size()) {"
+        }
+      ],
+      "suspiciousness": 0.447,
+      "rank": 160,
+      "passing": 10,
+      "score": 20
+    }
+  ],
+  "fuel_limit": 1000000,
+  "test_timeout_ms": 2000,
+  "candidates_evaluated": 847,
+  "ambiguous_rounds": 0,
+  "final_warnings": [],
+  "final_passing": 10,
+  "final_failures": [],
+  "changed": true,
+  "status": "all tests pass",
+  "exit_code": 0,
+  "javac_invocations": 4441,
+  "seconds": 44.3,
+  "test_executions": 0
+}

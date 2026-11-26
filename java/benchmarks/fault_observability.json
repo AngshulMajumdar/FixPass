@@ -1,0 +1,338 @@
+[
+ {
+  "id": "gradebook-1",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "gradebook-2",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "gradebook-3",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "gradebook-4",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "9/10",
+  "validation_failed": "33/40"
+ },
+ {
+  "id": "gradebook-5",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "1/10",
+  "validation_failed": "8/40"
+ },
+ {
+  "id": "gradebook-6",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "8/10",
+  "validation_failed": "36/40"
+ },
+ {
+  "id": "gradebook-7",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "10/10",
+  "validation_failed": "36/40"
+ },
+ {
+  "id": "gradebook-8",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "10/10",
+  "validation_failed": "36/40"
+ },
+ {
+  "id": "graph_engine-1",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "graph_engine-2",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "graph_engine-3",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "graph_engine-4",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "8/10",
+  "validation_failed": "29/40"
+ },
+ {
+  "id": "graph_engine-5",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "6/10",
+  "validation_failed": "30/40"
+ },
+ {
+  "id": "graph_engine-6",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "2/10",
+  "validation_failed": "9/40"
+ },
+ {
+  "id": "graph_engine-7",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "9/10",
+  "validation_failed": "40/40"
+ },
+ {
+  "id": "graph_engine-8",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "2/10",
+  "validation_failed": "8/40"
+ },
+ {
+  "id": "inventory-1",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "inventory-2",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "inventory-3",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "inventory-4",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "inventory-5",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "6/10",
+  "validation_failed": "27/40"
+ },
+ {
+  "id": "inventory-6",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "4/10",
+  "validation_failed": "31/40"
+ },
+ {
+  "id": "inventory-7",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "1/10",
+  "validation_failed": "19/40"
+ },
+ {
+  "id": "inventory-8",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "6/10",
+  "validation_failed": "35/40"
+ },
+ {
+  "id": "matrix_lab-1",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "matrix_lab-2",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "matrix_lab-3",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "matrix_lab-4",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "1/10",
+  "validation_failed": "10/40"
+ },
+ {
+  "id": "matrix_lab-5",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "3/10",
+  "validation_failed": "16/40"
+ },
+ {
+  "id": "matrix_lab-6",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "2/10",
+  "validation_failed": "15/40"
+ },
+ {
+  "id": "matrix_lab-7",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "9/10",
+  "validation_failed": "39/40"
+ },
+ {
+  "id": "matrix_lab-8",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "9/10",
+  "validation_failed": "33/40"
+ },
+ {
+  "id": "rpn_calculator-1",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "rpn_calculator-2",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "rpn_calculator-3",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "rpn_calculator-4",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "8/10",
+  "validation_failed": "40/40"
+ },
+ {
+  "id": "rpn_calculator-5",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "10/10",
+  "validation_failed": "40/40"
+ },
+ {
+  "id": "rpn_calculator-6",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "10/10",
+  "validation_failed": "40/40"
+ },
+ {
+  "id": "rpn_calculator-7",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "3/10",
+  "validation_failed": "15/40"
+ },
+ {
+  "id": "rpn_calculator-8",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "10/10",
+  "validation_failed": "40/40"
+ },
+ {
+  "id": "text_tools-1",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "text_tools-2",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "text_tools-3",
+  "category": "compile",
+  "alone": "compile error",
+  "visible_failed": "-",
+  "validation_failed": "-"
+ },
+ {
+  "id": "text_tools-4",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "5/10",
+  "validation_failed": "25/40"
+ },
+ {
+  "id": "text_tools-5",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "4/10",
+  "validation_failed": "23/40"
+ },
+ {
+  "id": "text_tools-6",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "6/10",
+  "validation_failed": "25/40"
+ },
+ {
+  "id": "text_tools-7",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "8/10",
+  "validation_failed": "25/40"
+ },
+ {
+  "id": "text_tools-8",
+  "category": "semantic",
+  "alone": "compiles",
+  "visible_failed": "3/10",
+  "validation_failed": "9/40"
+ }
+]

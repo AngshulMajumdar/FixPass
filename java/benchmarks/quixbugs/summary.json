@@ -1,0 +1,27 @@
+{
+ "programs": 40,
+ "skipped": [],
+ "evaluated": 40,
+ "failing_before": 40,
+ "compiler_reported_success": 16,
+ "plausible_validated_with_untouched_harness": 13,
+ "validated_and_identical_to_reference_fix": 7,
+ "validated_ids": [
+  "BUCKETSORT",
+  "FIND_FIRST_IN_SORTED",
+  "FIND_IN_SORTED",
+  "GCD",
+  "GET_FACTORS",
+  "HANOI",
+  "LEVENSHTEIN",
+  "MERGESORT",
+  "NEXT_PERMUTATION",
+  "PASCAL",
+  "QUICKSORT",
+  "RPN_EVAL",
+  "SHORTEST_PATH_LENGTHS"
+ ],
+ "rejected_by_gate": [],
+ "edits_only_in_program_class": 13,
+ "median_seconds": 33.5
+}

@@ -1,0 +1,66 @@
+[
+ {
+  "id": "inventory-1",
+  "category": "compile",
+  "description": "missing semicolon",
+  "reference_line": 71,
+  "original": "it.qty -= qty;",
+  "injected": "it.qty -= qty"
+ },
+ {
+  "id": "inventory-2",
+  "category": "compile",
+  "description": "misspelled variable items -> item",
+  "reference_line": 57,
+  "original": "items.put(name, new Item(name, qty, price));",
+  "injected": "item.put(name, new Item(name, qty, price));"
+ },
+ {
+  "id": "inventory-3",
+  "category": "compile",
+  "description": "missing import java.util.Collections",
+  "reference_line": 2,
+  "original": "import java.util.Collections;\n",
+  "injected": ""
+ },
+ {
+  "id": "inventory-4",
+  "category": "compile",
+  "description": "assignment instead of comparison on a String (C habit)",
+  "reference_line": 171,
+  "original": "if (cmd.equals(\"END\")) {",
+  "injected": "if (cmd = \"END\") {"
+ },
+ {
+  "id": "inventory-5",
+  "category": "semantic",
+  "description": "boundary: selling the whole stock rejected",
+  "reference_line": 67,
+  "original": "if (qty > it.qty) {",
+  "injected": "if (qty >= it.qty) {"
+ },
+ {
+  "id": "inventory-6",
+  "category": "semantic",
+  "description": "boundary: cents == 10 padded as 010",
+  "reference_line": 43,
+  "original": "String f = frac < 10 ? \"0\" + frac",
+  "injected": "String f = frac <= 10 ? \"0\" + frac"
+ },
+ {
+  "id": "inventory-7",
+  "category": "semantic",
+  "description": "comparator arguments swapped (ascending instead of descending)",
+  "reference_line": 121,
+  "original": "int c = Long.compare(b.value(), a.value());",
+  "injected": "int c = Long.compare(a.value(), b.value());"
+ },
+ {
+  "id": "inventory-8",
+  "category": "semantic",
+  "description": "wrong compound operator on net change",
+  "reference_line": 73,
+  "original": "it.netChange -= qty;",
+  "injected": "it.netChange += qty;"
+ }
+]

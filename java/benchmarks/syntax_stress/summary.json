@@ -1,0 +1,103 @@
+{
+ "trials_run": 600,
+ "with_syntax_error": 570,
+ "corrupted_but_still_parsing": 30,
+ "all": {
+  "n": 570,
+  "parse": 570,
+  "compiles": 546,
+  "token_exact": 263,
+  "lossy": 137
+ },
+ "mean_seconds": 12.1,
+ "median_seconds": 7.297,
+ "max_seconds": 96.547,
+ "by_corruption_count": {
+  "1": {
+   "n": 150,
+   "parse": 150,
+   "compiles": 150,
+   "token_exact": 128,
+   "lossy": 4
+  },
+  "2": {
+   "n": 153,
+   "parse": 153,
+   "compiles": 148,
+   "token_exact": 72,
+   "lossy": 26
+  },
+  "3": {
+   "n": 106,
+   "parse": 106,
+   "compiles": 100,
+   "token_exact": 37,
+   "lossy": 33
+  },
+  "4": {
+   "n": 65,
+   "parse": 65,
+   "compiles": 57,
+   "token_exact": 13,
+   "lossy": 27
+  },
+  "5": {
+   "n": 96,
+   "parse": 96,
+   "compiles": 91,
+   "token_exact": 13,
+   "lossy": 47
+  }
+ },
+ "by_case": {
+  "gradebook": {
+   "n": 94,
+   "parse": 94,
+   "compiles": 92,
+   "token_exact": 39,
+   "lossy": 31
+  },
+  "graph_engine": {
+   "n": 97,
+   "parse": 97,
+   "compiles": 92,
+   "token_exact": 54,
+   "lossy": 15
+  },
+  "inventory": {
+   "n": 98,
+   "parse": 98,
+   "compiles": 96,
+   "token_exact": 40,
+   "lossy": 27
+  },
+  "matrix_lab": {
+   "n": 94,
+   "parse": 94,
+   "compiles": 84,
+   "token_exact": 40,
+   "lossy": 21
+  },
+  "rpn_calculator": {
+   "n": 94,
+   "parse": 94,
+   "compiles": 92,
+   "token_exact": 49,
+   "lossy": 17
+  },
+  "text_tools": {
+   "n": 93,
+   "parse": 93,
+   "compiles": 90,
+   "token_exact": 41,
+   "lossy": 26
+  }
+ },
+ "full_pipeline": {
+  "n": 60,
+  "exit_0_all_visible_pass": 49,
+  "all_heldout_pass": 48,
+  "token_exact": 42,
+  "lossy": 3
+ }
+}

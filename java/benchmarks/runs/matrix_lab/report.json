@@ -1,0 +1,153 @@
+{
+  "tool": "jfixpass 0.1.0",
+  "tests": 10,
+  "main_class": "Main",
+  "original_compiles": false,
+  "original_diagnostics": [
+    "L190 [compiler.err.expected] ')' expected"
+  ],
+  "compile_repairs": [
+    {
+      "phase": "syntax",
+      "line": 190,
+      "diagnostic": "compiler.err.expected",
+      "message": "')' expected",
+      "stage": "priority tokens",
+      "rule": "insert expected ')'",
+      "before": "if (a.length != b.length || a[0].length != b[0].length {",
+      "after": "if (a.length != b.length || a[0].length != b[0].length) {"
+    },
+    {
+      "phase": "types",
+      "line": 6,
+      "diagnostic": "compiler.err.cant.resolve.location",
+      "message": "cannot find symbol",
+      "rule": "add import java.util.HashMap",
+      "before": "import java.util.Map;",
+      "after": "import java.util.HashMap;"
+    },
+    {
+      "phase": "types",
+      "line": 76,
+      "diagnostic": "compiler.err.cant.resolve.location.args",
+      "message": "cannot find symbol",
+      "rule": "array length is a field",
+      "before": "for (int i = 0; i < Math.min(a.length, a[0].length()); i++) {",
+      "after": "for (int i = 0; i < Math.min(a.length, a[0].length); i++) {"
+    }
+  ],
+  "compile_candidates_checked": 2540,
+  "syntax_parses": 2538,
+  "static_rules": [
+    {
+      "line": 184,
+      "rule": "String compared by reference",
+      "before": "if (cmd == \"MUL\") {",
+      "after": "if (\"MUL\".equals(cmd)) {",
+      "applied": true
+    }
+  ],
+  "search": [
+    {
+      "initial_passing": 1,
+      "initial_score": 9.40319090358209
+    },
+    {
+      "round": 1,
+      "ranked_candidates": 1019,
+      "evaluated": 83,
+      "did_not_compile": 0,
+      "edits": [
+        {
+          "operator": "variable a->b",
+          "line": 37,
+          "before": "int k = a.length;",
+          "after": "int k = b.length;"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 2,
+      "passing": 1,
+      "score": 9.445
+    },
+    {
+      "round": 2,
+      "ranked_candidates": 1019,
+      "evaluated": 418,
+      "did_not_compile": 17,
+      "edits": [
+        {
+          "operator": "assign = -> +=",
+          "line": 140,
+          "before": "out[i] = a[i][j];",
+          "after": "out[i] += a[i][j];"
+        }
+      ],
+      "suspiciousness": 0.949,
+      "rank": 337,
+      "passing": 6,
+      "score": 15.486
+    },
+    {
+      "round": 3,
+      "ranked_candidates": 1019,
+      "evaluated": 104,
+      "did_not_compile": 2,
+      "edits": [
+        {
+          "operator": "variable result->base",
+          "line": 130,
+          "before": "base = multiply(result, base);",
+          "after": "base = multiply(base, base);"
+        }
+      ],
+      "suspiciousness": 0.894,
+      "rank": 23,
+      "passing": 7,
+      "score": 16.654
+    },
+    {
+      "equal_score_alternatives": 6,
+      "alternatives": [
+        "operator ==->< @L113: long sign = (j % 2 < 1) ? 1 : -1;",
+        "operator ==->!= @L113: long sign = (j % 2 != 1) ? 1 : -1;",
+        "literal-1 @L113: long sign = (j % 2 == 0) ? 1 : -1;",
+        "expr+1 @L113: long sign = ((j + 1) % 2 == 1) ? 1 : -1;",
+        "swap ternary branches @L113: long sign = (j % 2 == 1) ? -1 : 1;",
+        "assign +=->-= @L114: det -= sign * a[0][j] * determinant(minor(a, 0, j));"
+      ],
+      "behaviour_groups": [
+        6
+      ],
+      "round": 4,
+      "ranked_candidates": 1018,
+      "evaluated": 293,
+      "did_not_compile": 7,
+      "edits": [
+        {
+          "operator": "operator ==-><",
+          "line": 113,
+          "before": "long sign = (j % 2 == 1) ? 1 : -1;",
+          "after": "long sign = (j % 2 < 1) ? 1 : -1;"
+        }
+      ],
+      "suspiciousness": 0.707,
+      "rank": 215,
+      "passing": 10,
+      "score": 20
+    }
+  ],
+  "fuel_limit": 1000000,
+  "test_timeout_ms": 500,
+  "candidates_evaluated": 898,
+  "ambiguous_rounds": 0,
+  "final_warnings": [],
+  "final_passing": 10,
+  "final_failures": [],
+  "changed": true,
+  "status": "all tests pass",
+  "exit_code": 0,
+  "javac_invocations": 4388,
+  "seconds": 42.2,
+  "test_executions": 0
+}

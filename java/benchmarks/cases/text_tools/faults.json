@@ -1,0 +1,66 @@
+[
+ {
+  "id": "text_tools-1",
+  "category": "compile",
+  "description": "String length used as a field",
+  "reference_line": 31,
+  "original": "int j = s.length() - 1;",
+  "injected": "int j = s.length - 1;"
+ },
+ {
+  "id": "text_tools-2",
+  "category": "compile",
+  "description": "misspelled method reverseWords -> reverseWord",
+  "reference_line": 185,
+  "original": "reverseWords(arg)",
+  "injected": "reverseWord(arg)"
+ },
+ {
+  "id": "text_tools-3",
+  "category": "compile",
+  "description": "missing import java.io.IOException",
+  "reference_line": 2,
+  "original": "import java.io.IOException;\n",
+  "injected": ""
+ },
+ {
+  "id": "text_tools-4",
+  "category": "semantic",
+  "description": "palindrome scan moves the right index the wrong way",
+  "reference_line": 36,
+  "original": "            i++;\n            j--;\n",
+  "injected": "            i++;\n            j++;\n"
+ },
+ {
+  "id": "text_tools-5",
+  "category": "semantic",
+  "description": "upper-case Caesar offset uses 'a'",
+  "reference_line": 50,
+  "original": "('A' + (ch - 'A' + k) % 26)",
+  "injected": "('A' + (ch - 'a' + k) % 26)"
+ },
+ {
+  "id": "text_tools-6",
+  "category": "semantic",
+  "description": "run-length counter starts at 0",
+  "reference_line": 75,
+  "original": "int run = 1;",
+  "injected": "int run = 0;"
+ },
+ {
+  "id": "text_tools-7",
+  "category": "semantic",
+  "description": "lexicographic tie-break inverted",
+  "reference_line": 93,
+  "original": "w.compareTo(best) < 0",
+  "injected": "w.compareTo(best) > 0"
+ },
+ {
+  "id": "text_tools-8",
+  "category": "semantic",
+  "description": "single-letter words counted as palindromes",
+  "reference_line": 173,
+  "original": "if (w.length() > 1 && isPalindrome(w)) {",
+  "injected": "if (w.length() >= 1 && isPalindrome(w)) {"
+ }
+]

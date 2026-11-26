@@ -1,0 +1,66 @@
+[
+ {
+  "id": "graph_engine-1",
+  "category": "compile",
+  "description": "missing semicolon",
+  "reference_line": 35,
+  "original": "Deque<Integer> q = new ArrayDeque<>();",
+  "injected": "Deque<Integer> q = new ArrayDeque<>()"
+ },
+ {
+  "id": "graph_engine-2",
+  "category": "compile",
+  "description": "lossy long -> int without cast",
+  "reference_line": 59,
+  "original": "int u = (int) top[1];",
+  "injected": "int u = top[1];"
+ },
+ {
+  "id": "graph_engine-3",
+  "category": "compile",
+  "description": "misspelled class name PriorityQueue",
+  "reference_line": 106,
+  "original": "PriorityQueue<Integer> ready = new PriorityQueue<>();",
+  "injected": "PriortyQueue<Integer> ready = new PriorityQueue<>();"
+ },
+ {
+  "id": "graph_engine-4",
+  "category": "semantic",
+  "description": "BFS visited test inverted",
+  "reference_line": 42,
+  "original": "if (dist[v] == -1) {",
+  "injected": "if (dist[v] != -1) {"
+ },
+ {
+  "id": "graph_engine-5",
+  "category": "semantic",
+  "description": "relaxation uses wrong endpoint",
+  "reference_line": 65,
+  "original": "long nd = dist[u] + e[1];",
+  "injected": "long nd = dist[v] + e[1];"
+ },
+ {
+  "id": "graph_engine-6",
+  "category": "semantic",
+  "description": "max-degree tie picks last node",
+  "reference_line": 132,
+  "original": "if (adj[u].size() > adj[best].size()) {",
+  "injected": "if (adj[u].size() >= adj[best].size()) {"
+ },
+ {
+  "id": "graph_engine-7",
+  "category": "semantic",
+  "description": "ternary branches swapped for directed/undirected weight",
+  "reference_line": 146,
+  "original": "return directed ? sum : sum / 2;",
+  "injected": "return directed ? sum / 2 : sum;"
+ },
+ {
+  "id": "graph_engine-8",
+  "category": "semantic",
+  "description": "off-by-one in cycle detection",
+  "reference_line": 123,
+  "original": "if (order.size() < n) {",
+  "injected": "if (order.size() < n - 1) {"
+ }
+]

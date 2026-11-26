@@ -1,0 +1,5748 @@
+[
+ {
+  "id": "t0000_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "replace ',' with '-='"
+  ]
+ },
+ {
+  "id": "t0001_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "string \"WEIGHT\" written with single quotes",
+   "swap '\"BFS \"' '+'",
+   "confusable for '('",
+   "replace 'next' with ';'"
+  ]
+ },
+ {
+  "id": "t0002_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "delete 'long'",
+   "replace '(' with 'this'",
+   "duplicate 'it'"
+  ]
+ },
+ {
+  "id": "t0003_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert '^' before '['"
+  ]
+ },
+ {
+  "id": "t0004_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "drop line-final ';'",
+   "swap '==' '']''",
+   "insert 'new' before 'System'",
+   "insert '||' before ')'",
+   "string \"CHECK\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0005_text_tools",
+  "case": "text_tools",
+  "k": 4,
+  "corruptions": [
+   "insert 'null' before 'if'",
+   "insert '>=' before ''z''",
+   "insert 'else' before ')'",
+   "replace '++' with '{'"
+  ]
+ },
+ {
+  "id": "t0006_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "confusable for ';'",
+   "stray character U+005C"
+  ]
+ },
+ {
+  "id": "t0007_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "swap 'best' '='",
+   "replace 'new' with ','",
+   "insert '}' before '('",
+   "drop line-final '{'",
+   "string \"SKIP \" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0008_inventory",
+  "case": "inventory",
+  "k": 4,
+  "corruptions": [
+   "replace '+' with '='",
+   "string \" \" written with single quotes",
+   "delete 'break ;'",
+   "delete '( String'"
+  ]
+ },
+ {
+  "id": "t0009_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "replace '(' with 'class'",
+   "replace 'i' with 'void'",
+   "duplicate '0'"
+  ]
+ },
+ {
+  "id": "t0010_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "replace ')' with '%'",
+   "delete '('",
+   "duplicate 'return'",
+   "drop line-final ';'",
+   "stray character U+005C"
+  ]
+ },
+ {
+  "id": "t0011_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "duplicate 'sb'"
+  ]
+ },
+ {
+  "id": "t0012_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "confusable for ')'",
+   "duplicate '{'"
+  ]
+ },
+ {
+  "id": "t0013_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert ']' before ':'"
+  ]
+ },
+ {
+  "id": "t0014_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "insert '>' before '}'",
+   "drop closing quote of \". \""
+  ]
+ },
+ {
+  "id": "t0015_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert '--' before '{'"
+  ]
+ },
+ {
+  "id": "t0016_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete 'j'",
+   "delete '}'"
+  ]
+ },
+ {
+  "id": "t0017_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0018_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "stray character U+0023",
+   "confusable for '-'",
+   "delete 'nextInt'"
+  ]
+ },
+ {
+  "id": "t0019_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "duplicate 'ArrayDeque'",
+   "insert ';' before '.'",
+   "duplicate 'static'"
+  ]
+ },
+ {
+  "id": "t0020_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "duplicate 'it'",
+   "replace ',' with '--'",
+   "delete ')'"
+  ]
+ },
+ {
+  "id": "t0021_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "duplicate '.'",
+   "delete '['",
+   "delete 'out'"
+  ]
+ },
+ {
+  "id": "t0022_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert '<=' before 'indexOf'"
+  ]
+ },
+ {
+  "id": "t0023_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "replace ')' with '?'",
+   "delete 'char'"
+  ]
+ },
+ {
+  "id": "t0024_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "string \"0\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0025_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "duplicate '('",
+   "delete '='",
+   "insert '%' before ']'",
+   "insert '{' before 'for'",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0026_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "confusable for '('",
+   "swap '.' 'values'",
+   "swap ')' '?'"
+  ]
+ },
+ {
+  "id": "t0027_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "delete 'null'",
+   "delete '{'",
+   "stray character U+0023",
+   "replace ')' with '('"
+  ]
+ },
+ {
+  "id": "t0028_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete ';'",
+   "duplicate 'else'"
+  ]
+ },
+ {
+  "id": "t0029_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "duplicate 'ch'"
+  ]
+ },
+ {
+  "id": "t0030_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "string \"C\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0031_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "drop closing quote of \"TOPO\""
+  ]
+ },
+ {
+  "id": "t0032_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "replace 'String' with '['",
+   "insert '^' before 'k'"
+  ]
+ },
+ {
+  "id": "t0033_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "replace ';' with '>='"
+  ]
+ },
+ {
+  "id": "t0034_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete 'IllegalArgumentException'",
+   "replace 'isEmpty' with '{'"
+  ]
+ },
+ {
+  "id": "t0035_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "confusable for ')'",
+   "insert '[' before ')'",
+   "duplicate ')'"
+  ]
+ },
+ {
+  "id": "t0036_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "confusable for ')'",
+   "insert '<' before '}'"
+  ]
+ },
+ {
+  "id": "t0037_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "duplicate 'v'",
+   "delete '='"
+  ]
+ },
+ {
+  "id": "t0038_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "replace 'void' with 'return'",
+   "swap ';' '}'",
+   "insert 'new' before '('"
+  ]
+ },
+ {
+  "id": "t0039_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0040_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "duplicate ')'"
+  ]
+ },
+ {
+  "id": "t0041_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "delete '] ;'",
+   "duplicate 'for'",
+   "replace 'int' with '*'",
+   "drop closing quote of \" PAL \"",
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0042_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete 'int'",
+   "replace '-' with ';'"
+  ]
+ },
+ {
+  "id": "t0043_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert '%' before 'q'"
+  ]
+ },
+ {
+  "id": "t0044_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "duplicate '+'"
+  ]
+ },
+ {
+  "id": "t0045_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "drop closing quote of \"ERROR shape\"",
+   "replace '(' with 'void'",
+   "delete 'cmd .'"
+  ]
+ },
+ {
+  "id": "t0046_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert '?' before 'st'"
+  ]
+ },
+ {
+  "id": "t0047_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "replace '.' with 'this'",
+   "duplicate 'for'",
+   "duplicate 'entries'"
+  ]
+ },
+ {
+  "id": "t0048_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "insert '^' before ';'",
+   "delete '{ int'"
+  ]
+ },
+ {
+  "id": "t0049_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "insert '|' before '='",
+   "delete '] e'"
+  ]
+ },
+ {
+  "id": "t0050_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "insert '<=' before ')'",
+   "swap 'total' '='",
+   "replace ';' with '^'",
+   "swap 'restock' '('",
+   "delete ')'"
+  ]
+ },
+ {
+  "id": "t0051_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "delete 'long'"
+  ]
+ },
+ {
+  "id": "t0052_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "swap 'throw' 'new'",
+   "insert '>=' before 'out'",
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0053_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "insert '<=' before 'ch'",
+   "delete ','"
+  ]
+ },
+ {
+  "id": "t0054_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "replace '{' with 'class'"
+  ]
+ },
+ {
+  "id": "t0055_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "duplicate ';'",
+   "string \"MAXDEG\" written with single quotes",
+   "insert ',' before 'Arrays'",
+   "replace ']' with '>='"
+  ]
+ },
+ {
+  "id": "t0056_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete '}'",
+   "swap ';' 'case'"
+  ]
+ },
+ {
+  "id": "t0057_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "replace ']' with 'static'",
+   "drop line-final ';'",
+   "confusable for ';'",
+   "duplicate '}'",
+   "swap ';' 'static'"
+  ]
+ },
+ {
+  "id": "t0058_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete 'return'"
+  ]
+ },
+ {
+  "id": "t0059_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "replace 'if' with '='"
+  ]
+ },
+ {
+  "id": "t0060_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "delete '[ ]'",
+   "unterminated /* comment",
+   "swap 'return' '0.0'",
+   "insert '!' before ';'"
+  ]
+ },
+ {
+  "id": "t0061_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "replace '0' with '||'",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0062_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "swap ',' '\"no item \"'"
+  ]
+ },
+ {
+  "id": "t0063_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "string \"INFO\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0064_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "delete '; }'",
+   "swap 't' '.'",
+   "insert '->' before '{'",
+   "delete ')'",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0065_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0066_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "swap '+' 'id'",
+   "delete '('",
+   "insert '-=' before 'int'",
+   "duplicate 'int'",
+   "delete 's'"
+  ]
+ },
+ {
+  "id": "t0067_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert 'new' before '.'"
+  ]
+ },
+ {
+  "id": "t0068_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete 'it'",
+   "duplicate ';'"
+  ]
+ },
+ {
+  "id": "t0069_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "string \"T\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0070_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "insert '==' before '{'",
+   "drop line-final ';'",
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0071_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "replace '.' with '&&'",
+   "confusable for ';'",
+   "replace '\"LONGEST\"' with '>'"
+  ]
+ },
+ {
+  "id": "t0072_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete ')'",
+   "string \"D\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0073_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "duplicate 'int'",
+   "drop closing quote of \"D\"",
+   "insert '->' before 'new'",
+   "swap 'src' ']'"
+  ]
+ },
+ {
+  "id": "t0074_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete ')'"
+  ]
+ },
+ {
+  "id": "t0075_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "delete 'int'",
+   "delete '== null'"
+  ]
+ },
+ {
+  "id": "t0076_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "swap '}' 'ops'",
+   "delete '}'"
+  ]
+ },
+ {
+  "id": "t0077_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "delete 'append'",
+   "insert '^' before 'in'"
+  ]
+ },
+ {
+  "id": "t0078_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "stray character U+005C",
+   "delete '<'",
+   "confusable for '('",
+   "delete '1 )'"
+  ]
+ },
+ {
+  "id": "t0079_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert '+=' before '['"
+  ]
+ },
+ {
+  "id": "t0080_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "insert 'while' before ';'",
+   "drop closing quote of \"REPORT \"",
+   "delete ')'"
+  ]
+ },
+ {
+  "id": "t0081_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "insert 'this' before 'static'",
+   "insert '^' before '?'",
+   "drop closing quote of \" det=\"",
+   "delete ']'",
+   "delete '= ('"
+  ]
+ },
+ {
+  "id": "t0082_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 4,
+  "corruptions": [
+   "replace ')' with '^'",
+   "insert '&&' before 'while'",
+   "delete 'ops'",
+   "insert '|' before 'long'"
+  ]
+ },
+ {
+  "id": "t0083_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "confusable for '('"
+  ]
+ },
+ {
+  "id": "t0084_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "swap ''='' ')'",
+   "delete ']'",
+   "insert '<=' before 'else'"
+  ]
+ },
+ {
+  "id": "t0085_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "duplicate '='",
+   "stray character U+0060"
+  ]
+ },
+ {
+  "id": "t0086_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "duplicate 'compare'",
+   "stray character U+0060"
+  ]
+ },
+ {
+  "id": "t0087_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "replace '=' with '*'"
+  ]
+ },
+ {
+  "id": "t0088_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "swap ')' '{'"
+  ]
+ },
+ {
+  "id": "t0089_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "drop closing quote of \" UNKNOWN \"",
+   "drop closing quote of \" REV \"",
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0090_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "swap 'mid' ']'",
+   "drop closing quote of \"A\"",
+   "delete 'b'",
+   "confusable for '('",
+   "swap 'int' 'i'"
+  ]
+ },
+ {
+  "id": "t0091_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "duplicate ')'"
+  ]
+ },
+ {
+  "id": "t0092_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "drop line-final ';'",
+   "insert ':' before '{'",
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0093_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "delete '; t'",
+   "swap '[' ']'",
+   "replace ';' with 'if'",
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0094_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "stray character U+0023"
+  ]
+ },
+ {
+  "id": "t0095_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete '( )'"
+  ]
+ },
+ {
+  "id": "t0096_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "duplicate 'int'"
+  ]
+ },
+ {
+  "id": "t0097_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "insert 'if' before '>'",
+   "insert '&' before 'StringBuilder'"
+  ]
+ },
+ {
+  "id": "t0098_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "delete ';'",
+   "delete '+'",
+   "confusable for '('",
+   "insert '+=' before ','",
+   "insert 'else' before 'Item'"
+  ]
+ },
+ {
+  "id": "t0099_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "replace 'if' with ')'"
+  ]
+ },
+ {
+  "id": "t0100_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 4,
+  "corruptions": [
+   "duplicate 'failed'",
+   "duplicate ';'",
+   "drop line-final '{'",
+   "delete 'indexOf'"
+  ]
+ },
+ {
+  "id": "t0101_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "swap 'InputStreamReader' '('",
+   "insert '|' before '' ''",
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0102_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "delete '{ return'",
+   "replace ';' with '!='",
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0103_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "delete 'long'",
+   "delete '('",
+   "drop closing quote of \" \""
+  ]
+ },
+ {
+  "id": "t0104_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "smart quotes on \"no item \"",
+   "delete 'out'",
+   "insert 'void' before '('"
+  ]
+ },
+ {
+  "id": "t0105_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "swap 'new' 'long'",
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0106_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "delete 'public static'",
+   "delete 'String >'",
+   "confusable for '('"
+  ]
+ },
+ {
+  "id": "t0107_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "drop closing quote of \"PAL\"",
+   "unterminated /* comment",
+   "delete 's'",
+   "duplicate 'readLine'",
+   "replace '{' with '!'"
+  ]
+ },
+ {
+  "id": "t0108_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "delete 'scores .'",
+   "delete 'sc'",
+   "swap 'm' ']'",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0109_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "replace 'if' with '->'",
+   "replace ')' with '>='"
+  ]
+ },
+ {
+  "id": "t0110_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0111_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "replace '++' with '('",
+   "insert 'null' before ';'",
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0112_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "delete 'return'",
+   "drop closing quote of \"^\"",
+   "duplicate '('",
+   "drop closing quote of \"unbalanced\"",
+   "insert '--' before '('"
+  ]
+ },
+ {
+  "id": "t0113_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete ''a''"
+  ]
+ },
+ {
+  "id": "t0114_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "delete '< labels'",
+   "drop closing quote of \" best=\"",
+   "swap 'List' '<'",
+   "stray character U+00A0",
+   "string \"F\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0115_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "delete ']'",
+   "insert 'class' before 'new'",
+   "duplicate '='",
+   "delete ')'"
+  ]
+ },
+ {
+  "id": "t0116_inventory",
+  "case": "inventory",
+  "k": 4,
+  "corruptions": [
+   "delete 'items'",
+   "delete 'ArrayList'",
+   "duplicate '('",
+   "smart quotes on \"+\""
+  ]
+ },
+ {
+  "id": "t0117_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "insert '++' before '}'",
+   "replace '}' with '/'",
+   "insert '}' before ';'",
+   "confusable for '('"
+  ]
+ },
+ {
+  "id": "t0118_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "insert 'int' before ';'",
+   "delete ':'"
+  ]
+ },
+ {
+  "id": "t0119_text_tools",
+  "case": "text_tools",
+  "k": 4,
+  "corruptions": [
+   "swap 'System' '.'",
+   "insert 'class' before '+'",
+   "replace 'j' with '^'",
+   "drop closing quote of \"ANA\""
+  ]
+ },
+ {
+  "id": "t0120_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "unterminated /* comment",
+   "insert '[' before 'System'",
+   "delete '['",
+   "stray character U+0023",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0121_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "replace '=' with '<'",
+   "delete ']'",
+   "insert '<' before 'u'"
+  ]
+ },
+ {
+  "id": "t0122_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "delete ';'",
+   "delete '> ('",
+   "delete ') ;'"
+  ]
+ },
+ {
+  "id": "t0123_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "delete '[ ]'",
+   "stray character U+0060",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0124_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete 'base *='"
+  ]
+ },
+ {
+  "id": "t0125_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "insert '+' before ')'",
+   "drop closing quote of \"CAESAR\""
+  ]
+ },
+ {
+  "id": "t0126_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "replace 'average' with 'if'",
+   "replace '(' with '}'"
+  ]
+ },
+ {
+  "id": "t0127_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "swap 'values' ')'",
+   "replace 'int' with '--'",
+   "insert '.' before 'e'"
+  ]
+ },
+ {
+  "id": "t0128_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "smart quotes on \"PRICE \"",
+   "drop closing quote of \"no item \"",
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0129_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \"MUL\"",
+   "replace '\"UNKNOWN \"' with 'return'"
+  ]
+ },
+ {
+  "id": "t0130_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "swap '{' 'break'",
+   "delete '['"
+  ]
+ },
+ {
+  "id": "t0131_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "confusable for ';'",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0132_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "delete 'length'"
+  ]
+ },
+ {
+  "id": "t0133_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "replace ']' with '=='",
+   "insert '.' before '-'",
+   "delete '+ e'",
+   "confusable for ')'",
+   "replace 'sum' with '.'"
+  ]
+ },
+ {
+  "id": "t0134_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \"LOW \"",
+   "stray character U+0060"
+  ]
+ },
+ {
+  "id": "t0135_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "drop line-final ';'",
+   "insert '<' before 'j'",
+   "delete 'next'",
+   "delete '['"
+  ]
+ },
+ {
+  "id": "t0136_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "delete 'value'",
+   "delete 'new'",
+   "delete 'println ('"
+  ]
+ },
+ {
+  "id": "t0137_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "swap 'if' '('"
+  ]
+ },
+ {
+  "id": "t0138_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "insert '(' before '+'",
+   "insert '->' before '+'",
+   "replace '{' with '-'"
+  ]
+ },
+ {
+  "id": "t0139_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "replace '}' with 'return'"
+  ]
+ },
+ {
+  "id": "t0140_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "duplicate 'names'"
+  ]
+ },
+ {
+  "id": "t0141_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert 'new' before '++'"
+  ]
+ },
+ {
+  "id": "t0142_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete ''{' )'"
+  ]
+ },
+ {
+  "id": "t0143_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "drop line-final '{'",
+   "delete '\" CAESAR \"'"
+  ]
+ },
+ {
+  "id": "t0144_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "insert '}' before '.'"
+  ]
+ },
+ {
+  "id": "t0145_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "confusable for ';'",
+   "confusable for ')'",
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0146_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete 'int'"
+  ]
+ },
+ {
+  "id": "t0147_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "swap '[' ']'",
+   "swap 'println' '('",
+   "unterminated /* comment",
+   "delete '( long'"
+  ]
+ },
+ {
+  "id": "t0148_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "duplicate '\"*\"'",
+   "delete '{'",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0149_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "swap '(' 'arg'",
+   "delete ','",
+   "replace 'trim' with ','"
+  ]
+ },
+ {
+  "id": "t0150_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete '\"STATS\"'",
+   "swap ''='' ')'"
+  ]
+ },
+ {
+  "id": "t0151_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "replace '{' with '>'"
+  ]
+ },
+ {
+  "id": "t0152_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "stray character U+00A0",
+   "delete ';'",
+   "swap '{' 'String'"
+  ]
+ },
+ {
+  "id": "t0153_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "replace ']' with '*'",
+   "replace 'nextInt' with '/'"
+  ]
+ },
+ {
+  "id": "t0154_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "swap 'op' ')'"
+  ]
+ },
+ {
+  "id": "t0155_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "swap '(' 'x'"
+  ]
+ },
+ {
+  "id": "t0156_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "drop closing quote of \" sd=\""
+  ]
+ },
+ {
+  "id": "t0157_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "drop closing quote of \"DIJ\"",
+   "confusable for ')'",
+   "replace 'for' with 'int'",
+   "replace ')' with '|'",
+   "delete '['"
+  ]
+ },
+ {
+  "id": "t0158_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "delete 'netChange'",
+   "delete ') {'",
+   "insert 'this' before 'System'"
+  ]
+ },
+ {
+  "id": "t0159_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "delete 't'",
+   "insert '}' before '>'",
+   "insert '->' before '['",
+   "delete 'determinant'"
+  ]
+ },
+ {
+  "id": "t0160_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "stray character U+00A0",
+   "insert '&&' before ';'",
+   "delete '!'"
+  ]
+ },
+ {
+  "id": "t0161_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "delete '. append'",
+   "insert '>=' before 'indexOf'"
+  ]
+ },
+ {
+  "id": "t0162_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "delete '.'",
+   "swap 'System' '.'",
+   "delete '('",
+   "delete ') {'"
+  ]
+ },
+ {
+  "id": "t0163_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "replace '(' with 'return'",
+   "drop closing quote of \"DIJ\"",
+   "swap '(' 'x'",
+   "string \"COMP \" written with single quotes",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0164_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "delete '{ public'",
+   "insert '<=' before '\" \"'",
+   "replace '<=' with 'int'",
+   "drop closing quote of \"RESTOCK\"",
+   "replace 'it' with '=='"
+  ]
+ },
+ {
+  "id": "t0165_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "delete 'r )'",
+   "delete ')'"
+  ]
+ },
+ {
+  "id": "t0166_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete ')'"
+  ]
+ },
+ {
+  "id": "t0167_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "replace '(' with '>'",
+   "replace 'entries' with '~'",
+   "replace ')' with '{'"
+  ]
+ },
+ {
+  "id": "t0168_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "insert '||' before '1'"
+  ]
+ },
+ {
+  "id": "t0169_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "swap '(' ')'",
+   "delete '('",
+   "insert ';' before '}'"
+  ]
+ },
+ {
+  "id": "t0170_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0171_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "replace 'out' with 'void'",
+   "drop closing quote of \"ADD\""
+  ]
+ },
+ {
+  "id": "t0172_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "drop closing quote of \"division by zero\"",
+   "delete 'line'",
+   "insert '=' before 'i'",
+   "replace ';' with '{'",
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0173_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "duplicate ';'"
+  ]
+ },
+ {
+  "id": "t0174_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "replace 'int' with '('",
+   "replace ')' with '{'"
+  ]
+ },
+ {
+  "id": "t0175_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "delete 'if'"
+  ]
+ },
+ {
+  "id": "t0176_inventory",
+  "case": "inventory",
+  "k": 4,
+  "corruptions": [
+   "insert '->' before 'out'",
+   "insert ']' before 'c'",
+   "unterminated /* comment",
+   "drop closing quote of \"HISTORY \""
+  ]
+ },
+ {
+  "id": "t0177_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "insert '>=' before '('",
+   "delete '('",
+   "insert ')' before '<'"
+  ]
+ },
+ {
+  "id": "t0178_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete '+'",
+   "insert '>=' before ')'"
+  ]
+ },
+ {
+  "id": "t0179_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "drop closing quote of \" PAL \"",
+   "delete 'length ('",
+   "replace 'equals' with '-='",
+   "insert 'new' before 'String'",
+   "insert '||' before '0'"
+  ]
+ },
+ {
+  "id": "t0180_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete 'g ='",
+   "delete 'Math'"
+  ]
+ },
+ {
+  "id": "t0181_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "swap '+' 'totalWeight'",
+   "insert '-=' before '('",
+   "unterminated /* comment",
+   "delete '}'",
+   "insert '!' before ')'"
+  ]
+ },
+ {
+  "id": "t0182_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "insert '&' before 'restock'",
+   "delete '.'",
+   "replace 'List' with '>='"
+  ]
+ },
+ {
+  "id": "t0183_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "swap 'det' ';'",
+   "delete '('",
+   "drop closing quote of \"POW\""
+  ]
+ },
+ {
+  "id": "t0184_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "replace ';' with '|'",
+   "insert ';' before '('",
+   "insert '^' before '\"division by zero\"'",
+   "confusable for '('",
+   "replace 'b' with 'if'"
+  ]
+ },
+ {
+  "id": "t0185_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "insert '->' before '('"
+  ]
+ },
+ {
+  "id": "t0186_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "delete 'length'",
+   "replace '(' with '!='",
+   "stray character U+005C",
+   "delete 'static'",
+   "delete 'b'"
+  ]
+ },
+ {
+  "id": "t0187_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "delete '{ adj'"
+  ]
+ },
+ {
+  "id": "t0188_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "replace 'System' with ']'",
+   "replace ';' with 'void'",
+   "delete '\"TOTAL\"'",
+   "delete ')'",
+   "insert 'this' before ')'"
+  ]
+ },
+ {
+  "id": "t0189_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0190_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "drop line-final ';'",
+   "insert '}' before ')'",
+   "drop line-final ';'",
+   "delete 'evaluated ='",
+   "replace '(' with '=='"
+  ]
+ },
+ {
+  "id": "t0191_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "drop closing quote of \"REV\"",
+   "stray character U+00A0",
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0192_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "delete '+'",
+   "delete '5 ]'",
+   "replace '{' with 'else'",
+   "drop closing quote of \" sd=\""
+  ]
+ },
+ {
+  "id": "t0193_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "delete 'MAX_VALUE'",
+   "insert ']' before 'class'",
+   "replace 'u' with '*'",
+   "replace 'u' with '='"
+  ]
+ },
+ {
+  "id": "t0194_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete 'Item'"
+  ]
+ },
+ {
+  "id": "t0195_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "insert ']' before '('",
+   "replace 'add' with ')'",
+   "insert ')' before ')'",
+   "drop line-final ';'",
+   "swap '=' '0'"
+  ]
+ },
+ {
+  "id": "t0196_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "replace 'String' with '!'"
+  ]
+ },
+ {
+  "id": "t0197_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "delete 'ch'",
+   "swap '.' 'readLine'"
+  ]
+ },
+ {
+  "id": "t0198_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "delete 'col'",
+   "replace 'double' with '^'",
+   "delete ';'",
+   "replace 'values' with 'class'",
+   "insert 'else' before 'acc'"
+  ]
+ },
+ {
+  "id": "t0199_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "insert '!' before '/'",
+   "stray character U+00A0",
+   "stray character U+0060",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0200_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "delete ')'",
+   "insert ':' before '('",
+   "replace 'abs' with '.'",
+   "delete '('",
+   "insert 'null' before '('"
+  ]
+ },
+ {
+  "id": "t0201_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert '-' before 'a'"
+  ]
+ },
+ {
+  "id": "t0202_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 4,
+  "corruptions": [
+   "delete '.'",
+   "insert '}' before '&'",
+   "stray character U+0023",
+   "insert '>=' before 'char'"
+  ]
+ },
+ {
+  "id": "t0203_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "duplicate '0'"
+  ]
+ },
+ {
+  "id": "t0204_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "delete 'Student'",
+   "delete ')'",
+   "drop closing quote of \"D\""
+  ]
+ },
+ {
+  "id": "t0205_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "drop line-final ';'",
+   "duplicate ')'"
+  ]
+ },
+ {
+  "id": "t0206_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "delete ')'",
+   "drop closing quote of \"missing\"",
+   "stray character U+00A0"
+  ]
+ },
+ {
+  "id": "t0207_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "delete '['",
+   "insert '~' before 'next'",
+   "replace ')' with '*'",
+   "swap 'i' ']'"
+  ]
+ },
+ {
+  "id": "t0208_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "replace '{' with '['",
+   "duplicate ';'"
+  ]
+ },
+ {
+  "id": "t0209_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "replace ';' with 'this'",
+   "duplicate ')'",
+   "replace 'toLowerCase' with 'static'",
+   "replace '=' with 'while'",
+   "drop closing quote of \"\\\\s+\""
+  ]
+ },
+ {
+  "id": "t0210_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "insert ':' before '='",
+   "delete 'int'"
+  ]
+ },
+ {
+  "id": "t0211_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0212_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete '!='"
+  ]
+ },
+ {
+  "id": "t0213_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "insert '!=' before 'length'",
+   "confusable for '('",
+   "delete 'else'"
+  ]
+ },
+ {
+  "id": "t0214_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "delete '('",
+   "insert '>=' before '('",
+   "replace '{' with '['"
+  ]
+ },
+ {
+  "id": "t0215_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \" WORDS \"",
+   "replace 'for' with 'if'"
+  ]
+ },
+ {
+  "id": "t0216_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "unterminated /* comment",
+   "confusable for '('",
+   "string \" min=\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0217_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "replace '(' with '?'",
+   "delete 'new'",
+   "delete 'adj'",
+   "confusable for '('",
+   "drop closing quote of \"rawtypes\""
+  ]
+ },
+ {
+  "id": "t0218_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "duplicate 'for'",
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0219_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "confusable for ')'",
+   "insert '-=' before ','",
+   "replace '(' with '|'",
+   "delete '*'",
+   "duplicate '['"
+  ]
+ },
+ {
+  "id": "t0220_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete 'failed'"
+  ]
+ },
+ {
+  "id": "t0221_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "insert '&' before '='",
+   "stray character U+0060",
+   "swap ')' ';'",
+   "delete 'static'",
+   "stray character U+005C"
+  ]
+ },
+ {
+  "id": "t0222_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "insert '-=' before 'println'",
+   "delete 'nextInt ('",
+   "delete ')'",
+   "delete 'void'",
+   "insert '>' before ')'"
+  ]
+ },
+ {
+  "id": "t0223_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "swap 'dist' '['",
+   "delete '] )'"
+  ]
+ },
+ {
+  "id": "t0224_inventory",
+  "case": "inventory",
+  "k": 4,
+  "corruptions": [
+   "delete 'int price'",
+   "delete 'public'",
+   "drop line-final '{'",
+   "swap 'new' 'TreeMap'"
+  ]
+ },
+ {
+  "id": "t0225_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "delete '.'",
+   "delete '{'",
+   "swap 'int' 'r'",
+   "replace 'append' with '('"
+  ]
+ },
+ {
+  "id": "t0226_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0227_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete 'new'"
+  ]
+ },
+ {
+  "id": "t0228_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete '('",
+   "replace '>' with '-='"
+  ]
+ },
+ {
+  "id": "t0229_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "duplicate '0'",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0230_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "string \"LOW \" written with single quotes",
+   "insert '[' before 'it'",
+   "delete ';'",
+   "insert '+' before '1'",
+   "delete 'price'"
+  ]
+ },
+ {
+  "id": "t0231_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "swap ']' '['",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0232_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "insert '&&' before 'ops'",
+   "string \"/\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0233_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "stray character U+0060"
+  ]
+ },
+ {
+  "id": "t0234_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "insert '.' before 'sc'",
+   "string \"C\" written with single quotes",
+   "replace '(' with '-='",
+   "delete 'cmd'",
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0235_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \"MAXDEG\"",
+   "delete 's )'"
+  ]
+ },
+ {
+  "id": "t0236_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "delete 'System'",
+   "drop closing quote of \"invalid quantity or price for \"",
+   "delete '+'"
+  ]
+ },
+ {
+  "id": "t0237_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "delete 'continue'"
+  ]
+ },
+ {
+  "id": "t0238_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \" \"",
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0239_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "delete '('",
+   "drop closing quote of \"yes\"",
+   "delete '+'"
+  ]
+ },
+ {
+  "id": "t0240_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "stray character U+00A0",
+   "drop closing quote of \"D\""
+  ]
+ },
+ {
+  "id": "t0241_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "stray character U+0023",
+   "insert ':' before 'int'"
+  ]
+ },
+ {
+  "id": "t0242_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "delete ';'",
+   "replace 'errors' with '-='",
+   "drop line-final '{'",
+   "swap ')' '{'",
+   "insert 'while' before 'void'"
+  ]
+ },
+ {
+  "id": "t0243_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert '||' before '['"
+  ]
+ },
+ {
+  "id": "t0244_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 4,
+  "corruptions": [
+   "delete 'if ('",
+   "insert '<=' before ')'",
+   "confusable for ')'",
+   "delete 'line'"
+  ]
+ },
+ {
+  "id": "t0245_text_tools",
+  "case": "text_tools",
+  "k": 4,
+  "corruptions": [
+   "confusable for '('",
+   "delete '> all'",
+   "stray character U+005C",
+   "swap ''Z'' ')'"
+  ]
+ },
+ {
+  "id": "t0246_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "insert '!=' before ')'"
+  ]
+ },
+ {
+  "id": "t0247_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert '||' before 'int'"
+  ]
+ },
+ {
+  "id": "t0248_inventory",
+  "case": "inventory",
+  "k": 4,
+  "corruptions": [
+   "smart quotes on \"ADD\"",
+   "swap ';' 'case'",
+   "delete ')'",
+   "string \" \" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0249_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "swap '}' 'return'",
+   "replace '[' with '&'",
+   "insert '||' before '['"
+  ]
+ },
+ {
+  "id": "t0250_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "drop closing quote of \"negative exponent\"",
+   "delete ') ;'",
+   "insert '>' before 'String'"
+  ]
+ },
+ {
+  "id": "t0251_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "insert '>=' before '.'",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0252_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "replace '(' with '='",
+   "insert '.' before ';'",
+   "replace 'm' with ']'",
+   "drop closing quote of \" empty\""
+  ]
+ },
+ {
+  "id": "t0253_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "delete 'for'",
+   "replace ';' with '~'",
+   "delete 'add'",
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0254_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "replace ')' with 'null'"
+  ]
+ },
+ {
+  "id": "t0255_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "swap ';' '}'",
+   "delete 'int'",
+   "delete ')'"
+  ]
+ },
+ {
+  "id": "t0256_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "string \"(\" written with single quotes",
+   "delete 'isOperator'"
+  ]
+ },
+ {
+  "id": "t0257_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "insert '(' before 'arg'",
+   "delete ') ;'",
+   "replace ')' with '+='",
+   "delete '; }'",
+   "delete 'Math'"
+  ]
+ },
+ {
+  "id": "t0258_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "delete '='",
+   "insert 'int' before 's'",
+   "delete '=='",
+   "replace 'compareTo' with '.'"
+  ]
+ },
+ {
+  "id": "t0259_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "duplicate ';'",
+   "delete 'sc'",
+   "insert '?' before 'u'"
+  ]
+ },
+ {
+  "id": "t0260_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0261_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "swap 'a' ')'"
+  ]
+ },
+ {
+  "id": "t0262_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0263_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0264_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "delete ';'",
+   "delete 'cmd'",
+   "replace 'w' with '}'",
+   "duplicate 'new'",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0265_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0266_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "confusable for ';'",
+   "delete '('",
+   "insert '}' before '+'"
+  ]
+ },
+ {
+  "id": "t0267_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "stray character U+0060",
+   "delete '['",
+   "delete '= 0'",
+   "replace 'transpose' with 'static'"
+  ]
+ },
+ {
+  "id": "t0268_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 4,
+  "corruptions": [
+   "delete ':'",
+   "replace ''('' with '!='",
+   "insert ';' before ')'",
+   "insert '<' before '/'"
+  ]
+ },
+ {
+  "id": "t0269_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "replace ')' with '|'",
+   "duplicate '('"
+  ]
+ },
+ {
+  "id": "t0270_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete '] ;'",
+   "insert ')' before ')'"
+  ]
+ },
+ {
+  "id": "t0271_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "delete '='",
+   "string \"BFS \" written with single quotes",
+   "delete 'n ;'",
+   "replace 'totalWeight' with '.'"
+  ]
+ },
+ {
+  "id": "t0272_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete ';'",
+   "insert 'while' before '\"REPORT\"'"
+  ]
+ },
+ {
+  "id": "t0273_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert ',' before ')'"
+  ]
+ },
+ {
+  "id": "t0274_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "insert '||' before '('",
+   "swap 'precedence' '('"
+  ]
+ },
+ {
+  "id": "t0275_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "replace '{' with 'null'"
+  ]
+ },
+ {
+  "id": "t0276_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "delete 'if'"
+  ]
+ },
+ {
+  "id": "t0277_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "swap 'System' '.'",
+   "replace ']' with '--'"
+  ]
+ },
+ {
+  "id": "t0278_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete 'error'",
+   "replace ')' with '*'"
+  ]
+ },
+ {
+  "id": "t0279_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \"ERROR shape\"",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0280_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete '{'",
+   "replace '=' with '}'"
+  ]
+ },
+ {
+  "id": "t0281_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "insert 'class' before 'w'",
+   "replace '>' with '!='",
+   "swap 'get' '('",
+   "insert '<=' before ')'",
+   "insert '(' before '('"
+  ]
+ },
+ {
+  "id": "t0282_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "replace '<' with '.'",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0283_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "replace ')' with '!'"
+  ]
+ },
+ {
+  "id": "t0284_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "swap '(' ')'"
+  ]
+ },
+ {
+  "id": "t0285_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "swap ']' ';'",
+   "delete 'long ['"
+  ]
+ },
+ {
+  "id": "t0286_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 4,
+  "corruptions": [
+   "replace 'indexOf' with '{'",
+   "delete 'new'",
+   "replace 'hasNextLine' with '--'",
+   "duplicate '{'"
+  ]
+ },
+ {
+  "id": "t0287_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete '} static'"
+  ]
+ },
+ {
+  "id": "t0288_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "delete '.'",
+   "drop closing quote of \"0\"",
+   "swap 'v' ')'",
+   "unterminated /* comment",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0289_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "insert '--' before ')'",
+   "delete 'in'",
+   "insert '=' before '('"
+  ]
+ },
+ {
+  "id": "t0290_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete '\"-\"'",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0291_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "insert '<' before 'i'",
+   "delete '.'",
+   "duplicate 'long'",
+   "replace 'length' with 'if'",
+   "delete '0'"
+  ]
+ },
+ {
+  "id": "t0292_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert '?' before ')'"
+  ]
+ },
+ {
+  "id": "t0293_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "drop line-final '}'",
+   "replace '{' with 'for'",
+   "insert '}' before '('",
+   "insert '>' before 'indexOf'",
+   "replace ')' with 'if'"
+  ]
+ },
+ {
+  "id": "t0294_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "confusable for '('",
+   "delete ';'",
+   "delete '{ counts'"
+  ]
+ },
+ {
+  "id": "t0295_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "unterminated /* comment",
+   "drop line-final ';'",
+   "replace '.' with ']'"
+  ]
+ },
+ {
+  "id": "t0296_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0297_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "delete '['",
+   "insert '--' before 'long'",
+   "insert ',' before ')'",
+   "drop line-final ';'",
+   "swap ']' 'b'"
+  ]
+ },
+ {
+  "id": "t0298_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "insert 'for' before '='",
+   "delete '.'",
+   "delete '}'",
+   "unterminated /* comment",
+   "swap 'charAt' '('"
+  ]
+ },
+ {
+  "id": "t0299_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0300_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "delete ','",
+   "delete 'b'",
+   "delete ': scores'",
+   "insert ';' before ')'"
+  ]
+ },
+ {
+  "id": "t0301_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "delete '}'",
+   "swap ')' '{'",
+   "replace 'for' with 'return'",
+   "unterminated /* comment",
+   "replace '(' with '^'"
+  ]
+ },
+ {
+  "id": "t0302_inventory",
+  "case": "inventory",
+  "k": 4,
+  "corruptions": [
+   "delete '>'",
+   "insert '-=' before ')'",
+   "delete 'values'",
+   "replace 'println' with ';'"
+  ]
+ },
+ {
+  "id": "t0303_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0304_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "insert 'class' before '('",
+   "replace ';' with '?'"
+  ]
+ },
+ {
+  "id": "t0305_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "delete '; }'",
+   "swap '}' 'static'"
+  ]
+ },
+ {
+  "id": "t0306_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "confusable for ';'",
+   "stray character U+0023",
+   "delete 's'",
+   "delete '[ i'",
+   "delete '. id'"
+  ]
+ },
+ {
+  "id": "t0307_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "insert ')' before '}'",
+   "delete 'Integer'"
+  ]
+ },
+ {
+  "id": "t0308_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "insert 'static' before 'println'",
+   "swap '\"missing\"' ','"
+  ]
+ },
+ {
+  "id": "t0309_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "delete 'b .'",
+   "duplicate '['",
+   "insert '.' before '='",
+   "swap 'long' '['"
+  ]
+ },
+ {
+  "id": "t0310_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "unterminated /* comment",
+   "replace '(' with '-='",
+   "drop closing quote of \"/\"",
+   "swap 'top' '.'",
+   "insert ')' before 'String'"
+  ]
+ },
+ {
+  "id": "t0311_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "delete ')'",
+   "swap ')' '{'",
+   "duplicate 'return'",
+   "swap 'parseInt' '('",
+   "swap ',' 'y'"
+  ]
+ },
+ {
+  "id": "t0312_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "replace '=' with '|'",
+   "delete '+'",
+   "insert 'while' before ']'",
+   "delete 'scores'",
+   "insert 'if' before '+'"
+  ]
+ },
+ {
+  "id": "t0313_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "delete 'int u'",
+   "insert '^' before ')'",
+   "delete '( )'"
+  ]
+ },
+ {
+  "id": "t0314_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "delete '. out'",
+   "replace 'out' with '&'",
+   "delete ')'",
+   "confusable for '('",
+   "delete 'sign'"
+  ]
+ },
+ {
+  "id": "t0315_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "delete '{'",
+   "replace 'j' with '~'"
+  ]
+ },
+ {
+  "id": "t0316_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "swap '\"missing operand\"' ')'"
+  ]
+ },
+ {
+  "id": "t0317_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "replace '(' with '!='",
+   "swap 'Integer' '.'"
+  ]
+ },
+ {
+  "id": "t0318_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "duplicate '0.0'",
+   "delete '}'",
+   "replace 'static' with '['",
+   "insert ',' before '='"
+  ]
+ },
+ {
+  "id": "t0319_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "replace ')' with '||'",
+   "delete ']'"
+  ]
+ },
+ {
+  "id": "t0320_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "replace 'hasNext' with '!='",
+   "swap ':' 'System'",
+   "delete 'println'",
+   "delete '+'",
+   "drop closing quote of \"HISTORY\""
+  ]
+ },
+ {
+  "id": "t0321_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "duplicate '++'",
+   "insert '>=' before 'sc'",
+   "swap 'String' 'name'",
+   "unterminated /* comment",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0322_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "duplicate '}'"
+  ]
+ },
+ {
+  "id": "t0323_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "unterminated /* comment",
+   "replace '(' with '}'",
+   "delete 'toString'",
+   "stray character U+005C",
+   "replace '(' with '}'"
+  ]
+ },
+ {
+  "id": "t0324_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "drop line-final ';'",
+   "duplicate 'id'"
+  ]
+ },
+ {
+  "id": "t0325_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "delete 'e'",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0326_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "replace 'qty' with '*'"
+  ]
+ },
+ {
+  "id": "t0327_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "delete '{'",
+   "drop closing quote of \" \"",
+   "delete 'dst'"
+  ]
+ },
+ {
+  "id": "t0328_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "replace '(' with 'int'",
+   "replace '(' with '['"
+  ]
+ },
+ {
+  "id": "t0329_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "insert '+=' before ')'",
+   "replace 'entries' with 'return'",
+   "swap '(' 'sp'",
+   "confusable for ')'",
+   "replace 'lineNo' with 'void'"
+  ]
+ },
+ {
+  "id": "t0330_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "replace 'list' with '<='",
+   "delete ']'"
+  ]
+ },
+ {
+  "id": "t0331_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "drop line-final '{'",
+   "duplicate 'u'"
+  ]
+ },
+ {
+  "id": "t0332_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "replace 'break' with '('"
+  ]
+ },
+ {
+  "id": "t0333_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "delete 'j ='",
+   "insert ')' before '>'",
+   "string \"ADD\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0334_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "string \"*\" written with single quotes",
+   "replace '{' with '*'",
+   "string \"+-*/%^\" written with single quotes",
+   "swap '2' ')'",
+   "drop closing quote of \")\""
+  ]
+ },
+ {
+  "id": "t0335_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "swap '}' 'static'"
+  ]
+ },
+ {
+  "id": "t0336_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \"A\"",
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0337_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "replace '}' with '--'"
+  ]
+ },
+ {
+  "id": "t0338_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "replace '+' with '^'",
+   "insert 'else' before 'it'",
+   "delete '?'",
+   "swap 'size' '('",
+   "delete ','"
+  ]
+ },
+ {
+  "id": "t0339_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "delete '; for'",
+   "delete '='",
+   "delete ':'"
+  ]
+ },
+ {
+  "id": "t0340_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "insert '{' before ';'",
+   "insert '&' before '}'"
+  ]
+ },
+ {
+  "id": "t0341_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "delete 'for'",
+   "delete '+'",
+   "replace 'equals' with '!'",
+   "replace '}' with 'null'",
+   "replace '(' with '&'"
+  ]
+ },
+ {
+  "id": "t0342_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete 'values'",
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0343_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "insert 'new' before ')'",
+   "replace ';' with '+'",
+   "delete 'pq .'",
+   "insert ';' before 'stack'",
+   "insert '.' before '['"
+  ]
+ },
+ {
+  "id": "t0344_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "insert '-=' before 'it'",
+   "insert '?' before 'name'",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0345_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "delete ']'",
+   "delete '}'",
+   "replace 'next' with '?'",
+   "replace ')' with 'void'",
+   "duplicate 'i'"
+  ]
+ },
+ {
+  "id": "t0346_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "insert '/' before 'static'",
+   "confusable for '('"
+  ]
+ },
+ {
+  "id": "t0347_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \" REV \"",
+   "drop line-final '{'"
+  ]
+ },
+ {
+  "id": "t0348_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "unterminated /* comment",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0349_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "insert ')' before '['",
+   "drop closing quote of \"TOPO\"",
+   "insert 'for' before '}'",
+   "replace '0' with '^'"
+  ]
+ },
+ {
+  "id": "t0350_inventory",
+  "case": "inventory",
+  "k": 4,
+  "corruptions": [
+   "stray character U+0060",
+   "confusable for '('",
+   "replace ',' with '<='",
+   "delete 'a ,'"
+  ]
+ },
+ {
+  "id": "t0351_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "delete '0'",
+   "delete 'n'"
+  ]
+ },
+ {
+  "id": "t0352_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "replace 'tokenize' with '('",
+   "drop line-final ':'",
+   "delete 'evalPostfix'",
+   "insert '==' before 'ch'",
+   "drop closing quote of \"division by zero\""
+  ]
+ },
+ {
+  "id": "t0353_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "delete 'String s'",
+   "drop closing quote of \"ANA\""
+  ]
+ },
+ {
+  "id": "t0354_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "stray character U+0023",
+   "delete '.'",
+   "delete 'labels ='"
+  ]
+ },
+ {
+  "id": "t0355_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "confusable for '('",
+   "insert '*' before ']'"
+  ]
+ },
+ {
+  "id": "t0356_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0357_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "delete ']'",
+   "delete '['",
+   "replace '(' with '|'",
+   "string \"T\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0358_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "confusable for ')'",
+   "insert '^' before '('",
+   "swap 'else' 'if'"
+  ]
+ },
+ {
+  "id": "t0359_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "stray character U+005C",
+   "swap '1' '&&'",
+   "swap '(' '\"FREQ\"'"
+  ]
+ },
+ {
+  "id": "t0360_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "string \"F\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0361_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "delete '+='"
+  ]
+ },
+ {
+  "id": "t0362_inventory",
+  "case": "inventory",
+  "k": 4,
+  "corruptions": [
+   "delete 'price )'",
+   "swap '(' 'frac'",
+   "replace '{' with ';'",
+   "insert '~' before '('"
+  ]
+ },
+ {
+  "id": "t0363_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "stray character U+0023"
+  ]
+ },
+ {
+  "id": "t0364_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "replace 'char' with '<='",
+   "insert '{' before 'expr'"
+  ]
+ },
+ {
+  "id": "t0365_text_tools",
+  "case": "text_tools",
+  "k": 4,
+  "corruptions": [
+   "replace '.' with 'class'",
+   "replace '0' with '='",
+   "insert 'new' before '}'",
+   "delete ']'"
+  ]
+ },
+ {
+  "id": "t0366_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "insert '+' before 'if'",
+   "delete 'labels'"
+  ]
+ },
+ {
+  "id": "t0367_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "delete '/'",
+   "delete ')'",
+   "replace 'int' with '<'",
+   "replace ')' with '='"
+  ]
+ },
+ {
+  "id": "t0368_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \"no item \"",
+   "replace '\"no item \"' with ':'"
+  ]
+ },
+ {
+  "id": "t0369_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "replace 'void' with ';'",
+   "delete '='"
+  ]
+ },
+ {
+  "id": "t0370_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "duplicate 'out'"
+  ]
+ },
+ {
+  "id": "t0371_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0372_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "duplicate ';'"
+  ]
+ },
+ {
+  "id": "t0373_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert ']' before '['"
+  ]
+ },
+ {
+  "id": "t0374_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "string \" \" written with single quotes",
+   "insert '!=' before ')'"
+  ]
+ },
+ {
+  "id": "t0375_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "confusable for '('",
+   "replace '\"UNKNOWN \"' with '~'"
+  ]
+ },
+ {
+  "id": "t0376_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "stray character U+0023",
+   "stray character U+005C",
+   "confusable for '('"
+  ]
+ },
+ {
+  "id": "t0377_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "confusable for ')'",
+   "replace '{' with 'for'",
+   "insert '[' before 'return'"
+  ]
+ },
+ {
+  "id": "t0378_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "replace ')' with '!='",
+   "delete '{'"
+  ]
+ },
+ {
+  "id": "t0379_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "string \"DIJ\" written with single quotes",
+   "stray character U+00A0",
+   "replace '=' with '-='"
+  ]
+ },
+ {
+  "id": "t0380_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "replace '(' with 'if'"
+  ]
+ },
+ {
+  "id": "t0381_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "stray character U+00A0",
+   "replace '(' with '&&'",
+   "delete 'sc'",
+   "insert '}' before 'append'"
+  ]
+ },
+ {
+  "id": "t0382_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert 'null' before 'Deque'"
+  ]
+ },
+ {
+  "id": "t0383_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "unterminated /* comment",
+   "delete 'toLowerCase'",
+   "duplicate 'entries'"
+  ]
+ },
+ {
+  "id": "t0384_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "insert '||' before 'new'"
+  ]
+ },
+ {
+  "id": "t0385_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "insert '/' before 'q'",
+   "replace '0' with '!'"
+  ]
+ },
+ {
+  "id": "t0386_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0387_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "duplicate '.'",
+   "replace 'i' with 'static'"
+  ]
+ },
+ {
+  "id": "t0388_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \"+\"",
+   "insert ']' before 'new'"
+  ]
+ },
+ {
+  "id": "t0389_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "delete '.'",
+   "confusable for ';'",
+   "replace '--' with '>'"
+  ]
+ },
+ {
+  "id": "t0390_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "insert 'static' before 'a'"
+  ]
+ },
+ {
+  "id": "t0391_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "insert '{' before ')'",
+   "delete '!'",
+   "replace ')' with '-='",
+   "delete 'for'"
+  ]
+ },
+ {
+  "id": "t0392_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "insert 'static' before '.'",
+   "drop line-final '{'",
+   "delete ') ;'"
+  ]
+ },
+ {
+  "id": "t0393_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "replace '++' with '--'",
+   "delete 'r'"
+  ]
+ },
+ {
+  "id": "t0394_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "duplicate 'charAt'"
+  ]
+ },
+ {
+  "id": "t0395_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "swap 'String' 'b'",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0396_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete 'weighted'",
+   "delete 'list ='"
+  ]
+ },
+ {
+  "id": "t0397_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "replace 'totalWeight' with '.'"
+  ]
+ },
+ {
+  "id": "t0398_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete '='"
+  ]
+ },
+ {
+  "id": "t0399_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "delete ')'",
+   "unterminated /* comment",
+   "swap 'sign' '='",
+   "replace '.' with 'class'"
+  ]
+ },
+ {
+  "id": "t0400_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "stray character U+00A0",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0401_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "replace '+' with '!'",
+   "replace 'out' with '->'",
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0402_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "drop closing quote of \" best=\""
+  ]
+ },
+ {
+  "id": "t0403_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "swap '/' '2'",
+   "insert '==' before 'return'",
+   "delete 'PriorityQueue'",
+   "delete '== 0'",
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0404_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete '}'",
+   "insert 'new' before '.'"
+  ]
+ },
+ {
+  "id": "t0405_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0406_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "insert '^' before ')'",
+   "insert 'if' before ')'",
+   "drop line-final ';'",
+   "insert '=' before '('",
+   "delete 'case'"
+  ]
+ },
+ {
+  "id": "t0407_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "delete '.'",
+   "stray character U+00A0",
+   "delete 'split'"
+  ]
+ },
+ {
+  "id": "t0408_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "swap 'System' '.'"
+  ]
+ },
+ {
+  "id": "t0409_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "replace ']' with '->'"
+  ]
+ },
+ {
+  "id": "t0410_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "drop line-final ';'",
+   "delete '< 10'",
+   "insert '-' before '\"no item \"'",
+   "duplicate 'sc'",
+   "duplicate '\"HISTORY \"'"
+  ]
+ },
+ {
+  "id": "t0411_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "insert 'static' before ';'",
+   "drop line-final ';'",
+   "delete ']'"
+  ]
+ },
+ {
+  "id": "t0412_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "delete ')'",
+   "confusable for ';'",
+   "string \" vars=\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0413_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "insert '-' before '<'",
+   "duplicate ':'"
+  ]
+ },
+ {
+  "id": "t0414_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "duplicate ')'"
+  ]
+ },
+ {
+  "id": "t0415_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "duplicate 'continue'",
+   "delete '['",
+   "insert ',' before '}'",
+   "insert ':' before 'sb'"
+  ]
+ },
+ {
+  "id": "t0416_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "delete 'it'",
+   "replace 'nextInt' with '.'",
+   "delete 'name'",
+   "replace '==' with '||'",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0417_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "confusable for ';'",
+   "delete 'length )'",
+   "drop line-final '{'"
+  ]
+ },
+ {
+  "id": "t0418_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert '{' before '{'"
+  ]
+ },
+ {
+  "id": "t0419_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "stray character U+0060"
+  ]
+ },
+ {
+  "id": "t0420_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "replace ')' with '=='",
+   "delete 'mid'"
+  ]
+ },
+ {
+  "id": "t0421_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "delete 'void'",
+   "swap '(' '\"MAXDEG\"'"
+  ]
+ },
+ {
+  "id": "t0422_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "drop line-final ':'",
+   "stray character U+005C",
+   "insert '->' before '.'",
+   "replace 'name' with '.'",
+   "delete 'String'"
+  ]
+ },
+ {
+  "id": "t0423_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "delete '0'"
+  ]
+ },
+ {
+  "id": "t0424_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0425_text_tools",
+  "case": "text_tools",
+  "k": 4,
+  "corruptions": [
+   "delete 'return'",
+   "smart quotes on \"FREQ\"",
+   "string \"REV\" written with single quotes",
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0426_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "smart quotes on \"C\""
+  ]
+ },
+ {
+  "id": "t0427_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "delete '( nodes'",
+   "stray character U+0060",
+   "duplicate 'adj'",
+   "drop closing quote of \"DIJ\"",
+   "stray character U+0023"
+  ]
+ },
+ {
+  "id": "t0428_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "replace 'Item' with ']'",
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0429_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert ',' before '%'"
+  ]
+ },
+ {
+  "id": "t0430_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "stray character U+0023"
+  ]
+ },
+ {
+  "id": "t0431_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete 'System'"
+  ]
+ },
+ {
+  "id": "t0432_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "string \"B\" written with single quotes",
+   "drop closing quote of \"F\""
+  ]
+ },
+ {
+  "id": "t0433_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "swap 'n' ')'",
+   "delete ', v'"
+  ]
+ },
+ {
+  "id": "t0434_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "insert ',' before ','",
+   "duplicate 'transactions'",
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0435_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "replace 'continue' with ')'",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0436_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "duplicate 'ArithmeticException'",
+   "swap '(' 'ops'"
+  ]
+ },
+ {
+  "id": "t0437_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "duplicate 'if'"
+  ]
+ },
+ {
+  "id": "t0438_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "insert 'null' before 'for'"
+  ]
+ },
+ {
+  "id": "t0439_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "string \"MAXDEG\" written with single quotes",
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0440_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "confusable for ')'"
+  ]
+ },
+ {
+  "id": "t0441_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "replace 'm' with '=='",
+   "delete 'get ('",
+   "delete 'return'",
+   "delete 'int'"
+  ]
+ },
+ {
+  "id": "t0442_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete 'j'",
+   "delete '0'"
+  ]
+ },
+ {
+  "id": "t0443_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "swap '.' 'trim'",
+   "insert '{' before ')'"
+  ]
+ },
+ {
+  "id": "t0444_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete 'ss'",
+   "insert '++' before 'values'"
+  ]
+ },
+ {
+  "id": "t0445_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "delete ';'",
+   "unterminated /* comment",
+   "unterminated /* comment",
+   "string \"MAXDEG\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0446_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete '. out'",
+   "delete 'equals ('"
+  ]
+ },
+ {
+  "id": "t0447_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "drop closing quote of \"DEF\"",
+   "drop closing quote of \"ADD\"",
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0448_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "insert '{' before 'a'",
+   "delete '++'",
+   "confusable for ')'",
+   "delete ')'",
+   "insert '.' before 'eq'"
+  ]
+ },
+ {
+  "id": "t0449_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "insert '<=' before '('"
+  ]
+ },
+ {
+  "id": "t0450_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete '{'",
+   "drop closing quote of \"F\""
+  ]
+ },
+ {
+  "id": "t0451_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "duplicate ')'"
+  ]
+ },
+ {
+  "id": "t0452_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "string \" \" written with single quotes",
+   "insert '^' before '('",
+   "replace '<' with 'null'",
+   "swap ';' 'it'",
+   "insert '(' before ')'"
+  ]
+ },
+ {
+  "id": "t0453_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "delete ';'",
+   "delete ';'",
+   "delete ']'"
+  ]
+ },
+ {
+  "id": "t0454_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "insert 'else' before 'exp'",
+   "stray character U+0023",
+   "stray character U+0023"
+  ]
+ },
+ {
+  "id": "t0455_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "delete ';'",
+   "replace 'append' with '-'"
+  ]
+ },
+ {
+  "id": "t0456_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "duplicate '}'",
+   "unterminated /* comment",
+   "drop closing quote of \"B\""
+  ]
+ },
+ {
+  "id": "t0457_graph_engine",
+  "case": "graph_engine",
+  "k": 4,
+  "corruptions": [
+   "swap ';' '}'",
+   "delete '.'",
+   "string \"DIJ\" written with single quotes",
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0458_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "smart quotes on \"REPORT \""
+  ]
+ },
+ {
+  "id": "t0459_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "delete 'static'"
+  ]
+ },
+ {
+  "id": "t0460_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 4,
+  "corruptions": [
+   "insert '*' before ';'",
+   "delete 'List'",
+   "insert '||' before 'pc'",
+   "insert '~' before ')'"
+  ]
+ },
+ {
+  "id": "t0461_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "swap ')' '{'"
+  ]
+ },
+ {
+  "id": "t0462_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "delete '('",
+   "insert '|' before '<'",
+   "delete '('",
+   "confusable for ')'",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0463_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "drop closing quote of \"COMP\""
+  ]
+ },
+ {
+  "id": "t0464_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "replace '>' with ';'"
+  ]
+ },
+ {
+  "id": "t0465_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "confusable for '('",
+   "duplicate 'new'",
+   "swap ']' '['",
+   "delete '=='",
+   "replace '.' with '--'"
+  ]
+ },
+ {
+  "id": "t0466_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0467_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "insert 'else' before '('",
+   "insert '(' before '+'"
+  ]
+ },
+ {
+  "id": "t0468_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete 'w'",
+   "insert '[' before 's'"
+  ]
+ },
+ {
+  "id": "t0469_graph_engine",
+  "case": "graph_engine",
+  "k": 5,
+  "corruptions": [
+   "delete '.'",
+   "drop line-final ';'",
+   "duplicate '<'",
+   "delete 'equals'",
+   "delete '< >'"
+  ]
+ },
+ {
+  "id": "t0470_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "swap 'nextInt' '('"
+  ]
+ },
+ {
+  "id": "t0471_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "swap '[' '0'",
+   "delete ';'",
+   "stray character U+00A0"
+  ]
+ },
+ {
+  "id": "t0472_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "delete ';'",
+   "swap 'else' '{'",
+   "swap '\"bad operator \"' '+'",
+   "confusable for '('",
+   "swap 'nextLine' '('"
+  ]
+ },
+ {
+  "id": "t0473_text_tools",
+  "case": "text_tools",
+  "k": 4,
+  "corruptions": [
+   "replace 'j' with '*'",
+   "insert '}' before 'counts'",
+   "delete '% 26'",
+   "confusable for '*'"
+  ]
+ },
+ {
+  "id": "t0474_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "insert '~' before 'return'",
+   "delete 'next'",
+   "delete 'int'",
+   "replace 'cmd' with '.'",
+   "insert '*' before '('"
+  ]
+ },
+ {
+  "id": "t0475_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "insert 'for' before '['",
+   "drop line-final '{'",
+   "replace '}' with '||'"
+  ]
+ },
+ {
+  "id": "t0476_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "insert ',' before ';'"
+  ]
+ },
+ {
+  "id": "t0477_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "insert '?' before ']'",
+   "delete 'base'"
+  ]
+ },
+ {
+  "id": "t0478_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "insert 'this' before 'st'",
+   "delete '('",
+   "insert 'while' before ';'"
+  ]
+ },
+ {
+  "id": "t0479_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "insert '<' before 'for'"
+  ]
+ },
+ {
+  "id": "t0480_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "duplicate ':'"
+  ]
+ },
+ {
+  "id": "t0481_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "insert '>=' before '('",
+   "delete ') {'",
+   "insert '==' before '{'"
+  ]
+ },
+ {
+  "id": "t0482_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "insert '~' before '{'",
+   "replace 'for' with '='",
+   "replace '+' with '^'",
+   "delete '\"UNKNOWN \" +'",
+   "delete 'return'"
+  ]
+ },
+ {
+  "id": "t0483_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "delete '++'"
+  ]
+ },
+ {
+  "id": "t0484_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "delete '; }'",
+   "replace '2' with '|'",
+   "insert '=' before 'new'",
+   "insert '[' before ')'",
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0485_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "swap ',' 'sp2'"
+  ]
+ },
+ {
+  "id": "t0486_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "swap ')' ')'",
+   "insert '-=' before ')'",
+   "insert '}' before 'int'"
+  ]
+ },
+ {
+  "id": "t0487_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0488_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "smart quotes on \"PRICE\"",
+   "insert '}' before '}'",
+   "insert '~' before ')'"
+  ]
+ },
+ {
+  "id": "t0489_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "confusable for ')'",
+   "replace 'int' with 'null'"
+  ]
+ },
+ {
+  "id": "t0490_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete 'String'"
+  ]
+ },
+ {
+  "id": "t0491_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0492_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "drop closing quote of \"B\"",
+   "delete 'mean'",
+   "insert '--' before 'fmt'"
+  ]
+ },
+ {
+  "id": "t0493_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "string \" \" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0494_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete 'money'",
+   "insert '-=' before ','"
+  ]
+ },
+ {
+  "id": "t0495_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "duplicate '{'",
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0496_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "insert '!' before '')''",
+   "insert '+=' before '+'",
+   "delete 'indexOf'",
+   "delete '}'",
+   "swap 'default' ':'"
+  ]
+ },
+ {
+  "id": "t0497_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete 'caesar'"
+  ]
+ },
+ {
+  "id": "t0498_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "duplicate '.'",
+   "swap 'i' '='"
+  ]
+ },
+ {
+  "id": "t0499_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "delete '}'"
+  ]
+ },
+ {
+  "id": "t0500_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "stray character U+0060",
+   "stray character U+0060"
+  ]
+ },
+ {
+  "id": "t0501_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "string \" det=\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0502_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert '?' before 't'"
+  ]
+ },
+ {
+  "id": "t0503_text_tools",
+  "case": "text_tools",
+  "k": 4,
+  "corruptions": [
+   "drop closing quote of \" FREQ \"",
+   "delete 'arg )'",
+   "duplicate 'sp'",
+   "insert 'return' before '{'"
+  ]
+ },
+ {
+  "id": "t0504_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "drop line-final ';'",
+   "replace 'int' with '.'"
+  ]
+ },
+ {
+  "id": "t0505_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "string \"COMP\" written with single quotes",
+   "insert '+=' before '('"
+  ]
+ },
+ {
+  "id": "t0506_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "swap ';' 'System'",
+   "delete 'Item'"
+  ]
+ },
+ {
+  "id": "t0507_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "insert '<=' before '['",
+   "confusable for ';'",
+   "insert '%' before '0'",
+   "swap ')' '{'"
+  ]
+ },
+ {
+  "id": "t0508_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "stray character U+0023",
+   "insert 'while' before '=='"
+  ]
+ },
+ {
+  "id": "t0509_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "confusable for ';'",
+   "replace 'length' with '||'"
+  ]
+ },
+ {
+  "id": "t0510_gradebook",
+  "case": "gradebook",
+  "k": 4,
+  "corruptions": [
+   "drop closing quote of \"A\"",
+   "insert '||' before ';'",
+   "duplicate ':'",
+   "swap '0' ';'"
+  ]
+ },
+ {
+  "id": "t0511_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "insert '==' before '{'",
+   "replace '.' with 'this'"
+  ]
+ },
+ {
+  "id": "t0512_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "delete 'System .'",
+   "delete 'System'",
+   "duplicate '<'"
+  ]
+ },
+ {
+  "id": "t0513_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "replace '[' with '{'"
+  ]
+ },
+ {
+  "id": "t0514_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert '=' before ')'"
+  ]
+ },
+ {
+  "id": "t0515_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "swap '(' 'List'",
+   "replace 'else' with '{'",
+   "delete '( prev'",
+   "swap '{' 'sb'",
+   "duplicate 'line'"
+  ]
+ },
+ {
+  "id": "t0516_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "delete 's'"
+  ]
+ },
+ {
+  "id": "t0517_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "insert '&' before '('",
+   "delete '++ )'",
+   "insert 'static' before '!'"
+  ]
+ },
+ {
+  "id": "t0518_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "delete ')'",
+   "drop line-final ';'",
+   "insert '||' before 'System'"
+  ]
+ },
+ {
+  "id": "t0519_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "replace ';' with '+'",
+   "replace 'append' with '*'",
+   "insert 'this' before '{'",
+   "duplicate 'a'",
+   "insert ';' before ';'"
+  ]
+ },
+ {
+  "id": "t0520_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert '[' before 'b'"
+  ]
+ },
+ {
+  "id": "t0521_text_tools",
+  "case": "text_tools",
+  "k": 4,
+  "corruptions": [
+   "delete 'i'",
+   "replace 'i' with '/'",
+   "insert '*' before '>'",
+   "replace 'i' with '='"
+  ]
+ },
+ {
+  "id": "t0522_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "insert 'class' before 'final'",
+   "insert '->' before 'return'",
+   "drop line-final ';'",
+   "delete ')'",
+   "delete '\"CURVE\"'"
+  ]
+ },
+ {
+  "id": "t0523_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "duplicate ')'",
+   "replace ']' with 'new'"
+  ]
+ },
+ {
+  "id": "t0524_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "duplicate 'join'",
+   "duplicate ')'",
+   "insert '-' before ';'"
+  ]
+ },
+ {
+  "id": "t0525_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "confusable for '('"
+  ]
+ },
+ {
+  "id": "t0526_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "stray character U+005C",
+   "swap 'j' '<'",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0527_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "replace '(' with 'while'",
+   "insert '||' before '{'"
+  ]
+ },
+ {
+  "id": "t0528_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "swap 'lowest' ','",
+   "swap 'static' 'String'"
+  ]
+ },
+ {
+  "id": "t0529_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "delete '}'",
+   "delete '= nodes'",
+   "replace ')' with 'for'"
+  ]
+ },
+ {
+  "id": "t0530_inventory",
+  "case": "inventory",
+  "k": 3,
+  "corruptions": [
+   "stray character U+005C",
+   "delete '+'",
+   "replace 'list' with '-'"
+  ]
+ },
+ {
+  "id": "t0531_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "delete ')'",
+   "replace ';' with '|'",
+   "replace 'b' with '<'"
+  ]
+ },
+ {
+  "id": "t0532_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "stray character U+005C",
+   "replace ';' with 'int'",
+   "insert '*' before '!='"
+  ]
+ },
+ {
+  "id": "t0533_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "duplicate 'else'"
+  ]
+ },
+ {
+  "id": "t0534_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "confusable for '('",
+   "replace '=' with '['",
+   "delete 'id'",
+   "delete '.'",
+   "drop line-final '}'"
+  ]
+ },
+ {
+  "id": "t0535_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "confusable for ';'",
+   "delete '['"
+  ]
+ },
+ {
+  "id": "t0536_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "replace ')' with '-='",
+   "insert '{' before 'name'"
+  ]
+ },
+ {
+  "id": "t0537_matrix_lab",
+  "case": "matrix_lab",
+  "k": 3,
+  "corruptions": [
+   "insert '>' before 'i'",
+   "stray character U+0060",
+   "delete '.'"
+  ]
+ },
+ {
+  "id": "t0538_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "confusable for ')'",
+   "drop closing quote of \" vars=\"",
+   "drop closing quote of \"error: \"",
+   "replace '=' with '--'",
+   "insert '==' before 't'"
+  ]
+ },
+ {
+  "id": "t0539_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "delete '. charAt'",
+   "insert '&' before 'cur'"
+  ]
+ },
+ {
+  "id": "t0540_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete 's'",
+   "drop line-final '{'"
+  ]
+ },
+ {
+  "id": "t0541_graph_engine",
+  "case": "graph_engine",
+  "k": 3,
+  "corruptions": [
+   "drop line-final ';'",
+   "replace 'int' with 'for'",
+   "swap 'add' '('"
+  ]
+ },
+ {
+  "id": "t0542_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "swap 'qty' ')'"
+  ]
+ },
+ {
+  "id": "t0543_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "string \"yes\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0544_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "delete '== 1'",
+   "delete '.'",
+   "insert '-' before 'System'",
+   "replace '+' with ']'",
+   "replace '(' with '>='"
+  ]
+ },
+ {
+  "id": "t0545_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "delete 'charAt'",
+   "swap 'out' '.'",
+   "insert 'for' before ')'"
+  ]
+ },
+ {
+  "id": "t0546_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "insert '>' before ')'",
+   "delete '('",
+   "string \" best=\" written with single quotes",
+   "replace 'if' with 'this'",
+   "insert 'for' before 'cmd'"
+  ]
+ },
+ {
+  "id": "t0547_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0548_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete 'low'",
+   "delete '\"insufficient stock for \"'"
+  ]
+ },
+ {
+  "id": "t0549_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "duplicate '*'"
+  ]
+ },
+ {
+  "id": "t0550_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete 'indexOf'",
+   "replace 'if' with '['"
+  ]
+ },
+ {
+  "id": "t0551_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "replace 'sb' with 'static'"
+  ]
+ },
+ {
+  "id": "t0552_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "insert '>=' before 'System'",
+   "delete '{'",
+   "delete '}'",
+   "insert '--' before '\"A\"'",
+   "delete '0'"
+  ]
+ },
+ {
+  "id": "t0553_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert '==' before ']'"
+  ]
+ },
+ {
+  "id": "t0554_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "replace 'return' with ']'"
+  ]
+ },
+ {
+  "id": "t0555_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "drop line-final ';'",
+   "confusable for '('",
+   "duplicate 'multiply'",
+   "delete '['",
+   "delete ';'"
+  ]
+ },
+ {
+  "id": "t0556_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 5,
+  "corruptions": [
+   "string \" vars=\" written with single quotes",
+   "confusable for ')'",
+   "delete 'int'",
+   "insert '<=' before ';'",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0557_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "insert '-' before '}'",
+   "delete 'String'"
+  ]
+ },
+ {
+  "id": "t0558_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "confusable for ';'"
+  ]
+ },
+ {
+  "id": "t0559_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert ']' before ')'"
+  ]
+ },
+ {
+  "id": "t0560_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "insert '<' before '('"
+  ]
+ },
+ {
+  "id": "t0561_matrix_lab",
+  "case": "matrix_lab",
+  "k": 4,
+  "corruptions": [
+   "confusable for '('",
+   "insert '!' before 'dst'",
+   "duplicate '('",
+   "delete ') ;'"
+  ]
+ },
+ {
+  "id": "t0562_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "swap 't' '.'"
+  ]
+ },
+ {
+  "id": "t0563_text_tools",
+  "case": "text_tools",
+  "k": 4,
+  "corruptions": [
+   "replace 'ch' with ':'",
+   "replace '(' with '-='",
+   "delete '}'",
+   "delete '-'"
+  ]
+ },
+ {
+  "id": "t0564_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "delete ';'",
+   "insert 'new' before 'k'",
+   "replace 'scores' with 'static'"
+  ]
+ },
+ {
+  "id": "t0565_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert '>=' before 'nodes'"
+  ]
+ },
+ {
+  "id": "t0566_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "insert ':' before 'errors'",
+   "delete '('",
+   "insert ';' before 'long'",
+   "insert 'class' before 'public'",
+   "replace 'name' with '.'"
+  ]
+ },
+ {
+  "id": "t0567_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "insert '-' before 'int'",
+   "delete '}'",
+   "insert 'else' before ')'",
+   "delete 'dst'",
+   "insert '>=' before ';'"
+  ]
+ },
+ {
+  "id": "t0568_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete ';'",
+   "stray character U+0023"
+  ]
+ },
+ {
+  "id": "t0569_text_tools",
+  "case": "text_tools",
+  "k": 2,
+  "corruptions": [
+   "insert '+' before ')'",
+   "insert '(' before 'counts'"
+  ]
+ },
+ {
+  "id": "t0570_gradebook",
+  "case": "gradebook",
+  "k": 2,
+  "corruptions": [
+   "replace '\" empty\"' with 'this'",
+   "string \"A\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0571_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "insert '*' before 'w'",
+   "swap 'new' 'int'"
+  ]
+ },
+ {
+  "id": "t0572_inventory",
+  "case": "inventory",
+  "k": 2,
+  "corruptions": [
+   "delete 'int'",
+   "insert '}' before '\" \"'"
+  ]
+ },
+ {
+  "id": "t0573_matrix_lab",
+  "case": "matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "delete 'e'",
+   "delete '}'"
+  ]
+ },
+ {
+  "id": "t0574_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "confusable for '('"
+  ]
+ },
+ {
+  "id": "t0575_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "string \" PAL \" written with single quotes",
+   "stray character U+005C",
+   "duplicate '('",
+   "delete '}'",
+   "string \"CAESAR\" written with single quotes"
+  ]
+ },
+ {
+  "id": "t0576_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "delete 'scores'"
+  ]
+ },
+ {
+  "id": "t0577_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "insert '%' before 'u'",
+   "delete '= 0'"
+  ]
+ },
+ {
+  "id": "t0578_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "duplicate ')'",
+   "replace 'name' with '>='",
+   "replace ':' with '?'",
+   "delete 'it'",
+   "insert '-' before '.'"
+  ]
+ },
+ {
+  "id": "t0579_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "swap ';' 'for'"
+  ]
+ },
+ {
+  "id": "t0580_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 3,
+  "corruptions": [
+   "insert '==' before '}'",
+   "swap 'b' ')'",
+   "replace ')' with '^'"
+  ]
+ },
+ {
+  "id": "t0581_text_tools",
+  "case": "text_tools",
+  "k": 1,
+  "corruptions": [
+   "drop closing quote of \"RLE\""
+  ]
+ },
+ {
+  "id": "t0582_gradebook",
+  "case": "gradebook",
+  "k": 1,
+  "corruptions": [
+   "drop line-final '{'"
+  ]
+ },
+ {
+  "id": "t0583_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "delete '{ System'"
+  ]
+ },
+ {
+  "id": "t0584_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete 'it'"
+  ]
+ },
+ {
+  "id": "t0585_matrix_lab",
+  "case": "matrix_lab",
+  "k": 5,
+  "corruptions": [
+   "delete 'b'",
+   "drop closing quote of \"ERROR unknown \"",
+   "stray character U+00A0",
+   "insert '=' before '>>='",
+   "unterminated /* comment"
+  ]
+ },
+ {
+  "id": "t0586_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 4,
+  "corruptions": [
+   "insert '!' before '.'",
+   "unterminated /* comment",
+   "replace '{' with '++'",
+   "insert '%' before ')'"
+  ]
+ },
+ {
+  "id": "t0587_text_tools",
+  "case": "text_tools",
+  "k": 5,
+  "corruptions": [
+   "confusable for ')'",
+   "confusable for '('",
+   "string \"RLE\" written with single quotes",
+   "replace 'length' with '&&'",
+   "drop line-final ';'"
+  ]
+ },
+ {
+  "id": "t0588_gradebook",
+  "case": "gradebook",
+  "k": 3,
+  "corruptions": [
+   "delete 'ss'",
+   "insert '--' before 'println'",
+   "replace '++' with '*'"
+  ]
+ },
+ {
+  "id": "t0589_graph_engine",
+  "case": "graph_engine",
+  "k": 2,
+  "corruptions": [
+   "string \"DIJ\" written with single quotes",
+   "replace ';' with '!='"
+  ]
+ },
+ {
+  "id": "t0590_inventory",
+  "case": "inventory",
+  "k": 5,
+  "corruptions": [
+   "insert '-' before 'static'",
+   "replace '(' with ','",
+   "delete '+ name'",
+   "confusable for '('",
+   "replace 'case' with '<='"
+  ]
+ },
+ {
+  "id": "t0591_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert '%' before ';'"
+  ]
+ },
+ {
+  "id": "t0592_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "insert '!' before '('",
+   "drop line-final '{'"
+  ]
+ },
+ {
+  "id": "t0593_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "delete '. compareTo'",
+   "delete '+'",
+   "insert '%' before '.'"
+  ]
+ },
+ {
+  "id": "t0594_gradebook",
+  "case": "gradebook",
+  "k": 5,
+  "corruptions": [
+   "drop closing quote of \"SHOW\"",
+   "drop line-final ';'",
+   "stray character U+0060",
+   "stray character U+0023",
+   "delete 'int'"
+  ]
+ },
+ {
+  "id": "t0595_graph_engine",
+  "case": "graph_engine",
+  "k": 1,
+  "corruptions": [
+   "drop line-final '{'"
+  ]
+ },
+ {
+  "id": "t0596_inventory",
+  "case": "inventory",
+  "k": 1,
+  "corruptions": [
+   "delete '('"
+  ]
+ },
+ {
+  "id": "t0597_matrix_lab",
+  "case": "matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "delete ')'"
+  ]
+ },
+ {
+  "id": "t0598_rpn_calculator",
+  "case": "rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "confusable for '('",
+   "replace '.' with '>='"
+  ]
+ },
+ {
+  "id": "t0599_text_tools",
+  "case": "text_tools",
+  "k": 3,
+  "corruptions": [
+   "delete 'String'",
+   "confusable for '('",
+   "duplicate '.'"
+  ]
+ }
+]

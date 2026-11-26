@@ -1,0 +1,66 @@
+[
+ {
+  "id": "gradebook-1",
+  "category": "compile",
+  "description": "missing final return",
+  "reference_line": 80,
+  "original": "        return \"F\";\n",
+  "injected": ""
+ },
+ {
+  "id": "gradebook-2",
+  "category": "compile",
+  "description": "misspelled JDK method Math.min -> Math.mim",
+  "reference_line": 167,
+  "original": "lowest = Math.min(lowest, s.scores[idx]);",
+  "injected": "lowest = Math.mim(lowest, s.scores[idx]);"
+ },
+ {
+  "id": "gradebook-3",
+  "category": "compile",
+  "description": "missing closing brace of inner loop",
+  "reference_line": 180,
+  "original": "                s.scores[i] = Math.min(100, s.scores[i] + points);\n            }\n",
+  "injected": "                s.scores[i] = Math.min(100, s.scores[i] + points);\n"
+ },
+ {
+  "id": "gradebook-4",
+  "category": "semantic",
+  "description": "integer division in average",
+  "reference_line": 33,
+  "original": "return (double) total() / scores.length;",
+  "injected": "return total() / scores.length;"
+ },
+ {
+  "id": "gradebook-5",
+  "category": "semantic",
+  "description": "grade boundary 80 excluded",
+  "reference_line": 73,
+  "original": "} else if (score >= 80.0) {",
+  "injected": "} else if (score > 80.0) {"
+ },
+ {
+  "id": "gradebook-6",
+  "category": "semantic",
+  "description": "median parity test inverted",
+  "reference_line": 90,
+  "original": "if (copy.length % 2 == 1) {",
+  "injected": "if (copy.length % 2 == 0) {"
+ },
+ {
+  "id": "gradebook-7",
+  "category": "semantic",
+  "description": "population instead of sample standard deviation",
+  "reference_line": 109,
+  "original": "return Math.sqrt(ss / (values.length - 1));",
+  "injected": "return Math.sqrt(ss / values.length);"
+ },
+ {
+  "id": "gradebook-8",
+  "category": "semantic",
+  "description": "tie handling in ranking inverted",
+  "reference_line": 131,
+  "original": "if (i == 0 || w != prev) {",
+  "injected": "if (i == 0 || w == prev) {"
+ }
+]

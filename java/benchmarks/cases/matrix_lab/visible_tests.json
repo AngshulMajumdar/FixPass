@@ -1,0 +1,42 @@
+[
+ {
+  "input": "DEF M0 2 4 5 -4 3 9 -3 0 -4 4\nDEF M1 1 1 -6\nDEF M2 2 2 5 -4 9 -8\nDEF S3 2 2 4 -2 -2 0\nINFO M0\nSUB R1 M2 M2\nT R2 nope\nADD R3 M2 R1\nMUL R4 R1 S3\nINFO M2\nINFO S3\nSUB R7 S3 M1\nINFO R1\nINFO M0\nINFO M1\nINFO M2\nINFO S3\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nDEF S3\nINFO M0 trace=5 sym=no rows=13,-3\nR1 2x2\n0 0\n0 0\nERROR unknown nope\nR3 2x2\n5 -4\n9 -8\nR4 2x2\n0 0\n0 0\nINFO M2 trace=-3 det=-4 sym=no rows=1,1\nINFO S3 trace=4 det=-4 sym=yes rows=2,-2\nERROR shape\nINFO R1 trace=0 det=0 sym=yes rows=0,0\nINFO M0 trace=5 sym=no rows=13,-3\nINFO M1 trace=-6 det=-6 sym=yes rows=-6\nINFO M2 trace=-3 det=-4 sym=no rows=1,1\nINFO S3 trace=4 det=-4 sym=yes rows=2,-2\n"
+ },
+ {
+  "input": "DEF M0 1 1 -3\nDEF M1 1 1 3\nDEF M2 1 1 -4\nDEF M3 4 1 3 -5 0 7\nDEF S4 1 1 2\nINFO M0\nPOW R1 M2 0\nINFO S4\nT R3 M0\nT R4 M3\nMUL R5 M0 M3\nPOW R6 R4 0\nINFO M3\nSUB R8 R1 R3\nINFO M0\nINFO M1\nINFO M2\nINFO M3\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nDEF M3\nDEF S4\nINFO M0 trace=-3 det=-3 sym=yes rows=-3\nR1 1x1\n1\nINFO S4 trace=2 det=2 sym=yes rows=2\nR3 1x1\n-3\nR4 1x4\n3 -5 0 7\nERROR shape\nERROR shape\nINFO M3 trace=3 sym=no rows=3,-5,0,7\nR8 1x1\n4\nINFO M0 trace=-3 det=-3 sym=yes rows=-3\nINFO M1 trace=3 det=3 sym=yes rows=3\nINFO M2 trace=-4 det=-4 sym=yes rows=-4\nINFO M3 trace=3 sym=no rows=3,-5,0,7\n"
+ },
+ {
+  "input": "DEF M0 1 1 -2\nDEF M1 2 2 -1 1 -5 2\nDEF M2 3 4 8 7 0 4 -8 0 4 -1 0 9 4 -1\nDEF M3 3 2 2 4 -9 8 -2 -9\nDEF M4 3 1 6 5 -9\nDEF S5 1 1 -3\nMUL R0 M4 M2\nMUL R1 M0 S5\nMUL R2 M0 R1\nADD R3 M0 M0\nADD R4 M2 R1\nINFO M0\nADD R6 R3 S5\nINFO M0\nINFO M1\nINFO M2\nINFO M3\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nDEF M3\nDEF M4\nDEF S5\nERROR shape\nR1 1x1\n6\nR2 1x1\n-12\nR3 1x1\n-4\nERROR shape\nINFO M0 trace=-2 det=-2 sym=yes rows=-2\nR6 1x1\n-7\nINFO M0 trace=-2 det=-2 sym=yes rows=-2\nINFO M1 trace=1 det=3 sym=no rows=0,-3\nINFO M2 trace=12 sym=no rows=19,-5,12\nINFO M3 trace=10 sym=no rows=6,-1,-11\n"
+ },
+ {
+  "input": "DEF M0 3 3 -3 3 -4 -3 0 8 -5 3 4\nDEF M1 2 3 -9 7 -9 1 1 6\nDEF M2 3 3 -3 9 3 7 -7 3 4 0 -8\nINFO M1\nPOW R1 M0 4\nINFO M2\nINFO R1\nMUL R4 M2 M0\nSUB R5 R4 M0\nT R6 R5\nINFO M0\nMUL R8 M0 R4\nINFO M0\nINFO M1\nINFO M2\nINFO R1\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nINFO M1 trace=-8 sym=no rows=-11,8\nR1 3x3\n771 -795 676\n-1701 744 2680\n-1027 69 3188\nINFO M2 trace=-18 det=528 sym=no rows=9,3,-4\nINFO R1 trace=4703 det=331776 sym=no rows=652,1723,2230\nR4 3x3\n-33 0 96\n-15 30 -72\n28 -12 -48\nR5 3x3\n-30 -3 100\n-12 30 -80\n33 -15 -52\nR6 3x3\n-30 -12 33\n-3 30 -15\n100 -80 -52\nINFO M0 trace=1 det=24 sym=no rows=-4,5,2\nR8 3x3\n-58 138 -312\n323 -96 -672\n232 42 -888\nINFO M0 trace=1 det=24 sym=no rows=-4,5,2\nINFO M1 trace=-8 sym=no rows=-11,8\nINFO M2 trace=-18 det=528 sym=no rows=9,3,-4\nINFO R1 trace=4703 det=331776 sym=no rows=652,1723,2230\n"
+ },
+ {
+  "input": "DEF M0 2 4 7 -4 -1 -5 -2 0 7 6\nDEF M1 3 1 -5 -1 5\nDEF M2 4 4 -7 -7 7 -1 -7 1 -7 -5 -8 2 -2 -4 -4 4 8 -3\nSUB R0 M0 M0\nT R1 M1\nMUL R2 M2 M2\nMUL R3 M2 M2\nMUL R4 R1 M1\nINFO M0\nINFO M1\nINFO M2\nINFO R0\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nR0 2x4\n0 0 0 0\n0 0 0 0\nR1 1x3\n-5 -1 5\nR2 4x4\n46 52 -22 17\n118 16 -82 45\n74 38 -98 18\n-52 36 -96 -39\nR3 4x4\n46 52 -22 17\n118 16 -82 45\n74 38 -98 18\n-52 36 -96 -39\nR4 1x1\n51\nINFO M0 trace=7 sym=no rows=-3,11\nINFO M1 trace=-5 sym=no rows=-5,-1,5\nINFO M2 trace=-11 det=1500 sym=no rows=-8,-18,-12,5\nINFO R0 trace=0 sym=no rows=0,0\n"
+ },
+ {
+  "input": "DEF M0 3 2 -3 -3 -3 4 4 -1\nDEF M1 3 3 -7 -7 2 2 -6 3 1 -8 -3\nDEF M2 1 4 6 3 5 7\nDEF M3 1 1 0\nDEF S4 1 1 1\nPOW R0 M1 1\nADD R1 M0 M0\nADD R2 M2 M2\nT R3 S4\nMUL R4 R3 R3\nT R5 S4\nMUL R6 M0 M3\nMUL R7 R2 R2\nINFO M0\nINFO M1\nINFO M2\nINFO M3\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nDEF M3\nDEF S4\nR0 3x3\n-7 -7 2\n2 -6 3\n1 -8 -3\nR1 3x2\n-6 -6\n-6 8\n8 -2\nR2 1x4\n12 6 10 14\nR3 1x1\n1\nR4 1x1\n1\nR5 1x1\n1\nERROR shape\nERROR shape\nINFO M0 trace=1 sym=no rows=-6,1,3\nINFO M1 trace=-16 det=-377 sym=no rows=-12,-1,-10\nINFO M2 trace=6 sym=no rows=21\nINFO M3 trace=0 det=0 sym=yes rows=0\n"
+ },
+ {
+  "input": "DEF M0 1 1 3\nDEF M1 4 4 1 -5 8 2 -4 1 5 -4 -7 5 3 -8 -8 4 -9 -7\nDEF M2 3 3 -2 8 9 7 6 -7 5 -6 6\nDEF M3 3 3 -8 -6 -1 7 -2 -6 -9 -2 7\nDEF S4 3 3 0 -1 -3 -1 5 3 -3 3 -5\nADD R0 M0 M3\nPOW R1 S4 3\nINFO M0\nINFO M0\nPOW R4 M3 0\nINFO S4\nMUL R6 M3 R4\nINFO M0\nINFO M0\nINFO M1\nINFO M2\nINFO M3\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nDEF M3\nDEF S4\nERROR shape\nR1 3x3\n-22 -44 -132\n-44 198 132\n-132 132 -242\nINFO M0 trace=3 det=3 sym=yes rows=3\nINFO M0 trace=3 det=3 sym=yes rows=3\nR4 3x3\n1 0 0\n0 1 0\n0 0 1\nINFO S4 trace=0 det=-22 sym=yes rows=-4,7,-5\nR6 3x3\n-8 -6 -1\n7 -2 -6\n-9 -2 7\nINFO M0 trace=3 det=3 sym=yes rows=3\nINFO M0 trace=3 det=3 sym=yes rows=3\nINFO M1 trace=-2 det=75 sym=no rows=6,-2,-7,-20\nINFO M2 trace=10 det=-1252 sym=no rows=15,6,5\nINFO M3 trace=-3 det=210 sym=no rows=-15,-1,-4\n"
+ },
+ {
+  "input": "DEF M0 4 2 2 -2 -6 3 1 7 -9 -3\nDEF M1 2 2 -1 -9 -8 6\nDEF M2 2 2 -9 3 7 -7\nDEF M3 1 1 -8\nDEF S4 4 4 -4 -1 -2 -3 -1 -5 -3 3 -2 -3 -1 -3 -3 3 -3 0\nMUL R0 S4 S4\nMUL R1 M3 M3\nT R2 M3\nSUB R3 S4 S4\nPOW R4 R1 1\nINFO M0\nADD R6 R0 R3\nSUB R7 R2 M0\nMUL R8 M1 R2\nADD R9 S4 S4\nINFO M0\nINFO M1\nINFO M2\nINFO M3\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nDEF M3\nDEF S4\nR0 4x4\n30 6 22 15\n6 44 11 -3\n22 11 23 0\n15 -3 0 27\nR1 1x1\n64\nR2 1x1\n-8\nR3 4x4\n0 0 0 0\n0 0 0 0\n0 0 0 0\n0 0 0 0\nR4 1x1\n64\nINFO M0 trace=5 sym=no rows=0,-3,8,-12\nR6 4x4\n30 6 22 15\n6 44 11 -3\n22 11 23 0\n15 -3 0 27\nERROR shape\nERROR shape\nR9 4x4\n-8 -2 -4 -6\n-2 -10 -6 6\n-4 -6 -2 -6\n-6 6 -6 0\nINFO M0 trace=5 sym=no rows=0,-3,8,-12\nINFO M1 trace=5 det=-78 sym=no rows=-10,-2\nINFO M2 trace=-16 det=42 sym=no rows=-6,0\nINFO M3 trace=-8 det=-8 sym=yes rows=-8\n"
+ },
+ {
+  "input": "DEF M0 2 2 9 -9 -4 9\nDEF M1 2 2 1 -9 -5 -7\nDEF M2 4 4 0 9 6 -7 -9 5 3 8 4 -1 -6 2 -3 2 -5 -8\nDEF M3 2 2 -5 1 8 2\nDEF M4 2 2 -6 9 3 -3\nDEF S5 2 2 3 -2 -2 0\nSUB R0 S5 M3\nPOW R1 S5 4\nINFO M3\nT R3 M2\nSUB R4 M4 S5\nMUL R5 M0 M3\nINFO M0\nINFO M1\nINFO M2\nINFO M3\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nDEF M3\nDEF M4\nDEF S5\nR0 2x2\n8 -3\n-10 -2\nR1 2x2\n205 -102\n-102 52\nINFO M3 trace=-3 det=-18 sym=no rows=-4,10\nR3 4x4\n0 -9 4 -3\n9 5 -1 2\n6 3 -6 -5\n-7 8 2 -8\nR4 2x2\n-9 11\n5 -3\nR5 2x2\n-117 -9\n92 14\nINFO M0 trace=18 det=45 sym=no rows=0,5\nINFO M1 trace=-6 det=-52 sym=no rows=-8,-12\nINFO M2 trace=-9 det=7900 sym=no rows=8,7,-1,-14\nINFO M3 trace=-3 det=-18 sym=no rows=-4,10\n"
+ },
+ {
+  "input": "DEF M0 1 1 -5\nDEF M1 4 4 1 9 6 7 6 2 3 2 -6 -7 -9 4 2 -5 6 -1\nDEF M2 4 4 6 -5 3 5 7 -9 -2 -4 -7 -4 -1 -4 -8 4 2 9\nDEF S3 4 4 -4 5 3 -3 5 -1 -2 -5 3 -2 3 -5 -3 -5 -5 -2\nMUL R0 M1 S3\nMUL R1 M2 M2\nINFO R1\nINFO M0\nT R4 R0\nSUB R5 S3 R1\nINFO nope\nT R7 M1\nSUB R8 R5 M2\nMUL R9 M0 M0\nINFO M0\nINFO M1\nINFO M2\nINFO S3\n",
+  "output": "DEF M0\nDEF M1\nDEF M2\nDEF S3\nR0 4x4\n38 -51 -32 -92\n-11 12 13 -47\n-50 -25 -51 90\n-12 8 39 -9\nR1 4x4\n-60 23 35 83\n25 38 33 43\n-31 59 -20 -51\n-106 32 -16 17\nINFO R1 trace=-25 det=5616900 sym=no rows=81,139,-43,-73\nINFO M0 trace=-5 det=-5 sym=yes rows=-5\nR4 4x4\n38 -11 -50 -12\n-51 12 -25 8\n-32 13 -51 39\n-92 -47 90 -9\nR5 4x4\n56 -18 -32 -86\n-20 -39 -35 -48\n34 -61 23 46\n103 -37 11 -19\nERROR unknown nope\nR7 4x4\n1 6 -6 2\n9 2 -7 -5\n6 3 -9 6\n7 2 4 -1\nR8 4x4\n50 -13 -35 -91\n-27 -30 -33 -44\n41 -57 24 50\n111 -41 9 -28\nR9 1x1\n25\nINFO M0 trace=-5 det=-5 sym=yes rows=-5\nINFO M1 trace=-7 det=4797 sym=no rows=23,13,-18,2\nINFO M2 trace=5 det=-2370 sym=no rows=9,-8,-16,7\nINFO S3 trace=-4 det=1799 sym=yes rows=1,-3,-1,-15\n"
+ }
+]

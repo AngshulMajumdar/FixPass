@@ -1,0 +1,17 @@
+{
+  "tool": "jfixpass 0.1.0",
+  "tests": 10,
+  "main_class": "Main",
+  "original_compiles": true,
+  "original_diagnostics": [],
+  "original_passes": true,
+  "final_warnings": [],
+  "final_passing": 10,
+  "final_failures": [],
+  "changed": false,
+  "status": "all tests pass",
+  "exit_code": 0,
+  "javac_invocations": 4,
+  "seconds": 1.5,
+  "test_executions": 0
+}

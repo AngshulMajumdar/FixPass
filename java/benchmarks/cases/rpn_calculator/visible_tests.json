@@ -1,0 +1,42 @@
+[
+ {
+  "input": "EVAL (16 - 5 - 2 * 3) * (15 % 6 % 18)\nSUMMARY\nSUMMARY\nPOSTFIX 15\nEVAL 16 % 9\nEVAL (18 + (16 / 17)) - 11\nSUMMARY\nLET x = ((8 / 12) * (6 * 0))\nLET y = x\nSUMMARY\nEVAL ( 16 - (5 - 1 ^ 1)\nCHECK )]\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "15\nevaluated=1 failed=0 vars=0\nevaluated=1 failed=0 vars=0\n15\n7\n7\nevaluated=3 failed=0 vars=0\nx = 0\ny = 0\nevaluated=3 failed=0 vars=2\nerror: unbalanced\nunbalanced\n512\n2 3 2 ^ ^\nevaluated=5 failed=1 vars=2\n"
+ },
+ {
+  "input": "CHECK )(}\nCHECK )a[a(\nSUMMARY\nPOSTFIX 11 ^ 4 / 12\nEVAL ((0 + 1) * 18 + 3) ^ 3\nEVAL 16 % (17 ^ 1 * 10 * 6)\nCHECK )[a])))]})\nSUMMARY\nEVAL (1 * 6 + 20 + 18 + (7 / 12))\nEVAL 20 * 11 / 6\nPOSTFIX ((10 + 12) / 8 * 18 + (11 % 12) / 1)\nEVAL (15 / 10) / 0 * 5 - 10 / 12 - (13 + 8)\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "unbalanced\nunbalanced\nevaluated=0 failed=0 vars=0\n11 4 ^ 12 /\n9261\n16\nunbalanced\nevaluated=2 failed=0 vars=0\n44\n36\n10 12 + 8 / 18 * 11 12 % 1 / +\nerror: division by zero\n512\n2 3 2 ^ ^\nevaluated=6 failed=1 vars=0\n"
+ },
+ {
+  "input": "CHECK )]{[{]][(a\nEVAL 3\nEVAL 7 * 6 + 0 - 12\nCHECK }a}})]a[((\nLET n2 = 19\nEVAL n2 % n2\nSUMMARY\nCHECK }a}{[\nEVAL ((18 + n2 * n2) / (4 + 11 * 10 + 7))\nEVAL 4\nEVAL (8 + n2 % 19 / (8 / n2))\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "unbalanced\n3\n30\nunbalanced\nn2 = 19\n0\nevaluated=3 failed=0 vars=1\nunbalanced\n3\n4\nerror: division by zero\n512\n2 3 2 ^ ^\nevaluated=7 failed=1 vars=1\n"
+ },
+ {
+  "input": "POSTFIX 5 * 14 - (1 * 17) % 2\nEVAL 2\nEVAL 0 / 0\nEVAL (19 ^ 2 % (4 * 7)) - (15 * 18 / (17 * 15))\nEVAL 0 - 0 % 16 / 11 - 1 + zz\nCHECK [}[{])[{\nSUMMARY\nSUMMARY\nLET rate = 12\nSUMMARY\nEVAL (8 * 11 * 4 % 10) - (rate / rate % 20)\nEVAL 5\nCHECK {]([(}\nCHECK {}{a{){]\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "5 14 * 1 17 * 2 % -\n2\nerror: division by zero\n24\nerror: undefined zz\nunbalanced\nevaluated=4 failed=2 vars=0\nevaluated=4 failed=2 vars=0\nrate = 12\nevaluated=4 failed=2 vars=1\n1\n5\nunbalanced\nunbalanced\n512\n2 3 2 ^ ^\nevaluated=7 failed=2 vars=1\n"
+ },
+ {
+  "input": "EVAL ((5 * 9 ^ 0) - 5 + 17)\nCHECK {\nEVAL ((8 * 7) / 11 + 2) % (14 + 20) * 16 - 3\nPOSTFIX 17\nCHECK (a](}[a\nEVAL 2\nEVAL (4 + 7) ^ 4 - 2 - (1 - 16)\nCHECK ((]\nEVAL 4\nLET rate = 9 ^ 1\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "17\nunbalanced\n109\n17\nunbalanced\n2\n14654\nunbalanced\n4\nrate = 9\n512\n2 3 2 ^ ^\nevaluated=6 failed=0 vars=1\n"
+ },
+ {
+  "input": "EVAL 9 / 0\nSUMMARY\nCHECK (}{)\nSUMMARY\nLET rate = 14\nSUMMARY\nEVAL 4\nPOSTFIX 7 ^ 3\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "error: division by zero\nevaluated=1 failed=1 vars=0\nunbalanced\nevaluated=1 failed=1 vars=0\nrate = 14\nevaluated=1 failed=1 vars=1\n4\n7 3 ^\n512\n2 3 2 ^ ^\nevaluated=3 failed=1 vars=1\n"
+ },
+ {
+  "input": "CHECK {[][})\nLET n2 = (20 - 1 ^ 2)\nSUMMARY\nEVAL 19 - (16 + n2 % (n2 - n2))\nSUMMARY\nEVAL 5 / n2 * 4 + (n2 * 17)\nSUMMARY\nPOSTFIX n2\nEVAL 5\nSUMMARY\nLET y = (14 % n2 - 10 - n2)\nPOSTFIX n2\nEVAL 12\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "unbalanced\nn2 = 19\nevaluated=0 failed=0 vars=1\nerror: division by zero\nevaluated=1 failed=1 vars=1\n323\nevaluated=2 failed=1 vars=1\nn2\n5\nevaluated=3 failed=1 vars=1\ny = -15\nn2\n12\n512\n2 3 2 ^ ^\nevaluated=5 failed=1 vars=2\n"
+ },
+ {
+  "input": "EVAL 3\nEVAL 19\nSUMMARY\nEVAL 17 * 14 + (10 ^ 2) ^ 0\nPOSTFIX 19\nEVAL 17\nEVAL 12 ^ 1 + 0 * 13 + 11\nEVAL 17 / (6 + 1) - (12 + 1 + (3 * 3))\nCHECK \nSUMMARY\nPOSTFIX (((9 ^ 0) - 2 * 11) - 2)\nSUMMARY\nEVAL 14 + zz\nEVAL 2\nEVAL 14\nEVAL 5 + 4 / 0\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "3\n19\nevaluated=2 failed=0 vars=0\n239\n19\n17\n23\n-20\nbalanced\nevaluated=6 failed=0 vars=0\n9 0 ^ 2 11 * - 2 -\nevaluated=6 failed=0 vars=0\nerror: undefined zz\n2\n14\nerror: division by zero\n512\n2 3 2 ^ ^\nevaluated=11 failed=2 vars=0\n"
+ },
+ {
+  "input": "EVAL 4 + 19 * 15 * 16 )\nEVAL (6 + 20)\nPOSTFIX 18 / 11\nLET x = 5 * 13\nEVAL 6\nEVAL ((x + 13 / (19 - 5)) ^ 1)\nLET n2 = (16 + 5) * x ^ 4\nPOSTFIX 14 + 6 + (4 - x) * (0 + 0 * 19)\nCHECK {a\nEVAL 19 + x * 18 ^ 3 ^ 1\nEVAL (0 * 18 + 15 * x / 20)\nCHECK a(\nEVAL ((15 + 2 * (x + n2)) * (n2 * 19 ^ 1))\nSUMMARY\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "error: unbalanced\n26\n18 11 /\nx = 65\n6\n65\nn2 = 374863125\n14 6 + 4 x - 0 0 19 * + * +\nunbalanced\n379099\n48\nunbalanced\n5339850807169003125\nevaluated=7 failed=1 vars=2\n512\n2 3 2 ^ ^\nevaluated=8 failed=1 vars=2\n"
+ },
+ {
+  "input": "SUMMARY\nPOSTFIX 9 % (14 * 5) * 17\nLET y = 17\nLET n2 = (11 ^ 3) + y\nEVAL 9 + zz\nLET rate = n2\nPOSTFIX 10\nPOSTFIX 5\nPOSTFIX 20\nEVAL 2 ^ 3 ^ 2\nPOSTFIX 2 ^ 3 ^ 2\nSUMMARY\n",
+  "output": "evaluated=0 failed=0 vars=0\n9 14 5 * % 17 *\ny = 17\nn2 = 1348\nerror: undefined zz\nrate = 1348\n10\n5\n20\n512\n2 3 2 ^ ^\nevaluated=2 failed=1 vars=3\n"
+ }
+]

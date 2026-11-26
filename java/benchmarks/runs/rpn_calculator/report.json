@@ -1,0 +1,177 @@
+{
+  "tool": "jfixpass 0.1.0",
+  "tests": 10,
+  "main_class": "Main",
+  "original_compiles": false,
+  "original_diagnostics": [
+    "L30 [compiler.err.illegal.start.of.expr] illegal start of expression"
+  ],
+  "compile_repairs": [
+    {
+      "phase": "syntax",
+      "line": 30,
+      "diagnostic": "compiler.err.illegal.start.of.expr",
+      "message": "illegal start of expression",
+      "stage": "priority tokens",
+      "rule": "delete '='",
+      "before": "return t.length() == 1 && \"+-*/%^\".indexOf(t.charAt(0)) => 0;",
+      "after": "return t.length() == 1 && \"+-*/%^\".indexOf(t.charAt(0)) > 0;"
+    },
+    {
+      "phase": "types",
+      "line": 163,
+      "diagnostic": "compiler.err.cant.resolve.location.args",
+      "message": "cannot find symbol",
+      "rule": "missing 'new' before constructor call",
+      "before": "throw IllegalArgumentException(\"malformed\");",
+      "after": "throw new IllegalArgumentException(\"malformed\");"
+    },
+    {
+      "phase": "types",
+      "line": 207,
+      "diagnostic": "compiler.err.cant.resolve.location",
+      "message": "cannot find symbol",
+      "rule": "rename evaluted -> evaluated",
+      "before": "evaluted++;",
+      "after": "evaluated++;"
+    }
+  ],
+  "compile_candidates_checked": 2544,
+  "syntax_parses": 2542,
+  "static_rules": [],
+  "search": [
+    {
+      "initial_passing": 0,
+      "initial_score": 3.4649125513289594
+    },
+    {
+      "round": 1,
+      "ranked_candidates": 395,
+      "evaluated": 123,
+      "did_not_compile": 12,
+      "edits": [
+        {
+          "operator": "variable i->j",
+          "line": 42,
+          "before": "while (j < expr.length() && Character.isDigit(expr.charAt(i))) {",
+          "after": "while (j < expr.length() && Character.isDigit(expr.charAt(j))) {"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 42,
+      "passing": 0,
+      "score": 4.8
+    },
+    {
+      "equal_score_alternatives": 2,
+      "alternatives": [
+        "operator >->>= @L30: return t.length() == 1 && \"+-*/%^\".indexOf(t.charAt(0)) >= 0;",
+        "expr+1 @L30: return t.length() == 1 && (\"+-*/%^\".indexOf(t.charAt(0)) + 1) > 0;"
+      ],
+      "behaviour_groups": [
+        2
+      ],
+      "round": 2,
+      "ranked_candidates": 506,
+      "evaluated": 95,
+      "did_not_compile": 7,
+      "edits": [
+        {
+          "operator": "operator >->>=",
+          "line": 30,
+          "before": "return t.length() == 1 && \"+-*/%^\".indexOf(t.charAt(0)) > 0;",
+          "after": "return t.length() == 1 && \"+-*/%^\".indexOf(t.charAt(0)) >= 0;"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 14,
+      "passing": 0,
+      "score": 5.588
+    },
+    {
+      "round": 3,
+      "ranked_candidates": 512,
+      "evaluated": 137,
+      "did_not_compile": 8,
+      "edits": [
+        {
+          "operator": "operator <->>",
+          "line": 71,
+          "before": "if (pt < pc || (pt == pc && !t.equals(\"^\"))) {",
+          "after": "if (pt > pc || (pt == pc && !t.equals(\"^\"))) {"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 65,
+      "passing": 0,
+      "score": 6.057
+    },
+    {
+      "round": 4,
+      "ranked_candidates": 512,
+      "evaluated": 180,
+      "did_not_compile": 10,
+      "edits": [
+        {
+          "operator": "swap arguments",
+          "line": 151,
+          "before": "st.push(apply(t, b, a));",
+          "after": "st.push(apply(t, a, b));"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 154,
+      "passing": 0,
+      "score": 7.813
+    },
+    {
+      "round": 5,
+      "ranked_candidates": 512,
+      "evaluated": 186,
+      "did_not_compile": 10,
+      "edits": [
+        {
+          "operator": "literal+1",
+          "line": 106,
+          "before": "long result = 0;",
+          "after": "long result = 1;"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 105,
+      "passing": 7,
+      "score": 16.753
+    },
+    {
+      "round": 6,
+      "ranked_candidates": 512,
+      "evaluated": 82,
+      "did_not_compile": 3,
+      "edits": [
+        {
+          "operator": "remove negation",
+          "line": 184,
+          "before": "return !st.isEmpty();",
+          "after": "return st.isEmpty();"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 1,
+      "passing": 10,
+      "score": 20
+    }
+  ],
+  "fuel_limit": 1000000,
+  "test_timeout_ms": 500,
+  "candidates_evaluated": 803,
+  "ambiguous_rounds": 0,
+  "final_warnings": [],
+  "final_passing": 10,
+  "final_failures": [],
+  "changed": true,
+  "status": "all tests pass",
+  "exit_code": 0,
+  "javac_invocations": 4230,
+  "seconds": 65.6,
+  "test_executions": 0
+}

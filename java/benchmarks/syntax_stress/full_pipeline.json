@@ -1,0 +1,813 @@
+[
+ {
+  "id": "t0000_gradebook",
+  "k": 1,
+  "corruptions": [
+   "replace ',' with '-='"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 6,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0003_matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert '^' before '['"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.8,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0006_gradebook",
+  "k": 2,
+  "corruptions": [
+   "confusable for ';'",
+   "stray character U+005C"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.5,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0012_gradebook",
+  "k": 2,
+  "corruptions": [
+   "confusable for ')'",
+   "duplicate '{'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 3.6,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0013_graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert ']' before ':'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 4.8,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0014_inventory",
+  "k": 2,
+  "corruptions": [
+   "insert '>' before '}'",
+   "drop closing quote of \". \""
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 66.3,
+  "status": "repair failed validation: 2/10 tests pass"
+ },
+ {
+  "id": "t0015_matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "insert '--' before '{'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.2,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0016_rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete 'j'",
+   "delete '}'"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 111.6,
+  "status": "repair failed validation: 0/10 tests pass"
+ },
+ {
+  "id": "t0022_rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert '<=' before 'indexOf'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.5,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0023_text_tools",
+  "k": 2,
+  "corruptions": [
+   "replace ')' with '?'",
+   "delete 'char'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 13.4,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0028_rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete ';'",
+   "duplicate 'else'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 11.8,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0031_graph_engine",
+  "k": 1,
+  "corruptions": [
+   "drop closing quote of \"TOPO\""
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 2.8,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0032_inventory",
+  "k": 2,
+  "corruptions": [
+   "replace 'String' with '['",
+   "insert '^' before 'k'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 21,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0033_matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "replace ';' with '>='"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 6,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0034_rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "delete 'IllegalArgumentException'",
+   "replace 'isEmpty' with '{'"
+  ],
+  "exit": 0,
+  "heldout": "38/40",
+  "token_exact": false,
+  "lossy": true,
+  "seconds": 43.2,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0036_gradebook",
+  "k": 2,
+  "corruptions": [
+   "confusable for ')'",
+   "insert '<' before '}'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.4,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0037_graph_engine",
+  "k": 2,
+  "corruptions": [
+   "duplicate 'v'",
+   "delete '='"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 11.1,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0039_matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "confusable for ';'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 2.7,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0040_rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "duplicate ')'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.7,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0042_gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete 'int'",
+   "replace '-' with ';'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 43.8,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0043_graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert '%' before 'q'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.9,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0044_inventory",
+  "k": 1,
+  "corruptions": [
+   "duplicate '+'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 7.8,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0046_rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "insert '?' before 'st'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.2,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0048_gradebook",
+  "k": 2,
+  "corruptions": [
+   "insert '^' before ';'",
+   "delete '{ int'"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 76.1,
+  "status": "repair failed validation: 0/10 tests pass"
+ },
+ {
+  "id": "t0049_graph_engine",
+  "k": 2,
+  "corruptions": [
+   "insert '|' before '='",
+   "delete '] e'"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 24.4,
+  "status": "type repair iteration limit"
+ },
+ {
+  "id": "t0051_matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "delete 'long'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 8.6,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0053_text_tools",
+  "k": 2,
+  "corruptions": [
+   "insert '<=' before 'ch'",
+   "delete ','"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 10.7,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0054_gradebook",
+  "k": 1,
+  "corruptions": [
+   "replace '{' with 'class'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 4.3,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0056_inventory",
+  "k": 2,
+  "corruptions": [
+   "delete '}'",
+   "swap ';' 'case'"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 40.9,
+  "status": "repair failed validation: 0/10 tests pass"
+ },
+ {
+  "id": "t0059_text_tools",
+  "k": 1,
+  "corruptions": [
+   "replace 'if' with '='"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 9.1,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0061_graph_engine",
+  "k": 2,
+  "corruptions": [
+   "replace '0' with '||'",
+   "confusable for ')'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 10,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0062_inventory",
+  "k": 1,
+  "corruptions": [
+   "swap ',' '\"no item \"'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 4.4,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0063_matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "string \"INFO\" written with single quotes"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.3,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0065_text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete ';'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.5,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0068_inventory",
+  "k": 2,
+  "corruptions": [
+   "delete 'it'",
+   "duplicate ';'"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": true,
+  "seconds": 41.1,
+  "status": "method signatures changed during repair"
+ },
+ {
+  "id": "t0072_gradebook",
+  "k": 2,
+  "corruptions": [
+   "delete ')'",
+   "string \"D\" written with single quotes"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 105.7,
+  "status": "repair failed validation: 0/10 tests pass"
+ },
+ {
+  "id": "t0074_inventory",
+  "k": 1,
+  "corruptions": [
+   "delete ')'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0076_rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "swap '}' 'ops'",
+   "delete '}'"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 71.1,
+  "status": "repair failed validation: 0/10 tests pass"
+ },
+ {
+  "id": "t0077_text_tools",
+  "k": 2,
+  "corruptions": [
+   "delete 'append'",
+   "insert '^' before 'in'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 13.9,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0079_graph_engine",
+  "k": 1,
+  "corruptions": [
+   "insert '+=' before '['"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.6,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0083_text_tools",
+  "k": 1,
+  "corruptions": [
+   "confusable for '('"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0085_graph_engine",
+  "k": 2,
+  "corruptions": [
+   "duplicate '='",
+   "stray character U+0060"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 15.4,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0086_inventory",
+  "k": 2,
+  "corruptions": [
+   "duplicate 'compare'",
+   "stray character U+0060"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 12.5,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0087_matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "replace '=' with '*'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 5.3,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0088_rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "swap ')' '{'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 3.9,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0091_graph_engine",
+  "k": 1,
+  "corruptions": [
+   "duplicate ')'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 4.2,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0094_rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "stray character U+0023"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 2.6,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0097_graph_engine",
+  "k": 2,
+  "corruptions": [
+   "insert 'if' before '>'",
+   "insert '&' before 'StringBuilder'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 12.9,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0099_matrix_lab",
+  "k": 1,
+  "corruptions": [
+   "replace 'if' with ')'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 9.9,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0105_matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "swap 'new' 'long'",
+   "delete ';'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 13,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0109_graph_engine",
+  "k": 2,
+  "corruptions": [
+   "replace 'if' with '->'",
+   "replace ')' with '>='"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 21.7,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0110_inventory",
+  "k": 1,
+  "corruptions": [
+   "delete '('"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 4,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0113_text_tools",
+  "k": 1,
+  "corruptions": [
+   "delete ''a''"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 84.1,
+  "status": "repair failed validation: 8/10 tests pass"
+ },
+ {
+  "id": "t0118_rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "insert 'int' before ';'",
+   "delete ':'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 11.6,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0124_rpn_calculator",
+  "k": 1,
+  "corruptions": [
+   "delete 'base *='"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 165.8,
+  "status": "repair failed validation: 0/10 tests pass"
+ },
+ {
+  "id": "t0125_text_tools",
+  "k": 2,
+  "corruptions": [
+   "insert '+' before ')'",
+   "drop closing quote of \"CAESAR\""
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 6.6,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0126_gradebook",
+  "k": 2,
+  "corruptions": [
+   "replace 'average' with 'if'",
+   "replace '(' with '}'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 16,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0129_matrix_lab",
+  "k": 2,
+  "corruptions": [
+   "drop closing quote of \"MUL\"",
+   "replace '\"UNKNOWN \"' with 'return'"
+  ],
+  "exit": 1,
+  "heldout": "0/40",
+  "token_exact": false,
+  "lossy": true,
+  "seconds": 75.2,
+  "status": "repair failed validation: 0/10 tests pass"
+ },
+ {
+  "id": "t0130_rpn_calculator",
+  "k": 2,
+  "corruptions": [
+   "swap '{' 'break'",
+   "delete '['"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": false,
+  "lossy": false,
+  "seconds": 5,
+  "status": "all tests pass"
+ },
+ {
+  "id": "t0131_text_tools",
+  "k": 2,
+  "corruptions": [
+   "confusable for ';'",
+   "drop line-final ';'"
+  ],
+  "exit": 0,
+  "heldout": "40/40",
+  "token_exact": true,
+  "lossy": false,
+  "seconds": 2.1,
+  "status": "all tests pass"
+ }
+]

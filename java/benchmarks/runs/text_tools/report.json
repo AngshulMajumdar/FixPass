@@ -1,0 +1,271 @@
+{
+  "tool": "jfixpass 0.1.0",
+  "tests": 10,
+  "main_class": "Main",
+  "original_compiles": false,
+  "original_diagnostics": [
+    "L30 [compiler.err.cant.resolve.location] cannot find symbol",
+    "L151 [compiler.err.cant.resolve.location] cannot find symbol",
+    "L184 [compiler.err.cant.resolve.location.args] cannot find symbol"
+  ],
+  "compile_repairs": [
+    {
+      "phase": "types",
+      "line": 30,
+      "diagnostic": "compiler.err.cant.resolve.location",
+      "message": "cannot find symbol",
+      "rule": "field access -> method call length()",
+      "before": "int j = s.length - 1;",
+      "after": "int j = s.length() - 1;"
+    },
+    {
+      "phase": "types",
+      "line": 151,
+      "diagnostic": "compiler.err.cant.resolve.location",
+      "message": "cannot find symbol",
+      "rule": "add import java.io.IOException",
+      "before": "import java.io.InputStreamReader;",
+      "after": "import java.io.IOException;",
+      "tied_alternatives": 2
+    },
+    {
+      "phase": "types",
+      "line": 185,
+      "diagnostic": "compiler.err.cant.resolve.location.args",
+      "message": "cannot find symbol",
+      "rule": "rename reverseWord -> reverseWords",
+      "before": "System.out.println(lineNo + \" REV \" + reverseWord(arg));",
+      "after": "System.out.println(lineNo + \" REV \" + reverseWords(arg));"
+    }
+  ],
+  "compile_candidates_checked": 4,
+  "syntax_parses": 0,
+  "static_rules": [],
+  "search": [
+    {
+      "initial_passing": 0,
+      "initial_score": 5.351400805077276
+    },
+    {
+      "equal_score_alternatives": 4,
+      "alternatives": [
+        "operator >=->< @L173: if (w.length() < 1 && isPalindrome(w)) {",
+        "variable w->line @L173: if (w.length() >= 1 && isPalindrome(line)) {",
+        "variable w->cmd @L173: if (w.length() >= 1 && isPalindrome(cmd)) {",
+        "variable w->arg @L173: if (w.length() >= 1 && isPalindrome(arg)) {"
+      ],
+      "behaviour_groups": [
+        4
+      ],
+      "round": 1,
+      "ranked_candidates": 634,
+      "evaluated": 85,
+      "did_not_compile": 0,
+      "edits": [
+        {
+          "operator": "operator >=-><",
+          "line": 173,
+          "before": "if (w.length() >= 1 && isPalindrome(w)) {",
+          "after": "if (w.length() < 1 && isPalindrome(w)) {"
+        }
+      ],
+      "suspiciousness": 1.025,
+      "rank": 33,
+      "passing": 1,
+      "score": 8.018
+    },
+    {
+      "equal_score_alternatives": 2,
+      "alternatives": [
+        "operator >->< @L93: if (w.length() > best.length() || (w.length() == best.length() && w.compareTo(best) < 0)) {",
+        "operator >-><= @L93: if (w.length() > best.length() || (w.length() == best.length() && w.compareTo(best) <= 0)) {"
+      ],
+      "behaviour_groups": [
+        2
+      ],
+      "round": 2,
+      "ranked_candidates": 597,
+      "evaluated": 140,
+      "did_not_compile": 8,
+      "edits": [
+        {
+          "operator": "operator >-><",
+          "line": 93,
+          "before": "if (w.length() > best.length() || (w.length() == best.length() && w.compareTo(best) > 0)) {",
+          "after": "if (w.length() > best.length() || (w.length() == best.length() && w.compareTo(best) < 0)) {"
+        }
+      ],
+      "suspiciousness": 0.949,
+      "rank": 69,
+      "passing": 1,
+      "score": 9.134
+    },
+    {
+      "equal_score_alternatives": 2,
+      "alternatives": [
+        "literal+1 @L75: int run = 1;",
+        "literal-1 @L76: for (int i = 0; i < s.length(); i++) {"
+      ],
+      "behaviour_groups": [
+        2
+      ],
+      "round": 3,
+      "ranked_candidates": 597,
+      "evaluated": 393,
+      "did_not_compile": 37,
+      "edits": [
+        {
+          "operator": "literal+1",
+          "line": 75,
+          "before": "int run = 0;",
+          "after": "int run = 1;"
+        }
+      ],
+      "suspiciousness": 0.816,
+      "rank": 317,
+      "passing": 3,
+      "score": 12.085
+    },
+    {
+      "round": 4,
+      "ranked_candidates": 598,
+      "evaluated": 127,
+      "did_not_compile": 6,
+      "edits": [
+        {
+          "operator": "char literal",
+          "line": 47,
+          "before": "if (ch >= 'a' && ch <= 'z') {",
+          "after": "if (ch >= 'A' && ch <= 'z') {"
+        }
+      ],
+      "suspiciousness": 0.857,
+      "rank": 46,
+      "passing": 3,
+      "score": 12.185
+    },
+    {
+      "round": 5,
+      "ranked_candidates": 570,
+      "evaluated": 567,
+      "did_not_compile": 50,
+      "backtrack": [
+        {
+          "undo_line": "if (ch >= 'a' && ch <= 'z') {",
+          "base_score": 12.085,
+          "ranked": 598,
+          "evaluated": 400
+        }
+      ],
+      "edits": [
+        {
+          "operator": "undo earlier edit",
+          "line": 47,
+          "before": "if (ch >= 'A' && ch <= 'z') {",
+          "after": "if (ch >= 'a' && ch <= 'z') {"
+        },
+        {
+          "operator": "char literal",
+          "line": 50,
+          "before": "sb.append((char) ('A' + (ch - 'a' + k) % 26));",
+          "after": "sb.append((char) ('A' + (ch - 'A' + k) % 26));"
+        }
+      ],
+      "suspiciousness": 0.756,
+      "rank": 475,
+      "passing": 5,
+      "score": 14.605
+    },
+    {
+      "round": 6,
+      "ranked_candidates": 598,
+      "evaluated": 595,
+      "did_not_compile": 50,
+      "backtrack": [
+        {
+          "undo_line": "sb.append((char) ('A' + (ch - 'a' + k) % 26));",
+          "base_score": 12.085,
+          "ranked": 598,
+          "evaluated": 70
+        },
+        {
+          "undo_line": "int run = 0;",
+          "base_score": 10.653,
+          "ranked": 597,
+          "evaluated": 400
+        },
+        {
+          "undo_line": "if (w.length() > best.length() || (w.length() == best.length() && w.compareTo(best) > 0)) {",
+          "base_score": 10.489,
+          "ranked": 598,
+          "evaluated": 400
+        },
+        {
+          "undo_line": "if (w.length() >= 1 && isPalindrome(w)) {",
+          "base_score": 11.16,
+          "ranked": 635,
+          "evaluated": 112
+        }
+      ],
+      "edits": [
+        {
+          "operator": "undo earlier edit",
+          "line": 173,
+          "before": "if (w.length() < 1 && isPalindrome(w)) {",
+          "after": "if (w.length() >= 1 && isPalindrome(w)) {"
+        },
+        {
+          "operator": "++ -> --",
+          "line": 37,
+          "before": "j++;",
+          "after": "j--;"
+        }
+      ],
+      "suspiciousness": 1.746,
+      "rank": 31,
+      "passing": 7,
+      "score": 16.768
+    },
+    {
+      "equal_score_alternatives": 4,
+      "alternatives": [
+        "operator >=->> @L173: if (w.length() > 1 && isPalindrome(w)) {",
+        "operator >=->!= @L173: if (w.length() != 1 && isPalindrome(w)) {",
+        "literal+1 @L173: if (w.length() >= 2 && isPalindrome(w)) {",
+        "expr-1 @L173: if ((w.length() - 1) >= 1 && isPalindrome(w)) {"
+      ],
+      "behaviour_groups": [
+        4
+      ],
+      "round": 7,
+      "ranked_candidates": 635,
+      "evaluated": 110,
+      "did_not_compile": 2,
+      "edits": [
+        {
+          "operator": "operator >=->>",
+          "line": 173,
+          "before": "if (w.length() >= 1 && isPalindrome(w)) {",
+          "after": "if (w.length() > 1 && isPalindrome(w)) {"
+        }
+      ],
+      "suspiciousness": 0.707,
+      "rank": 29,
+      "passing": 10,
+      "score": 20
+    }
+  ],
+  "fuel_limit": 1000000,
+  "test_timeout_ms": 500,
+  "candidates_evaluated": 3399,
+  "ambiguous_rounds": 0,
+  "final_warnings": [],
+  "final_passing": 10,
+  "final_failures": [],
+  "changed": true,
+  "status": "all tests pass",
+  "exit_code": 0,
+  "javac_invocations": 6911,
+  "seconds": 130.5,
+  "test_executions": 0
+}

@@ -1,0 +1,180 @@
+{
+  "tool": "jfixpass 0.1.0",
+  "tests": 10,
+  "main_class": "Main",
+  "original_compiles": false,
+  "original_diagnostics": [
+    "L70 [compiler.err.expected] ';' expected"
+  ],
+  "compile_repairs": [
+    {
+      "phase": "syntax",
+      "line": 70,
+      "diagnostic": "compiler.err.expected",
+      "message": "';' expected",
+      "stage": "priority tokens",
+      "rule": "insert expected ';'",
+      "before": "it.qty -= qty",
+      "after": "it.qty -= qty;"
+    },
+    {
+      "phase": "types",
+      "line": 56,
+      "diagnostic": "compiler.err.cant.resolve.location",
+      "message": "cannot find symbol",
+      "rule": "rename item -> items",
+      "before": "item.put(name, new Item(name, qty, price));",
+      "after": "items.put(name, new Item(name, qty, price));"
+    },
+    {
+      "phase": "types",
+      "line": 142,
+      "diagnostic": "compiler.err.cant.resolve.location",
+      "message": "cannot find symbol",
+      "rule": "add import java.util.Collections",
+      "before": "import java.util.Comparator;",
+      "after": "import java.util.Collections;"
+    },
+    {
+      "phase": "types",
+      "line": 171,
+      "diagnostic": "compiler.err.prob.found.req",
+      "message": "incompatible types: java.lang.String cannot be converted to boolean",
+      "rule": "assignment used as condition: '=' -> '=='",
+      "before": "if (cmd = \"END\") {",
+      "after": "if (cmd == \"END\") {"
+    }
+  ],
+  "compile_candidates_checked": 2528,
+  "syntax_parses": 2524,
+  "static_rules": [
+    {
+      "line": 171,
+      "rule": "String compared by reference",
+      "before": "if (cmd == \"END\") {",
+      "after": "if (\"END\".equals(cmd)) {",
+      "applied": true
+    }
+  ],
+  "search": [
+    {
+      "initial_passing": 3,
+      "initial_score": 10.983313425704731
+    },
+    {
+      "equal_score_alternatives": 3,
+      "alternatives": [
+        "operator >=->> @L67: if (qty > it.qty) {",
+        "expr-1 @L67: if ((qty - 1) >= it.qty) {",
+        "expr+1 @L67: if (qty >= (it.qty + 1)) {"
+      ],
+      "behaviour_groups": [
+        3
+      ],
+      "round": 1,
+      "ranked_candidates": 238,
+      "evaluated": 108,
+      "did_not_compile": 6,
+      "edits": [
+        {
+          "operator": "operator >=->>",
+          "line": 67,
+          "before": "if (qty >= it.qty) {",
+          "after": "if (qty > it.qty) {"
+        }
+      ],
+      "suspiciousness": 0.935,
+      "rank": 27,
+      "passing": 3,
+      "score": 12.323
+    },
+    {
+      "round": 2,
+      "ranked_candidates": 238,
+      "evaluated": 141,
+      "did_not_compile": 11,
+      "edits": [
+        {
+          "operator": "assign +=->-=",
+          "line": 73,
+          "before": "it.netChange += qty;",
+          "after": "it.netChange -= qty;"
+        }
+      ],
+      "suspiciousness": 0.926,
+      "rank": 64,
+      "passing": 6,
+      "score": 15.692
+    },
+    {
+      "equal_score_alternatives": 2,
+      "alternatives": [
+        "operator <=->< @L43: String f = frac < 10 ? \"0\" + frac : String.valueOf(frac);",
+        "literal-1 @L43: String f = frac <= 9 ? \"0\" + frac : String.valueOf(frac);"
+      ],
+      "behaviour_groups": [
+        2
+      ],
+      "round": 3,
+      "ranked_candidates": 238,
+      "evaluated": 190,
+      "did_not_compile": 16,
+      "edits": [
+        {
+          "operator": "operator <=-><",
+          "line": 43,
+          "before": "String f = frac <= 10 ? \"0\" + frac : String.valueOf(frac);",
+          "after": "String f = frac < 10 ? \"0\" + frac : String.valueOf(frac);"
+        }
+      ],
+      "suspiciousness": 0.632,
+      "rank": 110,
+      "passing": 9,
+      "score": 18.943
+    },
+    {
+      "equal_score_alternatives": 7,
+      "alternatives": [
+        "swap arguments @L121: int c = Long.compare(b.value(), a.value());",
+        "variable a->b @L121: int c = Long.compare(b.value(), b.value());",
+        "variable b->a @L121: int c = Long.compare(a.value(), a.value());",
+        "operator !=->> @L122: if (c > 0) {",
+        "operator !=->>= @L122: if (c >= 0) {",
+        "operator !=->== @L122: if (c == 0) {",
+        "expr+1 @L122: if ((c + 1) != 0) {"
+      ],
+      "behaviour_groups": [
+        7
+      ],
+      "round": 4,
+      "ranked_candidates": 226,
+      "evaluated": 82,
+      "did_not_compile": 2,
+      "edits": [
+        {
+          "operator": "operator !=->>",
+          "line": 122,
+          "before": "if (c != 0) {",
+          "after": "if (c > 0) {"
+        }
+      ],
+      "suspiciousness": 1,
+      "rank": 6,
+      "passing": 10,
+      "score": 20
+    }
+  ],
+  "fuel_limit": 1000000,
+  "test_timeout_ms": 500,
+  "candidates_evaluated": 521,
+  "ambiguous_rounds": 0,
+  "final_warnings": [],
+  "final_passing": 10,
+  "final_failures": [],
+  "changed": true,
+  "status": "all tests pass",
+  "exit_code": 0,
+  "javac_invocations": 3677,
+  "seconds": 36.3,
+  "test_executions": 0
+}

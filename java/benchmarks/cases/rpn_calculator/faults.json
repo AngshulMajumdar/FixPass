@@ -1,0 +1,66 @@
+[
+ {
+  "id": "rpn_calculator-1",
+  "category": "compile",
+  "description": "operator typo => instead of >=",
+  "reference_line": 30,
+  "original": "\"+-*/%^\".indexOf(t.charAt(0)) >= 0;",
+  "injected": "\"+-*/%^\".indexOf(t.charAt(0)) => 0;"
+ },
+ {
+  "id": "rpn_calculator-2",
+  "category": "compile",
+  "description": "misspelled local variable",
+  "reference_line": 207,
+  "original": "evaluated++;",
+  "injected": "evaluted++;"
+ },
+ {
+  "id": "rpn_calculator-3",
+  "category": "compile",
+  "description": "missing new in throw",
+  "reference_line": 163,
+  "original": "throw new IllegalArgumentException(\"malformed\");",
+  "injected": "throw IllegalArgumentException(\"malformed\");"
+ },
+ {
+  "id": "rpn_calculator-4",
+  "category": "semantic",
+  "description": "precedence comparison inverted",
+  "reference_line": 71,
+  "original": "if (pt > pc || (pt == pc",
+  "injected": "if (pt < pc || (pt == pc"
+ },
+ {
+  "id": "rpn_calculator-5",
+  "category": "semantic",
+  "description": "operands passed in wrong order",
+  "reference_line": 151,
+  "original": "st.push(apply(t, a, b));",
+  "injected": "st.push(apply(t, b, a));"
+ },
+ {
+  "id": "rpn_calculator-6",
+  "category": "semantic",
+  "description": "power accumulator starts at 0",
+  "reference_line": 106,
+  "original": "long result = 1;",
+  "injected": "long result = 0;"
+ },
+ {
+  "id": "rpn_calculator-7",
+  "category": "semantic",
+  "description": "balance result negated",
+  "reference_line": 184,
+  "original": "return st.isEmpty();",
+  "injected": "return !st.isEmpty();"
+ },
+ {
+  "id": "rpn_calculator-8",
+  "category": "semantic",
+  "description": "digit scan reads wrong index",
+  "reference_line": 42,
+  "original": "Character.isDigit(expr.charAt(j))",
+  "injected": "Character.isDigit(expr.charAt(i))"
+ }
+]

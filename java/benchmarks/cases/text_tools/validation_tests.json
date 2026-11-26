@@ -1,0 +1,162 @@
+[
+ {
+  "input": "RLE zzzzabbbb\nPAL node, I STACK deed map! tree,\nFREQ 1\nTEXT DEED level DEED,\nPAL array, abba, Racecar! stack.\nPAL CIVIC map map! tree, civic! civic, Racecar madam\nREV stack, kayak! sort! madam\nTEXT MADAM, tree sort a, tree. map queue,\nLONGEST\nFREQ 5\n",
+  "output": "1 RLE z4a1b4\n2 PAL 1\n3 FREQ \n4 WORDS 3 VOWELS 6\n5 PAL 2\n6 PAL 5\n7 REV madam sort! kayak! stack,\n8 WORDS 7 VOWELS 13\n9 LONGEST level\n10 FREQ deed:2 tree:2 a:1 level:1 madam:1\n"
+ },
+ {
+  "input": "FREQ 5\nTEXT Racecar map java a!\nLONGEST\nCAESAR -15 queue queue\nREV deed queue KAYAK. map a data!\nTEXT a, TREE, madam\nFREQ 2\n\nTEXT tree, MAP kayak map\nFREQ 3\n\nPAL a. list. deed. tree tree data,\nFREQ 3\nRLE bbbbaaaabbbb\nLONGEST\nANA evil brainy\nLONGEST\nFREQ 2\n",
+  "output": "1 FREQ \n2 WORDS 4 VOWELS 7\n3 LONGEST racecar\n4 CAESAR bfpfp bfpfp\n5 REV data! a map KAYAK. queue deed\n6 WORDS 3 VOWELS 5\n7 FREQ a:2 java:1\n8 WORDS 4 VOWELS 6\n9 FREQ map:3 a:2 tree:2\n10 PAL 1\n11 FREQ map:3 a:2 tree:2\n12 RLE b4a4b4\n13 LONGEST racecar\n14 ANA no\n15 LONGEST racecar\n16 FREQ map:3 a:2\n"
+ },
+ {
+  "input": "REV civic! deed map. NODE.\nTEXT array! KAYAK! TREE. tree\nREV list, abba! map noon,\nTEXT ARRAY\nRLE bb\nLONGEST\nREV level! list,\nPAL kayak. loop queue. madam LEVEL\nANA Dormitory silent\nTEXT STACK! loop list! node\nLONGEST\nFREQ 4\n",
+  "output": "1 REV NODE. map. deed civic!\n2 WORDS 4 VOWELS 8\n3 REV noon, map abba! list,\n4 WORDS 1 VOWELS 2\n5 RLE b2\n6 LONGEST array\n7 REV list, level!\n8 PAL 3\n9 ANA no\n10 WORDS 4 VOWELS 6\n11 LONGEST array\n12 FREQ array:2 tree:2 kayak:1 list:1\n"
+ },
+ {
+  "input": "PAL I Graph. node. deed, node deed kayak noon\n\nLONGEST\nANA binary vile\nLONGEST\nTEXT abba array! map. madam!\nTEXT data.\nTEXT loop! tree! abba RACECAR deed\n\nPAL abba, x1x! civic. ARRAY, level list stack\nTEXT stack! kayak!\nPAL a a! KAYAK, stack I\nCAESAR 22 list Graph, stack,\nLONGEST\nFREQ 2\n",
+  "output": "1 PAL 4\n2 LONGEST \n3 ANA no\n4 LONGEST \n5 WORDS 4 VOWELS 7\n6 WORDS 1 VOWELS 2\n7 WORDS 5 VOWELS 11\n8 PAL 4\n9 WORDS 2 VOWELS 3\n10 PAL 1\n11 CAESAR heop Cnwld, opwyg,\n12 LONGEST racecar\n13 FREQ abba:2 array:1\n"
+ },
+ {
+  "input": "PAL data, map array. stack map Graph x1x.\nREV deed, queue\nTEXT sort! x1x SORT,\n\nCAESAR 9 loop!\nREV abba Graph, DATA kayak. MAP level\nPAL Racecar level. noon java deed sort sort\nPAL map. kayak\nPAL loop map! a Racecar. Graph!\nANA evil taste\nLONGEST\nTEXT level! map.\nCAESAR -7 map list\nLONGEST\nLONGEST\nFREQ 5\n",
+  "output": "1 PAL 1\n2 REV queue deed,\n3 WORDS 3 VOWELS 2\n4 CAESAR uxxy!\n5 REV level MAP kayak. DATA Graph, abba\n6 PAL 4\n7 PAL 1\n8 PAL 1\n9 ANA no\n10 LONGEST sort\n11 WORDS 2 VOWELS 3\n12 CAESAR fti eblm\n13 LONGEST level\n14 LONGEST level\n15 FREQ sort:2 level:1 map:1 x1x:1\n"
+ },
+ {
+  "input": "CAESAR -9 queue. map queue!\nFREQ 2\nLONGEST\nFREQ 2\nREV map.\n\nANA evil tastes\nTEXT loop, RACECAR. node!\nANA listen listens\nLONGEST\nFREQ 3\n",
+  "output": "1 CAESAR hlvlv. drg hlvlv!\n2 FREQ \n3 LONGEST \n4 FREQ \n5 REV map.\n6 ANA no\n7 WORDS 3 VOWELS 7\n8 ANA no\n9 LONGEST racecar\n10 FREQ loop:1 node:1 racecar:1\n"
+ },
+ {
+  "input": "REV array.\nFREQ 3\nLONGEST\nTEXT sort I STACK!\n\nRLE zzzzaaazzzzbaaaa\nTEXT tree, java, madam\nPAL level. madam stack! madam\nLONGEST\nFREQ 4\nTEXT noon! tree, java! java! noon, madam. RACECAR QUEUE NODE!\nRLE bbbbzzz\n\nLONGEST\nANA listen vile\nLONGEST\nFREQ 6\n",
+  "output": "1 REV array.\n2 FREQ \n3 LONGEST \n4 WORDS 3 VOWELS 3\n5 RLE z4a3z4b1a4\n6 WORDS 3 VOWELS 6\n7 PAL 3\n8 LONGEST madam\n9 FREQ i:1 java:1 madam:1 sort:1\n10 WORDS 9 VOWELS 21\n11 RLE b4z3\n12 LONGEST racecar\n13 ANA no\n14 LONGEST racecar\n15 FREQ java:3 madam:2 noon:2 tree:2 i:1 node:1\n"
+ },
+ {
+  "input": "ANA listen listens\nLONGEST\nFREQ 2\nCAESAR -19 tree NOON.\nTEXT noon, stack, a queue. tree. list! array, queue! kayak\nLONGEST\nCAESAR 6 a\nFREQ 4\nLONGEST\nFREQ 5\n",
+  "output": "1 ANA no\n2 LONGEST \n3 FREQ \n4 CAESAR ayll UVVU.\n5 WORDS 9 VOWELS 19\n6 LONGEST array\n7 CAESAR g\n8 FREQ queue:2 a:1 array:1 kayak:1\n9 LONGEST array\n10 FREQ queue:2 a:1 array:1 kayak:1 list:1\n"
+ },
+ {
+  "input": "CAESAR -1 list! array. data\nANA listen silent\nREV ARRAY queue x1x. MAP\nCAESAR 7 tree\n\nANA evil vile\nTEXT madam, tree civic. MAP, ABBA. array! queue level,\nTEXT MAP! data list Graph\nTEXT node! JAVA. java!\nTEXT map data. x1x! madam STACK, I,\nRLE ccccaaaaazzzz\nTEXT stack, stack, loop map madam node Graph data array.\nLONGEST\nFREQ 3\n",
+  "output": "1 CAESAR khrs! zqqzx. czsz\n2 ANA yes\n3 REV MAP x1x. queue ARRAY\n4 CAESAR ayll\n5 ANA yes\n6 WORDS 8 VOWELS 17\n7 WORDS 4 VOWELS 5\n8 WORDS 3 VOWELS 6\n9 WORDS 6 VOWELS 7\n10 RLE c4a5z4\n11 WORDS 9 VOWELS 14\n12 LONGEST array\n13 FREQ map:4 data:3 madam:3\n"
+ },
+ {
+  "input": "REV Graph kayak! stack,\n\nPAL map, array\nCAESAR 8 civic java! abba java,\nCAESAR 2 madam Graph, queue map Graph\nFREQ 4\nTEXT list queue array java\nTEXT tree\nREV queue abba java! deed. tree!\nLONGEST\nFREQ 6\n",
+  "output": "1 REV stack, kayak! Graph\n2 PAL 0\n3 CAESAR kqdqk ridi! ijji ridi,\n4 CAESAR ocfco Itcrj, swgwg ocr Itcrj\n5 FREQ \n6 WORDS 4 VOWELS 9\n7 WORDS 1 VOWELS 2\n8 REV tree! deed. java! abba queue\n9 LONGEST array\n10 FREQ array:1 java:1 list:1 queue:1 tree:1\n"
+ },
+ {
+  "input": "RLE bbbbbbcccbbbccccaaaa\nFREQ 5\nTEXT stack, array array loop a. STACK, MADAM. list noon.\n\nANA binary silent\nLONGEST\n\nTEXT map stack data civic loop\nFREQ 5\nTEXT LOOP, madam level x1x, list map, node! data. MAP\nFREQ 4\nLONGEST\nFREQ 6\n",
+  "output": "1 RLE b6c3b3c4a4\n2 FREQ \n3 WORDS 9 VOWELS 14\n4 ANA no\n5 LONGEST array\n6 WORDS 5 VOWELS 8\n7 FREQ stack:3 array:2 loop:2 a:1 civic:1\n8 WORDS 9 VOWELS 13\n9 FREQ loop:3 map:3 stack:3 array:2\n10 LONGEST array\n11 FREQ loop:3 map:3 stack:3 array:2 data:2 list:2\n"
+ },
+ {
+  "input": "TEXT level! sort. a. data.\nANA listen vile\n\nRLE aaaaabbb\nRLE bbcbbbbbbbaa\nCAESAR -13 stack tree! MAP\nTEXT kayak node, data! list array x1x! data. JAVA list\nRLE aaaaaaa\nCAESAR -4 node abba. map!\nTEXT stack queue stack level I!\nTEXT tree, Racecar\nRLE bzzzzaaaabbb\nRLE ccbaaabbbbbb\nTEXT array level, I. map!\n\nLONGEST\nFREQ 3\n",
+  "output": "1 WORDS 4 VOWELS 6\n2 ANA no\n3 RLE a5b3\n4 RLE b2c1b7a2\n5 CAESAR fgnpx gerr! ZNC\n6 WORDS 9 VOWELS 14\n7 RLE a7\n8 CAESAR jkza wxxw. iwl!\n9 WORDS 5 VOWELS 9\n10 WORDS 2 VOWELS 5\n11 RLE b1z4a4b3\n12 RLE c2b1a3b6\n13 WORDS 4 VOWELS 6\n14 LONGEST racecar\n15 FREQ data:3 level:3 array:2\n"
+ },
+ {
+  "input": "TEXT x1x. list, list noon\nREV level tree! data kayak,\nFREQ 5\nTEXT GRAPH. noon, madam, list, x1x,\nANA listen tastes\nFREQ 2\nTEXT array java x1x\nCAESAR -18 RACECAR, I, tree! a! civic.\nRLE b\nTEXT level. stack! tree! data. sort. array! map a,\nCAESAR 7 node\nANA state brainy\nPAL tree level A. ABBA. node, tree.\n\nANA state tastes\nLONGEST\nFREQ 6\n",
+  "output": "1 WORDS 4 VOWELS 4\n2 REV kayak, data tree! level\n3 FREQ list:2 noon:1 x1x:1\n4 WORDS 5 VOWELS 6\n5 ANA no\n6 FREQ list:3 noon:2\n7 WORDS 3 VOWELS 4\n8 CAESAR ZIKMKIZ, Q, bzmm! i! kqdqk.\n9 RLE b1\n10 WORDS 8 VOWELS 12\n11 CAESAR uvkl\n12 ANA no\n13 PAL 2\n14 ANA no\n15 LONGEST array\n16 FREQ list:3 x1x:3 array:2 noon:2 a:1 data:1\n"
+ },
+ {
+  "input": "FREQ 3\nTEXT sort deed, I. NOON! tree. a tree! JAVA. stack\nTEXT stack MADAM!\nCAESAR -13 tree civic list,\nTEXT x1x java! tree. x1x\nTEXT a, a, loop!\nPAL deed,\nTEXT I tree x1x deed, array, Graph MAP, level Graph!\nTEXT stack, abba. deed MADAM queue ARRAY, list\nLONGEST\nFREQ 5\n\nTEXT LOOP array queue. kayak, tree\nFREQ 4\nTEXT a. level, map kayak\nLONGEST\nFREQ 3\n",
+  "output": "1 FREQ \n2 WORDS 9 VOWELS 14\n3 WORDS 2 VOWELS 3\n4 CAESAR gerr pvivp yvfg,\n5 WORDS 4 VOWELS 4\n6 WORDS 3 VOWELS 4\n7 PAL 1\n8 WORDS 9 VOWELS 12\n9 WORDS 7 VOWELS 14\n10 LONGEST array\n11 FREQ tree:4 a:3 deed:3 stack:3 x1x:3\n12 WORDS 5 VOWELS 12\n13 FREQ tree:5 a:3 array:3 deed:3\n14 WORDS 4 VOWELS 6\n15 LONGEST array\n16 FREQ tree:5 a:4 array:3\n"
+ },
+ {
+  "input": "FREQ 1\nTEXT java level loop, data, level, java STACK! abba.\nTEXT I abba I!\nANA evil taste\nPAL NOON! MAP deed, civic\nTEXT a! I. queue sort\nTEXT abba! abba SORT a! tree abba level. data node.\nFREQ 3\nANA listen vile\nTEXT abba civic node kayak!\nTEXT DEED a, madam\nLONGEST\nFREQ 2\n",
+  "output": "1 FREQ \n2 WORDS 8 VOWELS 15\n3 WORDS 3 VOWELS 4\n4 ANA no\n5 PAL 3\n6 WORDS 4 VOWELS 7\n7 WORDS 9 VOWELS 16\n8 FREQ abba:5 i:3 level:3\n9 ANA no\n10 WORDS 4 VOWELS 8\n11 WORDS 3 VOWELS 5\n12 LONGEST civic\n13 FREQ abba:6 a:3\n"
+ },
+ {
+  "input": "TEXT java. noon.\nRLE baaa\nLONGEST\nANA state silent\nTEXT data! map ABBA, a, loop queue! list A\nRLE aaaabbaa\nRLE zzzbbbcccbzzz\nTEXT LOOP. stack map node madam array, map civic. node\nLONGEST\nFREQ 2\n",
+  "output": "1 WORDS 2 VOWELS 4\n2 RLE b1a3\n3 LONGEST java\n4 ANA no\n5 WORDS 8 VOWELS 14\n6 RLE a4b2a2\n7 RLE z3b3c3b1z3\n8 WORDS 9 VOWELS 15\n9 LONGEST array\n10 FREQ map:3 a:2\n"
+ },
+ {
+  "input": "REV node loop. x1x!\n\nPAL GRAPH. tree. TREE TREE! stack\nTEXT array a. stack.\n\nCAESAR 1 deed map x1x queue\nRLE bbbbbaaacccc\nREV x1x! madam, stack.\nANA binary vile\nRLE bbb\nPAL x1x array\nLONGEST\n\nREV java.\nTEXT deed list. map x1x\nTEXT MAP LEVEL!\nFREQ 1\nCAESAR -10 civic map Racecar!\nLONGEST\nFREQ 4\n",
+  "output": "1 REV x1x! loop. node\n2 PAL 0\n3 WORDS 3 VOWELS 4\n4 CAESAR effe nbq y1y rvfvf\n5 RLE b5a3c4\n6 REV stack. madam, x1x!\n7 ANA no\n8 RLE b3\n9 PAL 1\n10 LONGEST array\n11 REV java.\n12 WORDS 4 VOWELS 4\n13 WORDS 2 VOWELS 3\n14 FREQ map:2\n15 CAESAR sylys cqf Hqsusqh!\n16 LONGEST array\n17 FREQ map:2 a:1 array:1 deed:1\n"
+ },
+ {
+  "input": "RLE aaazzzzaa\nPAL Racecar list, kayak stack map! list queue. MAP.\nREV sort queue,\nTEXT java a list level TREE noon, LOOP! DATA.\nPAL node. deed. sort,\nRLE bbbbaaaabaaaabbb\nTEXT java. NODE tree! I! tree I queue. loop LIST\nTEXT level X1X, map java madam. tree level list!\nTEXT sort. TREE madam, queue, node. x1x x1x. civic\nLONGEST\nFREQ 3\n",
+  "output": "1 RLE a3z4a2\n2 PAL 2\n3 REV queue, sort\n4 WORDS 8 VOWELS 14\n5 PAL 1\n6 RLE b4a4b1a4b3\n7 WORDS 9 VOWELS 17\n8 WORDS 8 VOWELS 12\n9 WORDS 8 VOWELS 13\n10 LONGEST civic\n11 FREQ tree:5 java:3 level:3\n"
+ },
+ {
+  "input": "ANA listen dirtyroom\nRLE aa\n\nCAESAR -22 level\n\nANA listen taste\n\nPAL java\nLONGEST\nANA binary tastes\nCAESAR 11 civic CIVIC tree\nTEXT abba array. MAP queue. KAYAK level\nLONGEST\nCAESAR 12 level. madam STACK! deed\nFREQ 3\nREV x1x. deed! stack\nREV STACK madam, KAYAK. array\nTEXT I. madam kayak data!\nLONGEST\nFREQ 5\n",
+  "output": "1 ANA no\n2 RLE a2\n3 CAESAR pizip\n4 ANA no\n5 PAL 0\n6 LONGEST \n7 ANA no\n8 CAESAR ntgtn NTGTN ecpp\n9 WORDS 6 VOWELS 13\n10 LONGEST array\n11 CAESAR xqhqx. ympmy EFMOW! pqqp\n12 FREQ abba:1 array:1 kayak:1\n13 REV stack deed! x1x.\n14 REV array KAYAK. madam, STACK\n15 WORDS 4 VOWELS 7\n16 LONGEST array\n17 FREQ kayak:2 abba:1 array:1 data:1 i:1\n"
+ },
+ {
+  "input": "PAL map map, DATA tree. madam\n\nCAESAR -21 I. queue a, NODE\nTEXT level abba, abba abba\nREV madam! TREE! map noon. list\n\nTEXT X1X civic. loop, map! queue x1x array queue.\nFREQ 2\n\nLONGEST\nREV CIVIC MAP!\nCAESAR -13 tree! queue!\nLONGEST\nFREQ 4\n",
+  "output": "1 PAL 1\n2 CAESAR N. vzjzj f, STIJ\n3 WORDS 4 VOWELS 8\n4 REV list noon. map TREE! madam!\n5 WORDS 8 VOWELS 15\n6 FREQ abba:3 queue:2\n7 LONGEST array\n8 REV MAP! CIVIC\n9 CAESAR gerr! dhrhr!\n10 LONGEST array\n11 FREQ abba:3 queue:2 x1x:2 array:1\n"
+ },
+ {
+  "input": "PAL QUEUE. map stack!\nPAL civic, ABBA! a a STACK\nLONGEST\nANA listen brainy\nPAL map! tree map! a,\nRLE bbzzzzcccabb\nPAL RACECAR. I, I, a\nCAESAR 16 a list stack! node deed,\nTEXT list! LEVEL!\nTEXT map loop I list data.\nANA state listens\nTEXT TREE, CIVIC! java. TREE! data! java data!\n\nRLE zzzz\nLONGEST\nFREQ 5\n",
+  "output": "1 PAL 0\n2 PAL 2\n3 LONGEST \n4 ANA no\n5 PAL 0\n6 RLE b2z4c3a1b2\n7 PAL 1\n8 CAESAR q byij ijqsa! detu tuut,\n9 WORDS 2 VOWELS 3\n10 WORDS 5 VOWELS 7\n11 ANA no\n12 WORDS 7 VOWELS 14\n13 RLE z4\n14 LONGEST civic\n15 FREQ data:3 java:2 list:2 tree:2 civic:1\n"
+ },
+ {
+  "input": "CAESAR -8 SORT, MADAM!\n\nANA binary vile\nTEXT DEED. sort deed! RACECAR, madam, node Graph queue level\nTEXT x1x noon. LIST STACK. noon\nPAL tree. kayak map stack loop\nTEXT node! civic. abba. Racecar.\nFREQ 4\nCAESAR 21 array. data node. loop tree\nLONGEST\nCAESAR 10 TREE civic deed array.\n\nCAESAR -30 Graph tree STACK! x1x, map,\nTEXT kayak kayak. java LEVEL\nCAESAR -9 node\nANA binary silent\nTEXT Graph java. LOOP. Graph. tree! I sort! level deed!\nRLE bbbbbbbzz\nLONGEST\nFREQ 5\n",
+  "output": "1 CAESAR KGJL, ESVSE!\n2 ANA no\n3 WORDS 9 VOWELS 19\n4 WORDS 5 VOWELS 6\n5 PAL 1\n6 WORDS 4 VOWELS 9\n7 FREQ deed:2 node:2 noon:2 racecar:2\n8 CAESAR vmmvt. yvov ijyz. gjjk omzz\n9 LONGEST racecar\n10 CAESAR DBOO msfsm noon kbbki.\n11 CAESAR Cnwld pnaa OPWYG! t1t, iwl,\n12 WORDS 4 VOWELS 8\n13 CAESAR efuv\n14 ANA no\n15 WORDS 9 VOWELS 14\n16 RLE b7z2\n17 LONGEST racecar\n18 FREQ deed:3 graph:3 level:3 java:2 kayak:2\n"
+ },
+ {
+  "input": "FREQ 3\nRLE bbbbbbb\nREV abba! map Racecar deed, TREE\nANA state dirtyroom\nTEXT loop list\nLONGEST\nCAESAR 16 array tree. Graph ABBA!\nPAL tree noon\nREV sort\nREV map\nANA binary taste\nLONGEST\nFREQ 5\n",
+  "output": "1 FREQ \n2 RLE b7\n3 REV TREE deed, Racecar map abba!\n4 ANA no\n5 WORDS 2 VOWELS 3\n6 LONGEST list\n7 CAESAR qhhqo jhuu. Whqfx QRRQ!\n8 PAL 1\n9 REV sort\n10 REV map\n11 ANA no\n12 LONGEST list\n13 FREQ list:1 loop:1\n"
+ },
+ {
+  "input": "LONGEST\nTEXT civic. java! tree I. civic Racecar list, java. data\nLONGEST\nANA evil dirtyroom\nCAESAR 2 a. java\nREV level\nPAL TREE Racecar! list tree LOOP. map\nTEXT stack tree, LOOP LOOP, DATA! Graph. MAP node\nCAESAR -19 noon! node\nTEXT GRAPH. data Graph, abba queue!\nLONGEST\nREV stack map JAVA! madam\nREV queue. map. madam! stack,\nLONGEST\nFREQ 3\n",
+  "output": "1 LONGEST \n2 WORDS 9 VOWELS 17\n3 LONGEST racecar\n4 ANA no\n5 CAESAR c. lcxc\n6 REV level\n7 PAL 1\n8 WORDS 8 VOWELS 13\n9 CAESAR uvvu! uvkl\n10 WORDS 5 VOWELS 10\n11 LONGEST racecar\n12 REV madam JAVA! map stack\n13 REV stack, madam! map. queue.\n14 LONGEST racecar\n15 FREQ data:3 graph:3 civic:2\n"
+ },
+ {
+  "input": "LONGEST\nANA binary dirtyroom\nPAL madam, kayak. node. sort\nTEXT array X1X\nLONGEST\nTEXT loop! noon! level, map\nLONGEST\nPAL MADAM Graph! Racecar. madam node,\n\nTEXT ABBA, noon map, Racecar Racecar, LEVEL, tree! java a!\nTEXT level! sort! sort, node!\nFREQ 4\nANA listen silent\nANA listen silent\nRLE zzzzbbbbbbzzzcc\nLONGEST\nPAL map java.\nLONGEST\nFREQ 2\n",
+  "output": "1 LONGEST \n2 ANA no\n3 PAL 2\n4 WORDS 2 VOWELS 2\n5 LONGEST array\n6 WORDS 4 VOWELS 7\n7 LONGEST array\n8 PAL 3\n9 WORDS 9 VOWELS 18\n10 WORDS 4 VOWELS 6\n11 FREQ level:3 map:2 noon:2 racecar:2\n12 ANA yes\n13 ANA yes\n14 RLE z4b6z3c2\n15 LONGEST racecar\n16 PAL 0\n17 LONGEST racecar\n18 FREQ level:3 map:2\n"
+ },
+ {
+  "input": "FREQ 1\nPAL noon.\nANA evil dirtyroom\nLONGEST\nLONGEST\nTEXT DATA, abba! list Racecar CIVIC, queue\nCAESAR -23 I, node kayak node map\nPAL KAYAK madam, abba Racecar. queue. Racecar,\nREV deed. kayak\n\nREV map\nFREQ 1\nTEXT list, madam loop, java\nPAL noon LEVEL\nANA listen vile\nANA state silent\nTEXT LIST, SORT map x1x data! map array\nLONGEST\nFREQ 6\n",
+  "output": "1 FREQ \n2 PAL 1\n3 ANA no\n4 LONGEST \n5 LONGEST \n6 WORDS 6 VOWELS 14\n7 CAESAR L, qrgh ndbdn qrgh pds\n8 PAL 5\n9 REV kayak deed.\n10 REV map\n11 FREQ abba:1\n12 WORDS 4 VOWELS 7\n13 PAL 2\n14 ANA no\n15 ANA no\n16 WORDS 7 VOWELS 8\n17 LONGEST racecar\n18 FREQ list:3 data:2 map:2 abba:1 array:1 civic:1\n"
+ },
+ {
+  "input": "FREQ 2\nRLE baaaaaaababbbb\nCAESAR -27 loop, list DATA\nFREQ 5\nTEXT NOON list! civic node. civic. I! Graph! data\nTEXT x1x list! kayak map\nLONGEST\nTEXT sort queue map tree abba X1X! civic\nANA Dormitory vile\nREV map sort a! queue. java\nTEXT MAP kayak,\n\nANA Dormitory tastes\nTEXT map, data\n\nREV list.\n\nTEXT tree! LIST. MADAM MAP! kayak!\nLONGEST\nFREQ 2\n",
+  "output": "1 FREQ \n2 RLE b1a7b1a1b4\n3 CAESAR knno, khrs CZSZ\n4 FREQ \n5 WORDS 8 VOWELS 13\n6 WORDS 4 VOWELS 4\n7 LONGEST civic\n8 WORDS 7 VOWELS 12\n9 ANA no\n10 REV java queue. a! sort map\n11 WORDS 2 VOWELS 3\n12 ANA no\n13 WORDS 2 VOWELS 3\n14 REV list.\n15 WORDS 5 VOWELS 8\n16 LONGEST civic\n17 FREQ map:5 civic:3\n"
+ },
+ {
+  "input": "RLE azzzzzz\nTEXT LEVEL! map stack java Racecar array madam, noon!\nCAESAR -18 kayak LOOP sort, data\nFREQ 2\nANA binary listens\nPAL a. loop. a,\nTEXT data. map JAVA deed, a civic\nCAESAR -11 level array, list\nLONGEST\nTEXT RACECAR! map. a! loop. Racecar\nLONGEST\nFREQ 2\n",
+  "output": "1 RLE a1z6\n2 WORDS 8 VOWELS 15\n3 CAESAR sigis TWWX awzb, libi\n4 FREQ array:1 java:1\n5 ANA no\n6 PAL 0\n7 WORDS 6 VOWELS 10\n8 CAESAR atkta pggpn, axhi\n9 LONGEST racecar\n10 WORDS 5 VOWELS 10\n11 LONGEST racecar\n12 FREQ map:3 racecar:3\n"
+ },
+ {
+  "input": "REV map stack\n\nRLE aaaaaaabbbbba\nLONGEST\nCAESAR -22 abba civic sort.\nRLE bbbazzz\nTEXT loop I noon map, kayak Graph, list! java.\nCAESAR -11 civic. JAVA\nFREQ 5\nANA state tastes\nTEXT map, tree!\nTEXT array.\nTEXT LEVEL map. kayak. MAP civic. stack civic\nLONGEST\nFREQ 2\n",
+  "output": "1 REV stack map\n2 RLE a7b5a1\n3 LONGEST \n4 CAESAR effe gmzmg wsvx.\n5 RLE b3a1z3\n6 WORDS 8 VOWELS 12\n7 CAESAR rxkxr. YPKP\n8 FREQ graph:1 i:1 java:1 kayak:1 list:1\n9 ANA no\n10 WORDS 2 VOWELS 3\n11 WORDS 1 VOWELS 2\n12 WORDS 7 VOWELS 11\n13 LONGEST array\n14 FREQ map:4 civic:2\n"
+ },
+ {
+  "input": "PAL madam tree, KAYAK\nTEXT Graph array! x1x loop! Graph! tree list SORT, I\n\nTEXT list\nCAESAR 0 java abba.\nPAL a node level stack! MADAM! TREE MAP noon\nLONGEST\nCAESAR -21 sort, level array.\nREV node.\nLONGEST\nFREQ 3\n",
+  "output": "1 PAL 2\n2 WORDS 9 VOWELS 11\n3 WORDS 1 VOWELS 1\n4 CAESAR java abba.\n5 PAL 3\n6 LONGEST array\n7 CAESAR xtwy, qjajq fwwfd.\n8 REV node.\n9 LONGEST array\n10 FREQ graph:2 list:2 array:1\n"
+ },
+ {
+  "input": "TEXT Graph, noon map\nLONGEST\nTEXT queue. RACECAR. stack java madam! abba\nPAL abba kayak, stack\nTEXT JAVA queue\nTEXT array map. MAP I MAP kayak! TREE java\nTEXT Graph, CIVIC, list\nTEXT queue, list\nANA state tastes\nTEXT I. java\nCAESAR -2 java. list, stack data\nLONGEST\n\nLONGEST\nFREQ 5\n",
+  "output": "1 WORDS 3 VOWELS 4\n2 LONGEST graph\n3 WORDS 6 VOWELS 14\n4 PAL 2\n5 WORDS 2 VOWELS 6\n6 WORDS 8 VOWELS 12\n7 WORDS 3 VOWELS 4\n8 WORDS 2 VOWELS 5\n9 ANA no\n10 WORDS 2 VOWELS 3\n11 CAESAR hyty. jgqr, qryai byry\n12 LONGEST racecar\n13 LONGEST racecar\n14 FREQ java:4 map:4 queue:3 graph:2 i:2\n"
+ },
+ {
+  "input": "CAESAR -8 x1x. madam level KAYAK!\nFREQ 4\nCAESAR 7 noon noon,\n\nCAESAR -2 x1x, Graph. x1x\nTEXT list sort stack! Graph. map\nANA Dormitory silent\nFREQ 5\nLONGEST\nLONGEST\nFREQ 3\n",
+  "output": "1 CAESAR p1p. esvse dwnwd CSQSC!\n2 FREQ \n3 CAESAR uvvu uvvu,\n4 CAESAR v1v, Epynf. v1v\n5 WORDS 5 VOWELS 5\n6 ANA no\n7 FREQ graph:1 list:1 map:1 sort:1 stack:1\n8 LONGEST graph\n9 LONGEST graph\n10 FREQ graph:1 list:1 map:1\n"
+ },
+ {
+  "input": "REV madam I.\nCAESAR -21 RACECAR STACK list.\nTEXT TREE\nANA Dormitory brainy\nREV loop!\nTEXT ARRAY! stack x1x deed level! level, noon\nTEXT kayak civic. sort NOON\nTEXT Racecar. queue,\nTEXT sort I, x1x. stack. abba. loop RACECAR\nPAL RACECAR\nPAL map kayak\nRLE bbbbcc\n\nLONGEST\nFREQ 5\n",
+  "output": "1 REV I. madam\n2 CAESAR WFHJHFW XYFHP qnxy.\n3 WORDS 1 VOWELS 2\n4 ANA no\n5 REV loop!\n6 WORDS 7 VOWELS 11\n7 WORDS 4 VOWELS 7\n8 WORDS 2 VOWELS 7\n9 WORDS 7 VOWELS 10\n10 PAL 1\n11 PAL 1\n12 RLE b4c2\n13 LONGEST racecar\n14 FREQ level:2 noon:2 racecar:2 sort:2 stack:2\n"
+ },
+ {
+  "input": "PAL java! node. loop java Racecar madam.\nANA listen brainy\n\nRLE aaaa\nTEXT TREE! abba list java.\nRLE b\nFREQ 1\nFREQ 4\nFREQ 4\nANA binary dirtyroom\nLONGEST\nTEXT java a deed loop, kayak a. tree,\nTEXT deed! kayak. x1x, tree!\nRLE aaaaaacbbbb\nLONGEST\nTEXT Graph java, MAP, map Racecar\nCAESAR 19 array kayak, LIST x1x\nLONGEST\nFREQ 3\n",
+  "output": "1 PAL 2\n2 ANA no\n3 RLE a4\n4 WORDS 4 VOWELS 7\n5 RLE b1\n6 FREQ abba:1\n7 FREQ abba:1 java:1 list:1 tree:1\n8 FREQ abba:1 java:1 list:1 tree:1\n9 ANA no\n10 LONGEST abba\n11 WORDS 7 VOWELS 12\n12 WORDS 4 VOWELS 6\n13 RLE a6c1b4\n14 LONGEST kayak\n15 WORDS 5 VOWELS 8\n16 CAESAR tkktr dtrtd, EBLM q1q\n17 LONGEST racecar\n18 FREQ java:3 tree:3 a:2\n"
+ },
+ {
+  "input": "REV kayak\nFREQ 2\nCAESAR 16 map array! list queue I\nTEXT deed madam! Racecar node list!\nRLE aaaabbbbbbba\nPAL civic! queue sort x1x tree map, node\nREV tree java data\nTEXT I. tree list, tree I noon CIVIC.\nLONGEST\nTEXT deed, I\nRLE bbbbaaaaaabb\nANA binary taste\nFREQ 4\nLONGEST\nFREQ 4\n",
+  "output": "1 REV kayak\n2 FREQ \n3 CAESAR cqf qhhqo! byij gkuku Y\n4 WORDS 5 VOWELS 10\n5 RLE a4b7a1\n6 PAL 2\n7 REV data java tree\n8 WORDS 7 VOWELS 11\n9 LONGEST racecar\n10 WORDS 2 VOWELS 3\n11 RLE b4a6b2\n12 ANA no\n13 FREQ i:3 deed:2 list:2 tree:2\n14 LONGEST racecar\n15 FREQ i:3 deed:2 list:2 tree:2\n"
+ },
+ {
+  "input": "LONGEST\nREV Racecar! node\nLONGEST\nCAESAR 0 CIVIC.\nTEXT deed a, MADAM! Racecar! RACECAR array! civic LIST\nTEXT list I. tree, map.\n\nTEXT abba. a, sort data, JAVA map I. noon! list!\nTEXT level! madam tree! sort\nREV LOOP JAVA. sort, TREE ABBA x1x\nANA listen silent\n\nRLE bbbbbbccaab\nTEXT Graph\nFREQ 3\nTEXT madam queue, data! loop RACECAR data! sort\nTEXT map data level, map,\nLONGEST\nFREQ 2\n",
+  "output": "1 LONGEST \n2 REV node Racecar!\n3 LONGEST \n4 CAESAR CIVIC.\n5 WORDS 8 VOWELS 16\n6 WORDS 4 VOWELS 5\n7 WORDS 9 VOWELS 13\n8 WORDS 4 VOWELS 7\n9 REV x1x ABBA TREE sort, JAVA. LOOP\n10 ANA yes\n11 RLE b6c2a2b1\n12 WORDS 1 VOWELS 1\n13 FREQ list:3 a:2 i:2\n14 WORDS 7 VOWELS 16\n15 WORDS 4 VOWELS 6\n16 LONGEST racecar\n17 FREQ data:4 map:4\n"
+ },
+ {
+  "input": "TEXT queue I GRAPH tree JAVA civic\nREV MADAM\nTEXT a java. array, Racecar Racecar\nPAL abba, KAYAK! a\nRLE ccccaaaa\nANA Dormitory listens\n\nCAESAR 23 a x1x! Racecar,\nCAESAR -7 ABBA\nLONGEST\nFREQ 3\n",
+  "output": "1 WORDS 6 VOWELS 12\n2 REV MADAM\n3 WORDS 5 VOWELS 11\n4 PAL 2\n5 RLE c4a4\n6 ANA no\n7 CAESAR x u1u! Oxzbzxo,\n8 CAESAR TUUT\n9 LONGEST racecar\n10 FREQ java:2 racecar:2 a:1\n"
+ },
+ {
+  "input": "LONGEST\nLONGEST\nFREQ 2\nCAESAR -8 civic I queue. list! madam,\nRLE aabbbbbbbbccb\nTEXT madam! level STACK, map. map, tree\nREV data! kayak.\nLONGEST\nANA evil taste\nRLE baaaabbbbaa\nTEXT tree, JAVA kayak. sort, array KAYAK SORT\nFREQ 5\nCAESAR 15 JAVA. kayak tree\nTEXT Graph! civic! noon. ABBA, data\n\nLONGEST\nFREQ 3\n",
+  "output": "1 LONGEST \n2 LONGEST \n3 FREQ \n4 CAESAR uanau A imwmw. dakl! esvse,\n5 RLE a2b8c2b1\n6 WORDS 6 VOWELS 9\n7 REV kayak. data!\n8 LONGEST level\n9 ANA no\n10 RLE b1a4b4a2\n11 WORDS 7 VOWELS 12\n12 FREQ kayak:2 map:2 sort:2 tree:2 array:1\n13 CAESAR YPKP. zpnpz igtt\n14 WORDS 5 VOWELS 9\n15 LONGEST array\n16 FREQ kayak:2 map:2 sort:2\n"
+ },
+ {
+  "input": "TEXT Racecar! TREE deed! abba. civic map! a deed.\nTEXT tree. array level\nFREQ 1\nLONGEST\nFREQ 3\nREV DATA. node,\nANA state listens\nCAESAR -23 LIST list, queue map queue\nLONGEST\nTEXT map! node noon, a. java loop data,\nLONGEST\nTEXT x1x civic node!\nLONGEST\nFREQ 3\n",
+  "output": "1 WORDS 8 VOWELS 15\n2 WORDS 3 VOWELS 6\n3 FREQ deed:2\n4 LONGEST racecar\n5 FREQ deed:2 tree:2 a:1\n6 REV node, DATA.\n7 ANA no\n8 CAESAR OLVW olvw, txhxh pds txhxh\n9 LONGEST racecar\n10 WORDS 7 VOWELS 12\n11 LONGEST racecar\n12 WORDS 3 VOWELS 4\n13 LONGEST racecar\n14 FREQ a:2 civic:2 deed:2\n"
+ },
+ {
+  "input": "TEXT map. abba. x1x x1x Graph list Graph loop sort\nTEXT I. map! abba I. tree, noon. node a!\nFREQ 1\nTEXT MADAM LOOP map loop. tree tree list I!\nCAESAR -13 tree CIVIC, noon. noon. tree,\nPAL Racecar level Racecar kayak!\nLONGEST\nANA evil tastes\nLONGEST\nFREQ 5\n",
+  "output": "1 WORDS 9 VOWELS 9\n2 WORDS 8 VOWELS 12\n3 FREQ abba:2\n4 WORDS 8 VOWELS 13\n5 CAESAR gerr PVIVP, abba. abba. gerr,\n6 PAL 4\n7 LONGEST graph\n8 ANA no\n9 LONGEST graph\n10 FREQ i:3 loop:3 map:3 tree:3 abba:2\n"
+ }
+]

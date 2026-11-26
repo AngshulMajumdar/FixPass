@@ -1,0 +1,25 @@
+{
+ "method": "Differential testing of each validated patch that is not token-identical to the reference fix, against QuixBugs' correct version, on random inputs (2,000 per program; 300 for LEVENSHTEIN, whose naive recursion is exponential). Reproduce: python3 scripts/quixbugs.py difftest.",
+ "identical_to_reference": [
+  "BUCKETSORT",
+  "FIND_FIRST_IN_SORTED",
+  "GCD",
+  "HANOI",
+  "NEXT_PERMUTATION",
+  "RPN_EVAL",
+  "SHORTEST_PATH_LENGTHS"
+ ],
+ "equivalent_on_random_inputs": {
+  "GET_FACTORS": "0/2000 differ (trial division without the sqrt bound: correct, slower)",
+  "LEVENSHTEIN": "0/300 differ (`0 + x` instead of `x`)",
+  "PASCAL": "0/2000 differ (`c <= r` instead of `c < r + 1`)",
+  "QUICKSORT": "0/2000 differ (equal elements sent to the lower partition instead of the upper)"
+ },
+ "overfitted": {
+  "FIND_IN_SORTED": "253/2000 differ, e.g. empty array: ArrayIndexOutOfBoundsException instead of -1",
+  "MERGESORT": "182/2000 differ, e.g. empty list: StackOverflowError instead of []"
+ },
+ "correct": 11,
+ "plausible": 13,
+ "programs": 40
+}

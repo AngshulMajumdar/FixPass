@@ -1,0 +1,46 @@
+{
+ "programs": 303,
+ "adapted": 303,
+ "evaluated": 297,
+ "repair_suite": "blackbox",
+ "already_pass_repair_suite": 39,
+ "fail_repair_suite": 258,
+ "plausible_patch": 50,
+ "plausible_and_pass_all_heldout": 31,
+ "heldout_tests_passed_before": 253,
+ "heldout_tests_passed_after": 342,
+ "heldout_tests_total_for_plausible": 379,
+ "median_seconds": 24.2,
+ "by_assignment": {
+  "checksum": {
+   "fail_repair_suite": 7,
+   "plausible": 0,
+   "pass_all_heldout": 0
+  },
+  "digits": {
+   "fail_repair_suite": 51,
+   "plausible": 6,
+   "pass_all_heldout": 2
+  },
+  "grade": {
+   "fail_repair_suite": 89,
+   "plausible": 5,
+   "pass_all_heldout": 5
+  },
+  "median": {
+   "fail_repair_suite": 51,
+   "plausible": 21,
+   "pass_all_heldout": 10
+  },
+  "smallest": {
+   "fail_repair_suite": 47,
+   "plausible": 16,
+   "pass_all_heldout": 12
+  },
+  "syllables": {
+   "fail_repair_suite": 13,
+   "plausible": 2,
+   "pass_all_heldout": 2
+  }
+ }
+}

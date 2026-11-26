@@ -1,0 +1,66 @@
+[
+ {
+  "id": "matrix_lab-1",
+  "category": "compile",
+  "description": "missing import java.util.HashMap",
+  "reference_line": 1,
+  "original": "import java.util.HashMap;\n",
+  "injected": ""
+ },
+ {
+  "id": "matrix_lab-2",
+  "category": "compile",
+  "description": "array .length() called as a method",
+  "reference_line": 76,
+  "original": "for (int i = 0; i < Math.min(a.length, a[0].length); i++) {",
+  "injected": "for (int i = 0; i < Math.min(a.length, a[0].length()); i++) {"
+ },
+ {
+  "id": "matrix_lab-3",
+  "category": "compile",
+  "description": "missing closing parenthesis",
+  "reference_line": 191,
+  "original": "if (a.length != b.length || a[0].length != b[0].length) {",
+  "injected": "if (a.length != b.length || a[0].length != b[0].length {"
+ },
+ {
+  "id": "matrix_lab-4",
+  "category": "semantic",
+  "description": "inner dimension taken from wrong matrix",
+  "reference_line": 37,
+  "original": "int k = b.length;",
+  "injected": "int k = a.length;"
+ },
+ {
+  "id": "matrix_lab-5",
+  "category": "semantic",
+  "description": "cofactor sign parity inverted",
+  "reference_line": 113,
+  "original": "long sign = (j % 2 == 0) ? 1 : -1;",
+  "injected": "long sign = (j % 2 == 1) ? 1 : -1;"
+ },
+ {
+  "id": "matrix_lab-6",
+  "category": "semantic",
+  "description": "squaring step multiplies the wrong operand",
+  "reference_line": 130,
+  "original": "base = multiply(base, base);",
+  "injected": "base = multiply(result, base);"
+ },
+ {
+  "id": "matrix_lab-7",
+  "category": "semantic",
+  "description": "accumulation replaced by assignment",
+  "reference_line": 140,
+  "original": "out[i] += a[i][j];",
+  "injected": "out[i] = a[i][j];"
+ },
+ {
+  "id": "matrix_lab-8",
+  "category": "semantic",
+  "description": "String compared with == (reference equality)",
+  "reference_line": 184,
+  "original": "if (cmd.equals(\"MUL\")) {",
+  "injected": "if (cmd == \"MUL\") {"
+ }
+]
