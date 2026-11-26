@@ -1,0 +1,4 @@
+[
+ {"input": "3\n", "output": "sum of squares: 14\n"},
+ {"input": "12\n", "output": "sum of squares: 650\nlarge input\n"}
+]
